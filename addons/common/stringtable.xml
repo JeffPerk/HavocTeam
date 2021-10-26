@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HAVOC">
+    <Package name="Common">
+        <Key ID="STR_HAVOC_Common_DisplayName">
+            <English>Havoc - Common</English>
+            <Polish>Havoc - Common</Polish>
+        </Key>
+        <Key ID="STR_HAVOC_Common_Enabled">
+            <English>Enable component</English>
+            <Polish>Włącz komponent</Polish>
+        </Key>
+        <Key ID="STR_HAVOC_Common_Enabled_Description">
+            <English>Controls whether this component is active.</English>
+            <Polish>Pozwala kontrolować czy komponent jest włączony.</Polish>
+        </Key>
+    </Package>
+</Project>

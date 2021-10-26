@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HAVOC">
+    <Package name="Rank">
+        <Key ID="STR_HAVOC_rank_Corporal">
+            <Original>Corporal</Original>
+            <English>Corporal</English>
+            <Czech>Desátník</Czech>
+            <French>Corporel</French>
+            <German>Korporal</German>
+            <Italian>Caporale</Italian>
+            <Polish>Kapral</Polish>
+            <Portuguese>Corporal</Portuguese>
+            <Russian>Капрал</Russian>
+            <Spanish>Corporal</Spanish>
+        </Key>
+        <Key ID="STR_HAVOC_rank_Sergeant">
+            <Original>Sergeant</Original>
+            <English>Sergeant</English>
+            <Czech>Četař</Czech>
+            <French>Sergent</French>
+            <German>Feldwebel</German>
+            <Italian>Sergente</Italian>
+            <Polish>Sierżant</Polish>
+            <Portuguese>Sargento</Portuguese>
+            <Russian>Сержант</Russian>
+            <Spanish>Sargento</Spanish>
+        </Key>
+        <Key ID="STR_HAVOC_rank_Lieutenant">
+            <Original>Lieutenant</Original>
+            <English>Lieutenant</English>
+            <Czech>Poručík</Czech>
+            <French>Lieutenant</French>
+            <German>Leutnant</German>
+            <Italian>Tenente</Italian>
+            <Polish>Porucznik</Polish>
+            <Portuguese>Tenente</Portuguese>
+            <Russian>Лейтенант</Russian>
+            <Spanish>Teniente</Spanish>
+        </Key>
+        <Key ID="STR_HAVOC_rank_Captain">
+            <Original>Captain</Original>
+            <English>Captain</English>
+            <Czech>Kapitán</Czech>
+            <French>Capitaine</French>
+            <German>Kapitän</German>
+            <Italian>Capitano</Italian>
+            <Polish>Kapitan</Polish>
+            <Portuguese>Capitão</Portuguese>
+            <Russian>Капитан</Russian>
+            <Spanish>Capitán</Spanish>
+        </Key>
+        <Key ID="STR_HAVOC_rank_Major">
+            <Original>Major</Original>
+            <English>Major</English>
+            <Czech>Major</Czech>
+            <French>Majeur</French>
+            <German>Haupt</German>
+            <Italian>Maggiore</Italian>
+            <Polish>Major</Polish>
+            <Portuguese>Principal</Portuguese>
+            <Russian>Майор</Russian>
+            <Spanish>Destacado</Spanish>
+        </Key>
+        <Key ID="STR_HAVOC_rank_Colonel">
+            <Original>Colonel</Original>
+            <English>Colonel</English>
+            <Czech>Plukovník</Czech>
+            <French>Colonel</French>
+            <German>Oberst</German>
+            <Italian>Colonnello</Italian>
+            <Polish>Pułkownik</Polish>
+            <Portuguese>Coronel</Portuguese>
+            <Russian>Полковник</Russian>
+            <Spanish>Coronel</Spanish>
+        </Key>
+        
+    </Package>
+</Project>
+
+  

@@ -1,0 +1,19 @@
+{
+    "inputDirs": [
+        "P:/z/havoc/addons/"
+    ],
+    "includePaths": [
+        "P:/"
+    ],
+    "excludeList": [
+        "initsettings.sqf",
+        "initkeybinds.sqf",
+        "xeh_prep.sqf",
+        "XEH_PREP.sqf",
+        "\\initsettings.sqf",
+        "\\initkeybinds.sqf",
+        "\\xeh_prep.sqf"
+    ],
+    "outputDir": "P:/",
+    "workerThreads": 12
+}

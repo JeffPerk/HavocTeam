@@ -1,0 +1,1 @@
+#include "\z\havoc\addons\flags\script_component.hpp"

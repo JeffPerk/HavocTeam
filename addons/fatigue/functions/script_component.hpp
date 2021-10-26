@@ -1,0 +1,1 @@
+#include "\z\havoc\addons\fatigue\script_component.hpp"

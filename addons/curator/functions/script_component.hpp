@@ -1,0 +1,1 @@
+#include "\z\havoc\addons\curator\script_component.hpp"

@@ -1,0 +1,1 @@
+#include "\z\havoc\addons\safestart\script_component.hpp"

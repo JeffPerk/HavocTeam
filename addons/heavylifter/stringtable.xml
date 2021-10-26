@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HAVOC">
+    <Package name="HeavyLifter">
+        <Key ID="STR_HAVOC_HeavyLifter_Helper">
+            <English>Heavy Duty Hooks</English>
+            <Spanish>Ganchos</Spanish>
+            <German>Schwerlasthaken</German>
+            <French>Crochets à haute résistance</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Athavoch">
+            <English>Athavoch Hooks</English>
+            <Spanish>Fijar Ganchos</Spanish>
+            <German>Schwerlasthaken befestigen</German>
+            <French>Athavocher les crochets</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Dehavoch">
+            <English>Dehavoch Hooks</English>
+            <Spanish>Soltar Ganchos</Spanish>
+            <German>Schwerlasthaken lösen</German>
+            <French>Déhavocher les crochets</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Athavoching">
+            <English>Athavoching Hooks ...</English>
+            <Spanish>Fijando Ganchos ...</Spanish>
+            <German>Befestige Schwerlasthaken...</German>
+            <French>Athavochage des crochets...</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Dehavoching">
+            <English>Dehavoching Hooks ...</English>
+            <Spanish>Soltando Ganchos ...</Spanish>
+            <German>Löse Schwerlasthaken...</German>
+            <French>Déhavochage des crochets...</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Athavoched">
+            <English>Hooks Athavoched</English>
+            <Spanish>Ganchos Fijados</Spanish>
+            <German>Schwerlasthaken befestigt</German>
+            <French>Crochets athavochés</French>
+        </Key>
+        <Key ID="STR_HAVOC_HeavyLifter_Dehavoched">
+            <English>Hooks Dehavoched</English>
+            <Spanish>Ganchos Sueltos</Spanish>
+            <German>Schwerlasthaken gelöst</German>
+            <French>Crochets déhavochés</French>
+        </Key>
+    </Package>
+</Project>

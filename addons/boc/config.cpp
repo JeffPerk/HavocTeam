@@ -1,0 +1,29 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        name = COMPONENT_NAME;
+        units[] = {
+            "HAVOC_boc_moduleAdd",
+            "HAVOC_boc_moduleOnChest",
+            "HAVOC_boc_weaponHolder"
+        };
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "HAVOC_main",
+            "a3_ui_f",
+            "A3_Modules_F",
+            "ace_main",
+            "ace_common",
+            "ace_movement"
+        };
+        author = "NemesisRE";
+        authors[] = {"DerZade"};
+        VERSION_CONFIG;
+    };
+};
+
+#include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgFactionClasses.hpp"

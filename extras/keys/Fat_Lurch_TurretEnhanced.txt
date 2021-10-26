@@ -1,0 +1,10 @@
+Authority:  Fat_Lurch_TurretEnhanced
+Creation:   3/15/2021 8:04:28 AM (by DESKTOP-23K4UQB\Lurch)
+
+== PRIVATE KEY ==
+File: E:\Arma 3\Testing\@Turret_Enhanced\keys\Fat_Lurch_TurretEnhanced.biprivatekey
+MD5: ca09f2b8f37b1acb601a289fd43cf2d4
+== PUBLIC KEY ==
+File: E:\Arma 3\Testing\@Turret_Enhanced\keys\Fat_Lurch_TurretEnhanced.bikey
+MD5: f47c4427c88db1894aadda9f2a2a29ad
+

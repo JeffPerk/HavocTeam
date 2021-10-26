@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HAVOC">
+    <Package name="RatelMarker">
+        <Key ID="STR_HAVOC_RatelMarker_DisplayName">
+            <English>RATEL Marker</English>
+            <Spanish>Marcador RATEL</Spanish>
+            <German>RATEL Markierer</German>
+            <French>Marqueur RATEL</French>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_Open">
+            <English>Open RATEL Marker</English>
+            <Spanish>Abril Marcador RATEL</Spanish>
+            <German>RATEL Markierer öffnen</German>
+            <French>Ouvrir marqueur RATEL</French>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_InvalidCoordinates">
+            <English>Invalid Coordinates!</English>
+            <Spanish>Coordenadas Inválidas!</Spanish>
+            <German>Ungültige Koordinaten!</German>
+            <French>Mauvaises coordonés</French>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_MarkerCreated">
+            <English>RATEL Marker Created (Open Map to Focus)</English>
+            <Spanish>Marcador RATEL Creado (Abrir Mapa para Centrarse)</Spanish>
+            <German>RATEL Markierung erstellt (Karte öffnen um zu zentrieren)</German>
+            <French>Balise RATEL crée (Ouvrir la carte pour focaliser)</French>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_QRM_Create">
+            <English>Create Quick Reference Marker</English>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_QRM_Mode">
+            <English>Quick Reference Marker Mode</English>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_QRM_VehiclePos">
+            <English>Vehicle Position</English>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_QRM_ViewPos">
+            <English>View Position</English>
+        </Key>
+        <Key ID="STR_HAVOC_RatelMarker_QRM_Error">
+            <English>Could not create Quick Reference Marker</English>
+        </Key>
+    </Package>
+</Project>

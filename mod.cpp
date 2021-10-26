@@ -1,0 +1,12 @@
+name = "Havoc";
+picture = "havocl12048.paa";
+actionName = "GitHub";
+action = "https://github.com/";
+description = "Havoc Mod";
+logo = "havocl1512x.paa";
+logoOver = "havocl1512x.paa";
+tooltip = "Havoc Mod";
+tooltipOwned = "Project Template Weee";
+overview = "Havoc Custom Mod";
+author = "YonV";
+overviewPicture = "havocsl1512x.paa";

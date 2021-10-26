@@ -1,0 +1,1 @@
+#include "\z\havoc\addons\tasks\script_component.hpp"

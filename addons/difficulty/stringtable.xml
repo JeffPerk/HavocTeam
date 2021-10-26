@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HAVOC">
+    <Package name="Difficulty">
+        <Key ID="STR_HAVOC_Difficulty_DifficultyName">
+            <English>Havoc</English>
+        </Key>
+        <Key ID="STR_HAVOC_Difficulty_DifficultyDescription">
+            <English>Custom Havoc settings.</English>
+            <Polish>Własne ustawienia Havoc.</Polish>
+        </Key>
+    </Package>
+</Project>
