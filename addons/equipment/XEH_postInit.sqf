@@ -1,3 +1,3 @@
 #include "script_component.hpp"
 
-if (isNil QEGVAR(common,Havoc_enabled) || !(EGVAR(common,Havoc_enabled))) exitWith {};
+if (isNil QEGVAR(common,HAVOC_enabled) || !(EGVAR(common,HAVOC_enabled))) exitWith {};

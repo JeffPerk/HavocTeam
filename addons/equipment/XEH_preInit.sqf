@@ -2,7 +2,7 @@
 
 ADDON = false;
 
-if (isNil QEGVAR(common,Havoc_enabled) || !(EGVAR(common,Havoc_enabled))) exitWith {};
+if (isNil QEGVAR(common,HAVOC_enabled) || !(EGVAR(common,HAVOC_enabled))) exitWith {};
 
 #include "XEH_PREP.hpp"
 

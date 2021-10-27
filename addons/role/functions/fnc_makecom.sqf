@@ -14,4 +14,4 @@ if (hasinterface) then {
     daoWhitelisted=true;
 };
 
-[name player " Communications", true, 5, 2] call ace_common_fnc_displayText;
+[ format [hint_havoc_default, "Communications"] ] call havoc_fnc_hint;

@@ -13,4 +13,4 @@ if (hasinterface) then {
     player setVariable["draWhitelisted", false, true];
     daoWhitelisted=false;
 };
-[name player " Engineer", true, 5, 2] call ace_common_fnc_displayText;
+[ format [hint_havoc_default, "Engineer"] ] call havoc_fnc_hint;

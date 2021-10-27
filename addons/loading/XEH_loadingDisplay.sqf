@@ -30,16 +30,16 @@ _picture ctrlSetPosition [
 
 switch (systemTime select 1) do {
     case 10: {
-        _picture ctrlSetText QPATHTOF(ui\solidarity_freedom_co.paa);
+        _picture ctrlSetText QPATHTOF(ui\havocl12048.paa);
     };
     case 12: {
-        _picture ctrlSetText QPATHTOF(ui\solidarity_freedom_co.paa);
+        _picture ctrlSetText QPATHTOF(ui\havocl12048.paa);
     };
     case ([] call EFUNC(common,easterDate) select 1): {
-        _picture ctrlSetText QPATHTOF(ui\solidarity_freedom_co.paa);
+        _picture ctrlSetText QPATHTOF(ui\havocl12048.paa);
     };
     default {
-        _picture ctrlSetText QPATHTOF(ui\solidarity_freedom_co.paa);
+        _picture ctrlSetText QPATHTOF(ui\havocl12048.paa);
     };
 };
 _picture ctrlCommit 0;

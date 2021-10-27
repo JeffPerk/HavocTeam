@@ -1,6 +1,4 @@
-#define COMPONENT equipment
-#define COMPONENT_BEAUTIFIED Equipment
-#include "\z\havoc\addons\main\script_mod.hpp"
+#define COMPONENT EQUIPMENT
 
 #ifdef DEBUG_ENABLED_EQUIPMENT
     #define DEBUG_MODE_FULL
@@ -12,4 +10,6 @@
 
 #define DEBUG_MODE_NORMAL
 #define DEBUG_SYNCHRONOUS
+
+#include "\z\havoc\addons\main\script_mod.hpp"
 #include "\z\havoc\addons\main\script_macros.hpp"

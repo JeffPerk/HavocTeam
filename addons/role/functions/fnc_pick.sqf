@@ -42,7 +42,7 @@ private _DPSOmakecom = [
 	"Communications",
 	"",
 	{
-		player call FUNC(makecom);
+		player call havoc_fnc_makecom;
 	},
 	{true},
 	{},
@@ -57,7 +57,7 @@ private _DPSOmakeeng = [
 	"Engineer",
 	"",
 	{
-		player call FUNC(makeeng);
+		player call havoc_fnc_makeeng;
 	},
 	{true},
 	{},
@@ -72,7 +72,7 @@ private _DPSOmakemed = [
 	"Medic",
 	"",
 	{
-		player call FUNC(makemed);
+		player call havoc_fnc_makemed;
 	},
 	{true},
 	{},
@@ -88,7 +88,7 @@ private _DPSOmakewep = [
 	"Weapons",
 	"",
 	{
-		player call FUNC(makewep);
+		player call havoc_fnc_makewep;
 	},
 	{true},
 	{},

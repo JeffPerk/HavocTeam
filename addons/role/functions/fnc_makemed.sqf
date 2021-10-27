@@ -14,4 +14,4 @@ if (hasinterface) then {
     daoWhitelisted=false;
 };
 
-[name player " Medic", true, 5, 2] call ace_common_fnc_displayText;
+[ format [hint_havoc_default, "Medic"] ] call havoc_fnc_hint;

@@ -1,7 +1,7 @@
 class CfgAILevelPresets {
     class Custom;
-    class GVAR(Theseus): Custom {
-        displayName = "Theseus";
+    class GVAR(Havoc): Custom {
+        displayName = "Havoc";
         precisionAI = 0.4;
         skillAI = 0.8;
     };

@@ -51,3 +51,11 @@ class Extended_PreStart_EventHandlers {                 \
         init = QUOTE( call COMPILE_FILE(XEH_preStart) );\
     };                                                  \
 }
+
+
+// Expanding on CBA macros
+#define CFUNC(var) EFUNC(common,var)
+#define QCFUNC(var) QUOTE(CFUNC(var))
+
+// Chat macros
+#define IS_CMND_AVAILABLE(var,cmnd) if !([var,cmnd] call EFUNC(chat,commandAvailable)) exitWith {}

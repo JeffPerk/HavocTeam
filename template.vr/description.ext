@@ -1,9 +1,6 @@
 havoc_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
 enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
 
-// Use a randomized loading image from HAVOC. Set your own loading image with e.g. overviewPicture = "image.jpg";
-overviewPicture = __EVAL(selectRandom ['\z\havoc\addons\common\ui\loadscreens\1.jpg','\z\havoc\addons\common\ui\loadscreens\2.jpg','\z\havoc\addons\common\ui\loadscreens\3.jpg','\z\havoc\addons\common\ui\loadscreens\4.jpg','\z\havoc\addons\common\ui\loadscreens\5.jpg','\z\havoc\addons\common\ui\loadscreens\6.jpg','\z\havoc\addons\common\ui\loadscreens\7.jpg','\z\havoc\addons\common\ui\loadscreens\8.jpg','\z\havoc\addons\common\ui\loadscreens\9.jpg','\z\havoc\addons\common\ui\loadscreens\10.jpg']);
-
 class CfgDebriefing
 {
     class Success

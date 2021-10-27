@@ -3,7 +3,7 @@ class RscText;
 class RscInGameUI {
     class ACE_RscOptics_vector;
 
-    class Havoc_RscOptics_vector: ACE_RscOptics_vector {
+    class HAVOC_RscOptics_vector: ACE_RscOptics_vector {
         controls[] = {
             "CA_FOVMode","ScopeBlack","Reticle","BodyNight","BodyDay","TrippleHeadLeft","TrippleHeadRight","CA_Zeroing","Magnification","ActiveDisplayHelper",
             "CA_Distance","CA_Heading","CA_OpticsPitch","CA_Elev","CA_OpticsZoom","CA_VisionMode","ACE_ScriptedDisplayControlsGroup","CA_Laser"

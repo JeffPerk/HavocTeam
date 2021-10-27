@@ -14,7 +14,7 @@
 [
     "ranks_sergeant", // Internal setting name, should always contain a tag! This will be the global variable which takes the value of the setting.
     "EDITBOX", // setting type
-    [CSTRING(Corporal), RANK_HINT], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
+    [CSTRING(Sergeant), RANK_HINT], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
     RANK_SETTINGS_CAT, // Pretty name of the category where the setting can be found. Can be stringtable entry.
     [], // data for this setting:
     1 // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
