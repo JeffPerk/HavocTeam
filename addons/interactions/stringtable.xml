@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="HAVOC">
+ 
+ <!-- ####################################################################################### -->
+ <Package name="Interactions">
+  
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <Container name="Interactions">
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Title">
+    <English>HAVOC Interactions</English>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_Author">
+    <English>HAVOC</English>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_URL">
+    <English>https://github.com/HAVOCmod/HAVOC</English>
+   </Key>
+   <!-- =============================================================================== -->
+  </Container>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <Container name="CBA_Categories">
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_Category">
+    <English>HAVOC Interactions</English>
+    <German>HAVOC Interaktionen</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_Category_core">
+    <English>core</English>
+    <German>Allgemeines</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Category_TapShoulder">
+    <English>Tab Shoulder</English>
+    <German>Schulterklopfen</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Category_Backpacks">
+    <English>Access Backpacks</English>
+    <German>Zugriff Rucksäcke</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Category_Gear">
+    <English>Access Equipment</English>
+    <German>Zugriff Ausrüstung</German>
+   </Key>
+   <!-- =============================================================================== -->
+  </Container>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <Container name="CBA_Settings">
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_Global_Sounds_Title">
+    <English>Global Sounds</English>
+    <German>Globale Sounds</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Global_Sounds_Tip">
+    <English>Interactions can be heard from players nearby.</English>
+    <German
+        >Interaktionen können von Spielern in der Nähe gehört werden.</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_TapShoulder_AI_Title">
+    <English>Enable for AI</English>
+    <German>Für KI aktivieren</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_TapShoulder_AI_Tip">
+    <English>When activated, AI units can be tapped on the shoulder.</English>
+    <German
+        >Wenn aktiviert, kann KI-Einheiten auf die Schulter geklopft werden.</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_TapShoulder_Hint_Title">
+    <English>Show Hint</English>
+    <German>Zeige Hinweis</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_TapShoulder_Hint_Tip">
+    <English>Show players a hint when tapped on the shoulder.</English>
+    <German
+        >Zeige dem Spieler einen Hinweis, wenn auf die Schulter geklopft wird.</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_Title">
+    <English>Own Units</English>
+    <German>Eigene Einheiten</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_Tip">
+    <English>Players can open backpacks of their own faction/group.</English>
+    <German
+        >Spieler können Rucksäcke der eigenen Fraktion/Gruppe öffnen.</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_0">
+    <English>disabled</English>
+    <German>gesperrt</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_1">
+    <English>group</English>
+    <German>Gruppe</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_2">
+    <English>faction</English>
+    <German>Fraktion</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Friendly_Title">
+    <English>Friendly Units</English>
+    <German>Freundliche Einheiten</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Friendly_Tip">
+    <English>Players can open packs of friendly units.</English>
+    <German>Spieler können Rucksäcke von verbündeten Einheiten öffnen.</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Friendly_0">
+    <English>disabled</English>
+    <German>gesperrt</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Friendly_1">
+    <English>enabled</English>
+    <German>aktiviert</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Enemy_Title">
+    <English>Hostile Units</English>
+    <German>Feindliche Einheiten</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Enemy_Tip">
+    <English>Players can open backpacks of enemy units.</English>
+    <German>Spieler können Rucksäcke von feindlichen Einheiten öffnen.</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Enemy_0">
+    <English>disabled</English>
+    <German>gesperrt</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Enemy_1">
+    <English>enabled</English>
+    <German>aktiviert</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Hint_Title">
+    <English>Show Hint</English>
+    <German>Zeige Hinweis</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Backpack_Access_Hint_Tip">
+    <English>Show players a hint when the backpack is opened.</English>
+    <German
+        >Zeige dem Spieler einen Hinweis, wenn der Rucksack geöffnet wird.</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Enabled_Title">
+    <English>Search Body</English>
+    <German>Person durchsuchen</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Enabled_Tip">
+    <English
+        >Players can search units that have surrendered, are tied up, unconscious, or dead.</English>
+    <German
+        >Spieler können Einheiten durchsuchen, die sich ergeben haben, gefesselt, bewusstlos oder tot sind.</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Enabled_0">
+    <English>disabled</English>
+    <German>gesperrt</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Enabled_1">
+    <English>enabled</English>
+    <German>aktiviert</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Hint_Title">
+    <English>Show Hint</English>
+    <German>Zeige Hinweis</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_CBA_Gear_Access_Hint_Tip">
+    <English>Show players a hint when the equipment is searched.</English>
+    <German
+        >Zeige dem Spieler einen Hinweis, wenn die Ausrüstung durchsucht wird.</German>
+   </Key>
+   <!-- =============================================================================== -->
+  </Container>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <Container name="ACE_Interactions">
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Action_TapShoulder">
+    <English>Tap Shoulder</English>
+    <German>Auf Schulter klopfen</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Action_Backpack_Access">
+    <English>Open Backpack</English>
+    <German>Rucksack öffnen</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Action_Gear_Access">
+    <English>Search Body</English>
+    <German>Person durchsuchen</German>
+   </Key>
+   <!-- =============================================================================== -->
+  </Container>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <Container name="Messages">
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Inventory_Disabled">
+    <English>Can't open inventory!</English>
+    <German>Inventar kann nicht geöffnet werden!</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_Gear_Disabled">
+    <English>Equipment can not be searched!</English>
+    <German>Ausrüstung kann nicht durchsucht werden!</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Hint_TapShoulder">
+    <English
+        >%1&lt;br/&gt;tapped you on the&lt;br/&gt;%2&lt;br/&gt;shoulder!</English>
+    <German
+        >%1&lt;br/&gt;hat dir auf die&lt;br/&gt;%2&lt;br/&gt;Schulter geklopft!</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_Hint_TapShoulder_Left">
+    <English>left</English>
+    <German>linke</German>
+   </Key>
+   <Key ID="STR_HAVOC_Interactions_Hint_TapShoulder_Right">
+    <English>right</English>
+    <German>rechte</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Hint_Backpack_Access">
+    <English>%1&lt;br/&gt;%2&lt;br/&gt;opens your backpack!</English>
+    <German>%1&lt;br/&gt;%2&lt;br/&gt;öffnet deinen Rucksack!</German>
+   </Key>
+   <!-- =============================================================================== -->
+   <Key ID="STR_HAVOC_Interactions_Hint_Gear_Access">
+    <English>%1&lt;br/&gt;%2&lt;br/&gt;is searching your body!</English>
+    <German>%1&lt;br/&gt;%2&lt;br/&gt;durchsucht dich!</German>
+   </Key>
+   <!-- =============================================================================== -->
+  </Container>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+ </Package>
+ <!-- ####################################################################################### -->
+ 
+</Project>

@@ -4,7 +4,7 @@ class CfgPatches
 {
     class HAVOC_Equipment
     {
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         units[] = {

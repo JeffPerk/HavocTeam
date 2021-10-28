@@ -4,7 +4,7 @@
 ["Helicopter", "init", {
     params ["_heli"];
 
-    _heli addEventHandler ["RopeAthavoch", {
+    _heli addEventHandler ["RopeAttach", {
         params ["_heli", "", "_cargo"];
 
         // Only transfer if cargo empty to avoid RPT warnings from 'setOwner'

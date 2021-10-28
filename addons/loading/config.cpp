@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "HAVOC_common"
         };
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {"veteran29"};
         VERSION_CONFIG;
     };

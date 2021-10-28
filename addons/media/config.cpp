@@ -4,7 +4,7 @@ class CfgPatches
 {
     class HAVOC_Media
     {
-        author = AUTHOR;
+        author = QAUTHOR;
          name = COMPONENT_NAME;
         url = URL;
         units[] = {"HAVOC_Flag_White", "HAVOC_Flag_Black"};

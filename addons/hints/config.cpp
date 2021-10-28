@@ -4,7 +4,7 @@
 class CfgPatches {
     
     class HAVOC_Hints {
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         requiredVersion = REQUIRED_VERSION;

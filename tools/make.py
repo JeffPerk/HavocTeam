@@ -694,7 +694,7 @@ def get_commit_ID():
             with open(head_path, "r") as head_file:
                 branch_path = head_file.readline().split(": ")
 
-                # Commit ID is written in HEAD file directly when in dehavoched state
+                # Commit ID is written in HEAD file directly when in Detached state
                 if len(branch_path) == 1:
                     commit_id = branch_path[0]
                 else:

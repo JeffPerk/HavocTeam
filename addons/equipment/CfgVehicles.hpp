@@ -5,7 +5,7 @@ class CfgVehicles {
     };
     class GVAR(HAVOC_resupply): NATO_Box_Base {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         mapSize=1.53;
         class SimpleObject
         {
@@ -51,7 +51,7 @@ class CfgVehicles {
     };
     class GVAR(HAVOC_arsenal): NATO_Box_Base {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         mapSize=1.53;
         class SimpleObject
         {

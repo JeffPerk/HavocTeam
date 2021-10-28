@@ -1,5 +1,5 @@
 
-#define ROLE_SETTINGS_CAT "Role & Role: Roles"
+#define ROLE_SETTINGS_CAT "Rank & Role: Roles"
 #define ROLE_HINT "list of steam user ID's"
 // Roles
 [

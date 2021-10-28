@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"havoc_main", "A3_Soft_F_Exp_LSV_01", "A3_Soft_F_Exp_LSV_02", "acre_sys_rack"};
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"JoramD"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

@@ -1,2 +1,0 @@
-PREP(moduleAddObjectToChronosLocal);
-PREP(moduleAddObjectToChronosServer);

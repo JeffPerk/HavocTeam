@@ -56,8 +56,6 @@ ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 2;
 force ace_common_checkPBOsCheckAll = false;
 force ace_common_checkPBOsWhitelist = "[]";
-ace_common_displayTextColor = [0,0,0,0.1];
-ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_epilepsyFriendlyMode = false;
 ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
@@ -152,28 +150,6 @@ force ace_interaction_enableTeamManagement = true;
 force ace_interaction_enableWeaponAttachments = true;
 force ace_interaction_interactWithTerrainObjects = true;
 
-// ACE Interaction Menu
-ace_gestures_showOnInteractionMenu = 2;
-ace_interact_menu_actionOnKeyRelease = true;
-ace_interact_menu_addBuildingActions = false;
-ace_interact_menu_alwaysUseCursorInteraction = false;
-ace_interact_menu_alwaysUseCursorSelfInteraction = true;
-ace_interact_menu_colorShadowMax = [0,0,0,1];
-ace_interact_menu_colorShadowMin = [0,0,0,0.25];
-ace_interact_menu_colorTextMax = [1,1,1,1];
-ace_interact_menu_colorTextMin = [1,1,1,0.25];
-ace_interact_menu_consolidateSingleChild = false;
-ace_interact_menu_cursorKeepCentered = false;
-ace_interact_menu_cursorKeepCenteredSelfInteraction = false;
-ace_interact_menu_menuAnimationSpeed = 0;
-ace_interact_menu_menuBackground = 0;
-ace_interact_menu_menuBackgroundSelf = 0;
-ace_interact_menu_selectorColor = [1,0,0];
-ace_interact_menu_shadowSetting = 2;
-ace_interact_menu_textSize = 2;
-ace_interact_menu_useListMenu = true;
-ace_interact_menu_useListMenuSelf = false;
-
 // ACE Logistics
 force ace_cargo_enable = true;
 ace_cargo_enableRename = true;
@@ -207,7 +183,7 @@ force ace_magazinerepack_timePerBeltLink = 8;
 force ace_magazinerepack_timePerMagazine = 2;
 
 // ACE Map
-force ace_map_BFT_Enabled = true;
+force ace_map_BFT_Enabled = false;
 force ace_map_BFT_HideAiGroups = false;
 force ace_map_BFT_Interval = 1;
 force ace_map_BFT_ShowPlayerNames = false;
@@ -226,13 +202,10 @@ ace_markers_timestampHourFormat = 24;
 ace_map_gestures_allowCurator = true;
 ace_map_gestures_allowSpectator = true;
 ace_map_gestures_briefingMode = 0;
-ace_map_gestures_defaultColor = [1,0.88,0,0.7];
-ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
 force ace_map_gestures_enabled = true;
 force ace_map_gestures_interval = 0.03;
 force ace_map_gestures_maxRange = 7;
 force ace_map_gestures_maxRangeCamera = 14;
-ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
@@ -303,24 +276,6 @@ force ace_medical_treatment_treatmentTimeTourniquet = 7;
 force ace_medical_treatment_woundReopenChance = 0;
 force ace_medical_treatment_woundStitchTime = 5;
 
-// ACE Name Tags
-force ace_nametags_ambientBrightnessAffectViewDist = 1;
-ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
-ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
-ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
-ace_nametags_nametagColorMain = [1,1,1,1];
-ace_nametags_nametagColorRed = [1,0.67,0.67,1];
-ace_nametags_nametagColorYellow = [1,1,0.67,1];
-force ace_nametags_playerNamesMaxAlpha = 0.8;
-force ace_nametags_playerNamesViewDistance = 5;
-force ace_nametags_showCursorTagForVehicles = false;
-force ace_nametags_showNamesForAI = false;
-ace_nametags_showPlayerNames = 1;
-ace_nametags_showPlayerRanks = true;
-ace_nametags_showSoundWaves = 1;
-ace_nametags_showVehicleCrewInfo = true;
-ace_nametags_tagSize = 2;
-
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 0;
 force ace_nightvision_disableNVGsWithSights = false;
@@ -346,7 +301,6 @@ force ace_overheating_unJamOnSwapBarrel = true;
 
 // ACE Pointing
 force ace_finger_enabled = true;
-ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 ace_finger_indicatorForSelf = true;
 force ace_finger_maxRange = 4;
 
@@ -415,7 +369,6 @@ force ace_inventory_inventoryDisplaySize = 0;
 force ace_laser_dispersionCount = 2;
 force ace_microdagr_mapDataAvailable = 2;
 force ace_microdagr_waypointPrecision = 3;
-ace_optionsmenu_showNewsOnMainMenu = true;
 force ace_overpressure_distanceCoefficient = 1;
 force ace_parachute_failureChance = 0.12411;
 force ace_parachute_hideAltimeter = true;
@@ -588,54 +541,6 @@ force havoc_chat_specUsage = 3;
 force havoc_chat_tpUsage = 3;
 force havoc_chat_whisperUsage = 3;
 
-// Havoc - ACRE
-havoc_acre_addArsenalCategory = true;
-force havoc_acre_babel = true;
-havoc_acre_CIVChannelName1 = "Channel 1 name";
-havoc_acre_CIVChannelName10 = "Channel 10 name";
-havoc_acre_CIVChannelName2 = "Channel 2 name";
-havoc_acre_CIVChannelName3 = "Channel 3 name";
-havoc_acre_CIVChannelName4 = "Channel 4 name";
-havoc_acre_CIVChannelName5 = "Channel 5 name";
-havoc_acre_CIVChannelName6 = "Channel 6 name";
-havoc_acre_CIVChannelName7 = "Channel 7 name";
-havoc_acre_CIVChannelName8 = "Channel 8 name";
-havoc_acre_CIVChannelName9 = "Channel 9 name";
-havoc_acre_EASTChannelName1 = "Channel 1 name";
-havoc_acre_EASTChannelName10 = "Channel 10 name";
-havoc_acre_EASTChannelName2 = "Channel 2 name";
-havoc_acre_EASTChannelName3 = "Channel 3 name";
-havoc_acre_EASTChannelName4 = "Channel 4 name";
-havoc_acre_EASTChannelName5 = "Channel 5 name";
-havoc_acre_EASTChannelName6 = "Channel 6 name";
-havoc_acre_EASTChannelName7 = "Channel 7 name";
-havoc_acre_EASTChannelName8 = "Channel 8 name";
-havoc_acre_EASTChannelName9 = "Channel 9 name";
-force havoc_acre_enabled = true;
-havoc_acre_GUERChannelName1 = "Channel 1 name";
-havoc_acre_GUERChannelName10 = "Channel 10 name";
-havoc_acre_GUERChannelName2 = "Channel 2 name";
-havoc_acre_GUERChannelName3 = "Channel 3 name";
-havoc_acre_GUERChannelName4 = "Channel 4 name";
-havoc_acre_GUERChannelName5 = "Channel 5 name";
-havoc_acre_GUERChannelName6 = "Channel 6 name";
-havoc_acre_GUERChannelName7 = "Channel 7 name";
-havoc_acre_GUERChannelName8 = "Channel 8 name";
-havoc_acre_GUERChannelName9 = "Channel 9 name";
-force havoc_acre_perSideChannelNames = true;
-force havoc_acre_perSideRadios = true;
-force havoc_acre_startBppVolume = 2;
-havoc_acre_startLeaderVolume = 2;
-force havoc_acre_WESTChannelName1 = "C2 Net";
-havoc_acre_WESTChannelName10 = "Channel 10 name";
-force havoc_acre_WESTChannelName2 = "White Net";
-force havoc_acre_WESTChannelName3 = "Red Net";
-force havoc_acre_WESTChannelName4 = "Green Net";
-force havoc_acre_WESTChannelName5 = "Blue Net";
-force havoc_acre_WESTChannelName6 = "Yellow Net";
-force havoc_acre_WESTChannelName7 = "Air Net";
-havoc_acre_WESTChannelName8 = "Channel 8 name";
-havoc_acre_WESTChannelName9 = "Channel 9 name";
 
 // Havoc - AI Disembark
 force havoc_ai_disembark_enabled = true;

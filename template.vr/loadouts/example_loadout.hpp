@@ -17,15 +17,15 @@ class baseMan {// Weaponless baseclass
     primaryWeapon[] = {};
     scope[] = {};
     bipod[] = {};
-    athavochment[] = {};
+    attachment[] = {};
     silencer[] = {};
     // Leave empty to remove all. "Default" for primaryWeapon > leave original weapon.
 
     // Only *Weapons[] arrays are randomized
     secondaryWeapon[] = {};
-    secondaryAthavochments[] = {};
+    secondaryAttachments[] = {};
     sidearmWeapon[] = {};
-    sidearmAthavochments[] = {};
+    sidearmAttachments[] = {};
     // Leave empty to remove all. "Default" for secondaryWeapon or sidearmWeapon > leave original weapon.
 
     // These are added to the uniform or vest
@@ -52,7 +52,7 @@ class r : baseMan
     backpack[] = {"B_Kitbag_rgr"};
     primaryWeapon[] = {"arifle_MX_F"};
     scope[] = {"optic_Holosight"};
-    athavochment[] = {"acc_pointer_IR"};
+    attachment[] = {"acc_pointer_IR"};
     magazines[] =
     {
         LIST_11("30Rnd_65x39_caseless_mag"),

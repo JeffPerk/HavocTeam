@@ -23,7 +23,7 @@ if (["IsInitialized"] call BIS_fnc_EGSpectator) then {
         getPos _oldSpectatorCamera,
         vectorDir _oldSpectatorCamera,
         vectorUp _oldSpectatorCamera,
-        athavochedTo (["GetDummyTarget"] call BIS_fnc_EGSpectatorCamera)
+        attachedTo (["GetDummyTarget"] call BIS_fnc_EGSpectatorCamera)
     ];
     [QGVAR(stop)] call CBA_fnc_localEvent;
 };

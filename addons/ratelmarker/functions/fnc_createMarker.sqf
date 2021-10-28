@@ -28,7 +28,7 @@ _marker setMarkerTypeLocal "KIA";
 // Exit if map EH already installed
 if (!isNil QGVAR(openMapEH)) exitWith {};
 
-// Athavoch map open EH, animate focus to marker and remove the EH
+// Attach map open EH, animate focus to marker and remove the EH
 GVAR(openMapEH) = ((findDisplay 12) displayCtrl 51) ctrlAddEventHandler ["Draw", {
     mapAnimAdd [0.5, 0.3, markerPos QGVAR(marker)];
     mapAnimCommit;

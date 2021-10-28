@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"havoc_main", "ace_medical"};
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"Jonpas"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
