@@ -37,8 +37,8 @@ Its based/inspired on/by the following projects;
 - https://github.com/last-resort-gaming/LRG-Fundamentals - MIT License
 - https://github.com/HAVOC3/HAVOC - Offical license: Arma Public License Share-Alike (APL-SA)
 - https://github.com/BourbonWarfare/POTATO - GNU General Public License (GPLv2).
-- https://github.com/quies-in-proelium/qipBFT - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-- https://github.com/quies-in-proelium/qipMissionTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+- https://github.com/quies-in-proelium/havocBFT - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+- https://github.com/quies-in-proelium/havocMissionTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 and CTAB, (so many to thank and give credit)
 "jetelain","Gundy, Riouken, Raspu"

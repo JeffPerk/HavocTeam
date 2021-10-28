@@ -3,7 +3,7 @@ class HAVOC_Equipment {
     tag = "HAVOC";
     class Equipment {
 
-        file = "z\havochavoc\addons\equipment\Functions";
+        file = "z\havoc\addons\equipment\Functions";
         class AmmoBox {};
         class FullArsenal {};
         class LimitedArsenal {};
