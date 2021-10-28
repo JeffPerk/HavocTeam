@@ -1,4 +1,4 @@
-#define COMPONENT EQUIPMENT
+#define COMPONENT equipment
 
 #ifdef DEBUG_ENABLED_EQUIPMENT
     #define DEBUG_MODE_FULL
