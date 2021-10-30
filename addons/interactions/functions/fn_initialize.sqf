@@ -18,8 +18,8 @@
 
 // -------------------------------------------------------------------------------------------------
 
-private _version = ["havoc_interactions"] call HAVOC_fnc_getAddonVersion;
-[4, "Addon (v%1) loaded...", [_version], "interactions"] call HAVOC_fnc_log;
+private _version = ["havoc_interactions"] call havoc_fnc_getAddonVersion;
+[4, "Addon (v%1) loaded...", [_version], "interactions"] call havoc_fnc_log;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -36,14 +36,14 @@ if ((Not hasInterface) || (is3DEN)) exitWith {};
         params ["_unit", "_container"];
         
         if (Not (simulationEnabled _container)) then {
-            [ format [hint_havoc_default, localize "STR_HAVOC_Interactions_Inventory_Disabled"] ] call HAVOC_fnc_hint;
+            [ format [hint_havoc_default, localize "STR_HAVOC_Interactions_Inventory_Disabled"] ] call havoc_fnc_hint;
             closeDialog 0;
             true;
         } else {
             
             if (_container isKindOf "CAManBase") then {
                 if ((missionNamespace getVariable ["havoc_interactions_gear_access_enabled", 0]) == 0) then {
-                    [ format [hint_havoc_default, localize "STR_HAVOC_Interactions_Gear_Disabled"] ] call HAVOC_fnc_hint;
+                    [ format [hint_havoc_default, localize "STR_HAVOC_Interactions_Gear_Disabled"] ] call havoc_fnc_hint;
                     closeDialog 0;
                     true;
                 } else {

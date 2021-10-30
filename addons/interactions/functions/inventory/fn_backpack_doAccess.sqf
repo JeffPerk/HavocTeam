@@ -46,7 +46,7 @@ if (isNull _target) exitWith {};
     
     if (missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
         private _pitch = random [0.8, 1.0, 1.2];
-        [_soundClass, _target, AGLToASL (_target modelToWorld (_target selectionPosition "pelvis")), 20, 1, _pitch, false] call HAVOC_fnc_playSound3d;
+        [_soundClass, _target, AGLToASL (_target modelToWorld (_target selectionPosition "pelvis")), 20, 1, _pitch, false] call havoc_fnc_playSound3d;
     } else {
         playSound _soundClass;
     };

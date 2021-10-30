@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_initInspectableIntel
+Function: havoc_fnc_initInspectableIntel
 
 Description:
  Initializes a given object as a piece of inspectable intel.
@@ -45,7 +45,7 @@ Examples:
    ,west
    ,true
   ]
- ] call HAVOC_fnc_initInspectableIntel;
+ ] call havoc_fnc_initInspectableIntel;
  (end)
 
 Author:
@@ -74,7 +74,7 @@ _args params [
 
 
 // Add the action
-[_object, _actionTitle, _diaryRecord select 0] remoteExec ["HAVOC_fnc_SetIntelAction",0,true];
+[_object, _actionTitle, _diaryRecord select 0] remoteExec ["havoc_fnc_SetIntelAction",0,true];
 
 
 // Set the diary picture
@@ -120,7 +120,7 @@ if (_notifySide) then {
   "IntelObjectFound",
   {
    params[ "", "_foundBy" ];
-   [format ["Intel collected by %1", name _foundBy], [1, -0.2], "#339900", 0.5] call HAVOC_fnc_dynamicText;
+   [format ["Intel collected by %1", name _foundBy], [1, -0.2], "#339900", 0.5] call havoc_fnc_dynamicText;
   }
  ] call BIS_fnc_addScriptedEventHandler;
 };

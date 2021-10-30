@@ -34,7 +34,7 @@ if (_hint_enabled && _hint_option_ace) then {
  
  if (_sound) then { _snd = -1; };
  
- [_text, -1, _snd] call HAVOC_fnc_hint;
+ [_text, -1, _snd] call havoc_fnc_hint;
  
 } else {
  

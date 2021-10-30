@@ -46,7 +46,7 @@ if (missionNamespace getVariable ["havoc_interactions_gear_access_hint", true]) 
     private _icon = format [_iconTemplate, _iconFile];
     private _hintMessage = format [localize "STR_HAVOC_Interactions_Hint_Gear_Access", _playerName, _icon];
     
-    [format [hint_havoc_default, _hintMessage], -1, 0] call HAVOC_fnc_hint;
+    [format [hint_havoc_default, _hintMessage], -1, 0] call havoc_fnc_hint;
     
     if !(missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
         private _soundClass = selectRandom ["HAVOC_Action_Backpack_Search_1"];

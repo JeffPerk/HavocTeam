@@ -21,7 +21,7 @@ params [
  { [format["<t color='#FFBB00' size = '.5'>You're collecting %1.</t>",(_this select 2) select 0],-1,0.8,5,2,0,789] spawn BIS_fnc_dynamicText;},
  {},
  {
-  _this spawn HAVOC_fnc_RunIntelAction;
+  _this spawn havoc_fnc_RunIntelAction;
   [format["<t color='#339900' size = '.5'>You've collected %1.</t>",(_this select 2) select 0],-1,0.8,5,2,0,789] spawn BIS_fnc_dynamicText;
  },
  {[format["<t color='#cc3232' size = '.5'>You've stopped collecting %1.</t>",(_this select 2) select 0],-1,0.8,5,2,0,789] spawn BIS_fnc_dynamicText;},
@@ -30,4 +30,4 @@ params [
  true,
  format ["You're collecting %1", _itemName],
  false
-] call HAVOC_fnc_AddHoldAction;
+] call havoc_fnc_AddHoldAction;

@@ -17,3 +17,7 @@
 #else
     #define COMPONENT_NAME QUOTE(HAVOC - COMPONENT)
 #endif
+
+#define LOGO_PATH "\z\havoc\addons\media\images\havocl1512x.paa"
+#define URL http://
+#define NAME "Havoc"

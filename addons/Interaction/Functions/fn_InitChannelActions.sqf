@@ -7,7 +7,7 @@ if !(hasinterface && (isClass (configFile >> "CfgPatches" >> "ace_main"))) exitW
  {diag_log "Running channel actions parent";},
  {true},
  []
-] call HAVOC_fnc_AddCreatorAction;
+] call havoc_fnc_AddCreatorAction;
 
 {
  _channelID = _forEachIndex;
@@ -26,7 +26,7 @@ if !(hasinterface && (isClass (configFile >> "CfgPatches" >> "ace_main"))) exitW
   _enableStatement,
   _channelDisabled,
   ["ChannelActions"]
- ] call HAVOC_fnc_AddCreatorAction;
+ ] call havoc_fnc_AddCreatorAction;
 
  [
   format ["Disable%1", _channelID],
@@ -35,7 +35,7 @@ if !(hasinterface && (isClass (configFile >> "CfgPatches" >> "ace_main"))) exitW
   _disableStatement,
   _channelEnabled,
   ["ChannelActions"]
- ] call HAVOC_fnc_AddCreatorAction;
+ ] call havoc_fnc_AddCreatorAction;
 } forEach [
  "Global",
  "Side",

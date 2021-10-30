@@ -8,7 +8,7 @@
     true,
     {
   if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
-        if (_this && { hasinterface }) then  {call HAVOC_fnc_InitCreatorActions};
+        if (_this && { hasinterface }) then  {call havoc_fnc_InitCreatorActions};
     }
 ] call CBA_Settings_fnc_init;
 
@@ -21,7 +21,7 @@
     true,
     {
   if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
-        if (_this && { hasinterface }) then  {call HAVOC_fnc_InitChannelActions};
+        if (_this && { hasinterface }) then  {call havoc_fnc_InitChannelActions};
     }
 ] call CBA_Settings_fnc_init;
 
@@ -42,7 +42,7 @@
     "",
     {[] call HAVOC_MI_fnc_openDialog;},
     {HAVOC_Main_MapIcons}
-   ] call HAVOC_fnc_addCreatorAction;
+   ] call havoc_fnc_addCreatorAction;
   };
     }
 ] call CBA_Settings_fnc_init;
@@ -64,7 +64,7 @@
     "",
     {["EveryoneWins"] remoteExec ["BIS_fnc_endMissionServer", 2]},
     {true}
-   ] call HAVOC_fnc_addCreatorAction;
+   ] call havoc_fnc_addCreatorAction;
 
    [
     "EndMissionFail",
@@ -72,7 +72,7 @@
     "",
     {["EveryoneLost"] remoteExec ["BIS_fnc_endMissionServer", 2]},
     {true}
-   ] call HAVOC_fnc_addCreatorAction;
+   ] call havoc_fnc_addCreatorAction;
   };
     }
 ] call CBA_Settings_fnc_init;

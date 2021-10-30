@@ -1,4 +1,4 @@
 #include "script_component.hpp"
 
-call FUNC(rank);
+call HAVOC_rank_fnc_rank;
 

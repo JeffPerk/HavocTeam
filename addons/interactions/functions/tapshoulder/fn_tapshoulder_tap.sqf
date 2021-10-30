@@ -59,7 +59,7 @@ if (missionNamespace getVariable ["havoc_interactions_tapshoulder_hint", true]) 
     
     private _shoulderIcon = format [_iconTemplate, _iconFile, _shoulderName];
     private _hintMessage = format [localize "STR_HAVOC_Interactions_Hint_TapShoulder", _playerName, _shoulderIcon];
-    [format [hint_havoc_default, _hintMessage]] call HAVOC_fnc_hint;
+    [format [hint_havoc_default, _hintMessage]] call havoc_fnc_hint;
     
     if !(missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
         playSound "HAVOC_Action_Shoulder_Tap_1";

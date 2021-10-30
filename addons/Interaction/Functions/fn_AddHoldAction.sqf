@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_AddHoldAction
+Function: havoc_fnc_AddHoldAction
 
 Description:
  Adds a timed action to an object. The action will only complete after a
@@ -60,7 +60,7 @@ Examples:
    true,
    "Unlocking Car...",
    true
-  ] call HAVOC_fnc_AddHoldAction;
+  ] call havoc_fnc_AddHoldAction;
  (end)
 
 Author:
@@ -102,7 +102,7 @@ if (_global) exitWith {
   _removeCompleted,
   _progressTitle,
   false
- ] remoteExec ["HAVOC_fnc_AddHoldAction", 0, _id];
+ ] remoteExec ["havoc_fnc_AddHoldAction", 0, _id];
 };
 
 if (!hasInterface) exitWith {};
@@ -187,8 +187,8 @@ if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
 } else {
 
  // Fix the condition string (replace _player with _this)
- _conditionShow = [_conditionShow, "_player", "_this", nil, false] call HAVOC_fnc_FindReplaceString;
- _conditionProgress = [_conditionProgress, "_player", "_this", nil, false] call HAVOC_fnc_FindReplaceString;
+ _conditionShow = [_conditionShow, "_player", "_this", nil, false] call havoc_fnc_FindReplaceString;
+ _conditionProgress = [_conditionProgress, "_player", "_this", nil, false] call havoc_fnc_FindReplaceString;
 
  [
   _object,

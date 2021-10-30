@@ -21,5 +21,9 @@ class CfgPatches
 #include "CfgRadio.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
-#include "CfgEventHandlers.hpp"
 
+
+class CfgFunctions {
+
+    #include "cfgFunctions.hpp"
+};
