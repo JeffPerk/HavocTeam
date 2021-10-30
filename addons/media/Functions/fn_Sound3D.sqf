@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_Sound3D
+Function: havoc_fnc_Sound3D
 
 Description:
  Plays a sound from CfgSounds on an object in 3D space. Sound follows object if moving.
@@ -24,7 +24,7 @@ Author:
 
 // If run locally, run on server instead
 if (!isServer) exitWith {
- _this remoteExec ["HAVOC_fnc_Sound3D", 2];
+ _this remoteExec ["havoc_fnc_Sound3D", 2];
 };
 
 params [

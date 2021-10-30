@@ -16,7 +16,7 @@
  * nothing
  * 
  * Example:
- * [ format [hint_havoc_default, "Hello World"] ] call HAVOC_fnc_hintGlobal;
+ * [ format [hint_havoc_default, "Hello World"] ] call havoc_fnc_hintGlobal;
  * 
  */
 

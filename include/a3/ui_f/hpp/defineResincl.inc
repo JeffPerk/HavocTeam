@@ -2724,9 +2724,9 @@ enum
   #define IDC_IGUI_TI_AUTO_CONTRAST     140
 
   //LASE
-  #define IDC_IGLR_RANGE                141
-  #define IDC_IGLR_BG                   142
-  #define IDC_IGLR_RANGE_NUM            143
+  #define IDC_IGHAVOC_RANGE                141
+  #define IDC_IGHAVOC_BG                   142
+  #define IDC_IGHAVOC_RANGE_NUM            143
 
   //AVRS
   #define IDC_IGUI_NICK                 144

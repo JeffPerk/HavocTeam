@@ -15,3 +15,10 @@ class Extended_PostInit_EventHandlers {
         init = QUOTE(call COMPILE_FILE(XEH_postInit));
     };
 };
+class Extended_InitPost_EventHandlers {
+    class Car_F {
+        class My_car_initpost_eh {
+            init = call HAVOC_rank_fnc_rank;
+        };
+    };
+};

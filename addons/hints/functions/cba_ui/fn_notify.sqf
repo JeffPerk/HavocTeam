@@ -33,7 +33,7 @@ if (_hint_option_cba) then {
     
     _text = format [hint_havoc_liner_1, _text];
     
-    [_text, -1, -1] call HAVOC_fnc_hint;
+    [_text, -1, -1] call havoc_fnc_hint;
     
 } else {
     

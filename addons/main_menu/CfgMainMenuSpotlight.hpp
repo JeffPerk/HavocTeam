@@ -9,6 +9,22 @@ class CfgMainMenuSpotlight {
         actionText = CSTRING(SpotlightHeader);
         condition = QUOTE(true);
     };
+    class GVAR(server2) {
+        text = CSTRING(SpotlightJoinT);
+        textIsQuote = 0;
+        picture = QUOTE(\z\havoc\addons\media\images\solidarity_freedom_co.paa);
+        action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joinT)));
+        actionText = CSTRING(SpotlightHeaderT);
+        condition = QUOTE(true);
+    };
+    class GVAR(server3) {
+        text = CSTRING(SpotlightJoinD);
+        textIsQuote = 0;
+        picture = QUOTE(\z\havoc\addons\media\images\solidarity_freedom_co.paa);
+        action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joinD)));
+        actionText = CSTRING(SpotlightHeaderD);
+        condition = QUOTE(true);
+    };
 
     delete ApexProtocol;
     delete BootCamp;

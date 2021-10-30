@@ -31,7 +31,7 @@ if (_hint_enabled && _hint_option_ace) then {
  
  private _text = format [hint_havoc_icon_1, _icon, _color];
  
- [_text, -1, 0] call HAVOC_fnc_hint;
+ [_text, -1, 0] call havoc_fnc_hint;
  
 } else {
  

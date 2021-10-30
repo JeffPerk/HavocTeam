@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_Patches
+Function: havoc_fnc_Patches
 
 Description:
  Apply Section Patches to Players/Vehicles
@@ -21,16 +21,15 @@ params [
  "_unit",
  ["_Section", "Support"]
 ];
-
 private ["_PatchClass"];
 call {
- if (_Section == "HeadhunterHHC") exitwith {_PatchClass = "Logo";};
- if (_Section == "Headhunter1") exitwith {_PatchClass = "Logo";};
- if (_Section == "Headhunter2") exitwith {_PatchClass = "Logo";};
- if (_Section == "Headhunter3") exitwith {_PatchClass = "Logo";};
- if (_Section == "Arrow") exitwith {_PatchClass = "Logo";};
- if (_Section == "Outlaw") exitwith {_PatchClass = "Logo";};
- if (_Section == "Sentinel") exitwith {_PatchClass = "Logo";};
+ if (_Section == "Command") exitwith {_PatchClass = "blackp";};
+ if (_Section == "Red") exitwith {_PatchClass = "redp";};
+ if (_Section == "Blue") exitwith {_PatchClass = "bluep";};
+ if (_Section == "White") exitwith {_PatchClass = "whitep";};
+ if (_Section == "Yellow") exitwith {_PatchClass = "yellowp";};
+ if (_Section == "Green") exitwith {_PatchClass = "greenp";};
+ if (_Section == "Reaper") exitwith {_PatchClass = "grayp";};
  _PatchClass = "bolo";
 };
 

@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_DynamicText
+Function: havoc_fnc_DynamicText
 
 Description:
  Displays formatted dynamic text on player's screen. If the _global flag is
@@ -32,7 +32,7 @@ Examples:
    "#ffffff", // White
    0.5,
    true
-  ] call HAVOC_fnc_DynamicText;
+  ] call havoc_fnc_DynamicText;
  (end)
 
 Author:
@@ -41,7 +41,7 @@ Author:
 
 // If called on a client tell the server to execute this function instead!
 if (!isServer) exitWith {
- _this remoteExec ["HAVOC_fnc_DynamicText",2];
+ _this remoteExec ["havoc_fnc_DynamicText",2];
 };
 
 params [

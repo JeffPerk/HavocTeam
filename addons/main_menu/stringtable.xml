@@ -2,10 +2,24 @@
 <Project name="HAVOC">
     <Package name="Main_Menu">
         <Key ID="STR_HAVOC_Main_Menu_SpotlightHeader">
-            <English>Havoc</English>
+            <English>Havoc Ops</English>
+        </Key>
+        <Key ID="STR_HAVOC_Main_Menu_SpotlightHeaderT">
+            <English>Havoc Training</English>
+        </Key>
+        <Key ID="STR_HAVOC_Main_Menu_SpotlightHeaderD">
+            <English>Havoc Dev/Test</English>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoin">
-            <English>Join</English>
+            <English>Join Ops Server</English>
+            <Polish>Dołącz</Polish>
+        </Key>
+        <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinT">
+            <English>Join Ops Server</English>
+            <Polish>Dołącz</Polish>
+        </Key>
+        <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinD">
+            <English>Join Ops Server</English>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_AdminLogin">

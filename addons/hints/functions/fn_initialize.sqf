@@ -18,8 +18,8 @@
 
 // -------------------------------------------------------------------------------------------------
 
-private _version = ["havoc_hints"] call HAVOC_fnc_getAddonVersion;
-[4, "Addon (v%1) loaded...", [_version], "hints"] call HAVOC_fnc_log;
+private _version = ["havoc_hints"] call havoc_fnc_getAddonVersion;
+[4, "Addon (v%1) loaded...", [_version], "hints"] call havoc_fnc_log;
 
 // -------------------------------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 /*
-Function: HAVOC_fnc_AddCreatorAction
+Function: havoc_fnc_AddCreatorAction
 
 Description:
  Adds an action for the mission creator that allows executing code/functions
@@ -29,7 +29,7 @@ Examples:
  {hint "Mission started!";},
  {true},
  ["ExampleActions"]
-] call HAVOC_fnc_AddCreatorAction;
+] call havoc_fnc_AddCreatorAction;
  (end)
 
 Author:
