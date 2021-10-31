@@ -28,13 +28,13 @@ if !(hasInterface) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 [] spawn {
-	
-	waitUntil {if (!isNull player) exitWith {true}; false};
-	
-	if !(player getVariable ["ace_medical_addedToUnitLoop", false]) then {
-		[player] call ACE_medical_fnc_addVitalLoop;
-	};
-	
+    
+    waitUntil {if (!isNull player) exitWith {true}; false};
+    
+    if !(player getVariable ["ace_medical_addedToUnitLoop", false]) then {
+        [player] call ACE_medical_fnc_addVitalLoop;
+    };
+    
 };
 
 // -------------------------------------------------------------------------------------------------

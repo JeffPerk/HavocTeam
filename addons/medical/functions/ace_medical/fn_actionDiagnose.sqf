@@ -1,20 +1,20 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\havoc_medical\functions\ace_medical\fn_actionDiagnose.sqf
- *	by Ojemineh
- *	
- *	overwrite ace medical actionDiagnose
- *	
- *	Arguments:
- *	0: medic		- <OBJECT>
- *	1: patient		- <OBJECT>
- *	
- *	Return:
- *	nothing
- *	
- *	Example:
- *	[bob, kevin] call ACE_medical_fnc_actionDiagnose;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \havoc_medical\functions\ace_medical\fn_actionDiagnose.sqf
+ * by Ojemineh
+ * 
+ * overwrite ace medical actionDiagnose
+ * 
+ * Arguments:
+ * 0: medic  - <OBJECT>
+ * 1: patient  - <OBJECT>
+ * 
+ * Return:
+ * nothing
+ * 
+ * Example:
+ * [bob, kevin] call ACE_medical_fnc_actionDiagnose;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ if (alive _patient) then {
         _genericMessages pushBack (localize "STR_ACE_Medical_noPain");
     };
 } else {
-	_genericMessages pushBack (localize "STR_HAVOC_Medical_NoPainIfDead");
+    _genericMessages pushBack (localize "STR_HAVOC_Medical_NoPainIfDead");
 };
 
 ["ace_common_displayTextStructured", [_genericMessages, 3.5, _medic], [_medic]] call CBA_fnc_targetEvent;

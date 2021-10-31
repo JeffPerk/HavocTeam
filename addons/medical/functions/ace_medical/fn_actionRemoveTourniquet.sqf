@@ -1,21 +1,21 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\havoc_medical\functions\ace_medical\fn_actionRemoveTourniquet.sqf
- *	by Ojemineh
- *	
- *	action for removing the tourniquet on specified selection
- *	
- *	Arguments:
- *	0: medic		- <OBJECT>
- *	1: patient		- <OBJECT>
- *	2: body part	- <STRING>
- *	
- *	Return:
- *	nothing
- *	
- *	Example:
- *	[bob, kevin, "selection"] call ACE_medical_fnc_actionRemoveTourniquet;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \havoc_medical\functions\ace_medical\fn_actionRemoveTourniquet.sqf
+ * by Ojemineh
+ * 
+ * action for removing the tourniquet on specified selection
+ * 
+ * Arguments:
+ * 0: medic  - <OBJECT>
+ * 1: patient  - <OBJECT>
+ * 2: body part - <STRING>
+ * 
+ * Return:
+ * nothing
+ * 
+ * Example:
+ * [bob, kevin, "selection"] call ACE_medical_fnc_actionRemoveTourniquet;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -37,28 +37,28 @@ _patient setVariable ["ace_medical_tourniquets", _tourniquets, true];
 
 // IF TOURNIQUET IS NOT A CONSUMABLE ITEM
 if (!(missionNamespace getVariable ["havoc_medical_consume_tourniquet", false])) then {
-	
-	// ADDING THE TOURNIQUET ITEM TO THE CALLER/TARGET
-	if (missionNamespace getVariable ["havoc_medical_return_items", true]) then {
-		
-		private _holding = (missionNamespace getVariable ["havoc_medical_return_tourniquets", 1]);
-		
-		if ( ({_x == "ACE_tourniquet"} count (items _patient)) >= _holding ) then {
-			[_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
-		} else {
-			if (_patient canAdd "ACE_tourniquet") then {
-				[_patient, "ACE_tourniquet", 1, [1,3,2], true] call HAVOC_fnc_addItem;
-			} else {
-				[_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
-			};
-		};
-		
-	} else {
-		
-		[_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
-		
-	};
-	
+    
+    // ADDING THE TOURNIQUET ITEM TO THE CALLER/TARGET
+    if (missionNamespace getVariable ["havoc_medical_return_items", true]) then {
+        
+        private _holding = (missionNamespace getVariable ["havoc_medical_return_tourniquets", 1]);
+        
+        if ( ({_x == "ACE_tourniquet"} count (items _patient)) >= _holding ) then {
+            [_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
+        } else {
+            if (_patient canAdd "ACE_tourniquet") then {
+                [_patient, "ACE_tourniquet", 1, [1,3,2], true] call HAVOC_fnc_addItem;
+            } else {
+                [_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
+            };
+        };
+        
+    } else {
+        
+        [_medic, "ACE_tourniquet", 1, [3,1,2], true] call HAVOC_fnc_addItem;
+        
+    };
+    
 };
 
 //HANDLE ALL INJECTED MEDICATIONS NOW THAT BLOOD IS FLOWING:
@@ -66,12 +66,12 @@ private _delayedMedications = _patient getVariable ["ace_medical_occludedMedicat
 private _updatedArray = false;
 
 {
-	_x params ["", "", "_medPartNum"];
-	if (_part == _medPartNum) then {
-		["ace_medical_treatmentAdvanced_medicationLocal", _x, [_patient]] call CBA_fnc_targetEvent;
-		_delayedMedications set [_forEachIndex, -1];
-		_updatedArray = true;
-	};
+    _x params ["", "", "_medPartNum"];
+    if (_part == _medPartNum) then {
+        ["ace_medical_treatmentAdvanced_medicationLocal", _x, [_patient]] call CBA_fnc_targetEvent;
+        _delayedMedications set [_forEachIndex, -1];
+        _updatedArray = true;
+    };
 } forEach _delayedMedications;
 
 if (_updatedArray) then {

@@ -1,22 +1,22 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\havoc_medical\functions\ace_medical\fn_treatment.sqf
- *	by Ojemineh
- *	
- *	use equipment if any is available
- *	
- *	Arguments:
- *	0: medic		- <OBJECT>
- *	1: patient		- <OBJECT>
- *	2: body part	- <STRING>
- *	3: className	- <STRING>
- *	
- *	Return:
+ * ARMA EXTENDED ENVIRONMENT
+ * \havoc_medical\functions\ace_medical\fn_treatment.sqf
+ * by Ojemineh
+ * 
+ * use equipment if any is available
+ * 
+ * Arguments:
+ * 0: medic  - <OBJECT>
+ * 1: patient  - <OBJECT>
+ * 2: body part - <STRING>
+ * 3: className - <STRING>
+ * 
+ * Return:
  *  <BOOLEAN>
- *	
- *	Example:
- *	[medic, patient, "SelectionName", "bandage"] call ACE_medical_fnc_treatment
- *	
+ * 
+ * Example:
+ * [medic, patient, "SelectionName", "bandage"] call ACE_medical_fnc_treatment
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -101,11 +101,11 @@ if ("All" in _locations) then {
             private _val = missionNamespace getVariable _x;
             if (_val isEqualType 0) then {
                 _return = switch (_val) do {
-                    case 0: {true};										// AdvancedMedicalSettings_anywhere
-                    case 1: {call _medVeh};								// AdvancedMedicalSettings_vehicle
-                    case 2: {call _medFacility};						// AdvancedMedicalSettings_facility
-                    case 3: {(call _medFacility) || {call _medVeh}};	// AdvancedMedicalSettings_vehicleAndFacility
-                    default {false};									// Disabled
+                    case 0: {true};          // AdvancedMedicalSettings_anywhere
+                    case 1: {call _medVeh};        // AdvancedMedicalSettings_vehicle
+                    case 2: {call _medFacility};      // AdvancedMedicalSettings_facility
+                    case 3: {(call _medFacility) || {call _medVeh}}; // AdvancedMedicalSettings_vehicleAndFacility
+                    default {false};         // Disabled
                 };
             };
         };
@@ -220,22 +220,22 @@ private _treatmentTime = if (isNumber (_config >> "treatmentTime")) then {
 // ####
 
 if (missionNamespace getVariable ["havoc_medical_stethoscope_enabled", false]) then {
-	
-	private _modifier = 0;
-	
-	if (_className in ["CheckPulse", "CheckBloodPressure", "CheckResponse", "CheckLimbs", "Diagnose"]) then {
-		if ("HAVOC_Stethoscope" in items _medic) then {
-			_modifier = -2;
-		} else {
-			_modifier = +2;
-		};
-	};
-	
-	private _newTreatmentTime = 0;
-	_newTreatmentTime = _treatmentTime + _modifier;
-	if (_newTreatmentTime <= 1) then {_newTreatmentTime = 1;};
-	_treatmentTime = _newTreatmentTime;
-	
+    
+    private _modifier = 0;
+    
+    if (_className in ["CheckPulse", "CheckBloodPressure", "CheckResponse", "CheckLimbs", "Diagnose"]) then {
+        if ("HAVOC_Stethoscope" in items _medic) then {
+            _modifier = -2;
+        } else {
+            _modifier = +2;
+        };
+    };
+    
+    private _newTreatmentTime = 0;
+    _newTreatmentTime = _treatmentTime + _modifier;
+    if (_newTreatmentTime <= 1) then {_newTreatmentTime = 1;};
+    _treatmentTime = _newTreatmentTime;
+    
 };
 
 // ####

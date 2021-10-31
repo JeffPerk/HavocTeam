@@ -28,7 +28,7 @@ _unit setVariable ["ace_medical_playingInjuredSound",true];
 
 // Play the sound if there is any damage present.
 if (_pain > 0 && {[_unit] call ACE_common_fnc_isAwake}) exitWith {
-	
+    
     // Classnames of the available sounds.
     private _availableSounds_A = [
         "WoundedGuyA_01",
@@ -58,7 +58,7 @@ if (_pain > 0 && {[_unit] call ACE_common_fnc_isAwake}) exitWith {
         "WoundedGuyC_05"
     ];
     private _sound = "";
-	
+    
     // Select the sound based upon damage amount.
     if (_pain > 0.5) then {
         if (random(1) > 0.5) then {
@@ -69,14 +69,14 @@ if (_pain > 0 && {[_unit] call ACE_common_fnc_isAwake}) exitWith {
     } else {
         _sound = selectRandom _availableSounds_B;
     };
-	
+    
     // Play the sound
     //playSound3D [(getArray(configFile >> "CfgSounds" >> _sound >> "sound") select 0) + ".wss", objNull, false, getPos _unit, 15, 1, 25]; // +2db, 15 meters.
-	[_sound, _unit, AGLToASL (_unit modelToWorld (_unit selectionPosition "head")), 30, 1.4, 1, false] call HAVOC_fnc_playSound3d;
-	
+    [_sound, _unit, AGLToASL (_unit modelToWorld (_unit selectionPosition "head")), 30, 1.4, 1, false] call HAVOC_fnc_playSound3d;
+    
     // Figure out what the delay will be before it is possible to play a sound again.
     private _delay = (30 - (random(25) * _pain)) max (3.5 + random(2));
-	
+    
     // Clean up the lock
     [{
         (_this select 0) setVariable ["ace_medical_playingInjuredSound", nil];

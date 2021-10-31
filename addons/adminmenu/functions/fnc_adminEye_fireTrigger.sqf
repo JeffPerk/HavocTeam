@@ -1,4 +1,4 @@
-#include "\z\havoc\addons\adminmenu\script_component.hpp"
+#include "\z\tfs\addons\adminmenu\script_component.hpp"
 
 disableSerialization;
 
@@ -27,5 +27,5 @@ if (count _statements > 0) then { // isTrigger.
         ];
         _trigger setTriggerStatements _tempStatements;
         _trigger setTriggerInterval 0;
-    }, [_trigger] call CBA_fnc_execNextFrame;
+    }, [_trigger]] call CBA_fnc_execNextFrame;
 };
