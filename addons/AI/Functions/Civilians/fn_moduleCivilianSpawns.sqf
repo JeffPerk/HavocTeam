@@ -22,11 +22,11 @@ _civVehParkedMax = _logic getVariable ["CivVehParkedMax", 0];
 _Side = toLower _Side;
 
 switch (_Side) do {
-	case "west": {_Side = west;};
-	case "east": {_Side = east;};
-	case "independent": {_Side = independent;};
-	case "civilian": {_Side = civilian;};
-	default {_Side = civilian;};
+    case "west": {_Side = west;};
+    case "east": {_Side = east;};
+    case "independent": {_Side = independent;};
+    case "civilian": {_Side = civilian;};
+    default {_Side = civilian;};
 };
 
 [

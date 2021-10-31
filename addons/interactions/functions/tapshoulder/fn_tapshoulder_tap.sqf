@@ -51,10 +51,10 @@ if (missionNamespace getVariable ["havoc_interactions_tapshoulder_hint", true]) 
     
     if (_shoulder == 0) then {
         _shoulderName = format [hint_havoc_var_1, localize "STR_HAVOC_Interactions_Hint_TapShoulder_Left"];
-        _iconFile = "\z\havoc\addons\interactions\data\icons\shoulder_left_ca.paa";
+        _iconFile = "z\havoc\addons\interactions\data\icons\shoulder_left_ca.paa";
     } else {
         _shoulderName = format [hint_havoc_var_1, localize "STR_HAVOC_Interactions_Hint_TapShoulder_Right"];
-        _iconFile = "\z\havoc\addons\interactions\data\icons\shoulder_right_ca.paa";
+        _iconFile = "z\havoc\addons\interactions\data\icons\shoulder_right_ca.paa";
     };
     
     private _shoulderIcon = format [_iconTemplate, _iconFile, _shoulderName];

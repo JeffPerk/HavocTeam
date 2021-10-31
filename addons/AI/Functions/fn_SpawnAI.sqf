@@ -9,7 +9,7 @@ Description:
     in the Debug Console for on the fly objectives.
 
 Arguments:
-	_grpPrefix - The prefix for the group IDs <STRING>
+    _grpPrefix - The prefix for the group IDs <STRING>
     _center - The center position of the area we want to populate <POSITION 3D>
     _radius - The radius of the area we want to populate <SCALAR>
     _faction - The faction which we want to use for populating the AO <STRING>
@@ -26,32 +26,32 @@ Arguments:
     _patrolMethod - Method to use for plotting the patrol paths <STRING, one of ["RANDOM", "ROADS"], default: "RANDOM">
 
 Example:
-	(begin example)
-	    [
+    (begin example)
+        [
             "Objective 1",
-	        [2955.43,6010.11,0],
-	        500,
-	        "Sahrani Liberation Army",
-	        [5, 100, 200],
-	        [3, 5]
-	        ] call havoc_fnc_SpawnAI;
-	        Example 2:
-	        ["Kavala",
-	        [2955.43,6010.11,0],
-	        500,
-	        "Chernarussian Red Star",
-	        [5, 200, 400],
-	        [5, 10],
-	        [2, 3],
-	        [3, 4],
-	        [2, 3],
-	        [4, 5],
-	        [2, 3],
-	        [2, 3],
-	        [5, 6],
+            [2955.43,6010.11,0],
+            500,
+            "Sahrani Liberation Army",
+            [5, 100, 200],
+            [3, 5]
+            ] call havoc_fnc_SpawnAI;
+            Example 2:
+            ["Kavala",
+            [2955.43,6010.11,0],
+            500,
+            "Chernarussian Red Star",
+            [5, 200, 400],
+            [5, 10],
+            [2, 3],
+            [3, 4],
+            [2, 3],
+            [4, 5],
+            [2, 3],
+            [2, 3],
+            [5, 6],
             "RANDOM"
         ] call havoc_fnc_SpawnAI;
-	(end)
+    (end)
 
 Author:
     MitchJC
@@ -74,41 +74,41 @@ params [
     ["_grpPrefix","Obj 1"],
     ["_faction", "OPF_T_F"],
     ["_GarrRadius",100],
-	["_garrisons", [0,0]],
+    ["_garrisons", [0,0]],
     ["_patrolMethod", "RANDOM"],
     ["_radius", 500],
-	["_inf", [0,0]],
-	["_infaa", [0,0]],
-	["_infat", [0,0]],
-	["_sniper", [0,0]],
-	["_vehaa", [0,0]],
-	["_vehlight", [0,0]],
-	["_vehmrap", [0,0]],
-	["_vehheavy", [0,0]],
-	["_vehrand", [0,0]]
+    ["_inf", [0,0]],
+    ["_infaa", [0,0]],
+    ["_infat", [0,0]],
+    ["_sniper", [0,0]],
+    ["_vehaa", [0,0]],
+    ["_vehlight", [0,0]],
+    ["_vehmrap", [0,0]],
+    ["_vehheavy", [0,0]],
+    ["_vehrand", [0,0]]
 
 ];
 
 _typeNameCenter = typeName _center;
 
 call {
-	if (_typeNameCenter isEqualTo "OBJECT") exitwith { _center = getPos _center;};
-	if (_typeNameCenter isEqualTo "STRING") exitwith { _center = getMarkerPos _center;};
-	if (_typeNameCenter isEqualTo [0, 0, 0]) exitwith {systemchat "AISpawns - Position is invalid";};
+    if (_typeNameCenter isEqualTo "OBJECT") exitwith { _center = getPos _center;};
+    if (_typeNameCenter isEqualTo "STRING") exitwith { _center = getMarkerPos _center;};
+    if (_typeNameCenter isEqualTo [0, 0, 0]) exitwith {systemchat "AISpawns - Position is invalid";};
 };
 
 _center set [2, 0];
 
-_garrisons params ["_GarrisonedGroupsMin", ["_GarrisonedGroupsMax", 0], ["_infSkill", "LRG Default"]];
-_inf params ["_infMin", ["_infMax", 0], ["_infSkill", "LRG Default"]];
-_infaa params ["_infaaMin", ["_infaaMax",0], ["_infaaSkill", "LRG Default"]];
-_infat params ["_infatMin", ["_infatMax",0], ["_infatSkill", "LRG Default"]];
-_sniper params ["_sniperMin", ["_sniperMax",0], ["_sniperSkill", "LRG Default"]];
-_vehaa params ["_vehaaMin", ["_vehaaMax",0], ["_vehaaSkill", "LRG Default"]];
-_vehmrap params ["_vehmrapMin", ["_vehmrapMax",0], ["_vehmrapSkill", "LRG Default"]];
-_vehlight params ["_vehlightMin", ["_vehlightMax",0], ["_vehlightSkill", "LRG Default"]];
-_vehheavy params ["_vehheavyMin", ["_vehheavyMax",0], ["_vehheavySkill", "LRG Default"]];
-_vehrand params ["_vehrandMin", ["_vehrandMax",0], ["_vehrandSkill", "LRG Default"]];
+_garrisons params ["_GarrisonedGroupsMin", ["_GarrisonedGroupsMax", 0], ["_infSkill", "Havoc Default"]];
+_inf params ["_infMin", ["_infMax", 0], ["_infSkill", "Havoc Default"]];
+_infaa params ["_infaaMin", ["_infaaMax",0], ["_infaaSkill", "Havoc Default"]];
+_infat params ["_infatMin", ["_infatMax",0], ["_infatSkill", "Havoc Default"]];
+_sniper params ["_sniperMin", ["_sniperMax",0], ["_sniperSkill", "Havoc Default"]];
+_vehaa params ["_vehaaMin", ["_vehaaMax",0], ["_vehaaSkill", "Havoc Default"]];
+_vehmrap params ["_vehmrapMin", ["_vehmrapMax",0], ["_vehmrapSkill", "Havoc Default"]];
+_vehlight params ["_vehlightMin", ["_vehlightMax",0], ["_vehlightSkill", "Havoc Default"]];
+_vehheavy params ["_vehheavyMin", ["_vehheavyMax",0], ["_vehheavySkill", "Havoc Default"]];
+_vehrand params ["_vehrandMin", ["_vehrandMax",0], ["_vehrandSkill", "Havoc Default"]];
 
 _patrolMethod = toUpper _patrolMethod;
 
@@ -158,18 +158,18 @@ private _AIReporting = HAVOC_AI_Reporting;
 private _SideNumber = getnumber (configfile >> "CfgFactionClasses" >> _faction >> "side");
 
 call {
- 	if (_sidenumber IsEqualTo 0) exitwith {
-		 _side = East;
-		 _FactionSide = "East";
-	};
- 	if (_sidenumber IsEqualTo 1) exitwith {
-		 _side = West;
-		 _FactionSide = "West";
-	};
- 	if (_sidenumber IsEqualTo 2) exitwith {
-		 _side = Resistance;
-		 _FactionSide = "Indep";
-	};
+     if (_sidenumber IsEqualTo 0) exitwith {
+         _side = East;
+         _FactionSide = "East";
+    };
+     if (_sidenumber IsEqualTo 1) exitwith {
+         _side = West;
+         _FactionSide = "West";
+    };
+     if (_sidenumber IsEqualTo 2) exitwith {
+         _side = Resistance;
+         _FactionSide = "Indep";
+    };
 };
 if (isnil "_Faction") exitwith {systemchat format ["Faction missing from %1 at %2",_grpPrefix, _center]};
 
@@ -193,22 +193,22 @@ if (_patrolMethod isEqualTo "ROAD") then {
 
     // Now increase the search radius until we have found enough positions
     if (count _roadList < _minPositions) then {
-    	_i = 0;
-    	_radExtension = 0;
-    	// If we exceed our max in iterations, abort and use random positions instead...
-    	while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
-    		_radExtension = _radExtension + EXT_RADIUS;
-    		_roadList = _center nearRoads (_radius + _radExtension);
-    		_i = _i + 1;
-    	};
+        _i = 0;
+        _radExtension = 0;
+        // If we exceed our max in iterations, abort and use random positions instead...
+        while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
+            _radExtension = _radExtension + EXT_RADIUS;
+            _roadList = _center nearRoads (_radius + _radExtension);
+            _i = _i + 1;
+        };
     };
 
     // If we still don't have enough positions, fill the remaining spots up with random positions
     if (count _roadList < _minPositions) then {
-    	while {count _roadList < _minPositions} do {
-    		_rpos = [[[_center, _radius],[]],["water"]] call havoc_fnc_SafePos;
-    		_roadList append [_rpos];
-    	};
+        while {count _roadList < _minPositions} do {
+            _rpos = [[[_center, _radius],[]],["water"]] call havoc_fnc_SafePos;
+            _roadList append [_rpos];
+        };
     };
 
     // populate _waypoints with the positions of these roads
@@ -504,21 +504,21 @@ if !(_vehRandList isEqualTo []) then {
 };
 
 {
-	if !(dynamicSimulationEnabled (group _x)) then {
-		(group _x) enableDynamicSimulation true;
-	};
-	_x 	disableAI "AUTOCOMBAT";
+    if !(dynamicSimulationEnabled (group _x)) then {
+        (group _x) enableDynamicSimulation true;
+    };
+    _x  disableAI "AUTOCOMBAT";
 } forEach _units;
 
 {
-	if !(dynamicSimulationEnabled (group _x)) then {
-		(group _x) enableDynamicSimulation true;
-	};
+    if !(dynamicSimulationEnabled (group _x)) then {
+        (group _x) enableDynamicSimulation true;
+    };
 } forEach _vehicles;
 
 {
-	_x addCuratorEditableObjects [_units, false];
-	_x addCuratorEditableObjects [_vehicles, true];
+    _x addCuratorEditableObjects [_units, false];
+    _x addCuratorEditableObjects [_vehicles, true];
 } forEach allCurators;
 
 [_units, _vehicles]

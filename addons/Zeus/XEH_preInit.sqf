@@ -4,7 +4,7 @@
     "HAVOC_Zeus_Module_AISpawnsEast",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - East", "Enable the Spawn AI - East Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     true,
     true,
     {
@@ -19,7 +19,7 @@
     "HAVOC_Zeus_Module_AISpawnsIndep",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Independent", "Enable the Spawn AI - Independent Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     true,
     true,
     {
@@ -34,7 +34,7 @@
     "HAVOC_Zeus_Module_AISpawnsWest",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - West", "Enable the Spawn AI - West Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     true,
     true,
     {
@@ -50,7 +50,7 @@
     "HAVOC_Zeus_Module_CivilianSpawns",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Civilian", "Enable the Spawn AI Civilians Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     true,
     true,
     {
@@ -66,7 +66,7 @@
     "HAVOC_Zeus_Module_SafeZone",
     "CHECKBOX",
     ["Zeus Module - Safe Zone", "Enable the Safe Zone Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     true,
     true,
     {
@@ -82,7 +82,7 @@
     "HAVOC_Zeus_Module_MedicalDummy",
     "CHECKBOX",
     ["Zeus Module - Medical Dummy", "Enable the Medical Dummy Zeus module for use with ZEN"],
-    "LRG Zeus",
+    "Havoc Zeus",
     false,
     true,
     {

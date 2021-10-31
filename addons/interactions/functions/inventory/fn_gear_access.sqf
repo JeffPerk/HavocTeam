@@ -42,7 +42,7 @@ if (missionNamespace getVariable ["havoc_interactions_gear_access_hint", true]) 
     
     private _playerName = format [hint_havoc_var_1, [_player] call ACE_common_fnc_getName];
     private _iconTemplate = "<img size='2.0' shadow='0' image='%1' />";
-    private _iconFile = "\z\havoc\addons\interactions\data\icons\search_gear_ca.paa";
+    private _iconFile = "z\havoc\addons\interactions\data\icons\search_gear_ca.paa";
     private _icon = format [_iconTemplate, _iconFile];
     private _hintMessage = format [localize "STR_HAVOC_Interactions_Hint_Gear_Access", _playerName, _icon];
     

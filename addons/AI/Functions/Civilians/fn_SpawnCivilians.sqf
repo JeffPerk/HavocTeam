@@ -3,33 +3,33 @@ Function: havoc_fnc_SpawnCivilians
 
 Description:
     Used to populate an area with a certain type of civilians. Spawns pedestrian
-	patrols, garrisoned peds, vehicle patrols and parked vehicles.
+    patrols, garrisoned peds, vehicle patrols and parked vehicles.
 
 Arguments:
-	_grpPrefix - The prefix for the group IDs <STRING>
+    _grpPrefix - The prefix for the group IDs <STRING>
     _center - The center position of the area we want to populate <POSITION 3D>
     _radius - The radius of the area we want to populate <SCALAR>
     _faction - The faction which we want to use for populating the AO <STRING>
-	_side - The side of the civilians <SIDE>
+    _side - The side of the civilians <SIDE>
     _garrisons - Garrison Parameters <ARRAY OF [Min Amount of Units, Random Upper Bound of Units]>
     _ped - Pedestrian Parameters <ARRAY OF [Min Amount of Units, Random Upper Bound of Units]>
     _vehpatrol - Vehicle Patrol Parameters <ARRAY OF [Min Amount of Vehicles, Random Upper Bound of Vehicles]>
     _vehparked - Parked Vehicles Parameters <ARRAY OF [Min Amount of Vehicles, Random Upper Bound of Vehicles]>
 
 Example:
-	(begin example)
-		[
-		    "Kavala",
-		    "CIV_F",
-		    civilian,
-		    100,    
-		    [5, 10],
-		    300,    
-		    [13, 25],
-		    [2, 4],
-		    [1, 3]
-		] call havoc_fnc_SpawnCivilians;
-	(end)
+    (begin example)
+        [
+            "Kavala",
+            "CIV_F",
+            civilian,
+            100,    
+            [5, 10],
+            300,    
+            [13, 25],
+            [2, 4],
+            [1, 3]
+        ] call havoc_fnc_SpawnCivilians;
+    (end)
 
 Author:
     Mokka
@@ -48,16 +48,16 @@ Author:
 if (!isserver) exitwith {};
 
 params [
-	"_center",
-	"_grpPrefix",
-	["_faction", "CIV_F"],
-	["_side", civilian],
-	"_GarrRadius",
-	["_garrisons", [0, 0]],
-	"_radius",
-	["_ped", [0, 0]],
-	["_vehpatrol", [0, 0]],
-	["_vehparked", [0, 0]]
+    "_center",
+    "_grpPrefix",
+    ["_faction", "CIV_F"],
+    ["_side", civilian],
+    "_GarrRadius",
+    ["_garrisons", [0, 0]],
+    "_radius",
+    ["_ped", [0, 0]],
+    ["_vehpatrol", [0, 0]],
+    ["_vehparked", [0, 0]]
 ];
 
 private _AIReporting = HAVOC_AI_Reporting;
@@ -65,9 +65,9 @@ private _AIReporting = HAVOC_AI_Reporting;
 _typeNameCenter = typeName _center;
 
 call {
-	if (_typeNameCenter isEqualTo "OBJECT") exitwith { _center = getPos _center;};
-	if (_typeNameCenter isEqualTo "STRING") exitwith { _center = getMarkerPos _center;};
-	if (_typeNameCenter isEqualTo [0, 0, 0]) exitwith {systemchat "CivSpawns - Position is invalid";};
+    if (_typeNameCenter isEqualTo "OBJECT") exitwith { _center = getPos _center;};
+    if (_typeNameCenter isEqualTo "STRING") exitwith { _center = getMarkerPos _center;};
+    if (_typeNameCenter isEqualTo [0, 0, 0]) exitwith {systemchat "CivSpawns - Position is invalid";};
 };
 
 _center set [2, 0];
@@ -92,22 +92,22 @@ _roadList = _center nearRoads _radius;
 
 // Now increase the search radius until we have found enough positions
 if (count _roadList < _minPositions) then {
-	_i = 0;
-	_radExtension = 0;
-	// If we exceed our max in iterations, abort and use random positions instead...
-	while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
-		_radExtension = _radExtension + EXT_RADIUS;
-		_roadList = _center nearRoads (_radius + _radExtension);
-		_i = _i + 1;
-	};
+    _i = 0;
+    _radExtension = 0;
+    // If we exceed our max in iterations, abort and use random positions instead...
+    while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
+        _radExtension = _radExtension + EXT_RADIUS;
+        _roadList = _center nearRoads (_radius + _radExtension);
+        _i = _i + 1;
+    };
 };
 
 // If we still don't have enough positions, fill the remaining spots up with random positions
 if (count _roadList < _minPositions) then {
-	while {count _roadList < _minPositions} do {
-		_rpos = [[[_center, _radius],[]],["water"]] call havoc_fnc_SafePos;
-		_roadList append [_rpos];
-	};
+    while {count _roadList < _minPositions} do {
+        _rpos = [[[_center, _radius],[]],["water"]] call havoc_fnc_SafePos;
+        _roadList append [_rpos];
+    };
 };
 
 // Shuffle the road array to have random spawn locations
@@ -130,7 +130,7 @@ if !(_pedPool isEqualTo []) then {
             _center,
             [0, _GarrRadius],
             _faction, _side,
-			_pedPool, _garrisonsExact
+            _pedPool, _garrisonsExact
         ] call havoc_fnc_CivilianGarrison;
 
         _units append _garrisonedUnits;
@@ -154,13 +154,13 @@ if !(_pedPool isEqualTo []) then {
 
     for "_x" from 1 to (_pedMin + floor(random _pedDif)) do {
         private _rpos = selectRandom _roadList;
-		private _g = createGroup [_side, true];
-		private _u = _g createUnit [selectRandom _pedPool, _rpos, [], 0, "NONE"];
+        private _g = createGroup [_side, true];
+        private _u = _g createUnit [selectRandom _pedPool, _rpos, [], 0, "NONE"];
 
         _g setGroupIdGlobal [format["%1_inf%2", _grpPrefix, _x]];
 
-		// Setup patrol task
-		[_g, _roadList] call havoc_fnc_CivilianPatrol;
+        // Setup patrol task
+        [_g, _roadList] call havoc_fnc_CivilianPatrol;
         _units append (units _g);
     };
 } else {
@@ -177,33 +177,33 @@ if !((_motPool isEqualTo []) || (_pedPool isEqualTo [])) then {
 
     for "_x" from 1 to (_vehpatrolMin + floor(random _vehpatrolDif)) do {
         private _rpos = selectRandom _roadList;
-		private _dir = round (random 360);
+        private _dir = round (random 360);
 
-		// Obtain direction stuff, bit of a pain...
-		if ((typeName _rpos) isEqualTo "OBJECT") then {
-			private _connectedRoads = roadsConnectedTo _rpos;
-			if ((count _connectedRoads) > 0) then {
-				_adjRoad = _connectedRoads select 0;
-				_dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
-			};
-		};
+        // Obtain direction stuff, bit of a pain...
+        if ((typeName _rpos) isEqualTo "OBJECT") then {
+            private _connectedRoads = roadsConnectedTo _rpos;
+            if ((count _connectedRoads) > 0) then {
+                _adjRoad = _connectedRoads select 0;
+                _dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
+            };
+        };
 
-		private _g = createGroup [_side, true];
-		private _u = _g createUnit [selectRandom _pedPool, _rpos, [], 0, "CAN_COLLIDE"];
-		[_u] joinSilent _g;
+        private _g = createGroup [_side, true];
+        private _u = _g createUnit [selectRandom _pedPool, _rpos, [], 0, "CAN_COLLIDE"];
+        [_u] joinSilent _g;
 
         _g setGroupIdGlobal [format["%1_vehPatrol%2", _grpPrefix, _x]];
 
-		private _v = createVehicle [(selectRandom _motPool), _rpos];
-		_v setDir _dir;
+        private _v = createVehicle [(selectRandom _motPool), _rpos];
+        _v setDir _dir;
 
-		_u assignAsDriver _v;
-		_u moveInDriver _v;
+        _u assignAsDriver _v;
+        _u moveInDriver _v;
 
-		// Setup patrol task
-		[_g, _roadList] call havoc_fnc_CivilianPatrol;
+        // Setup patrol task
+        [_g, _roadList] call havoc_fnc_CivilianPatrol;
         _units append (units _g);
-		_vehicles append [_v];
+        _vehicles append [_v];
     };
 } else {
     if (_AIReporting && { _vehpatrolMax > 0 }) exitwith {systemchat format ["Havoc: INFO: %1 no Civilian peds or vehicles to select from. Step skipped.",_faction]};
@@ -218,20 +218,20 @@ if !(_motPool isEqualTo []) then {
 
     for "_x" from 1 to (_vehparkedMin + floor(random _vehparkedDif)) do {
         private _rpos = selectRandom _roadList;
-		private _dir = round (random 360);
+        private _dir = round (random 360);
 
-		// Obtain direction stuff, bit of a pain...
-		if ((typeName _rpos) isEqualTo "OBJECT") then {
-			private _connectedRoads = roadsConnectedTo _rpos;
-			if ((count _connectedRoads) > 0) then {
-				_adjRoad = _connectedRoads select 0;
-				_dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
-			};
-		};
+        // Obtain direction stuff, bit of a pain...
+        if ((typeName _rpos) isEqualTo "OBJECT") then {
+            private _connectedRoads = roadsConnectedTo _rpos;
+            if ((count _connectedRoads) > 0) then {
+                _adjRoad = _connectedRoads select 0;
+                _dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
+            };
+        };
 
-		private _v = createVehicle [(selectRandom _motPool), _rpos];
-		_v setDir _dir;
-		_v setPos [((getPos _v) select 0) - 6, (getPos _v) select 1, (getPos _v) select 2];
+        private _v = createVehicle [(selectRandom _motPool), _rpos];
+        _v setDir _dir;
+        _v setPos [((getPos _v) select 0) - 6, (getPos _v) select 1, (getPos _v) select 2];
 
         _vehicles append [_v];
     };
@@ -242,21 +242,21 @@ if !(_motPool isEqualTo []) then {
 // Set up dynamic sim and curator stuff
 
 {
-	if !(dynamicSimulationEnabled (group _x)) then {
-		(group _x) enableDynamicSimulation true;
-	};
-	_x 	disableAI "AUTOCOMBAT";
+    if !(dynamicSimulationEnabled (group _x)) then {
+        (group _x) enableDynamicSimulation true;
+    };
+    _x  disableAI "AUTOCOMBAT";
 } forEach _units;
 
 {
-	if !(dynamicSimulationEnabled (group _x)) then {
-		(group _x) enableDynamicSimulation true;
-	};
+    if !(dynamicSimulationEnabled (group _x)) then {
+        (group _x) enableDynamicSimulation true;
+    };
 } forEach _vehicles;
 
 {
-	_x addCuratorEditableObjects [_units, false];
-	_x addCuratorEditableObjects [_vehicles, true];
+    _x addCuratorEditableObjects [_units, false];
+    _x addCuratorEditableObjects [_vehicles, true];
 } forEach allCurators;
 
 [_units, _vehicles]

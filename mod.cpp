@@ -1,7 +1,5 @@
 name = "Havoc";
 picture = "havocl12048.paa";
-actionName = "GitHub";
-action = "https://github.com/";
 description = "Havoc Mod";
 logo = "havocl1512x.paa";
 logoOver = "havocl1512x.paa";

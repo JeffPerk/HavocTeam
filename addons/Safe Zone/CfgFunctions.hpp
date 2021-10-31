@@ -3,7 +3,7 @@ class HAVOC_SafeZone {
 	tag = "HAVOC";
 	class Module {
 
-		file = "z\havoc\Addons\Safe Zone\Functions";
+		file = "z\havoc\addons\Safe Zone\Functions";
 		class moduleSafeZone {};
 		class SafeZone {};
 	};

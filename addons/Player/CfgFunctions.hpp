@@ -1,12 +1,10 @@
 
-class HAVOC_Player {
+class Havoc_Player {
 
-	tag = "HAVOC";
+	tag = "Havoc";
 	class Player {
 
-		file = "z\havoc\Addons\Player\Functions";
+		file = "z\havoc\addons\Player\Functions";
 		class ConfigPlayer {};
-		class VanillaFatigue {};
-		class PilotCheck {};
 	};
 };

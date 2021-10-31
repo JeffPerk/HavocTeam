@@ -5,7 +5,7 @@ class CfgFunctions {
         tag = "havoc_hints";
         
         class Hints {
-            file = "\z\havoc\addons\hints\functions";
+            file = "z\havoc\addons\hints\functions";
             class cleanup {};
             class initialize {};
             class initSettings {};
@@ -18,7 +18,7 @@ class CfgFunctions {
         tag = "havoc";
         
         class Hints {
-            file = "\z\havoc\addons\hints\functions";
+            file = "z\havoc\addons\hints\functions";
             class hint {};
             class hintGlobal {};
         };
@@ -30,7 +30,7 @@ class CfgFunctions {
         tag = "ace_common";
         
         class ace_common {
-            file = "\z\havoc\addons\hints\functions\ace_common";
+            file = "z\havoc\addons\hints\functions\ace_common";
             class displayIcon {};
             class displayIconEx { file = "\z\ace\addons\common\functions\fnc_displayIcon.sqf"; };
             class displayText {};

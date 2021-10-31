@@ -15,11 +15,11 @@
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinT">
-            <English>Join Ops Server</English>
+            <English>Join Training Server</English>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinD">
-            <English>Join Ops Server</English>
+            <English>Join Dev/Test Server</English>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_AdminLogin">

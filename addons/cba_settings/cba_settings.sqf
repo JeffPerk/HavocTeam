@@ -1,3 +1,17 @@
+
+// Rank & Role: Ranks
+ranks_captain = "";
+ranks_colonel = "";
+ranks_corporal = "";
+ranks_lieutenant = "";
+ranks_major = "";
+force ranks_sergeant = """76561198000002705""";
+
+// Role & Role: Roles
+force Roles_comm = """76561198000002705""";
+force Roles_eng = """76561198000002705""";
+force Roles_medic = """76561198000002705""";
+
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
@@ -426,7 +440,7 @@ force ace_winddeflection_enabled = true;
 force ace_winddeflection_simulationInterval = 0.05;
 force ace_winddeflection_vehicleEnabled = true;
 
-// ACRE2
+/* // ACRE2
 acre_sys_core_automaticAntennaDirection = false;
 acre_sys_core_defaultRadioVolume = 0.8;
 acre_sys_core_fullDuplex = false;
@@ -462,7 +476,7 @@ acre_sys_gestures_stopADS = false;
 // ACRE2 Zeus
 acre_sys_zeus_zeusCanSpectate = true;
 acre_sys_zeus_zeusCommunicateViaCamera = true;
-acre_sys_zeus_zeusDefaultVoiceSource = false;
+acre_sys_zeus_zeusDefaultVoiceSource = false; */
 
 // Advanced Urban Rappelling
 AUR_ADVANCED_RAPPELING_ITEMS_NEEDED = 0;
@@ -705,18 +719,85 @@ force lambs_main_radioGuer = 500;
 force lambs_main_radioShout = 100;
 force lambs_main_radioWest = 500;
 
-// Rank & Role: Ranks
-ranks_captain = "";
-ranks_colonel = "";
-ranks_corporal = "";
-ranks_lieutenant = "";
-ranks_major = "";
-force ranks_sergeant = """76561198000002705""";
+// MRH_Milsim Tools - RHS CBPS
+MRH_MT_RHSCBPS_globalComp = "MRH_defaultCBPS_medical_simple";
+MRH_MT_RHSCBPS_useGlobal = true;
 
-// Role & Role: Roles
-force Roles_comm = """76561198000002705""";
-force Roles_eng = """76561198000002705""";
-force Roles_medic = """76561198000002705""";
+// MRH_MilsimTools - Core settings
+MRH_MilsimTools_AdminCasualtiesCap = 60;
+force MRH_MilsimTools_AllowAdminForZeus = true;
+force MRH_MilsimTools_AllowDeadReco = false;
+force MRH_MilsimTools_Core_ApplyMedicPatch = false;
+force MRH_MilsimTools_Delete_disconnected_body = false;
+MRH_MilsimTools_hideAceMyLoadOuts = false;
+MRH_MilsimTools_LD_loadoutDisplaySize = 100;
+force MRH_MilsimTools_LD_ShowLoadOutInBrief = false;
+force MRH_MilsimTools_PlayIntro_ToPlayer = false;
+force MRH_MilsimTools_ResetHasDiedOnRespawn = true;
+MRH_MilsimTools_Rmv_map_nolead = false;
+MRH_MilsimTools_ShowAdminDeadHint = true;
+
+// MRH_MilsimTools - Debug Mode
+force MRH_MilsimTools_DebugTools_DoLogDebugMode = false;
+MRH_MilsimTools_DebugTools_isDebugMode = false;
+
+// MRH_MilsimTools - Deployable Fobs
+MRH_MilsimTools_CAMP_composition = "MRH_SmallCamp_default";
+MRH_MilsimTools_FOB_BIG_composition = "MRH_FieldHQSmall_default";
+MRH_MilsimTools_MiscItems_CAMP_DeployTime = 10;
+MRH_MilsimTools_MiscItems_CAMP_GRepackRadius = 10;
+MRH_MilsimTools_MiscItems_CAMP_GRepackTime = 10;
+MRH_MilsimTools_MiscItems_FOB_BIGDeployTime = 20;
+MRH_MilsimTools_MiscItems_FOB_BIGRepackRadius = 50;
+MRH_MilsimTools_MiscItems_FOB_BIGRepackTime = 20;
+
+// MRH_MilsimTools - Hacking settings
+MRH_MilsimTools_RequireHackingTool = true;
+
+// MRH_MilsimTools - Halo Jumps
+force MRH_MilsimTools_HaloGear_AADDefaultOpeningAltitude = "200";
+MRH_MilsimTools_HaloGear_allowManualAADSetting = true;
+MRH_MilsimTools_HaloGear_disableMaskHud = false;
+MRH_MilsimTools_HaloGear_disableMaskHudAltimeter = false;
+MRH_MilsimTools_HaloGear_disableMaskHudCompass = false;
+MRH_MilsimTools_HaloGear_disableMaskHudVelocity = false;
+MRH_MilsimTools_HaloGear_haloMaskBreakingChancePerc = 10;
+MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4600;
+MRH_MilsimTools_HaloGear_hypoxiaUse = true;
+force MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "RHS_jetpilot_usaf,H_PilotHelmetFighter_B,rhs_zsh7a,rhs_zsh7a_alt,RHS_TU95MS_vvs_old";
+MRH_MilsimTools_HaloGear_playRebreatherSounds = true;
+
+// MRH_MilsimTools - Insertion Handler
+MRH_MilsimTools_InsertionHandler_allowHALO = true;
+MRH_MilsimTools_InsertionHandler_allowStatic = true;
+MRH_MilsimTools_InsertionHandler_allowSub = true;
+force MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "I_Heli_Transport_02_F,I_Heli_light_03_unarmed_F,I_C_Plane_Civil_01_F";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "O_T_VTOL_02_infantry_dynamicLoadout_F,O_Heli_Light_02_unarmed_F,O_Heli_Transport_04_box_F";
+
+// MRH_MilsimTools - Medical Tent
+force MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 32;
+force MRH_MilsimTools_MiscItems_FieldMedicalTentRepackTime = 16;
+
+// MRH_MilsimTools - Roster settings
+MRH_MilsimTools_Roster_AllowAllSides = false;
+MRH_MilsimTools_Roster_ColorBF = [0.259,0.525,0.957,1];
+MRH_MilsimTools_Roster_ColorCiv = [0.686,0.141,0.588,1];
+MRH_MilsimTools_Roster_ColorInd = [0.212,0.847,0.286,1];
+MRH_MilsimTools_Roster_ColorOp = [0.929,0.063,0.063,1];
+MRH_MilsimTools_Roster_ColorUnknown = [0.929,0.82,0.118,1];
+MRH_MilsimTools_Roster_ShowAIgroups = false;
+force MRH_MilsimTools_Roster_ShowAiWithinGrps = false;
+
+// MRH_MilsimTools - Tablet settings
+force MRH_MilsimTools_AllowMapTablet = false;
+force MRH_MilsimTools_ST_BriefingRemote_overlay = "\MRHMilsimTools\Paa\cnn_news_ca.paa";
+force MRH_MilsimTools_ST_BriefingRemote_videosToPlay = "\a3\missions_f_bootcamp\video\vr_generictransition_1.ogv,\a3\missions_f_epa\video\a_in_intro.ogv";
+
+// MRH_MilsimTools - Zeus
+force MRH_MilsimTools_Zeus_hideWaterMark = true;
+force MRH_MilsimTools_Zeus_waterMark = "UseVanilla";
+force MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
 
 // Simplex Support Services
 force SSS_setting_adminFullAccess = false;
@@ -736,6 +817,63 @@ force SSS_setting_slingLoadSearchRadius = 100;
 force SSS_setting_slingLoadWhitelist = "";
 force SSS_setting_useChatNotifications = true;
 
+// TFAR - Global settings
+force TFAR_AICanHearPlayer = false;
+force TFAR_AICanHearSpeaker = false;
+force TFAR_allowDebugging = true;
+tfar_core_noTSNotConnectedHint = false;
+force TFAR_defaultIntercomSlot = 0;
+force TFAR_disableAutoMute = false;
+force TFAR_enableIntercom = true;
+force TFAR_experimentalVehicleIsolation = true;
+force TFAR_fullDuplex = true;
+force TFAR_giveLongRangeRadioToGroupLeaders = false;
+force TFAR_giveMicroDagrToSoldier = true;
+force TFAR_givePersonalRadioToRegularSoldier = false;
+force TFAR_globalRadioRangeCoef = 1;
+force TFAR_instantiate_instantiateAtBriefing = false;
+force TFAR_objectInterceptionEnabled = true;
+force TFAR_objectInterceptionStrength = 400;
+force tfar_radiocode_east = "_opfor";
+force tfar_radiocode_independent = "_independent";
+force tfar_radiocode_west = "_bluefor";
+force tfar_radioCodesDisabled = false;
+force TFAR_SameLRFrequenciesForSide = false;
+force TFAR_SameSRFrequenciesForSide = false;
+force TFAR_setting_defaultFrequencies_lr_east = "";
+force TFAR_setting_defaultFrequencies_lr_independent = "";
+force TFAR_setting_defaultFrequencies_lr_west = "";
+force TFAR_setting_defaultFrequencies_sr_east = "";
+force TFAR_setting_defaultFrequencies_sr_independent = "";
+force TFAR_setting_defaultFrequencies_sr_west = "";
+force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
+force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
+force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
+force TFAR_setting_DefaultRadio_Backpack_east = "TFAR_mr3000";
+force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
+force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
+force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
+force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
+force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
+force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_anprc152";
+force TFAR_spectatorCanHearEnemyUnits = true;
+force TFAR_spectatorCanHearFriendlies = true;
+force TFAR_takingRadio = 2;
+force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
+force TFAR_Teamspeak_Channel_Password = "123";
+force tfar_terrain_interception_coefficient = 7;
+force TFAR_voiceCone = true;
+
+// Tinter Furniture
+tint_delay = 10;
+tint_houseLimit = 42;
+tint_houses = true;
+tint_range = 300;
+force tint_seed = 42;
+
+
 // Turret Enhanced
 force Fat_Lurch_Grid = true;
 force Fat_Lurch_GridNum = 10;
@@ -746,3 +884,4 @@ force Fat_Lurch_ShowAz = true;
 force Fat_Lurch_ShowEl = true;
 force Fat_Lurch_ShowNorth = true;
 force Fat_Lurch_ShowTarget = true;
+

@@ -7,7 +7,7 @@ TRACE_1("Initializing message log",_display);
 
 [] call FUNC(resyncLog);
 
-private _pfhRefresh = [{
+private _pfhRefresh = {
     disableSerialization;
     params ["_display","_handle"];
 
@@ -33,13 +33,5 @@ private _pfhRefresh = [{
             _listCtrl lbSetPictureRight [_index, QPATHTOEF(autotest,ui\warning.paa)];
         };
     };
-
-    // Autoscroll
-    private _curSel = lbCurSel _listCtrl;
-    if (_curSel == -1 || (_curSel == _entriesNum -1 && _entriesNum != _newEntriesNum)) then {
-        LOG("Autoscroll log");
-        _listCtrl lbSetCurSel (lbSize _listCtrl - 1);
-    };
-},1,_display] call CBA_fnc_addPerFrameHandler;
 
 GVAR(tabPFHHandles) pushBack _pfhRefresh;

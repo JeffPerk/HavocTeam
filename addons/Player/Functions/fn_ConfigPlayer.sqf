@@ -1,5 +1,5 @@
 /*
-Function: havoc_fnc_ConfigPlayer
+Function: Havoc_fnc_ConfigPlayer
 
 Description:
     Used to configure basic player attributes and equipment.
@@ -12,11 +12,11 @@ Arguments:
 
 Examples:
     (begin example)
-        [this] call havoc_fnc_ConfigPlayer;
-        [this, "1 Section"] call havoc_fnc_ConfigPlayer;
-        [this, "909 EAW", ["Pilot"]] call havoc_fnc_ConfigPlayer;
-        [this, "Command", ["Pilot", "Mission Maker"]] call havoc_fnc_ConfigPlayer;
-        [this, "909 EAW", ["Pilot"], "3CB Pilot"] call havoc_fnc_ConfigPlayer;
+        [this] call Havoc_fnc_ConfigPlayer;
+        [this, "1 Section"] call Havoc_fnc_ConfigPlayer;
+        [this, "909 EAW", ["Pilot"]] call Havoc_fnc_ConfigPlayer;
+        [this, "Command", ["Pilot", "Mission Maker"]] call Havoc_fnc_ConfigPlayer;
+        [this, "909 EAW", ["Pilot"], "3CB Pilot"] call Havoc_fnc_ConfigPlayer;
     (end)
 
 Author:
@@ -31,15 +31,15 @@ params [
 ];
 
 if (_Section isEqualto -1) exitwith {};
-private ["_SectionX"];
+
 call {
-    if (_Section isEqualto 0) exitwith {_SectionX = "Command"};
-    if (_Section isEqualto 1) exitwith {_SectionX = "Red"};
-    if (_Section isEqualto 2) exitwith {_SectionX = "Blue"};
-    if (_Section isEqualto 3) exitwith {_SectionX = "White"};
-    if (_Section isEqualto 4) exitwith {_SectionX = "Yellow";
-    if (_Section isEqualto 5) exitwith {_SectionX = "Green"};
-    if (_Section isEqualto 5) exitwith {_SectionX = "Reaper"};
+    if (_Section isEqualto 0) exitwith {_Section = "Command"};
+    if (_Section isEqualto 1) exitwith {_Section = "Red"};
+    if (_Section isEqualto 2) exitwith {_Section = "Blue"};
+    if (_Section isEqualto 3) exitwith {_Section = "White"};
+    if (_Section isEqualto 4) exitwith {_Section = "Yellow"};
+    if (_Section isEqualto 5) exitwith {_Section = "Green"};
+    if (_Section isEqualto 6) exitwith {_Section = "Reaper"};
 };
 
 if (local _unit) then {
@@ -58,32 +58,32 @@ if (local _unit) then {
 
         call {
             if (_Section == "Command") exitwith {
-                _ShortRange = ["475", "480", "425", "100", "200", "300", "400"];
-                _LongRange = ["30", "32", "40", "60", "50", "82", "82", "82"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Red") exitwith {
-                _ShortRange = ["100", "125", "150", "425", "82", "82", "82", "82"];
-                _LongRange = ["30", "32", "60", "61", "62", "63", "64", "65", "66"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Blue") exitwith {
-                _ShortRange = ["200", "225", "250", "425", "82", "82", "82", "82"];
-                _LongRange = ["30", "32", "60", "61", "62", "63", "64", "65", "66"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "White") exitwith {
-                _ShortRange = ["300", "325", "350", "425", "82", "82", "82", "82"];
-                _LongRange = ["30", "32", "60", "61", "62", "63", "64", "65", "66"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Yellow") exitwith {
-                _ShortRange = ["401", "402", "403", "404", "405", "406", "407", "425"];
-                _LongRange = ["50", "60", "40", "60", "61", "62", "63", "64"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Green") exitwith {
-                _ShortRange = ["500", "525", "550", "575", "100", "200", "300", "425"];
-                _LongRange = ["30", "32", "60", "61", "62", "63", "64", "65", "66"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Reaper") exitwith {
-                _ShortRange = ["500", "525", "550", "575", "100", "200", "300", "425"];
-                _LongRange = ["30", "32", "60", "61", "62", "63", "64", "65", "66"];
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
         };
 
@@ -119,21 +119,18 @@ if (local _unit) then {
         if (_unit getunittrait "Adv Engineer") then { _unit setVariable ["ace_isEngineer", 2, true]};
     };
 
-    //=========== Patches
-    [_unit, _SectionX] call havoc_fnc_Patches;
-    
-    _unit call havoc_role_fnc_role;
-    _unit call havoc_rank_fnc_rank;
 
+    //=========== Patches
+    [_unit, _Section] call Havoc_fnc_Patches;
 
     //=========== Set Section
-    player setVariable ["havoc_Section", _Section, true];
+    _unit setVariable ["HAVOC_Section", _Section, true];
 };
 
 //========== SideChat Config
 if (hasinterface) then {
     if ((isClass (configFile >> "CfgPatches" >> "task_force_radio")) && (EnableSideChat)) then {
-        if ((_Section == "Command") || (_Section == "Reaper")) then {
+        if ((_Section == "Command") || (_Section == "909 EAW")) then {
             1 enablechannel [true, false];
         };
     };

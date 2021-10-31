@@ -8,6 +8,5 @@ class HAVOC {
 		class Sound3DFromPos {};
 		class Sound3DOnObject {};
 		class Patches {};
-		class Patches2 {};
 	};
 };

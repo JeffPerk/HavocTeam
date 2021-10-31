@@ -6,7 +6,7 @@ params ["_trigger"];
 
 private _statements = triggerStatements _trigger;
 if (count _statements > 0) then { // isTrigger.
-    [{
+    {
         params ["_trigger"];
         TRACE_1("Admin Eye triggered trigger", _trigger);
         private _statements = triggerStatements _trigger;
@@ -27,5 +27,5 @@ if (count _statements > 0) then { // isTrigger.
         ];
         _trigger setTriggerStatements _tempStatements;
         _trigger setTriggerInterval 0;
-    }, [_trigger]] call CBA_fnc_execNextFrame;
+    }, [_trigger] call CBA_fnc_execNextFrame;
 };

@@ -33,15 +33,15 @@ call {
  _PatchClass = "bolo";
 };
 
-// ===== Apply the Patch to player.
+// ===== Apply the Patch to player. 
 
 [BIS_fnc_setUnitInsignia, [_unit,_PatchClass], 5] call CBA_fnc_waitAndExecute;
 
 // ======= When Player Repsawns, apply the patch they had when they died.
 _unit addEventHandler ["Respawn", {
- params ["_unit", "_corpse"];
- _OldPatch = _corpse call BIS_fnc_getUnitInsignia;
+    params ["_unit", "_corpse"];
+    _OldPatch = _corpse call BIS_fnc_getUnitInsignia;
 
- [_unit, ""] call BIS_fnc_setUnitInsignia;
- [BIS_fnc_setUnitInsignia, [_unit,_OldPatch], 5] call CBA_fnc_waitAndExecute;
+    [_unit, ""] call BIS_fnc_setUnitInsignia;
+    [BIS_fnc_setUnitInsignia, [_unit,_OldPatch], 5] call CBA_fnc_waitAndExecute;
 }];

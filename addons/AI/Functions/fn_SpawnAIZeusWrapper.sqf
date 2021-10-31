@@ -2,20 +2,20 @@
 Function: havoc_fnc_SpawnAIZeusWrapper
 
 Description:
-	Wraps calls to havoc_fnc_SpawnAI for use with the Zeus Modules.
+    Wraps calls to havoc_fnc_SpawnAI for use with the Zeus Modules.
 
 Arguments:
-	_side - The side of the AI to spawn <STRING>
-	_pos - Position of the module <ARRAY/POS3D>
+    _side - The side of the AI to spawn <STRING>
+    _pos - Position of the module <ARRAY/POS3D>
 
 Return Values:
-	None
+    None
 
 Examples:
     Nothing to see here
 
 Author:
-	Mokka
+    Mokka
 */
 
 #define EAST_FACTIONS ["Vanilla - CSAT", "Vanilla - CSAT (Pacific)", "@3CB Factions - Chernarus Communist Militia", "@3CB Factions - Takistan National Army", "@3CB Factions - Takistan Insurgents", "@3CB Factions - Takistan National Police", "@CFP - Abu Sayyaf Group", "@CFP - Al Qaeda", "@CFP - Al-Shabaab", "@CFP - Ansar Allah (Houthis)", "@CFP - Boko Haram", "@CFP - Central African Rebels", "@CFP - Chernarussian Movement of the Red Star Winter", "@CFP - Hamas Al Qassam Brigades", "@CFP - Hezbollah", "@CFP - Iraqi Army (Hussein Regime)", "@CFP - Islamic Republic of Iran Army", "@CFP - Islamic State", "@CFP - Korean People's Army", "@CFP - Russian Ground Forces (Arid / Desert)", "@CFP - Russian National Guard", "@CFP - Sudanese Armed Forces", "@CFP - Sudan Rapid Support Forces / Janjaweed", "@CFP - Somali Rebels", "@CFP - Sudan People's Liberation Movement", "@CFP - Syrian Arab Army", "@CFP - Taliban Insurgents", "@CSAT Mod Project - CSAT (Iran, Mediterranean)", "@CSAT Mod Project - CSAT (Iran, Pacific)", "@CUP - Chernarussian Movement of the Red Star", "@CUP - Russian Federation", "@CUP - Sahrani Liberation Army", "@CUP - Takistan Army", "@CUP - Takistan Militia", "@IFA3 - Red Army", "@OPTRE - Insurrectionists", "@Project OPFOR - African Militia", "@Project OPFOR - Middle Eastern Militia", "@Project OPFOR - Boko Haram", "@Project OPFOR - ChDKZ", "@Project OPFOR - Irish Republican Army", "@Project OPFOR - Islamic State", "@Project OPFOR - Sahrani Liberation Army", "@Project OPFOR - Takistani Armed Forces", "@RHS AFRF - Russia - MSV", "@RHS AFRF - Russia - VDV", "@RHS AFRF - Russia - VMF", "@RHS GREF - ChDKZ Insurgents", "@UNSUNG - NVA", "@Taliban RHS Config - Taliban"]
@@ -29,7 +29,7 @@ Author:
 params [["_side", ""], ["_pos", [0, 0, 0]]];
 
 if ((_side isEqualTo "") || (_pos isEqualTo [0, 0, 0])) exitWith {
-	["Couldn't process wrapper call", "ErrorLog"] call YAINA_F_fnc_log;
+    ["Couldn't process wrapper call", "ErrorLog"] call YAINA_F_fnc_log;
 };
 
 // Holds the array of factions that are available for selection, based on side
@@ -39,110 +39,110 @@ _prettyNames = [];
 _lookup = [];
 
 switch (toLower _side) do {
-	case "east": {
-		_prettyNames = EAST_FACTIONS;
-		_lookup = EAST_FACTIONS_LOOKUP;
-	};
-	case "independent": {
-		_prettyNames = INDEP_FACTIONS;
-		_lookup = INDEP_FACTIONS_LOOKUP;
-	};
-	case "west": {
-		_prettyNames = WEST_FACTIONS;
-		_lookup = WEST_FACTIONS_LOOKUP;
-	};
-	default {};
+    case "east": {
+        _prettyNames = EAST_FACTIONS;
+        _lookup = EAST_FACTIONS_LOOKUP;
+    };
+    case "independent": {
+        _prettyNames = INDEP_FACTIONS;
+        _lookup = INDEP_FACTIONS_LOOKUP;
+    };
+    case "west": {
+        _prettyNames = WEST_FACTIONS;
+        _lookup = WEST_FACTIONS_LOOKUP;
+    };
+    default {};
 };
 
 private _dialogResult = [
-	format ["Spawn AI - %1", _side],
-	[
-		["EDIT", "Objective Name", ["Objective Alpha"]],
-		["COMBO", "Faction", [_lookup, _prettyNames, 0]],
-		["EDIT", "Garrison Radius", ["100"]],
-		["EDIT", "Min. Garrisoned Groups", ["0"]],
-		["EDIT", "Max. Garrisoned Groups", ["0"]],
-		["COMBO", "Patrol Method", [["RANDOM", "ROAD"], ["Random", "Along Roads"], 1]],
-		["EDIT", "Spawn Radius", ["500"]],
-		["EDIT", "Min. Infantry Patrols", ["0"]],
-		["EDIT", "Max. Infantry Patrols", ["0"]],
-		["EDIT", "Min. AA Infantry Squads", ["0"]],
-		["EDIT", "Max. AA Infantry Squads", ["0"]],
-		["EDIT", "Min. AT Infantry Squads", ["0"]],
-		["EDIT", "Max. AT Infantry Squads", ["0"]],
-		["EDIT", "Min. Sniper Teams", ["0"]],
-		["EDIT", "Max. Sniper Teams", ["0"]],
-		["EDIT", "Min. AA Vehicles", ["0"]],
-		["EDIT", "Max. AA Vehicles", ["0"]],
-		["EDIT", "Min. Light Vehicles", ["0"]],
-		["EDIT", "Max. Light Vehicles", ["0"]],
-		["EDIT", "Min. MRAPS", ["0"]],
-		["EDIT", "Max. MRAPS", ["0"]],
-		["EDIT", "Min. Heavy Vehicles", ["0"]],
-		["EDIT", "Max. Heavy Vehicles", ["0"]],
-		["EDIT", "Min. Random Vehicles", ["0"]],
-		["EDIT", "Max. Random Vehicles", ["0"]]
-	],
-	{
-		params ["_results", "_args"];
+    format ["Spawn AI - %1", _side],
+    [
+        ["EDIT", "Objective Name", ["Objective Alpha"]],
+        ["COMBO", "Faction", [_lookup, _prettyNames, 0]],
+        ["EDIT", "Garrison Radius", ["100"]],
+        ["EDIT", "Min. Garrisoned Groups", ["0"]],
+        ["EDIT", "Max. Garrisoned Groups", ["0"]],
+        ["COMBO", "Patrol Method", [["RANDOM", "ROAD"], ["Random", "Along Roads"], 1]],
+        ["EDIT", "Spawn Radius", ["500"]],
+        ["EDIT", "Min. Infantry Patrols", ["0"]],
+        ["EDIT", "Max. Infantry Patrols", ["0"]],
+        ["EDIT", "Min. AA Infantry Squads", ["0"]],
+        ["EDIT", "Max. AA Infantry Squads", ["0"]],
+        ["EDIT", "Min. AT Infantry Squads", ["0"]],
+        ["EDIT", "Max. AT Infantry Squads", ["0"]],
+        ["EDIT", "Min. Sniper Teams", ["0"]],
+        ["EDIT", "Max. Sniper Teams", ["0"]],
+        ["EDIT", "Min. AA Vehicles", ["0"]],
+        ["EDIT", "Max. AA Vehicles", ["0"]],
+        ["EDIT", "Min. Light Vehicles", ["0"]],
+        ["EDIT", "Max. Light Vehicles", ["0"]],
+        ["EDIT", "Min. MRAPS", ["0"]],
+        ["EDIT", "Max. MRAPS", ["0"]],
+        ["EDIT", "Min. Heavy Vehicles", ["0"]],
+        ["EDIT", "Max. Heavy Vehicles", ["0"]],
+        ["EDIT", "Min. Random Vehicles", ["0"]],
+        ["EDIT", "Max. Random Vehicles", ["0"]]
+    ],
+    {
+        params ["_results", "_args"];
 
-		_args params ["_pos"];
+        _args params ["_pos"];
 
-		_procResults = [];
+        _procResults = [];
 
-		{
-			_value = _x;
+        {
+            _value = _x;
 
-			// Process number inputs and make sure they're integers
-			if !(_forEachIndex in [0, 1, 5]) then {
-				_value = round (parseNumber _x);
-			};
+            // Process number inputs and make sure they're integers
+            if !(_forEachIndex in [0, 1, 5]) then {
+                _value = round (parseNumber _x);
+            };
 
-			_procResults pushBack _value;
-		} forEach _results;
+            _procResults pushBack _value;
+        } forEach _results;
 
-		_procResults params [
-			"_grpPrefix",
-			"_faction",
-			"_garrRadius",
-			"_garrisonsMin", "_garrisonsMax",
-			"_patrolMethod",
-			"_radius",
-			"_infMin", "_infMax",
-			"_infaaMin", "_infaaMax",
-			"_infatMin", "_infatMax",
-			"_sniperMin", "_sniperMax",
-			"_vehaaMin", "_vehaaMax",
-			"_vehlightMin", "_vehlightMax",
-			"_vehmrapMin", "_vehmrapMax",
-			"_vehheavyMin", "_vehheavyMax",
-			"_vehrandMin", "_vehrandMax"
-		];
+        _procResults params [
+            "_grpPrefix",
+            "_faction",
+            "_garrRadius",
+            "_garrisonsMin", "_garrisonsMax",
+            "_patrolMethod",
+            "_radius",
+            "_infMin", "_infMax",
+            "_infaaMin", "_infaaMax",
+            "_infatMin", "_infatMax",
+            "_sniperMin", "_sniperMax",
+            "_vehaaMin", "_vehaaMax",
+            "_vehlightMin", "_vehlightMax",
+            "_vehmrapMin", "_vehmrapMax",
+            "_vehheavyMin", "_vehheavyMax",
+            "_vehrandMin", "_vehrandMax"
+        ];
 
-		// Actually call SpawnAI, do it remotely so the server has the units and takes care of them c:
-		[
-			_pos,
-			_grpPrefix,
-			_faction,
-			_garrRadius,
-			[_garrisonsMin, _garrisonsMax],
-			_patrolMethod,
-			_radius,
-			[_infMin, _infMax],
-			[_infaaMin, _infaaMax],
-			[_infatMin, _infatMax],
-			[_sniperMin, _sniperMax],
-			[_vehaaMin, _vehaaMax],
-			[_vehlightMin, _vehlightMax],
-			[_vehmrapMin, _vehmrapMax],
-			[_vehheavyMin, _vehheavyMax],
-			[_vehrandMin, _vehrandMax]
-		] remoteExec ["havoc_fnc_SpawnAI", 2];
-	},
-	{},
-	[_pos]
+        // Actually call SpawnAI, do it remotely so the server has the units and takes care of them c:
+        [
+            _pos,
+            _grpPrefix,
+            _faction,
+            _garrRadius,
+            [_garrisonsMin, _garrisonsMax],
+            _patrolMethod,
+            _radius,
+            [_infMin, _infMax],
+            [_infaaMin, _infaaMax],
+            [_infatMin, _infatMax],
+            [_sniperMin, _sniperMax],
+            [_vehaaMin, _vehaaMax],
+            [_vehlightMin, _vehlightMax],
+            [_vehmrapMin, _vehmrapMax],
+            [_vehheavyMin, _vehheavyMax],
+            [_vehrandMin, _vehrandMax]
+        ] remoteExec ["havoc_fnc_SpawnAI", 2];
+    },
+    {},
+    [_pos]
 ] call zen_dialog_fnc_create;
 
 if !(_dialogResult) exitWith {
-	["Failed to create zen dialog!", "ErrorLog"] call YAINA_F_fnc_log;
+    ["Failed to create zen dialog!", "ErrorLog"] call YAINA_F_fnc_log;
 };

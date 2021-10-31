@@ -1,21 +1,33 @@
 #include "script_component.hpp"
 
-class CfgPatches {
+class cfgPatches {
     class ADDON {
+        author = AUTHOR;
         name = COMPONENT_NAME;
+        url = URL;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
+        /* Require CBA and all components below */
         requiredAddons[] = {
-            "cba_main"
+            "A3_UI_F",
+            "cba_main",
+            "cba_xeh",
+            "cba_ui",
+            "cba_jr"
         };
-        author = "Havoc";
         VERSION_CONFIG;
     };
 };
 
-#include "CfgEden.hpp"
-#include "CfgModuleCategories.hpp"
-#include "DisplayEden.hpp"
+#include "CfgSettings.hpp"
+#include "Dialogs\CfgDisplays.hpp"
+#include "CfgRespawnTemplates.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgFunctions.hpp"
+#include "CfgScriptPaths.hpp"
+#include "CfgEditorCategories.hpp"
+#include "CfgVehicleIcons.hpp"
 #include "CfgMarkers.hpp"
 #include "radio.hpp"

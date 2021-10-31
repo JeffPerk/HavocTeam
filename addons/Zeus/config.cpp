@@ -34,7 +34,7 @@ class CfgFunctions {
 
 class Extended_PreInit_EventHandlers {
     class HAVOC_Zeus_Event {
-        init = "call compile preprocessFileLineNumbers 'z\havoc\Addons\Zeus\XEH_preInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'z\havoc\addons\Zeus\XEH_preInit.sqf'";
     };
 };
 

@@ -36,3 +36,4 @@ GVAR(runAfterSettingsInit) = [];
 }] call CBA_fnc_addEventHandler;
 
 ADDON = true;
+call Havoc_common_fnc_initSettings;
