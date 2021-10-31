@@ -3,7 +3,7 @@ class HAVOC_Zeus {
 	tag = "HAVOC";
 	class Zeus {
 
-		file = "z\havoc\Addons\Zeus\Functions";
+		file = "z\havoc\addons\Zeus\Functions";
 		class ConfigZeus {};
 		class moduleAISpawnsEastZeus {};
 		class moduleAISpawnsIndepZeus {};

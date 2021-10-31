@@ -50,6 +50,14 @@ private [
 _ArsenalType = call {
  if (_Type isEqualTo "HAVOC") exitwith {
         _AvailableItems = [
+            "MRH_AAD_Item",
+            "MRH_FiberScope",
+            "MRH_HackingTool",
+            "MRH_SoldierTab",
+            "MRH_MT_FoldedSatcomAntenna",
+            "HAVOC_MedicKit",
+            "HAVOC_FirstAid",
+            "TFAR_anprc152",
             "USP_BAT_PVS31",
             "USP_BOLTCUTTER",
             "USP_CARABINER",

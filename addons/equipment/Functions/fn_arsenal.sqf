@@ -12,17 +12,25 @@ Example:
 
 call havoc_fnc_arsenal;
 
+"MRH_AAD_Item",
+"MRH_FiberScope",
+"MRH_HackingTool",
+"MRH_SoldierTab",
+"MRH_MT_FoldedSatcomAntenna",
+"HAVOC_MedicKit",
+"HAVOC_FirstAid",
+
 Public: Yes
 */
 
 [
-    ["ACRE_PRC117F","ACRE_PRC152","ACRE_PRC148","TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR", "tfw_rf3080Item","tfw_blade","tfw_whip","tfw_dd"],
+    ["MRH_AAD_Item","MRH_FiberScope","MRH_HackingTool","MRH_SoldierTab","MRH_MT_FoldedSatcomAntenna","ACRE_PRC117F","ACRE_PRC152","ACRE_PRC148","TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR", "tfw_rf3080Item","tfw_blade","tfw_whip","tfw_dd"],
     "Tech",
     "\a3\ui_f\data\GUI\Cfg\CommunicationMenu\call_ca.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
 
 [
-    ["kat_aatKit","kat_accuvac","kat_X_AED","kat_AED","kat_crossPanel","kat_bloodIV_O","kat_bloodIV_A","kat_bloodIV_AB","kat_bloodIV_B","kat_bloodIV_O_250","kat_bloodIV_A_250","kat_bloodIV_AB_250","kat_bloodIV_B_250","kat_bloodIV_O_500","kat_bloodIV_A_500","kat_bloodIV_AB_500","kat_bloodIV_B_500","KAT_Empty_bloodIV_250","KAT_Empty_bloodIV_500","kat_stethoscope","kat_chestSeal","kat_guedel","kat_larynx","kat_Painkiller","kat_Pulseoximeter","kat_stretcherBag","Attachable_Helistretcher","Empty_bloodIV_500","Empty_bloodIV_250","HAVOC_mopp","ACE_adenosine","ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage","ACE_quikclot","ACE_bodyBag","HAVOC_FirstAid","kat_chestSeal","HAVOC_MedicArea","ACE_epinephrine","HAVOC_MedicKit","ACE_morphine","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_personalAidKit","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","HAVOC_Stethoscope","ACE_surgicalKit","ACE_tourniquet","ACE_splint"],
+    ["HAVOC_MedicKit","HAVOC_FirstAid","kat_aatKit","kat_accuvac","kat_X_AED","kat_AED","kat_crossPanel","kat_bloodIV_O","kat_bloodIV_A","kat_bloodIV_AB","kat_bloodIV_B","kat_bloodIV_O_250","kat_bloodIV_A_250","kat_bloodIV_AB_250","kat_bloodIV_B_250","kat_bloodIV_O_500","kat_bloodIV_A_500","kat_bloodIV_AB_500","kat_bloodIV_B_500","KAT_Empty_bloodIV_250","KAT_Empty_bloodIV_500","kat_stethoscope","kat_chestSeal","kat_guedel","kat_larynx","kat_Painkiller","kat_Pulseoximeter","kat_stretcherBag","Attachable_Helistretcher","Empty_bloodIV_500","Empty_bloodIV_250","HAVOC_mopp","ACE_adenosine","ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage","ACE_quikclot","ACE_bodyBag","HAVOC_FirstAid","kat_chestSeal","HAVOC_MedicArea","ACE_epinephrine","HAVOC_MedicKit","ACE_morphine","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_personalAidKit","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","HAVOC_Stethoscope","ACE_surgicalKit","ACE_tourniquet","ACE_splint"],
     "Medical",
     "\z\ace\addons\medical_gui\data\categories\medication.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
@@ -39,9 +47,9 @@ Public: Yes
     "z\havoc\addons\equipment\data\usp_icon.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
 
-[
-    ["ade_item_cylinder_linked_6ltr_300bar_compressedAir","ade_item_cylinder_linked_6ltr_300bar_EAN28","ade_item_cylinder_linked_6ltr_300bar_EAN32","ade_item_cylinder_linked_6ltr_300bar_EAN36","ade_item_cylinder_linked_6ltr_300bar_EAN40","ade_item_cylinder_linked_6ltr_300bar_Heliox12","ade_item_cylinder_linked_6ltr_300bar_Heliox21","ade_item_cylinder_linked_6ltr_300bar_Heliox85","ade_item_cylinder_linked_6ltr_300bar_Tx1070","ade_item_cylinder_linked_6ltr_300bar_Tx1265","ade_item_cylinder_linked_6ltr_300bar_Tx1555","ade_item_cylinder_linked_6ltr_300bar_Tx1845","ade_item_cylinder_linked_6ltr_300bar_Tx2135","ade_item_cylinder_single_6ltr_300bar_compressedAir","ade_item_cylinder_single_6ltr_300bar_EAN28","ade_item_cylinder_single_6ltr_300bar_EAN36","ade_item_cylinder_single_6ltr_300bar_EAN32","ade_item_cylinder_single_6ltr_300bar_EAN40","ade_item_cylinder_single_6ltr_300bar_Heliox12","ade_item_cylinder_single_6ltr_300bar_Heliox21","ade_item_cylinder_single_6ltr_300bar_Heliox85","ade_item_cylinder_single_6ltr_300bar_Tx1070","ade_item_cylinder_single_6ltr_300bar_Tx1265","ade_item_cylinder_single_6ltr_300bar_Tx1555","ade_item_cylinder_single_6ltr_300bar_Tx1845","ade_item_cylinder_single_6ltr_300bar_Tx2135"],
-    "Diving",
-    "a3\ui_f\data\GUI\Cfg\Hints\BasicDive_ca.paa"
-] call ace_arsenal_fnc_addRightPanelButton;
+// [
+//     ["ade_item_cylinder_linked_6ltr_300bar_compressedAir","ade_item_cylinder_linked_6ltr_300bar_EAN28","ade_item_cylinder_linked_6ltr_300bar_EAN32","ade_item_cylinder_linked_6ltr_300bar_EAN36","ade_item_cylinder_linked_6ltr_300bar_EAN40","ade_item_cylinder_linked_6ltr_300bar_Heliox12","ade_item_cylinder_linked_6ltr_300bar_Heliox21","ade_item_cylinder_linked_6ltr_300bar_Heliox85","ade_item_cylinder_linked_6ltr_300bar_Tx1070","ade_item_cylinder_linked_6ltr_300bar_Tx1265","ade_item_cylinder_linked_6ltr_300bar_Tx1555","ade_item_cylinder_linked_6ltr_300bar_Tx1845","ade_item_cylinder_linked_6ltr_300bar_Tx2135","ade_item_cylinder_single_6ltr_300bar_compressedAir","ade_item_cylinder_single_6ltr_300bar_EAN28","ade_item_cylinder_single_6ltr_300bar_EAN36","ade_item_cylinder_single_6ltr_300bar_EAN32","ade_item_cylinder_single_6ltr_300bar_EAN40","ade_item_cylinder_single_6ltr_300bar_Heliox12","ade_item_cylinder_single_6ltr_300bar_Heliox21","ade_item_cylinder_single_6ltr_300bar_Heliox85","ade_item_cylinder_single_6ltr_300bar_Tx1070","ade_item_cylinder_single_6ltr_300bar_Tx1265","ade_item_cylinder_single_6ltr_300bar_Tx1555","ade_item_cylinder_single_6ltr_300bar_Tx1845","ade_item_cylinder_single_6ltr_300bar_Tx2135"],
+//     "Diving",
+//     "a3\ui_f\data\GUI\Cfg\Hints\BasicDive_ca.paa"
+// ] call ace_arsenal_fnc_addRightPanelButton;
 

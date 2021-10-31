@@ -24,7 +24,7 @@ Example:
     (end)
 
 Author:
-	alganthe, modified by Mokka
+    alganthe, modified by Mokka
 */
 
 params [
@@ -204,7 +204,7 @@ switch (_fillingType) do {
 {
     _x disableAI "AUTOCOMBAT";
     _x disableAI "PATH";
-	if !(dynamicSimulationEnabled (group _x)) then {(group _x) enableDynamicSimulation true;};
+    if !(dynamicSimulationEnabled (group _x)) then {(group _x) enableDynamicSimulation true;};
 
 } forEach _placedUnits;
 

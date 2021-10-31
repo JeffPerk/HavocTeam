@@ -28,15 +28,15 @@ if (isDedicated) exitWith {};
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 private _HAVOCmakecom = [
-	"HAVOCmakecom",
-	"Communications",
-	"",
-	{
-		player call havoc_role_fnc_makecom;
-	},
-	{true},
-	{},
-	[_area]
+    "HAVOCmakecom",
+    "Communications",
+    "",
+    {
+        player call havoc_role_fnc_makecom;
+    },
+    {true},
+    {},
+    [_area]
 ] call ACE_interact_menu_fnc_createAction;
 
 [this, 0, ["ACE_MainActions"], _HAVOCmakecom] call ACE_interact_menu_fnc_addActionToObject;
@@ -44,14 +44,14 @@ private _HAVOCmakecom = [
 ////////////////////////////////////////////////////////////////////////////////////////////////
 private _HAVOCmakeeng = [
     "HAVOCmakeeng",
-	"Engineer",
-	"",
-	{
-		player call havoc_role_fnc_makeeng;
-	},
-	{true},
-	{},
-	[_area]
+    "Engineer",
+    "",
+    {
+        player call havoc_role_fnc_makeeng;
+    },
+    {true},
+    {},
+    [_area]
 ] call ACE_interact_menu_fnc_createAction;
 
 [this, 0, ["ACE_MainActions"], _HAVOCmakeeng] call ACE_interact_menu_fnc_addActionToObject;
@@ -59,14 +59,14 @@ private _HAVOCmakeeng = [
 ////////////////////////////////////////////////////////////////////////////////////////////////
 private _HAVOCmakemed = [
     "HAVOCmakemed",
-	"Medic",
-	"",
-	{
-		player call havoc_role_fnc_makemed;
-	},
-	{true},
-	{},
-	[_area]
+    "Medic",
+    "",
+    {
+        player call havoc_role_fnc_makemed;
+    },
+    {true},
+    {},
+    [_area]
 ] call ACE_interact_menu_fnc_createAction;
 
 [this, 0, ["ACE_MainActions"], _HAVOCmakemed] call ACE_interact_menu_fnc_addActionToObject;
@@ -75,14 +75,14 @@ private _HAVOCmakemed = [
 ////////////////////////////////////////////////////////////////////////////////////////////////
 private _HAVOCmakewep = [
     "HAVOCmakewep",
-	"Weapons",
-	"",
-	{
-		player call havoc_role_fnc_makewep;
-	},
-	{true},
-	{},
-	[_area]
+    "Weapons",
+    "",
+    {
+        player call havoc_role_fnc_makewep;
+    },
+    {true},
+    {},
+    [_area]
 ] call ACE_interact_menu_fnc_createAction;
 
 [this, 0, ["ACE_MainActions"], _HAVOCmakewep] call ACE_interact_menu_fnc_addActionToObject;

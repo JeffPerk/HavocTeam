@@ -26,28 +26,24 @@ class Cfg3DEN {
             };
         };
     };
-
-
-
-
     class Object {
         class AttributeCategories {
             class HAVOC_attributes {
                 displayName = "Havoc";
                 collapsed = 1;
                 class Attributes {
-                    class HAVOC_Group_Preset {
+                    class HAVOCGroup_Preset {
                         property = QUOTE(HAVOC_Group_Preset);
                         control = GroupSelect;
-                        displayName = "Havoc Preset Group:";
+                        displayName = "HAVOC Preset Group:";
                         tooltip = "Default Preset for Patches & TFAR Radio Frequencies.";
-                        expression = "[_this, _value] call HAVOC_fnc_ConfigPlayer; if (hasinterface) then {[_this, _value] call havoc_fnc_Patches2;}; ";
+                        expression = "[_this, _value] call HAVOC_fnc_ConfigPlayer;";
                         typeName = "STRING";
                         condition = "objectBrain";
                         defaultValue = "-1";
                     };
-                    class HAVOC_Pilot {
-                        property = QUOTE(HAVOC_Pilot);
+                    class HAVOCPilot {
+                        property = QUOTE(HAVOCPilot);
                         control = "Checkbox";
                         displayName = "Pilot";
                         tooltip = "Set the player to Pilot to allow them in the Pilot seat of aircraft.";
@@ -56,8 +52,8 @@ class Cfg3DEN {
                         condition = "objectBrain";
                         defaultValue = "(false)";
                     };
-                    class HAVOC_Mission_Maker {
-                        property = QUOTE(HAVOC_Mission_Maker);
+                    class HAVOCMission_Maker {
+                        property = QUOTE(HAVOCMission_Maker);
                         control = "Checkbox";
                         displayName = "Mission Maker";
                         tooltip = "Define this player as Mission Maker to allow access to further mission controls.";
@@ -66,8 +62,8 @@ class Cfg3DEN {
                         condition = "objectBrain";
                         defaultValue = "(false)";
                     };
-                    class HAVOC_Instructor {
-                        property = QUOTE(HAVOC_Instructor);
+                    class HAVOCInstructor {
+                        property = QUOTE(HAVOCInstructor);
                         control = "Checkbox";
                         displayName = "Instructor";
                         tooltip = "Define this player as Instructor to allow access to any valid Instructor Controls - Only used with Training Functions.";
