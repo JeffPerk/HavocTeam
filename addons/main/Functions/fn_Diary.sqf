@@ -8,14 +8,14 @@ player createDiaryRecord ["Diary", ["Long Range Frequencies",
 <br/>
 <br/>Below is a list of the default Long Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times.
 <br/>
-<br/><font face='PuristaLight' color='#B85450'> Channel: 1 - Frequency:40 Mhz - C2</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 - Frequency:50 Mhz - 1ST Platoon (Headhunter 1) Net</font>
-<br/><font face='PuristaLight' color='#00FF00'> Channel: 3 - Frequency:51 Mhz - 2ND Platoon (Headhunter 2) Net</font>
-<br/><font face='PuristaLight' color='#FF0000'> Channel: 4 - Frequency:52 Mhz - 3RD Platoon (Headhunter 13) Net</font>
-<br/><font face='PuristaLight' color='#6C8EBF'> Channel: 5 - Frequency:58 Mhz - ISA Action Group (Arrow) Net</font>
-<br/><font face='PuristaLight' color='#D3D3D3'> Channel: 6 - Frequency:59 Mhz - CAS - Fires</font>
-<br/><font face='PuristaLight' color='#D60025'> Channel: 7 - Frequency:60 Mhz - Air Group (Outlaw) Net</font> 
-<br/><font face='PuristaLight' color='#D79B00'> Channel: 8 - Frequency:69 Mhz - Air 2 Ground Net - Common on all radios/font>
+<br/><font face='PuristaLight' color='#B85450'> Channel: 1 - Frequency:51 Mhz - C2</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 - Frequency:52 Mhz - TAC 1 Net</font>
+<br/><font face='PuristaLight' color='#00FF00'> Channel: 3 - Frequency:53 Mhz - TAC 2 Net</font>
+<br/><font face='PuristaLight' color='#FF0000'> Channel: 4 - Frequency:54 Mhz - TAC 3 Net</font>
+<br/><font face='PuristaLight' color='#6C8EBF'> Channel: 5 - Frequency:55 Mhz - TAC 4 Net</font>
+<br/><font face='PuristaLight' color='#D3D3D3'> Channel: 6 - Frequency:56 Mhz - CAS - Fires Net</font>
+<br/><font face='PuristaLight' color='#D60025'> Channel: 7 - Frequency:57 Mhz - Air Group Net</font> 
+<br/><font face='PuristaLight' color='#D79B00'> Channel: 8 - Frequency:58 Mhz - Air 2 Ground Net - Common on all radios/font>
 "
 ]];
  
@@ -26,49 +26,16 @@ player createDiaryRecord ["Diary", ["Short Range Frequencies",
 <br/>
 <br/>Below is a list of the default Short Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times. Don't forget the MERT Frequency!
 <br/>
-<br/><font face='PuristaLight' color='#ffcc00'>First Platoon HQ</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Platoon Net    - Frequency:100 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Squad Net    - Frequency:101 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 -- Engineer Net    - Frequency:102 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 4 -- Scout Net    - Frequency:103 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 -- Spare Platoon Net 1 - Frequency:104 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 6 -- Spare Platoon Net 2 - Frequency:105 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 -- Task Force Net   - Frequency:99 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 8 -- Air 2 Ground Net   - Frequency:69 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Local Net    - Frequency:501 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Red Squadron Net     - Frequency:502 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 -- Blue Squadron Net    - Frequency:503 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 4 -- Gold Squadron Net    - Frequency:504 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 -- Silver Squadron Net  - Frequency:505 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 6 -- Black Squadron Net   - Frequency:506 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 -- Grey Squadron Net    - Frequency:507 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 8 -- Air 2 Ground Net     - Frequency:58 Mhz</font>
 <br/>
-<br/>
-<br/><font face='PuristaLight' color='#ffcc00'>First Platoon First Squad</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Platoon Net    - Frequency:100 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Squad Net    - Frequency:110 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 -- Team A Net   - Frequency:111 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 4 -- Team B Net   - Frequency:112 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 -- Spare Squad Net 1  - Frequency:110.1 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 6 -- Spare Squad Net 2  - Frequency:110.2 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 -- Task Force Net  - Frequency:99 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 8 -- Air 2 Ground Net  - Frequency:69 Mhz</font>
-<br/>
-<br/>
-<br/><font face='PuristaLight' color='#ffcc00'>First Platoon Second Squad</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Platoon Net    - Frequency:100 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Squad Net    - Frequency:120 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 -- Team A Net   - Frequency:121 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 4 -- Team B Net   - Frequency:122 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 -- Spare Squad Net 1  - Frequency:120.1 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 6 -- Spare Squad Net 2  - Frequency:120.2 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 -- Task Force Net   - Frequency:99 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 8 -- Air 2 Ground Net   - Frequency:69 Mhz</font>
-<br/>
-<br/>
-<br/><font face='PuristaLight' color='#ffcc00'>First Platoon Third Squad</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Platoon Net    - Frequency:100 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Squad Net    - Frequency:130 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 -- Team A Net   - Frequency:131 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 4 -- Team B Net   - Frequency:132 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 -- Spare Squad Net 1  - Frequency:130.1 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 6 -- Spare Squad Net 2  - Frequency:130.2 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 -- Task Force Net   - Frequency:99 Mhz</font>
-<br/><font face='PuristaLight' color='#ffcc00'> Channel: 8 -- Air 2 Ground Net   - Frequency:69 Mhz</font>
-<br/>
+
 <br/>
 "
 ]];
