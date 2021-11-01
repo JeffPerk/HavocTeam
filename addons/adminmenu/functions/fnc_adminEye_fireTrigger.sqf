@@ -1,4 +1,4 @@
-#include "\z\havoc\addons\adminmenu\script_component.hpp"
+#include "\z\tfs\addons\adminmenu\script_component.hpp"
 
 disableSerialization;
 

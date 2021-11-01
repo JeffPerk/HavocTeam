@@ -36,8 +36,9 @@ call {
     if (_Section isEqualto 0) exitwith {_Section = "Command"};
     if (_Section isEqualto 1) exitwith {_Section = "Red"};
     if (_Section isEqualto 2) exitwith {_Section = "Blue"};
-    if (_Section isEqualto 3) exitwith {_Section = "White"};
-    if (_Section isEqualto 4) exitwith {_Section = "Yellow"};
+    if (_Section isEqualto 3) exitwith {_Section = "Silver"};
+    if (_Section isEqualto 4) exitwith {_Section = "Gold"};
+    if (_Section isEqualto 5) exitwith {_Section = "Black"};
     if (_Section isEqualto 5) exitwith {_Section = "Green"};
     if (_Section isEqualto 6) exitwith {_Section = "Reaper"};
 };
@@ -74,6 +75,10 @@ if (local _unit) then {
                 _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
             if (_Section == "Yellow") exitwith {
+                _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
+                _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
+            };
+            if (_Section == "Black") exitwith {
                 _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
                 _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };

@@ -1,21 +1,21 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\havoc_medical\functions\ace_medical\fn_actionCheckPulseLocal.sqf
- *	by Ojemineh
- *	
- *	local callback for checking the pulse or heart rate of a patient.
- *	
- *	Arguments:
- *	0: medic		- <OBJECT>
- *	1: patient		- <OBJECT>
- *	2: body part	- <STRING>
- *	
- *	Return:
- *	nothing
- *	
- *	Example:
- *	[bob, kevin] call ACE_medical_fnc_actionCheckPulseLocal;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \havoc_medical\functions\ace_medical\fn_actionCheckPulseLocal.sqf
+ * by Ojemineh
+ * 
+ * local callback for checking the pulse or heart rate of a patient.
+ * 
+ * Arguments:
+ * 0: medic  - <OBJECT>
+ * 1: patient  - <OBJECT>
+ * 2: body part - <STRING>
+ * 
+ * Return:
+ * nothing
+ * 
+ * Example:
+ * [bob, kevin] call ACE_medical_fnc_actionCheckPulseLocal;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -61,9 +61,9 @@ if (_bodyPart in ["hand_l","hand_r"] && {[_patient, _bodyPart] call ACE_medical_
 private _height = 3.0;
 
 if (_inRevive) then {
-	private _outputAdd = format [".<br/>%1", localize "STR_HAVOC_Medical_Need_CPR_AED"];
-	_output = _output + _outputAdd;
-	_height = 3.5;
+    private _outputAdd = format [".<br/>%1", localize "STR_HAVOC_Medical_Need_CPR_AED"];
+    _output = _output + _outputAdd;
+    _height = 3.5;
 };
 
 private _arg1 = format [hint_tpl_var_1, [_patient] call ACE_common_fnc_getName];
@@ -71,27 +71,27 @@ private _arg2 = "";
 private _hint = "";
 
 if (_outputEx isEqualTo "") then {
-	private _tmp = format ["%1 bpm", round(_heartRate)];
-	if (_heartRate >= 1) then {
-		_hint = format ["<t color='#ff0000'>%1</t>", _tmp];
-		if (_heartRate >= 50) then {
-			_hint = format ["<t color='#ffff00'>%1</t>", _tmp];
-			if (_heartRate >= 70) then {
-				_hint = format ["<t color='#00ff00'>%1</t>", _tmp];
-				if (_heartRate >= 100) then {
-					_hint = format ["<t color='#ffff00'>%1</t>", _tmp];
-					if (_heartRate >= 120) then {
-						_hint = format ["<t color='#ff0000'>%1</t>", _tmp];
-					};
-				};
-			};
-		};
-	} else {
-		_hint = format ["<t color='#ff0000'>%1</t>", _tmp];
-	};
-	_arg2 = format [hint_tpl_var_1, _hint];
+    private _tmp = format ["%1 bpm", round(_heartRate)];
+    if (_heartRate >= 1) then {
+        _hint = format ["<t color='#ff0000'>%1</t>", _tmp];
+        if (_heartRate >= 50) then {
+            _hint = format ["<t color='#ffff00'>%1</t>", _tmp];
+            if (_heartRate >= 70) then {
+                _hint = format ["<t color='#00ff00'>%1</t>", _tmp];
+                if (_heartRate >= 100) then {
+                    _hint = format ["<t color='#ffff00'>%1</t>", _tmp];
+                    if (_heartRate >= 120) then {
+                        _hint = format ["<t color='#ff0000'>%1</t>", _tmp];
+                    };
+                };
+            };
+        };
+    } else {
+        _hint = format ["<t color='#ff0000'>%1</t>", _tmp];
+    };
+    _arg2 = format [hint_tpl_var_1, _hint];
 } else {
-	_arg2 = format [hint_tpl_var_1, _outputEx];
+    _arg2 = format [hint_tpl_var_1, _outputEx];
 };
 
 if (_logOutPut != "") then {

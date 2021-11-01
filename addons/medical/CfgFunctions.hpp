@@ -3,7 +3,7 @@ class CfgFunctions {
     class HAVOC_Medical {
         
         tag = "havoc_medical";
-        
+ 
         class Medical {
             file = "z\havoc\addons\medical\functions";
             class initialize {};
@@ -15,7 +15,7 @@ class CfgFunctions {
     class HAVOC_Medical_ACE_Medical {
         
         tag = "ace_medical";
-        
+
         class ace_medical {
             file = "z\havoc\addons\medical\functions\ace_medical";
             class actionCheckBloodPressureLocal {};
