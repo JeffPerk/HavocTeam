@@ -59,10 +59,10 @@ class Extended_PreStart_EventHandlers {                 \
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
-// AFM macros
+// havoc macros
 #define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
 
-// AFM Debug macros
+// havoc Debug macros
 #include "\z\havoc\addons\main\script_debug.hpp"
 
 // Class

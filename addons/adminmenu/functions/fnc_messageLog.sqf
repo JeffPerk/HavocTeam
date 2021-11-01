@@ -7,7 +7,7 @@ TRACE_1("Initializing message log",_display);
 
 [] call FUNC(resyncLog);
 
-private _pfhRefresh = {
+private _pfhRefresh = [{
     disableSerialization;
     params ["_display","_handle"];
 

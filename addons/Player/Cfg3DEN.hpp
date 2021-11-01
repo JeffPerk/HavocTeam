@@ -20,8 +20,8 @@ class Cfg3DEN {
                     w = "75 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 8;
-                    strings[] = {"None","CMD", "Red", "Blue", "White", "Yellow", "Green", "Reaper"};
+                    columns = 9;
+                    strings[] = {"None","CMD", "RED", "BLU", "SLV", "GLD", "BLK","GRN", "Reaper"};
                 };
             };
         };

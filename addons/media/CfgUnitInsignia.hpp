@@ -58,18 +58,25 @@ class CfgUnitInsignia
         texture = "z\havoc\addons\Media\images\red.paa";
         textureVehicle = "";
     };
-    class whitep
+    class silverp
     {
-        displayName = "White Squadron";
+        displayName = "Silver Squadron";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\white.paa";
+        texture = "z\havoc\addons\Media\images\silver.paa";
         textureVehicle = "";
     };
-    class yellowp
+    class goldwp
     {
-        displayName = "Yellow Squadron";
+        displayName = "Gold Squadron";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\Yellow.paa";
+        texture = "z\havoc\addons\Media\images\gold.paa";
+        textureVehicle = "";
+    };
+    class cmdp
+    {
+        displayName = "Gold Squadron";
+        author = QAUTHOR;
+        texture = "z\havoc\addons\Media\images\command.paa";
         textureVehicle = "";
     };
 };

@@ -23,14 +23,15 @@ params [
 ];
 private ["_PatchClass"];
 call {
- if (_Section == "Command") exitwith {_PatchClass = "blackp";};
- if (_Section == "Red") exitwith {_PatchClass = "redp";};
- if (_Section == "Blue") exitwith {_PatchClass = "bluep";};
- if (_Section == "White") exitwith {_PatchClass = "whitep";};
- if (_Section == "Yellow") exitwith {_PatchClass = "yellowp";};
- if (_Section == "Green") exitwith {_PatchClass = "greenp";};
- if (_Section == "Reaper") exitwith {_PatchClass = "grayp";};
- _PatchClass = "bolo";
+    if (_Section == "Command") exitwith {_PatchClass = "cmdp";};
+    if (_Section == "Black") exitwith {_PatchClass = "blackp";};
+    if (_Section == "Red") exitwith {_PatchClass = "redp";};
+    if (_Section == "Blue") exitwith {_PatchClass = "bluep";};
+    if (_Section == "Silver") exitwith {_PatchClass = "silverp";};
+    if (_Section == "Gold") exitwith {_PatchClass = "goldp";};
+    if (_Section == "Green") exitwith {_PatchClass = "greenp";};
+    if (_Section == "Reaper") exitwith {_PatchClass = "grayp";};
+    _PatchClass = "greenp";
 };
 
 // ===== Apply the Patch to player. 
