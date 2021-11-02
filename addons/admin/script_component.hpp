@@ -14,3 +14,5 @@
 #include "\z\havoc\addons\main\script_macros.hpp"
 
 #define ADMIN_YonV "76561198000002705"
+#define ADMIN_Walker "76561198082803436"
+#define ADMIN_Novisky "76561198388589999"

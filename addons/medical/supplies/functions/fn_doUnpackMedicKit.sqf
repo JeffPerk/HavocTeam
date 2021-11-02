@@ -63,31 +63,28 @@ if (isNull _unit) exitWith {};
         private _order = [3,1,2];
         private _overflow = false;
         
-        if ((missionNamespace getVariable ["ace_medical_level", 0]) >= 2) then {
-            [_unit, "ACE_fieldDressing", 18, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_elasticBandage", 14, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_packingBandage", 14, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_quikClot", 14, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_salineIV_500", 08, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_epinephrine", 10, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_morphine", 10, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_tourniquet", 08, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_Painkiller", 06, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_adenosine", 04, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_atropine", 04, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_chestSeal", 04, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_larynx", 06, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_guedel", 06, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_splint", 08, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_aatKit", 04, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "KAT_Empty_bloodIV_500", 04, _order, _overflow] call TFS_fnc_addItem;
-        } else {
-            [_unit, "ACE_fieldDressing", 6, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "kat_Painkiller", 2, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_tourniquet", 4, _order, _overflow] call TFS_fnc_addItem;
-            [_unit, "ACE_EarPlugs", 1, _order, _overflow] call TFS_fnc_addItem;
-        };
-        
+        [_unit, "ACE_fieldDressing", 18, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_elasticBandage", 14, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_packingBandage", 14, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_quikClot", 14, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_salineIV_500", 08, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_epinephrine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_morphine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_tourniquet", 08, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_Painkiller", 06, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_adenosine", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_atropine", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_chestSeal", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_larynx", 06, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_guedel", 06, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_splint", 08, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_aatKit", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "KAT_Empty_bloodIV_500", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_fieldDressing", 6, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_Painkiller", 2, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_tourniquet", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_EarPlugs", 1, _order, _overflow] call havoc_fnc_addItem;
+    
         _unit playActionNow "Stand";
         
     };

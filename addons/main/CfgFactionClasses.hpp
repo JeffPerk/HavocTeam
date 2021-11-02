@@ -6,7 +6,7 @@ class CfgFactionClasses {
         displayName = PREFIX;
     };
     class PREFIX: NO_CATEGORY {
-        displayName = "Task Force Sentinel"; //Faction name in-game
+        displayName = "Havoc"; //Faction name in-game
         icon = LOGO_PATH;
         priority = 0;
         side = 1; // 1 Blufor 2 opfor 3 independant i think.
