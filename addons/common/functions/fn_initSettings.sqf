@@ -28,13 +28,13 @@
         localize "STR_Havoc_Common_CBA_Debug_Enabled_Tip"
     ],
     [
-        localize "STR_Havoc_Common_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_Havoc_Common_CBA_Category_Common"
     ],
     false,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -46,12 +46,12 @@
         localize "STR_Havoc_Common_CBA_Tactical_View_Tip"
     ],
     [
-        localize "STR_Havoc_Common_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_Havoc_Common_CBA_Category_Options"
     ],
     false,
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------

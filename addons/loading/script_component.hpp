@@ -1,4 +1,5 @@
 #define COMPONENT loading
+#define COMPONENT_BEAUTIFIED Loading
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

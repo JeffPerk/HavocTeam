@@ -1,10 +1,11 @@
+#include "script_component.hpp"
 // AISpawns Modules
 
 [
     "HAVOC_Zeus_Module_AISpawnsEast",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - East", "Enable the Spawn AI - East Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     true,
     true,
     {
@@ -13,13 +14,13 @@
 
         ["Havoc", "AI Spawn - East", {_this call havoc_fnc_moduleAISpawnsEastZeus}, "\z\havoc\addons\media\images\icons\AI EAST.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "HAVOC_Zeus_Module_AISpawnsIndep",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Independent", "Enable the Spawn AI - Independent Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     true,
     true,
     {
@@ -28,13 +29,13 @@
 
         ["Havoc", "AI Spawn - Independent", {_this call havoc_fnc_moduleAISpawnsIndepZeus}, "\z\havoc\addons\media\images\icons\AI INDEP.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "HAVOC_Zeus_Module_AISpawnsWest",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - West", "Enable the Spawn AI - West Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     true,
     true,
     {
@@ -43,14 +44,14 @@
 
         ["Havoc", "AI Spawn - West", {_this call havoc_fnc_moduleAISpawnsWestZeus}, "\z\havoc\addons\media\images\icons\AI WEST.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // CivilianSpawns Module
 [
     "HAVOC_Zeus_Module_CivilianSpawns",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Civilian", "Enable the Spawn AI Civilians Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     true,
     true,
     {
@@ -59,14 +60,14 @@
 
         ["Havoc", "AI Spawn - Civilian", {_this call havoc_fnc_moduleCivilianSpawnsZeus}, "\z\havoc\addons\media\images\Icons\AI CIV.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // SafeZone Module
 [
     "HAVOC_Zeus_Module_SafeZone",
     "CHECKBOX",
     ["Zeus Module - Safe Zone", "Enable the Safe Zone Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     true,
     true,
     {
@@ -75,14 +76,14 @@
 
         ["Havoc", "Safe Zone", {_this call havoc_fnc_moduleSafeZoneZeus}, "\z\havoc\addons\media\images\Icons\Safe_Zone.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // MedicalDummy Module
 [
     "HAVOC_Zeus_Module_MedicalDummy",
     "CHECKBOX",
     ["Zeus Module - Medical Dummy", "Enable the Medical Dummy Zeus module for use with ZEN"],
-    "Havoc Zeus",
+    COMPONENT_NAME,
     false,
     true,
     {
@@ -91,4 +92,4 @@
 
         ["Havoc", "Medical Dummy", {_this call havoc_fnc_moduleCasualty}, "z\havoc\addons\Media\images\icons\Medical Area.paa"] call zen_custom_modules_fnc_register;
     }
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;

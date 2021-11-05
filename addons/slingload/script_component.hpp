@@ -1,4 +1,5 @@
 #define COMPONENT slingload
+#define COMPONENT_BEAUTIFIED Sling Load
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

@@ -1,4 +1,5 @@
 #define COMPONENT fries
+#define COMPONENT_BEAUTIFIED FRIES
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

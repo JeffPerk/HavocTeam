@@ -1,4 +1,5 @@
 #define COMPONENT main_menu
+#define COMPONENT_BEAUTIFIED Main Menu
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"

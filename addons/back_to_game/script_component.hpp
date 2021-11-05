@@ -1,4 +1,5 @@
 #define COMPONENT back_to_game
+#define COMPONENT_BEAUTIFIED Back To Game
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

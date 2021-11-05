@@ -2,7 +2,7 @@
     QGVAR(enabled),
     "CHECKBOX",
     [LSTRING(Enabled), LSTRING(Enabled_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(toggle)}
@@ -12,7 +12,7 @@
     QGVAR(time),
     "SLIDER",
     [LSTRING(Time), LSTRING(Time_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     [1, 900, getNumber (configFile >> "CfgRespawnTemplates" >> QGVAR(default) >> "respawnDelay"), 0],
     1,
     {[_this] call FUNC(adjustTime)}

@@ -29,7 +29,7 @@
         localize "STR_HAVOC_Medical_CBA_Usage_Order_Responder_Tip"
     ],
     [
-        localize "STR_HAVOC_Medical_CBA_Category",
+        COMPONENT_NAME,
         localize "STR_HAVOC_Medical_CBA_Category_Consume"
     ],
     [
@@ -42,7 +42,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_medical_usage_order_medics",
@@ -52,7 +52,7 @@
         localize "STR_HAVOC_Medical_CBA_Usage_Order_Medics_Tip"
     ],
     [
-        localize "STR_HAVOC_Medical_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Medical_CBA_Category_Consume"
     ],
     [
@@ -65,7 +65,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -77,13 +77,13 @@
         localize "STR_HAVOC_Medical_CBA_Return_Items_Tip"
     ],
     [
-        localize "STR_HAVOC_Medical_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Medical_CBA_Category_Return"
     ],
     true,
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_medical_return_tourniquets",
@@ -93,12 +93,12 @@
         localize "STR_HAVOC_Medical_CBA_Return_Tourniquets_Tip"
     ],
     [
-        localize "STR_HAVOC_Medical_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Medical_CBA_Category_Return"
     ],
     [0,4,1,0],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------

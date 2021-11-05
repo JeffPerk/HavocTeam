@@ -1,4 +1,5 @@
 #define COMPONENT tanks
+#define COMPONENT_BEAUTIFIED Tanks
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

@@ -4,7 +4,7 @@ class CfgMainMenuSpotlight {
     class GVAR(server1) {
         text = CSTRING(SpotlightJoin);
         textIsQuote = 0;
-        picture = QUOTE(\z\havoc\addons\media\images\solidarity_freedom_co.paa);
+        picture = QUOTE(\z\havoc\addons\media\images\havocb1.paa);
         action = QUOTE(_this call (uiNamespace getVariable QQFUNC(join)));
         actionText = CSTRING(SpotlightHeader);
         condition = QUOTE(true);
@@ -12,7 +12,7 @@ class CfgMainMenuSpotlight {
     class GVAR(server2) {
         text = CSTRING(SpotlightJoinT);
         textIsQuote = 0;
-        picture = QUOTE(\z\havoc\addons\media\images\solidarity_freedom_co.paa);
+        picture = QUOTE(\z\havoc\addons\media\images\havocb1.paa);
         action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joinT)));
         actionText = CSTRING(SpotlightHeaderT);
         condition = QUOTE(true);
@@ -20,7 +20,7 @@ class CfgMainMenuSpotlight {
     class GVAR(server3) {
         text = CSTRING(SpotlightJoinD);
         textIsQuote = 0;
-        picture = QUOTE(\z\havoc\addons\media\images\solidarity_freedom_co.paa);
+        picture = QUOTE(\z\havoc\addons\media\images\havocb1.paa);
         action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joinD)));
         actionText = CSTRING(SpotlightHeaderD);
         condition = QUOTE(true);

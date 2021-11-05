@@ -1,4 +1,5 @@
 #define COMPONENT ai_disembark
+#define COMPONENT_BEAUTIFIED AI Disembark
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

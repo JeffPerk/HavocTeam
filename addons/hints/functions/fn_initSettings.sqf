@@ -28,7 +28,7 @@
         localize "STR_HAVOC_Hints_CBA_Position_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_core"
     ],
     [
@@ -43,7 +43,7 @@
     ],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_duration",
@@ -53,13 +53,13 @@
         localize "STR_HAVOC_Hints_CBA_Duration_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_core"
     ],
     [5,30,15,0],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_queue_size",
@@ -69,13 +69,13 @@
         localize "STR_HAVOC_Hints_CBA_Queue_Size_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_core"
     ],
     [0,9,3,0],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_queue_alpha",
@@ -85,13 +85,13 @@
         localize "STR_HAVOC_Hints_CBA_Queue_Alpha_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_core"
     ],
     [0.0,0.8,0.4,2],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_sound",
@@ -101,7 +101,7 @@
         localize "STR_HAVOC_Hints_CBA_Sound_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_core"
     ],
     [
@@ -117,7 +117,7 @@
     ],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -129,13 +129,13 @@
         localize "STR_HAVOC_Hints_CBA_Color_Background_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Colors"
     ],
     [0.000,0.000,0.000,0.5],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_color_default",
@@ -145,13 +145,13 @@
         localize "STR_HAVOC_Hints_CBA_Color_Default_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Colors"
     ],
     [0.000,0.824,0.000,1],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_color_info",
@@ -161,13 +161,13 @@
         localize "STR_HAVOC_Hints_CBA_Color_Info_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Colors"
     ],
     [0.824,0.824,0.000,1],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_color_alert",
@@ -177,13 +177,13 @@
         localize "STR_HAVOC_Hints_CBA_Color_Alert_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Colors"
     ],
     [0.824,0.000,0.000,1],
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -195,13 +195,13 @@
         localize "STR_HAVOC_Hints_CBA_Option_ACE_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Options"
     ],
     true,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_hint_option_cba",
@@ -211,12 +211,12 @@
         localize "STR_HAVOC_Hints_CBA_Option_CBA_Tip"
     ],
     [
-        localize "STR_HAVOC_Hints_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Hints_CBA_Category_Options"
     ],
     true,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------

@@ -145,7 +145,7 @@ force ace_grenades_convertExplosives = true;
 
 // ACE Headless
 force acex_headless_delay = 15;
-force acex_headless_enabled = true;
+force acex_headless_enabled = false;
 force acex_headless_endMission = 0;
 force acex_headless_log = false;
 force acex_headless_transferLoadout = 1;
@@ -500,7 +500,7 @@ cba_optics_usePipOptics = true;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
-// cTab
+/* // cTab
 force ctab_core_bft_mode = 1;
 force ctab_core_defMapStyle = "SAT";
 force ctab_core_gridPrecision = 2;
@@ -509,7 +509,7 @@ force ctab_core_sync_time = 60;
 force ctab_core_uav_mode = 1;
 force ctab_core_useAceMicroDagr = true;
 force ctab_core_useArmaMarker = true;
-force ctab_core_useMils = false;
+force ctab_core_useMils = false; */
 
 // GRAD Trenches
 force grad_trenches_functions_allowBigEnvelope = true;
@@ -548,77 +548,143 @@ force grad_trenches_functions_vehicleEnvelopeDamageMultiplier = 1;
 force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 
-// HAVOC
-havoc_adminMenu_endLogToRPT = false;
-force havoc_adminMenu_printToChat = 1;
-force havoc_chat_healUsage = 3;
-force havoc_chat_rpUsage = 3;
-force havoc_chat_specUsage = 3;
-force havoc_chat_tpUsage = 3;
-force havoc_chat_whisperUsage = 3;
+// HAVOC - Admin Menu
+HAVOC_adminMenu_endLogToRPT = false;
+force HAVOC_adminMenu_printToChat = 1;
+
+// HAVOC - AI
+force force HAVOC_AI_AimingAccuracy = 0.1;
+force force HAVOC_AI_AimingShake = 0.45;
+force force HAVOC_AI_AimingSpeed = 0.3;
+force force HAVOC_AI_Commanding = 1;
+force force HAVOC_AI_Courage = 1;
+force force HAVOC_AI_General = 1;
+force force HAVOC_AI_InitialAI = true;
+force force HAVOC_AI_ReloadSpeed = 0.5;
+force force HAVOC_AI_Reporting = false;
+force force HAVOC_AI_SpotDistance = 0.4;
+force force HAVOC_AI_SpotTime = 0.2;
+
+// HAVOC - AI Disembark
+force HAVOC_ai_disembark_enabled = true;
+force HAVOC_ai_disembark_stayInImmobileChance = 0.2927;
 
 
-// Havoc - AI Disembark
-force havoc_ai_disembark_enabled = true;
-force havoc_ai_disembark_stayInImmobileChance = 0.2927;
+// HAVOC - back_to_game
+force HAVOC_back_to_game_enableCOMPONENT_NAME = true;
+force HAVOC_back_to_game_removeBody = true;
+force HAVOC_back_to_game_teleportToLeader = true;
+force HAVOC_back_to_game_teleportToVehicle = true;
 
-// Havoc - Back To Game
-force havoc_back_to_game_enableAddon = true;
-force havoc_back_to_game_removeBody = true;
-force havoc_back_to_game_teleportToLeader = true;
-force havoc_back_to_game_teleportToVehicle = true;
+// HAVOC - Backpack on Chest
+force HAVOC_boc_disabled = false;
+force HAVOC_boc_removeKilledPlayerChestpack = true;
 
-// Havoc - Fatigue
-havoc_fatigue_highJogCoef = 0.9;
-havoc_fatigue_highJogCoefEnabled = false;
+// HAVOC - BoC
+force HAVOC_boc_forceWalk = true;
 
-// Havoc - Friendly Fire
-force havoc_friendly_fire_loggingEnabled = true;
+// HAVOC - Bodybag
+force HAVOC_bodybag_destroyChance = 20;
 
-// Havoc - FRIES
-force havoc_fries_autoAdd = true;
+// HAVOC - Channels
+force HAVOC_Channels_CommandDuration = 0;
+force HAVOC_Channels_CommandText = true;
+force HAVOC_Channels_CommandVoice = false;
+force HAVOC_Channels_DirectDuration = 0;
+force HAVOC_Channels_DirectText = true;
+force HAVOC_Channels_DirectVoice = false;
+force HAVOC_Channels_GlobalDuration = 0;
+force HAVOC_Channels_GlobalText = true;
+force HAVOC_Channels_GlobalVoice = false;
+force HAVOC_Channels_GroupDuration = 0;
+force HAVOC_Channels_GroupText = true;
+force HAVOC_Channels_GroupVoice = false;
+force HAVOC_Channels_SideDuration = 0;
+force HAVOC_Channels_SideText = true;
+force HAVOC_Channels_SideVoice = false;
+force HAVOC_Channels_VehicleDuration = 0;
+force HAVOC_Channels_VehicleText = true;
+force HAVOC_Channels_VehicleVoice = false;
 
-// Havoc - Grass
-force havoc_grass_enabled = true;
+// HAVOC - chat
+force HAVOC_chat_healUsage = 3;
+force HAVOC_chat_rpUsage = 3;
+force HAVOC_chat_specUsage = 3;
+force HAVOC_chat_tpUsage = 3;
+force HAVOC_chat_whisperUsage = 3;
 
-// Havoc - Insurgents
-force havoc_insurgents_enabled_CUP = false;
-force havoc_insurgents_enabled_Vanilla = true;
+// HAVOC - friendly_fire
+force HAVOC_friendly_fire_loggingEnabled = true;
 
-// Havoc - Pointing
-force havoc_pointing_vehicleEnabled = true;
+// HAVOC - fries
+force HAVOC_fries_autoAdd = true;
 
-// Havoc - Respawn
-force havoc_respawn_enabled = true;
-force havoc_respawn_time = 10;
+// HAVOC - grass
+force HAVOC_grass_enabled = true;
 
-// Havoc - Safestart
-havoc_safestart_startLocked = true;
+// HAVOC - Insurgents
+force HAVOC_insurgents_enabled_CUP = false;
+force HAVOC_insurgents_enabled_Vanilla = true;
 
-// Havoc - Spectator
-havoc_spectator_allowAI = false;
-havoc_spectator_allowAIUnconscious = false;
-havoc_spectator_civilianSide = false;
-havoc_spectator_civilianSideUnconscious = false;
-havoc_spectator_freeCamera = false;
-havoc_spectator_freeCameraUnconscious = false;
-force havoc_spectator_sides = 1;
-force havoc_spectator_sidesUnconscious = 1;
-havoc_spectator_TPPCamera = false;
-havoc_spectator_TPPCameraUnconscious = false;
-havoc_spectator_unconsciousDelay = 30;
+// HAVOC - Main
+force HAVOC_Main_ArsenalSaveLoad = true;
+force force HAVOC_Main_Diary = true;
+force force HAVOC_Main_DynamicGroups = true;
+force force HAVOC_Main_DynamicSim = false;
+force force HAVOC_Main_FatigueVanilla = false;
+force force HAVOC_Main_FlipVehicle = true;
+force force HAVOC_Main_LockCamVehicle = false;
+force force HAVOC_Main_MapIcons = true;
+force HAVOC_Main_MaydayAccess = 2;
+force force HAVOC_Main_PilotCheck = false;
+force force HAVOC_Main_TFARTerrainInterference = 1;
+force force HAVOC_Main_TFARTransmitRange = 2.5;
+force force HAVOC_Main_VehicleCrewList = false;
 
-// Havoc - Tagging
-force havoc_tagging_enabled = true;
+// HAVOC - pointing
+force HAVOC_pointing_vehicleEnabled = true;
 
-// HAVOC BoC
-force havoc_boc_disabled = false;
-force havoc_boc_forceWalk = true;
-force havoc_boc_removeKilledPlayerChestpack = true;
+// HAVOC - RATEL Marker
+force HAVOC_ratelmarker_QuickReferenceMarkerMode = 2;
 
-// HAVOC Miscellaneous
-force havoc_bodybag_destroyChance = 20;
-force havoc_ratelmarker_QuickReferenceMarkerMode = 2;
+// HAVOC - remotesensors
+force HAVOC_remotesensors_enabled = true;
+
+// HAVOC - respawn
+force HAVOC_respawn_enabled = true;
+force HAVOC_respawn_time = 10;
+
+// HAVOC - safestart
+HAVOC_safestart_startLocked = true;
+
+// HAVOC - spectator
+force HAVOC_spectator_allowAI = false;
+force HAVOC_spectator_allowAIUnconscious = false;
+force HAVOC_spectator_allowUnconscious = false;
+force HAVOC_spectator_civilianSide = false;
+force HAVOC_spectator_civilianSideUnconscious = false;
+force HAVOC_spectator_enabled = false;
+force HAVOC_spectator_freeCamera = false;
+force HAVOC_spectator_freeCameraUnconscious = false;
+force HAVOC_spectator_sides = 1;
+force HAVOC_spectator_sidesUnconscious = 1;
+force HAVOC_spectator_TPPCamera = false;
+force HAVOC_spectator_TPPCameraUnconscious = false;
+force HAVOC_spectator_unconsciousDelay = 30;
+
+// HAVOC - tagging
+force HAVOC_tagging_enabled = true;
+
+// HAVOC - Towing
+force HAVOC_towing_addToCars = false;
+force HAVOC_towing_addToHeavyDutyVehicles = true;
+
+// HAVOC - Zeus
+force HAVOC_Zeus_Module_AISpawnsEast = true;
+force HAVOC_Zeus_Module_AISpawnsIndep = true;
+force HAVOC_Zeus_Module_AISpawnsWest = true;
+force HAVOC_Zeus_Module_CivilianSpawns = true;
+force HAVOC_Zeus_Module_MedicalDummy = true;
 
 // KAT - ADV Medical: Airway
 force kat_airway_Accuvac_time = 8;
@@ -801,6 +867,30 @@ force MRH_MilsimTools_Zeus_hideWaterMark = true;
 force MRH_MilsimTools_Zeus_waterMark = "UseVanilla";
 force MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
 
+// qipBFT - BFT
+force force qipBFT_bft_bftEnabled = true;
+force force qipBFT_bft_friendlySides_CIVILIAN = [0,2];
+force force qipBFT_bft_friendlySides_EAST = [3];
+force force qipBFT_bft_friendlySides_RESISTANCE = [1,3];
+force force qipBFT_bft_friendlySides_WEST = [2];
+force force qipBFT_bft_friendlySidesDynamic = true;
+force force qipBFT_bft_groupIconsInteraction = "hover";
+force force qipBFT_bft_medicalSystem = "ACE";
+force force qipBFT_bft_requireItemGPS = true;
+force force qipBFT_bft_showAIGroups = true;
+force force qipBFT_bft_showAINames = true;
+force force qipBFT_bft_showCivilians = false;
+force force qipBFT_bft_showGroupIcons = true;
+force force qipBFT_bft_showGroupText = true;
+force force qipBFT_bft_showLifeState = true;
+force force qipBFT_bft_showOwnFactionOnly = false;
+force force qipBFT_bft_showOwnGroup = true;
+force force qipBFT_bft_showOwnGroupUnits = true;
+force force qipBFT_bft_showPlayerNames = true;
+force force qipBFT_bft_showUnitNames = true;
+force force qipBFT_bft_teamColors = "ACE";
+force force qipBFT_bft_updateInterval = 0;
+
 // Simplex Support Services
 force SSS_setting_adminFullAccess = false;
 force SSS_setting_adminLimitSide = true;
@@ -830,7 +920,7 @@ force TFAR_enableIntercom = true;
 force TFAR_experimentalVehicleIsolation = true;
 force TFAR_fullDuplex = true;
 force TFAR_giveLongRangeRadioToGroupLeaders = false;
-force TFAR_giveMicroDagrToSoldier = true;
+force TFAR_giveMicroDagrToSoldier = false;
 force TFAR_givePersonalRadioToRegularSoldier = false;
 force TFAR_globalRadioRangeCoef = 1;
 force TFAR_instantiate_instantiateAtBriefing = false;
@@ -842,12 +932,6 @@ force tfar_radiocode_west = "_bluefor";
 force tfar_radioCodesDisabled = false;
 force TFAR_SameLRFrequenciesForSide = false;
 force TFAR_SameSRFrequenciesForSide = false;
-force TFAR_setting_defaultFrequencies_lr_east = "";
-force TFAR_setting_defaultFrequencies_lr_independent = "";
-force TFAR_setting_defaultFrequencies_lr_west = "";
-force TFAR_setting_defaultFrequencies_sr_east = "";
-force TFAR_setting_defaultFrequencies_sr_independent = "";
-force TFAR_setting_defaultFrequencies_sr_west = "";
 force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
 force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
 force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
@@ -856,15 +940,13 @@ force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
 force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
 force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
 force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
-force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Personal_West = "TFAR_rf7800str";
 force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
 force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
-force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
 force TFAR_spectatorCanHearEnemyUnits = true;
 force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
-force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
-force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
 
