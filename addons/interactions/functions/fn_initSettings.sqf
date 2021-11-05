@@ -28,13 +28,13 @@
         localize "STR_HAVOC_Interactions_CBA_Global_Sounds_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_core"
     ],
     true,
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -48,13 +48,13 @@
         localize "STR_HAVOC_Interactions_CBA_TapShoulder_AI_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category",
+        COMPONENT_NAME,
         localize "STR_HAVOC_Interactions_CBA_Category_TapShoulder"
     ],
     false,
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_interactions_tapshoulder_hint",
@@ -64,13 +64,13 @@
         localize "STR_HAVOC_Interactions_CBA_TapShoulder_Hint_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category",
+        COMPONENT_NAME,
         localize "STR_HAVOC_Interactions_CBA_Category_TapShoulder"
     ],
     true,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 // ACCESS BACKPACK
@@ -83,7 +83,7 @@
         localize "STR_HAVOC_Interactions_CBA_Backpack_Access_Faction_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_Backpacks"
     ],
     [
@@ -97,7 +97,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_interactions_backpack_access_friendly",
@@ -107,7 +107,7 @@
         localize "STR_HAVOC_Interactions_CBA_Backpack_Access_Friendly_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_Backpacks"
     ],
     [
@@ -120,7 +120,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_interactions_backpack_access_enemy",
@@ -130,7 +130,7 @@
         localize "STR_HAVOC_Interactions_CBA_Backpack_Access_Enemy_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_Backpacks"
     ],
     [
@@ -143,7 +143,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_interactions_backpack_access_hint",
@@ -153,13 +153,13 @@
         localize "STR_HAVOC_Interactions_CBA_Backpack_Access_Hint_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_Backpacks"
     ],
     true,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------
 
@@ -173,7 +173,7 @@
         localize "STR_HAVOC_Interactions_CBA_Gear_Access_Enabled_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category",
+        COMPONENT_NAME,
         localize "STR_HAVOC_Interactions_CBA_Category_Gear"
     ],
     [
@@ -186,7 +186,7 @@
     ],
     1,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 [
     "havoc_interactions_gear_access_hint",
@@ -196,12 +196,12 @@
         localize "STR_HAVOC_Interactions_CBA_Gear_Access_Hint_Tip"
     ],
     [
-        localize "STR_HAVOC_Interactions_CBA_Category", 
+        COMPONENT_NAME, 
         localize "STR_HAVOC_Interactions_CBA_Category_Gear"
     ],
     true,
     0,
     {}
-] call CBA_Settings_fnc_init;
+] call CBA_fnc_addSetting;
 
 // -------------------------------------------------------------------------------------------------

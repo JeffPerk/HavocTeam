@@ -1,5 +1,7 @@
 #define COMPONENT common
+#define COMPONENT_BEAUTIFIED Common
 #include "\z\havoc\addons\main\script_mod.hpp"
+#include "\z\havoc\addons\main\script_macros.hpp"
 
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"
 #include "\a3\ui_f\hpp\defineResincl.inc"

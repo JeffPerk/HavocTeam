@@ -1,4 +1,7 @@
 #include "script_component.hpp"
 
-call FUNC(role);
 
+
+
+
+call HAVOC_role_fnc_role;

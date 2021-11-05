@@ -2,7 +2,7 @@
     QGVAR(enabled),
     "CHECKBOX",
     [LSTRING(Enabled), LSTRING(Enabled_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(toggle)}
@@ -12,7 +12,7 @@
     QGVAR(allowUnconscious),
     "CHECKBOX",
     [LSTRING(AllowUnconscious), LSTRING(AllowUnconscious_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -22,7 +22,7 @@
     QGVAR(unconsciousDelay),
     "SLIDER",
     [LSTRING(UnconsciousDelay), LSTRING(UnconsciousDelay_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     [1, 300, 30, 0],
     1
 ] call CBA_fnc_addSetting;
@@ -31,7 +31,7 @@
     QGVAR(sides),
     "LIST",
     [LSTRING(Sides), LSTRING(Sides_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     [[0, 1, 2], [LSTRING(Friendly), LSTRING(Own), "str_all_voices"], 0],
     1,
     {[_this] call FUNC(restart)}
@@ -41,7 +41,7 @@
     QGVAR(sidesUnconscious),
     "LIST",
     [LSTRING(Sides), LSTRING(Sides_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     [[0, 1, 2], [LSTRING(Friendly), LSTRING(Own), "str_all_voices"], 0],
     1,
     {[_this] call FUNC(restart)}
@@ -51,7 +51,7 @@
     QGVAR(civilianSide),
     "CHECKBOX",
     [LSTRING(CivilianSide), LSTRING(CivilianSide_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -61,7 +61,7 @@
     QGVAR(civilianSideUnconscious),
     "CHECKBOX",
     [LSTRING(CivilianSide), LSTRING(CivilianSide_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -71,7 +71,7 @@
     QGVAR(allowAI),
     "CHECKBOX",
     [LSTRING(AllowAI), LSTRING(AllowAI_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -81,7 +81,7 @@
     QGVAR(allowAIUnconscious),
     "CHECKBOX",
     [LSTRING(AllowAI), LSTRING(AllowAI_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -91,7 +91,7 @@
     QGVAR(freeCamera),
     "CHECKBOX",
     [LSTRING(FreeCamera), LSTRING(FreeCamera_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -101,7 +101,7 @@
     QGVAR(freeCameraUnconscious),
     "CHECKBOX",
     [LSTRING(FreeCamera), LSTRING(FreeCamera_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -111,7 +111,7 @@
     QGVAR(TPPCamera),
     "CHECKBOX",
     [LSTRING(TPPCamera), LSTRING(TPPCamera_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     false,
     1,
     {[_this] call FUNC(restart)}
@@ -121,7 +121,7 @@
     QGVAR(TPPCameraUnconscious),
     "CHECKBOX",
     [LSTRING(TPPCamera), LSTRING(TPPCamera_Description)],
-    [LSTRING(DisplayName), LSTRING(Unconscious)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
     false,
     1,
     {[_this] call FUNC(restart)}

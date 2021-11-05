@@ -1,4 +1,5 @@
 #define COMPONENT pointing
+#define COMPONENT_BEAUTIFIED Pointing
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

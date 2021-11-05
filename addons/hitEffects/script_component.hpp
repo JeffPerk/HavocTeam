@@ -1,4 +1,5 @@
 #define COMPONENT hitEffects
+#define COMPONENT_BEAUTIFIED Hit Effects
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

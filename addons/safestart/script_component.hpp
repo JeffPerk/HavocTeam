@@ -1,4 +1,5 @@
 #define COMPONENT safestart
+#define COMPONENT_BEAUTIFIED Safe Start
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

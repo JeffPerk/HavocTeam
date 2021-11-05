@@ -1,4 +1,5 @@
 #define COMPONENT filledSmoke
+#define COMPONENT_BEAUTIFIED Filled Smoke
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

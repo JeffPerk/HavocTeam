@@ -2,7 +2,7 @@
     QGVAR(healUsage),
     "LIST",
     "#heal available",
-    ["HAVOC", "Chat Commands"],
+    [COMPONENT_NAME, "Chat Commands"],
     [
         [0,         1,                  3       ],
         ["Never",   "During safestart", "Always"],
@@ -15,7 +15,7 @@
     QGVAR(rpUsage),
     "LIST",
     "#rp available",
-    ["HAVOC", "Chat Commands"],
+    [COMPONENT_NAME, "Chat Commands"],
     [
         [0,         1,                  3       ],
         ["Never",   "During safestart", "Always"],
@@ -28,7 +28,7 @@
     QGVAR(tpUsage),
     "LIST",
     "#tp available",
-    ["HAVOC", "Chat Commands"],
+    [COMPONENT_NAME, "Chat Commands"],
     [
         [0,         1,                  2,                                  3       ],
         ["Never",   "During safestart", "During safestart & after respawn", "Always"],
@@ -41,7 +41,7 @@
     QGVAR(whisperUsage),
     "LIST",
     "#whisper available",
-    ["HAVOC", "Chat Commands"],
+    [COMPONENT_NAME, "Chat Commands"],
     [
         [0,       3       ],
         ["Never", "Always"],
@@ -54,7 +54,7 @@
     QGVAR(specUsage),
     "LIST",
     "#spec available",
-    ["HAVOC", "Chat Commands"],
+    [COMPONENT_NAME, "Chat Commands"],
     [
         [0,         1,                  2,                                  3       ],
         ["Never",   "During safestart", "During safestart & after respawn", "Always"],
@@ -68,7 +68,7 @@ if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,assignGear)))) t
         QGVAR(loadoutUsage),
         "LIST",
         "#loadout available",
-        ["HAVOC", "Chat Commands"],
+        [COMPONENT_NAME, "Chat Commands"],
         [
             [0,         1,                  2,                                  3       ],
             ["Never",   "During safestart", "During safestart & after respawn", "Always"],
@@ -83,7 +83,7 @@ if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
         QGVAR(radioUsage),
         "LIST",
         "#radio available",
-        ["HAVOC", "Chat Commands"],
+        [COMPONENT_NAME, "Chat Commands"],
         [
             [0,         1,                  2,                                  3       ],
             ["Never",   "During safestart", "During safestart & after respawn", "Always"],

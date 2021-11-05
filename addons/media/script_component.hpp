@@ -1,5 +1,6 @@
 #define COMPONENT MEDIA
-#define COMPONENT_BEAUTIFIED media
+#define COMPONENT_BEAUTIFIED Media
+
 #ifdef DEBUG_ENABLED_ASSETS
     #define DEBUG_MODE_FULL
 #endif

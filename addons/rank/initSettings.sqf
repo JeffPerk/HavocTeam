@@ -1,5 +1,5 @@
 
-#define RANK_SETTINGS_CAT "Rank & Role: Ranks"
+#define RANK_SETTINGS_CAT COMPONENT_NAME
 #define RANK_HINT "list of steam user ID's"
 // ranks
 [

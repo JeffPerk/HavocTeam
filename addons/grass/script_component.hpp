@@ -1,4 +1,5 @@
 #define COMPONENT grass
+#define COMPONENT_BEAUTIFIED Grass
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

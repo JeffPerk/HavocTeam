@@ -1,4 +1,5 @@
 #define COMPONENT towing
+#define COMPONENT_BEAUTIFIED Towing
 #include "\z\havoc\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
