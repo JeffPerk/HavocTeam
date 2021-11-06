@@ -1,0 +1,5 @@
+disabledAI = 1;
+#include "configs\CfgFunctions.hpp"
+#include "configs\CfgSimulator.hpp"
+#include "dialogs\defines.hpp"
+#include "dialogs\patientSpawnMenu.hpp"
