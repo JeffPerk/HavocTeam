@@ -4,14 +4,14 @@ class CfgUnitInsignia
     {
         displayName = "HAVOC Logo";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\solidarity_freedom_co.paa";
+        texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
         textureVehicle = "";
     };
     class bolo
     {
         displayName = "HAVOC BOLO";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\solidarity_freedom_co.paa";
+        texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
         textureVehicle = "";
     };
 
