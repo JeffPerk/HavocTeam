@@ -5,7 +5,7 @@ class CfgPatches
 	class HAVOC_Player
 	{
 		author = AUTHOR;
-		name = NAME;
+        name = COMPONENT_NAME;
 		url = URL;
 		units[] = {};
 		requiredVersion = REQUIRED_VERSION;
@@ -19,6 +19,6 @@ class CfgPatches
 #include "Cfg3DEN.hpp"
 
 class CfgFunctions {
-
     #include "cfgFunctions.hpp"
 };
+

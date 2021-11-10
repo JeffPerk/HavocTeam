@@ -2,6 +2,5 @@
 
 
 if (hasInterface) then {
-    call FUNC(rank);
+    call FUNC(role);
 };
-

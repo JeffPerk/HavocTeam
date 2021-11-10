@@ -8,9 +8,9 @@ ranks_major = "";
 force ranks_sergeant = """76561198000002705""";
 
 // Role & Role: Roles
-force Roles_comm = """76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
-force Roles_eng = """76561198000002705"",""76561198146526518"",""76561198082803436""";
-force Roles_medic = """76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
+force Roles_comm = """76561198049209102","76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
+force Roles_eng = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198082803436""";
+force Roles_medic = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -250,7 +250,7 @@ force ace_medical_painUnconsciousChance = 0.1;
 force ace_medical_playerDamageThreshold = 3.5;
 force ace_medical_spontaneousWakeUpChance = 0.25;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
-force ace_medical_statemachine_AIUnconsciousness = false;
+force ace_medical_statemachine_AIUnconsciousness = true;
 force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force ace_medical_statemachine_cardiacArrestTime = 360;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -839,9 +839,9 @@ MRH_MilsimTools_HaloGear_playRebreatherSounds = true;
 MRH_MilsimTools_InsertionHandler_allowHALO = true;
 MRH_MilsimTools_InsertionHandler_allowStatic = true;
 MRH_MilsimTools_InsertionHandler_allowSub = true;
-force MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "I_Heli_Transport_02_F,I_Heli_light_03_unarmed_F,I_C_Plane_Civil_01_F";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "O_T_VTOL_02_infantry_dynamicLoadout_F,O_Heli_Light_02_unarmed_F,O_Heli_Transport_04_box_F";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "RHS_C130J";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "RHS_C130J";
 
 // MRH_MilsimTools - Medical Tent
 force MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 32;

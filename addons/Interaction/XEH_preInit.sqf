@@ -8,7 +8,7 @@
     true,
     true,
     {
-  if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
+        if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
         if (_this && { hasinterface }) then  {call havoc_fnc_InitCreatorActions};
     }
 ] call CBA_fnc_addSetting;
@@ -21,7 +21,7 @@
     true,
     true,
     {
-  if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
+        if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitWith {};
         if (_this && { hasinterface }) then  {call havoc_fnc_InitChannelActions};
     }
 ] call CBA_fnc_addSetting;

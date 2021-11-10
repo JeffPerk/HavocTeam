@@ -22,16 +22,16 @@
 		<Container name="CBA_Categories">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_CBA_Category">
-				<Original>Havoc Common</Original>
+				<English>Havoc Common</English>
 				<German>Havoc Allgemeines</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_CBA_Category_Common">
-				<Original>Common Settings</Original>
+				<English>Common Settings</English>
 				<German>Allgemeines</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_CBA_Category_Options">
-				<Original>Options</Original>
+				<English>Options</English>
 				<German>Optionen</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -42,29 +42,29 @@
 		<Container name="CBA_Settings">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_CBA_Debug_Enabled_Title">
-				<Original>Debug Mode</Original>
+				<English>Debug Mode</English>
 				<German>Debug Modus</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_CBA_Debug_Enabled_Tip">
-				<Original>Debug mode for more detailed informations.</Original>
+				<English>Debug mode for more detailed informations.</English>
 				<German>Debug-Modus für ausführlichere Informationen.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_CBA_Show_News_Title">
-				<Original>Show News</Original>
+				<English>Show News</English>
 				<German>Zeige Neuigkeiten</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_CBA_Show_News_Tip">
-				<Original>Show news in the main menu.</Original>
+				<English>Show news in the main menu.</English>
 				<German>Zeige Neuigkeiten im Hauptmenü an.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_CBA_Tactical_View_Title">
-				<Original>Tactical View</Original>
+				<English>Tactical View</English>
 				<German>Taktische Ansicht</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_CBA_Tactical_View_Tip">
-				<Original>Allow the use of Tactical View when ;&quot;3rd person;&quot; is enabled.</Original>
+				<English>Allow the use of Tactical View when ;&quot;3rd person;&quot; is enabled.</English>
 				<German>Erlaube die Nutzung der Taktischen Ansicht, wenn ;&quot;3rd-Person;&quot; aktiviert ist.</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -75,11 +75,11 @@
 		<Container name="KEY_Settings">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_KEY_Screenshot_Title">
-				<Original>Screenshot</Original>
+				<English>Screenshot</English>
 				<German>Bildschirmfoto</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_KEY_Screenshot_Tip">
-				<Original>Create a screenshot (without HUD/GUI) in the ArmA profile.</Original>
+				<English>Create a screenshot (without HUD/GUI) in the ArmA profile.</English>
 				<German>Erstellt ein Bildschirmfoto (ohne HUD/GUI) im ArmA-Profil.</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -90,15 +90,15 @@
 		<Container name="Extended_Hints">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Common_Hint_Need_Restart_Engine">
-				<Original>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, ArmA 3 must be restarted!</Original>
+				<English>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, ArmA 3 must be restarted!</English>
 				<German>Die Einstellung&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;wurde geändert.&lt;br/&gt;Damit die Änderung in Kraft treten kann, muss ArmA 3 neu gestartet werden!</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_Hint_Need_Restart_Mission">
-				<Original>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, the mission must be restarted!</Original>
+				<English>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, the mission must be restarted!</English>
 				<German>Die Einstellung&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;wurde geändert.&lt;br/&gt;Damit die Änderung in Kraft treten kann, muss die Mission neu gestartet werden!</German>
 			</Key>
 			<Key ID="STR_Havoc_Common_Hint_Need_Restart_Session">
-				<Original>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, the mission must be re-entered!</Original>
+				<English>The setting&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;has been changed.&lt;br/&gt;For the change to take effect, the mission must be re-entered!</English>
 				<German>Die Einstellung&lt;br/&gt;&quot;%1&quot;&lt;br/&gt;wurde geändert.&lt;br/&gt;Damit die Änderung in Kraft treten kann, muss die Mission neu betreten werden!</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -109,7 +109,7 @@
 		<Container name="Messages">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_Message_SkipVideo">
-				<Original>Press %1 to skip</Original>
+				<English>Press %1 to skip</English>
 				<German>Drücke %1 zum Überspringen</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -120,15 +120,15 @@
 		<Container name="KeyBinds">
 			<!-- =============================================================================== -->
 			<Key ID="STR_Havoc_KeyBinds_Shift_Modifier">
-				<Original>Shift+</Original>
+				<English>Shift+</English>
 				<German>Umschalt+</German>
 			</Key>
 			<Key ID="STR_Havoc_KeyBinds_Ctrl_Modifier">
-				<Original>Ctrl+</Original>
+				<English>Ctrl+</English>
 				<German>Strg+</German>
 			</Key>
 			<Key ID="STR_Havoc_KeyBinds_Alt_Modifier">
-				<Original>Alt+</Original>
+				<English>Alt+</English>
 				<German>Alt+</German>
 			</Key>
 			<!-- =============================================================================== -->

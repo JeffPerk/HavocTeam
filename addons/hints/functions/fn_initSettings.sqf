@@ -1,3 +1,4 @@
+#include "\z\havoc\addons\hints\script_component.hpp"
 /*
  * ARMA EXTENDED ENVIRONMENT
  * \z\havoc\addons\hints\functions\fn_initSettings.sqf
