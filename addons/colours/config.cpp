@@ -22,47 +22,48 @@ class CfgMarkerColors
 	{
 		scope = 1;
 	};
-	class ColorBlack: Default
+	class ColorBlackS: Default
 	{
 		name = "Black Squad";
 		color[] = {0,0,0,1};
 		scope = 2;
 	};
-	class ColorRed: Default
+	class ColorRedS: Default
 	{
 		name = "Red Squad";
 		color[] = {1,0,0,1};
 		scope = 2;
 	};
-	class ColorGrey: Default
+	class ColorGreyS: Default
 	{
-		name = "Silver Squad";
+		name = "Grey Squad";
 		color[] = {0.5, 0.5, 0.5, 1};
 		scope = 2;
 	};
-	class ColorBlue: Default
+	class ColorBlueS: Default
 	{
 		name = "Blue Squad";
 		color[] = {0,0,1,1};
 		scope = 2;
 	};
-	class ColorGreen: Default
+	class ColorGreenS: Default
 	{
 		name = "Green Squad";
 		color[] = {0,1,0,1};
 		scope = 2;
 	};
-	class ColorYellow: Default
+	class ColorGoldS: Default
 	{
 		name = "Gold Squad";
-		color[] = {0.9, 0.7, 0, 1};
+		color[] = {0.74,0.57,0.07,1};
 	};
-	class ColorWhite: Default
+	class ColorSilverS: Default
 	{
 		name = "Silver Squad";
 		color[] = {.9, 1.9, 1, 1};
 		scope = 2;
 	};
+
 	class ColorWEST: Default
 	{
 		name = "BLUFOR";
