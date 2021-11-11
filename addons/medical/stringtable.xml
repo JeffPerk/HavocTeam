@@ -8,13 +8,13 @@
 		<Container name="Medical">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Title">
-				<Original>HAVOC Medical</Original>
+				<English>HAVOC Medical</English>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Author">
-				<Original>HAVOC-Team</Original>
+				<English>HAVOC-Team</English>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_URL">
-				<Original>https://github.com/HAVOCmod/HAVOC</Original>
+				<English>https://github.com/HAVOCmod/HAVOC</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,20 +24,20 @@
 		<Container name="CBA_Categories">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Category">
-				<Original>HAVOC Medical</Original>
+				<English>HAVOC Medical</English>
 				<German>HAVOC Medizinisch</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Category_Common">
-				<Original>Common Settings</Original>
+				<English>Common Settings</English>
 				<German>Allgemeines</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Category_Consume">
-				<Original>Consumption (Order)</Original>
+				<English>Consumption (Order)</English>
 				<German>Verbrauch (Reihenfolge)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Category_Return">
-				<Original>Consumption (Return)</Original>
+				<English>Consumption (Return)</English>
 				<German>Verbrauch (Rückgabe)</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -48,72 +48,72 @@
 		<Container name="CBA_Settings">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Consume_Tourniquet_Title">
-				<Original>Consume Tourniquets</Original>
+				<English>Consume Tourniquets</English>
 				<German>Tourniquets verbrauchen</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Consume_Tourniquet_Tip">
-				<Original>Tourniquets become consumable items.\n(Ignore return value)</Original>
+				<English>Tourniquets become consumable items.\n(Ignore return value)</English>
 				<German>Tourniquets werden zum Verbrauchsmaterial.\n(Ignoriert Rückgabe)</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Stethoscope_Enabled_Title">
-				<Original>Count In Stethoscope</Original>
+				<English>Count In Stethoscope</English>
 				<German>Stethoskop berücksichtigen</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Stethoscope_Enabled_Tip">
-				<Original>A stethoscope in the inventory reduces the time of a diagnosis.\nWithout a stethoscope the time increases a bit.</Original>
+				<English>A stethoscope in the inventory reduces the time of a diagnosis.\nWithout a stethoscope the time increases a bit.</English>
 				<German>Ein Stethoskop im Inventar veringert die Zeit einer Diagnose.\nOhne Stethoskop wird die Zeit etwas erhöht.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Responder_Title">
-				<Original>First Responder</Original>
+				<English>First Responder</English>
 				<German>Ersthelfer</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Responder_Tip">
-				<Original>Sets the order whose material will be used first.</Original>
+				<English>Sets the order whose material will be used first.</English>
 				<German>Legt die Reihenfolge fest, wessen Material zuerst verwendet wird.</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Responder_0">
-				<Original>Patient, Responder, Crew</Original>
+				<English>Patient, Responder, Crew</English>
 				<German>Patient, Ersthelfer, Besatzung</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Responder_1">
-				<Original>Responder, Patient, Crew</Original>
+				<English>Responder, Patient, Crew</English>
 				<German>Ersthelfer, Patient, Besatzung</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Medics_Title">
-				<Original>Medical Personnel</Original>
+				<English>Medical Personnel</English>
 				<German>Mediziner</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Medics_Tip">
-				<Original>Sets the order whose material will be used first.</Original>
+				<English>Sets the order whose material will be used first.</English>
 				<German>Legt die Reihenfolge fest, wessen Material zuerst verwendet wird.</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Medics_0">
-				<Original>Patient, Medics, Crew</Original>
+				<English>Patient, Medics, Crew</English>
 				<German>Patient, Mediziner, Besatzung</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Usage_Order_Medics_1">
-				<Original>Medics, Patient, Crew</Original>
+				<English>Medics, Patient, Crew</English>
 				<German>Mediziner, Patient, Besatzung</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Return_Items_Title">
-				<Original>Give Back Treatment-Items</Original>
+				<English>Give Back Treatment-Items</English>
 				<German>Behandlungsmaterial zurückgeben</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Return_Items_Tip">
-				<Original>Treatment material is returned to the patient.</Original>
+				<English>Treatment material is returned to the patient.</English>
 				<German>Behandlungsmaterial wird dem Patienten zurückgegeben.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_CBA_Return_Tourniquets_Title">
-				<Original>Tourniquets</Original>
+				<English>Tourniquets</English>
 				<German>Tourniquets</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_CBA_Return_Tourniquets_Tip">
-				<Original>Maximum number of tourniquets that a patient gets back.</Original>
+				<English>Maximum number of tourniquets that a patient gets back.</English>
 				<German>Maximale Anzahl an Tourniquets, die ein Patient zurück bekommt.</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -124,24 +124,24 @@
 		<Container name="Check_Bloodpressure">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Bloodpressure_Output_1">
-				<Original>The blood pressure of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</Original>
+				<English>The blood pressure of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</English>
 				<German>Der Blutdruck von&lt;br/&gt;%1&lt;br/&gt;liegt bei&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Bloodpressure_Output_2">
-				<Original>The blood pressure of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</Original>
+				<English>The blood pressure of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</English>
 				<German>Der Blutdruck von&lt;br/&gt;%1&lt;br/&gt;ist&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Bloodpressure_Output_3">
-				<Original>The patient&lt;br/&gt;%1&lt;br/&gt;has&lt;br/&gt;%2</Original>
+				<English>The patient&lt;br/&gt;%1&lt;br/&gt;has&lt;br/&gt;%2</English>
 				<German>Der Patient&lt;br/&gt;%1&lt;br/&gt;hat&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Bloodpressure_Output_4">
-				<Original>You fail to find&lt;br/&gt;a blood pressure from&lt;br/&gt;%1</Original>
+				<English>You fail to find&lt;br/&gt;a blood pressure from&lt;br/&gt;%1</English>
 				<German>Du kannst bei&lt;br/&gt;%1&lt;br/&gt;keinen Blutdruck feststellen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Bloodpressure_None">
-				<Original>No Blood Pressure</Original>
+				<English>No Blood Pressure</English>
 				<German>Kein Blutdruck</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -152,20 +152,20 @@
 		<Container name="Check_Pulse">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Pulse_Output_1">
-				<Original>The Heart Rate of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</Original>
+				<English>The Heart Rate of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</English>
 				<German>Die Herzfrequenz von&lt;br/&gt;%1&lt;br/&gt;liegt bei&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Pulse_Output_2">
-				<Original>The Heart Rate of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</Original>
+				<English>The Heart Rate of&lt;br/&gt;%1&lt;br/&gt;is&lt;br/&gt;%2</English>
 				<German>Die Herzfrequenz von&lt;br/&gt;%1&lt;br/&gt;ist&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Pulse_Output_3">
-				<Original>You can not find&lt;br/&gt;a heart rate from&lt;br/&gt;%1.</Original>
+				<English>You can not find&lt;br/&gt;a heart rate from&lt;br/&gt;%1.</English>
 				<German>Du kannst bei&lt;br/&gt;%1&lt;br/&gt;keine Herzfrequenz feststellen.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Pulse_None">
-				<Original>No Heart Rate</Original>
+				<English>No Heart Rate</English>
 				<German>Keine Herzfrequenz</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -176,20 +176,20 @@
 		<Container name="Check_Response">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Response_Output">
-				<Original>%1&lt;br/&gt;is&lt;br/&gt;%2</Original>
+				<English>%1&lt;br/&gt;is&lt;br/&gt;%2</English>
 				<German>%1&lt;br/&gt;ist&lt;br/&gt;%2</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Response_Responsive">
-				<Original>responsive</Original>
+				<English>responsive</English>
 				<German>ansprechbar</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Check_Response_Unresponsive">
-				<Original>not responsive</Original>
+				<English>not responsive</English>
 				<German>nicht ansprechbar</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Check_Response_Log_Output">
-				<Original>%1 checked response: %2</Original>
+				<English>%1 checked response: %2</English>
 				<German>%1 kontrollierte Ansprechbarkeit: %2</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -200,28 +200,28 @@
 		<Container name="Medical_Splint">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Splint_Output">
-				<Original>The limbs of&lt;br/&gt;%1&lt;br/&gt;have the following status:&lt;br/&gt;%2 %3</Original>
+				<English>The limbs of&lt;br/&gt;%1&lt;br/&gt;have the following status:&lt;br/&gt;%2 %3</English>
 				<German>Die Gliedmaßen von&lt;br/&gt;%1&lt;br/&gt;haben folgenden Status:&lt;br/&gt;%2 %3</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Splint_Log">
-				<Original>%1 checked limbs: %2 / %3</Original>
+				<English>%1 checked limbs: %2 / %3</English>
 				<German>%1 kontrollierte Gliedmaße: %2 / %3</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Splint_Log_Hands_Normal">
-				<Original>Arms OK</Original>
+				<English>Arms OK</English>
 				<German>Arme OK</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Splint_Log_Hands_Splint">
-				<Original>Splint Arms</Original>
+				<English>Splint Arms</English>
 				<German>Arme schienen</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Splint_Log_Legs_Normal">
-				<Original>Legs OK</Original>
+				<English>Legs OK</English>
 				<German>Beine OK</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Splint_Log_Legs_Splint">
-				<Original>Splint Legs</Original>
+				<English>Splint Legs</English>
 				<German>Beine schienen</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -232,7 +232,7 @@
 		<Container name="Medical_Activities">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Activity_Tourniquet_Removed">
-				<Original>%1 has removed a tourniquet</Original>
+				<English>%1 has removed a tourniquet</English>
 				<German>%1 hat ein Tourniquet abgenommen</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -243,11 +243,11 @@
 		<Container name="Messages">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Need_CPR_AED">
-				<Original>Perform a resuscitation!</Original>
+				<English>Perform a resuscitation!</English>
 				<German>Führe eine Reanimation durch!</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_NoPainIfDead">
-				<Original>Pain is irrelevant.</Original>
+				<English>Pain is irrelevant.</English>
 				<German>Schmerz ist irrelevant.</German>
 			</Key>
 			<!-- =============================================================================== -->

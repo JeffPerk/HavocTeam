@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 /*
  * Author: veteran29
- * Dumps ACEX Killtracker stats to RPT
+ * Dumps ACE Killtracker stats to RPT
  *
  * Arguments:
  * None
@@ -13,7 +13,7 @@
  */
 
 if (isNil "ace_killTracker_eventsArray") exitWith {
-    WARNING("ACEX Killtracker not detected, can't show stats");
+    WARNING("ACE Killtracker not detected, can't show stats");
 };
 
 if (GVAR(statsDumped)) exitWith {};

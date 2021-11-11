@@ -8,13 +8,13 @@
 		<Container name="Medical_Supplies">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Supplies_Title">
-				<Original>HAVOC Medical Supplies</Original>
+				<English>HAVOC Medical Supplies</English>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Supplies_Author">
-				<Original>HAVOC-Team</Original>
+				<English>HAVOC-Team</English>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Supplies_URL">
-				<Original>https://github.com/HAVOCmod/HAVOC</Original>
+				<English>https://github.com/HAVOCmod/HAVOC</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -24,11 +24,11 @@
 		<Container name="Interactions">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Supplies_Action_FirstAid">
-				<Original>Unpack Boo Boo Bag</Original>
+				<English>Unpack Boo Boo Bag</English>
 				<German>Erste-Hilfe-Pack auspacken</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Supplies_Action_MedicKit">
-				<Original>Unpack Medic Bag</Original>
+				<English>Unpack Medic Bag</English>
 				<German>Verbandskasten auspacken</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -39,11 +39,11 @@
 		<Container name="Messages">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Medical_Supplies_Progress_FirstAid">
-				<Original>Unpack Boo Boo Bag...</Original>
+				<English>Unpack Boo Boo Bag...</English>
 				<German>Erste-Hilfe-Pack auspacken...</German>
 			</Key>
 			<Key ID="STR_HAVOC_Medical_Supplies_Progress_MedicKit">
-				<Original>Unpack Medic Bag...</Original>
+				<English>Unpack Medic Bag...</English>
 				<German>Verbandskasten auspacken...</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -54,20 +54,20 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Item_Medical_FirstAid_DisplayName">
-				<Original>Boo Boo Bag</Original>
+				<English>Boo Boo Bag</English>
 				<German>Erste-Hilfe-Pack</German>
 			</Key>
 			<Key ID="STR_HAVOC_Item_Medical_FirstAid_Description">
-				<Original>Contains material for first aid</Original>
+				<English>Contains material for first aid</English>
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Item_Medical_MedicKit_DisplayName">
-				<Original>Medic Bag</Original>
+				<English>Medic Bag</English>
 				<German>Verbandskasten</German>
 			</Key>
 			<Key ID="STR_HAVOC_Item_Medical_MedicKit_Description">
-				<Original>Contains material for first aid</Original>
+				<English>Contains material for first aid</English>
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->

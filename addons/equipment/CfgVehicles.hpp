@@ -81,7 +81,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[]=
         {
             "z\havoc\addons\Equipment\data\havoc_ammobox_signs_caA.paa",
-            "z\havoc\addons\Equipment\data\havoc_ammodpsoA_co.paa"
+            "z\havoc\addons\Equipment\data\havoc_ammohavocA_co.paa"
         };
         class TransportMagazines
         {

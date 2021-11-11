@@ -16,9 +16,7 @@ class Extended_PostInit_EventHandlers {
     };
 };
 class Extended_InitPost_EventHandlers {
-    class Car_F {
-        class My_car_initpost_eh {
-            init = call HAVOC_rank_fnc_rank;
-        };
+    class ADDON {
+            init = QUOTE(call COMPILE_FILE(XEH_initpost));
     };
 };

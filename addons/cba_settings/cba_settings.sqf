@@ -4,13 +4,13 @@ ranks_captain = "";
 ranks_colonel = "";
 ranks_corporal = "";
 ranks_lieutenant = "";
-ranks_major = "";
-force ranks_sergeant = """76561198000002705""";
+ranks_major = """76561198082803436"",""76561198082984125"",""76561198000002705""";
+force ranks_sergeant = "";
 
 // Role & Role: Roles
-force Roles_comm = """76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
-force Roles_eng = """76561198000002705"",""76561198146526518"",""76561198082803436""";
-force Roles_medic = """76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
+force Roles_comm = """76561198049209102","76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
+force Roles_eng = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198082803436""";
+force Roles_medic = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -131,7 +131,7 @@ force ace_frag_maxTrackPerFrame = 10;
 force ace_frag_reflectionsEnabled = true;
 force ace_frag_spallEnabled = true;
 
-// ACE G-Forces
+// ACE G-forces
 force ace_gforces_coef = 1;
 force ace_gforces_enabledFor = 2;
 
@@ -250,7 +250,7 @@ force ace_medical_painUnconsciousChance = 0.1;
 force ace_medical_playerDamageThreshold = 3.5;
 force ace_medical_spontaneousWakeUpChance = 0.25;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
-force ace_medical_statemachine_AIUnconsciousness = false;
+force ace_medical_statemachine_AIUnconsciousness = true;
 force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force ace_medical_statemachine_cardiacArrestTime = 360;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -839,9 +839,9 @@ MRH_MilsimTools_HaloGear_playRebreatherSounds = true;
 MRH_MilsimTools_InsertionHandler_allowHALO = true;
 MRH_MilsimTools_InsertionHandler_allowStatic = true;
 MRH_MilsimTools_InsertionHandler_allowSub = true;
-force MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "I_Heli_Transport_02_F,I_Heli_light_03_unarmed_F,I_C_Plane_Civil_01_F";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "O_T_VTOL_02_infantry_dynamicLoadout_F,O_Heli_Light_02_unarmed_F,O_Heli_Transport_04_box_F";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "RHS_C130J";
+MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "RHS_C130J";
 
 // MRH_MilsimTools - Medical Tent
 force MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 32;
@@ -868,6 +868,7 @@ force MRH_MilsimTools_Zeus_waterMark = "UseVanilla";
 force MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
 
 // qipBFT - BFT
+/* 
 force force qipBFT_bft_bftEnabled = true;
 force force qipBFT_bft_friendlySides_CIVILIAN = [0,2];
 force force qipBFT_bft_friendlySides_EAST = [3];
@@ -889,7 +890,7 @@ force force qipBFT_bft_showOwnGroupUnits = true;
 force force qipBFT_bft_showPlayerNames = true;
 force force qipBFT_bft_showUnitNames = true;
 force force qipBFT_bft_teamColors = "ACE";
-force force qipBFT_bft_updateInterval = 0;
+force force qipBFT_bft_updateInterval = 0; */
 
 // Simplex Support Services
 force SSS_setting_adminFullAccess = false;
@@ -908,6 +909,38 @@ force SSS_setting_restoreCrewOnRTB = true;
 force SSS_setting_slingLoadSearchRadius = 100;
 force SSS_setting_slingLoadWhitelist = "";
 force SSS_setting_useChatNotifications = true;
+
+// [TCA] BFT
+force TCA_bft_groupMarkers_colorsBlacklist = "ColorBLUFOR, ColorOPFOR, ColorIndependent, ColorCivilian, ColorUNKNOWN, Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
+force TCA_bft_groupMarkers_defaultSetting = 2;
+force TCAbft_groupMarkers_enabled = true;
+force TCAbft_groupMarkers_fuzzOtherFactions = true;
+force TCA_bft_groupMarkers_iconsBlacklist = "unknown, uav";
+force TCAbft_groupMarkers_mapSettings_enabled = true;
+force TCAbft_groupMarkers_markerShape = "a";
+force TCA_bft_groupMarkers_nameOptions = "Black Squad, Blue Squad, Gold Squad, Green Squad, Grey Squad, Red Squad, Silver Squad";
+force TCA_bft_groupMarkers_preferredColors = "ColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverSBlack Squad, Blue Squad, Gold Squad, Green Squad, GrColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverS";
+force TCAbft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
+force TCAbft_groupMarkers_trackingMode = "weightedAverage";
+force TCAbft_groupMarkers_trailingCount = 5;
+force TCAbft_groupMarkers_trailingMode = "weightedAverage";
+force TCAbft_groupMarkers_trailingWeight = 0.75;
+force TCAbft_groupMarkers_updateDelay = 5;
+
+// [TCA] Miscellaneous
+force TCAmain_ClearBuildingMarkers_Channel = 0;
+force TCAmain_ClearBuildingMarkers_Color = "ColorGreen";
+force TCA_main_ClearBuildingMarkers_Enabled = true;
+force TCAmain_LoadoutDiaryRecord_Enabled = false;
+force TCAvehicles_showSpeedLimiterOptions = true;
+force TCAvehicles_showSpeedLimiterWaitTime = 10;
+
+// [TCA] Unit markers
+force TCAunitMarkers_unitMarkers_enabled = true;
+force TCAunitMarkers_unitMarkers_markAI = true;
+force TCAunitMarkers_unitMarkers_otherGroups = true;
+force TCA_unitMarkers_unitMarkers_showToggle = false;
+
 
 // TFAR - Global settings
 force TFAR_AICanHearPlayer = true;
@@ -940,7 +973,7 @@ force TFAR_voiceCone = true;
 
 // Tinter Furniture
 tint_delay = 10;
-tint_houseLimit = 42;
+tint_houseLimit = 28;
 tint_houses = true;
 tint_range = 300;
 force tint_seed = 42;

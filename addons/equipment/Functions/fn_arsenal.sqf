@@ -12,14 +12,6 @@ Example:
 
 call havoc_fnc_arsenal;
 
-"MRH_AAD_Item",
-"MRH_FiberScope",
-"MRH_HackingTool",
-"MRH_SoldierTab",
-"MRH_MT_FoldedSatcomAntenna",
-"HAVOC_MedicKit",
-"HAVOC_FirstAid",
-
 Public: Yes
 */
 

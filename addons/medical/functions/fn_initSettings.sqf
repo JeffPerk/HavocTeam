@@ -1,3 +1,5 @@
+#include "\z\havoc\addons\medical\script_component.hpp"
+
 /*
  * ARMA EXTENDED ENVIRONMENT
  * \havoc_medical\functions\fn_initSettings.sqf
