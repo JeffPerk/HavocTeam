@@ -1,3 +1,6 @@
+#include "script_component.hpp"
+if (isDedicated) exitwith {};
+
 if (hasinterface) then {
     _playerUID = getplayerUID player;
     
@@ -18,6 +21,10 @@ if (hasinterface) then {
             player setVariable ["canUseSSstrans", true, true];
             player setVariable ["canUseSSSarty", true, true];
             player setUnitTrait ["UAVHacker", true];
+        };
+    };
+    default {
+        exitwith {};
         };
     };
 };

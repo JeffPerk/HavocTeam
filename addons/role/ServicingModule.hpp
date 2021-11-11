@@ -1,4 +1,4 @@
-class HAVOC_ModuleServicing: Module_F
+class HAVOC_Modulerole: Module_F
 {
 	scope = 2;
 	displayName = "Role Selection";
