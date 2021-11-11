@@ -20,30 +20,30 @@ class Cfg3DEN {
                     w = "75 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 12;
-                    strings[] = {"None", "990", "991", "992", "993", "994", "995", "996","997", "998", "999", "Bolo"};
+                    columns = 9;
+                    strings[] = {"None","CMD", "RED", "BLU", "SLV", "GLD", "BLK","GRN", "Reaper"};
                 };
             };
         };
     };
     class Object {
         class AttributeCategories {
-            class PREFIX {
-                displayName = "HAVOC Fundamentals";
+            class HAVOC_attributes {
+                displayName = "Havoc";
                 collapsed = 1;
                 class Attributes {
-                    class HAVOC_Group_Preset {
+                    class HAVOCGroup_Preset {
                         property = QUOTE(HAVOC_Group_Preset);
                         control = GroupSelect;
                         displayName = "HAVOC Preset Group:";
-                        tooltip = "Default Preset for Patches & Radio Frequencies.";
+                        tooltip = "Default Preset for Patches & TFAR Radio Frequencies.";
                         expression = "[_this, _value] call HAVOC_fnc_ConfigPlayer;";
                         typeName = "STRING";
                         condition = "objectBrain";
                         defaultValue = "-1";
                     };
-                    class HAVOC_Pilot {
-                        property = QUOTE(HAVOC_Pilot);
+                    class HAVOCPilot {
+                        property = QUOTE(HAVOCPilot);
                         control = "Checkbox";
                         displayName = "Pilot";
                         tooltip = "Set the player to Pilot to allow them in the Pilot seat of aircraft.";
@@ -52,8 +52,8 @@ class Cfg3DEN {
                         condition = "objectBrain";
                         defaultValue = "(false)";
                     };
-                    class HAVOC_Mission_Maker {
-                        property = QUOTE(HAVOC_Mission_Maker);
+                    class HAVOCMission_Maker {
+                        property = QUOTE(HAVOCMission_Maker);
                         control = "Checkbox";
                         displayName = "Mission Maker";
                         tooltip = "Define this player as Mission Maker to allow access to further mission controls.";
@@ -62,22 +62,12 @@ class Cfg3DEN {
                         condition = "objectBrain";
                         defaultValue = "(false)";
                     };
-                    class HAVOC_Instructor {
-                        property = QUOTE(HAVOC_Instructor);
+                    class HAVOCInstructor {
+                        property = QUOTE(HAVOCInstructor);
                         control = "Checkbox";
                         displayName = "Instructor";
                         tooltip = "Define this player as Instructor to allow access to any valid Instructor Controls - Only used with Training Functions.";
                         expression = "_this setUnitTrait ['Instructor', _value, true];";
-                        typeName = "BOOL";
-                        condition = "objectBrain";
-                        defaultValue = "(false)";
-                    };
-                         class HAVOC_DefaultLoadout {
-                        property = QUOTE(HAVOC_DefaultLoadout);
-                        control = "Checkbox";
-                        displayName = "HAVOC Preset Loadout";
-                        tooltip = "Use Preset Loadout for this player type if available.";
-                        expression = "if (_value IsEqualTo true) then { [_this] call HAVOC_fnc_Loadouts;}";
                         typeName = "BOOL";
                         condition = "objectBrain";
                         defaultValue = "(false)";
