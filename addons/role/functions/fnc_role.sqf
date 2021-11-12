@@ -24,7 +24,5 @@ if (hasinterface) then {
         };
     };
     default {
-        exitwith {};
         };
-    };
 };
