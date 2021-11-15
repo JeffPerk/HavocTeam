@@ -1,18 +1,18 @@
 
 // Rank & Role: Ranks
-ranks_captain = "";
-ranks_colonel = "";
-ranks_corporal = "";
-ranks_lieutenant = "";
-ranks_major = """76561198082803436"",""76561198082984125"",""76561198000002705""";
-force ranks_sergeant = "";
+force force ranks_captain = "";
+force force ranks_colonel = "";
+force force ranks_corporal = "";
+force force ranks_lieutenant = "";
+force force ranks_major = """76561198082803436"",""76561198082984125"",""76561198000002705""";
+force force ranks_sergeant = "";
 
 // Role & Role: Roles
-force Roles_comm = """76561198049209102","76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
-force Roles_eng = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198082803436""";
-force Roles_medic = """76561198049209102","76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
+force force Roles_comm = """76561198049209102"",""76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
+force force Roles_eng = """76561198049209102"",""76561198000002705"",""76561198146526518"",""76561198082803436""";
+force force Roles_medic = """76561198049209102"",""76561198000002705"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
 
-
+////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
@@ -973,11 +973,10 @@ force TFAR_voiceCone = true;
 
 // Tinter Furniture
 tint_delay = 10;
-tint_houseLimit = 28;
+tint_houseLimit = 25;
 tint_houses = true;
-tint_range = 300;
+tint_range = 250;
 force tint_seed = 42;
-
 
 // Turret Enhanced
 force Fat_Lurch_Grid = true;

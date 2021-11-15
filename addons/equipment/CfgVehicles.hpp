@@ -1,4 +1,5 @@
 class CfgVehicles {
+
     // Box
     class NATO_Box_Base {
         class EventHandlers;

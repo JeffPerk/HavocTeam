@@ -1,1 +1,0 @@
-#include "\z\havoc\addons\nightvision\script_component.hpp"

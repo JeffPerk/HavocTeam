@@ -1,4 +1,5 @@
 class CfgWeapons {
+
     class optic_Nightstalker;
     class InventoryOpticsItem_Base_F;
     class ACE_Vector;

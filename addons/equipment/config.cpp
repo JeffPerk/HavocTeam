@@ -115,6 +115,4 @@ class Extended_InitPost_EventHandlers {
     };
 };
 
-#include "anprc152.hpp"
-
 
