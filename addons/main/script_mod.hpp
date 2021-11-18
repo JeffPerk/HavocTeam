@@ -9,6 +9,8 @@
 #define VERSION_AR MAJOR,MINOR,PATCHLVL,BUILD
 
 #define AUTHOR HAVOC
+#define QAUTHOR QUOTE(AUTHOR)
+
 #define LOGO_PATH "\z\havoc\addons\media\images\havocl1512x.paa"
 
 #define URL https://armadocs.purplesmoke.info/

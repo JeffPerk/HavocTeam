@@ -15,7 +15,6 @@ if (hasinterface) then {
     player setVariable["draAccessSensors",TRUE,TRUE];
     player setVariable["draWhitelisted", true, true];
     daoWhitelisted=true;
-    call {daoWhitelisted=true};
 };
 
 [ format [hint_havoc_default, "Communications"] ] call havoc_fnc_hint;

@@ -833,7 +833,7 @@ MRH_MilsimTools_HaloGear_haloMaskBreakingChancePerc = 10;
 MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4600;
 MRH_MilsimTools_HaloGear_hypoxiaUse = true;
 force MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "RHS_jetpilot_usaf,H_PilotHelmetFighter_B,rhs_zsh7a,rhs_zsh7a_alt,RHS_TU95MS_vvs_old";
-MRH_MilsimTools_HaloGear_playRebreatherSounds = true;
+
 
 // MRH_MilsimTools - Insertion Handler
 MRH_MilsimTools_InsertionHandler_allowHALO = true;

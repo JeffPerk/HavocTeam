@@ -50,6 +50,7 @@ private [
 _ArsenalType = call {
  if (_Type isEqualTo "HAVOC") exitwith {
         _AvailableItems = [
+            "taro_vs17_panel",
             "MRH_AAD_Item",
             "MRH_FiberScope",
             "MRH_HackingTool",
