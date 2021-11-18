@@ -131,10 +131,10 @@ if (local _unit) then {
     //=========== Set Section
     _unit setVariable ["HAVOC_Section", _Section, true];
 
-    if (hasinterface) then {
+
     call havoc_rank_fnc_rank;
     call havoc_role_fnc_role;
-    };
+
 
     call {
         if (_Section == "Command") exitwith {

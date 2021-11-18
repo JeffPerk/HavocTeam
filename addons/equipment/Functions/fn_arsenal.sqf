@@ -28,7 +28,7 @@ Public: Yes
 ] call ace_arsenal_fnc_addRightPanelButton;
 
 [
-    ["ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed"],
+    ["ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed","taro_vs17_panel"],
     "Paint",
     "\z\ace\addons\arsenal\data\iconCustom.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
