@@ -2,7 +2,7 @@ class CfgMarkers {
     /// Units
     class iconcasap {
         name = "CAS Action Point";
-        icon = "z\havoc\addons\Media\images\map\AP.paa";
+        icon = "z\havoc\addons\Media\images\map\aap.paa";
         size = 24;
         shadow = true;
         scope = 2;
@@ -10,7 +10,7 @@ class CfgMarkers {
     };
     class iconcasbp {
         name = "CAS Battle Point";
-        icon = "z\havoc\addons\Media\images\map\BP.paa";
+        icon = "z\havoc\addons\Media\images\map\abp.paa";
         size = 24;
         shadow = true;
         scope = 2;
@@ -18,7 +18,7 @@ class CfgMarkers {
     };
     class iconcascp {
         name = "CAS Control Point";
-        icon = "z\havoc\addons\Media\images\map\CP.paa";
+        icon = "z\havoc\addons\Media\images\map\acp.paa";
         size = 24;
         shadow = true;
         scope = 2;
@@ -34,15 +34,31 @@ class CfgMarkers {
     };
     class iconcasep {
         name = "CAS Egress Point";
-        icon = "z\havoc\addons\Media\images\map\EP.paa";
+        icon = "z\havoc\addons\Media\images\map\aep.paa";
+        size = 24;
+        shadow = true;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasep {
+        name = "CAS Orbit Point";
+        icon = "z\havoc\addons\Media\images\map\orbit.paa";
         size = 24;
         shadow = true;
         scope = 2;
         color[] = {1, 1, 1, 1};
     };
     class iconcasip {
-        name = "CAS Initiation  Point";
-        icon = "z\havoc\addons\Media\images\map\IP.paa";
+        name = "CAS Initiation Point";
+        icon = "z\havoc\addons\Media\images\map\aip.paa";
+        size = 24;
+        shadow = true;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcascck {
+        name = "CAS Communications Point";
+        icon = "z\havoc\addons\Media\images\map\ackp.paa";
         size = 24;
         shadow = true;
         scope = 2;
