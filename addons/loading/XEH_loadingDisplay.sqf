@@ -33,7 +33,7 @@ switch (systemTime select 1) do {
         _picture ctrlSetText QPATHTOF(ui\havocb1.paa);
     };
     case 12: {
-        _picture ctrlSetText QPATHTOF(ui\havocb1.paa);
+        _picture ctrlSetText QPATHTOF(ui\havocxmas.paa);
     };
     case ([] call EFUNC(common,easterDate) select 1): {
         _picture ctrlSetText QPATHTOF(ui\havocb1.paa);

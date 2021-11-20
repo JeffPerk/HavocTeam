@@ -4,6 +4,38 @@ class CfgVehicles {
     class NATO_Box_Base {
         class EventHandlers;
     };
+
+    // Rebreather
+    class Vest_V_RebreatherB;
+    class HAVOC_vest_rebreather: Vest_V_RebreatherB {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        displayName = "Havoc Rebreather";
+        class TransportItems
+        {
+            class HAVOC_Item_rebreather
+            {
+                name = "Havoc Rebreather";
+                count = 1;
+            };
+        };
+    };
+
+    class Item_U_B_Wetsuit;
+    class HAVOC_Item_Wetsuit : Item_U_B_Wetsuit {
+        author = AUTHOR;
+        displayName = "Havoc Wetsuit";
+        class TransportItems
+		{
+			class HAVOC_Wetsuit
+			{
+				name = "HAVOC_Wetsuit";
+				count = 1;
+			};
+		};
+    };
+
     class GVAR(HAVOC_resupply): NATO_Box_Base {
         scope = 2;
         author = QAUTHOR;

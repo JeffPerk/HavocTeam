@@ -15,7 +15,10 @@ class CfgPatches
             "HAVOC_Item_optic_AMS_snd",
             "HAVOC_Item_optic_AMSTI",
             "HAVOC_Item_optic_AMSTI_khk",
-            "HAVOC_Item_optic_AMSTI_snd"
+            "HAVOC_Item_optic_AMSTI_snd",
+            "HAVOC_vest_rebreather",
+            "HAVOC_Item_Wetsuit",
+            "HAVOC_diver_base_F"
         };
         weapons[] = {
             "HAVOC_Vector_Designator",
@@ -27,7 +30,9 @@ class CfgPatches
             "HAVOC_optic_AMSTI_base",
             "HAVOC_optic_AMSTI",
             "HAVOC_optic_AMSTI_khk",
-            "HAVOC_optic_AMSTI_snd"
+            "HAVOC_optic_AMSTI_snd",
+            "HAVOC_rebreather",
+            "HAVOC_Wetsuit"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
