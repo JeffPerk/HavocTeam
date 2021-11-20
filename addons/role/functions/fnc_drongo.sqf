@@ -12,7 +12,6 @@ if (isDedicated) exitwith {};
 
 
 if (hasInterface) then {
-    waitUntil [getClientState == "BRIEFING READ"];
     waitUntil {sleep 1;(!isNull player && time > 0);};
     waitUntil{!(isNil"draAvailable")};
     _playerUID = getPlayerUID player;

@@ -10,6 +10,7 @@
         "initkeybinds.sqf",
         "xeh_prep.sqf",
         "XEH_PREP.sqf",
+        "XEH_PREP.hpp",
         "\\initsettings.sqf",
         "\\initkeybinds.sqf",
         "\\xeh_prep.sqf"
