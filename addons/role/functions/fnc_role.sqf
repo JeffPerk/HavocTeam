@@ -10,10 +10,23 @@ if (hasinterface) then {
             [ format [hint_havoc_default, "Medic"] ] call havoc_fnc_hint;
         };
     };
+        switch (true) do {
+        case (_playerUID in Roles_srmedic) : {
+            player setVariable ["ace_medical_medicclass", 2, true];
+            [ format [hint_havoc_default, "DR!"] ] call havoc_fnc_hint;
+        };
+    };
     switch (true) do {
         case (_playerUID in Roles_eng) : {
             player setVariable ["ACE_isEOD", true, true];
             player setVariable ["ace_isEngineer", 1, true];
+            [ format [hint_havoc_default, "Engineer"] ] call havoc_fnc_hint;
+        };
+    };
+        switch (true) do {
+        case (_playerUID in Roles_sreng) : {
+            player setVariable ["ACE_isEOD", true, true];
+            player setVariable ["ace_isEngineer", 2, true];
             [ format [hint_havoc_default, "Engineer"] ] call havoc_fnc_hint;
         };
     };
@@ -23,12 +36,8 @@ if (hasinterface) then {
             player setVariable ["canUseSSstrans", true, true];
             player setVariable ["canUseSSSarty", true, true];
             player setUnitTrait ["UAVHacker", true];
-            player setVariable["draAccessDrones",TRUE,TRUE];
-            player setVariable["draAccessCruise",TRUE,TRUE];
-            player setVariable["draAccessSensors",TRUE,TRUE];
-            player setVariable["draWhitelisted", true, true];
-            daoWhitelisted=true;
             [ format [hint_havoc_default, "Communications"] ] call havoc_fnc_hint;
         };
     };
 };
+

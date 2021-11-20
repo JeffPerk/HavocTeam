@@ -47,5 +47,3 @@ _unit addEventHandler ["Respawn", {
     [BIS_fnc_setUnitInsignia, [_unit,_OldPatch], 5] call CBA_fnc_waitAndExecute;
 }];
 
-call havoc_rank_fnc_rank;
-call havoc_role_fnc_role;

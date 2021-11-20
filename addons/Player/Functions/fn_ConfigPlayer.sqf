@@ -70,11 +70,11 @@ if (local _unit) then {
                 _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
                 _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
-            if (_Section == "White") exitwith {
+            if (_Section == "Silver") exitwith {
                 _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
                 _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };
-            if (_Section == "Yellow") exitwith {
+            if (_Section == "Gold") exitwith {
                 _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "59"];
                 _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58", "59"];
             };

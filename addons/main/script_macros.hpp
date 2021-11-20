@@ -96,6 +96,29 @@ class Extended_PreStart_EventHandlers {                 \
 #define ITEMS_11(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
 #define ITEMS_12(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
 
+#define ITEM01(id) id
+#define ITEM02(id) id,id
+#define ITEM03(id) id,id,id
+#define ITEM04(id) id,id,id,id
+#define ITEM05(id) id,id,id,id,id
+#define ITEM06(id) id,id,id,id,id,id
+#define ITEM07(id) id,id,id,id,id,id,id
+#define ITEM08(id) id,id,id,id,id,id,id,id
+#define ITEM09(id) id,id,id,id,id,id,id,id,id
+#define ITEM10(id) id,id,id,id,id,id,id,id,id,id
+#define ITEM11(id) id,id,id,id,id,id,id,id,id,id,id
+#define ITEM12(id) id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM13(id) id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM14(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM15(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM16(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM17(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM18(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM19(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM20(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM30(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+
+
 #define MACRO_ADDWEAPON(WEAPON,COUNT) \
     class _xx_##WEAPON { \
         weapon = #WEAPON; \
@@ -147,7 +170,19 @@ class Extended_PreStart_EventHandlers {                 \
     }; \
     class TransportWeapons {};
 
+////////////////////////////////////////////////////////////////////////////////
+// LOADOUT DEFINES
 
+#define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
+#define TRANSPORT_ITEM(id,qty) class _xx_##id { name = #id; count = qty; };
+#define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
+#define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
+
+#define LOADOUT_ITEM(id, qty) \
+class _xx_##id { \
+    type = #id; \
+    count = qty; \
+};
 
 
 #define GETPRVAR(var1,var2) (profileNamespace getVariable [ARR_2(var1,var2)])
