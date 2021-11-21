@@ -19,7 +19,7 @@ texHeaders.bin
 *.biprivatekey
 Thumbs.db
 *.sqfc
-
+releases/*
 
 ## Added by HEMTT
 ####
