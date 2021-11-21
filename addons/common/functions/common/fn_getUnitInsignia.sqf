@@ -1,4 +1,4 @@
-﻿/*
+/*
  * ARMA EXTENDED ENVIRONMENT
  * \Havoc_common\functions\common\fn_getUnitInsignia.sqf
  * by Ojemineh

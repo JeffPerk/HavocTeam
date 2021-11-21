@@ -1,4 +1,4 @@
-﻿/*
+/*
  * ARMA EXTENDED ENVIRONMENT
  * \Havoc_common\functions\settings\fn_getKeybindString.sqf
  * by Ojemineh

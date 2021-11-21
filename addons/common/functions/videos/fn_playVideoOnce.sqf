@@ -1,4 +1,4 @@
-﻿/*
+/*
  * ARMA EXTENDED ENVIRONMENT
  * \Havoc_common\functions\videos\fn_playVideoOnce.sqf
  * by Ojemineh
