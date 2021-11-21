@@ -2,18 +2,18 @@
 
 class CfgPatches
 {
-	class HAVOC_FOBs
-	{
-		author = AUTHOR;
-		name = NAME;
-		url = URL;
-		units[] = {};
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = VERSION;
-		authors[] = {"Mokka"};
-		weapons[] = {};
-	};
+    class HAVOC_FOBs
+    {
+        author = AUTHOR;
+        name = NAME;
+        url = URL;
+        units[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
+        version = VERSION;
+        authors[] = {"Mokka"};
+        weapons[] = {};
+    };
 };
 class CfgFunctions {
 

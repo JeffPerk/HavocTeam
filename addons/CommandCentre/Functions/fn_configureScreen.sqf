@@ -37,14 +37,14 @@ private _screenTarget = _object getVariable [format ["HAVOC_CC_screen_%1_target"
 private "_modeName";
 
 if ((!(_screenMode isEqualTo "")) && (!(_screenTarget isEqualTo ""))) then {
-	switch (_screenMode) do {
-		case "HCAM": { _modeName = "Viewing Helmet Cam"; };
-		case "DCAM": { _modeName = "Viewing Drone Cam"; };
-		case "SAT": { _modeName = "Viewing Satellite Footage"; };
-		default { _modeName = "Error, invalid mode!"; };
-	};
+    switch (_screenMode) do {
+        case "HCAM": { _modeName = "Viewing Helmet Cam"; };
+        case "DCAM": { _modeName = "Viewing Drone Cam"; };
+        case "SAT": { _modeName = "Viewing Satellite Footage"; };
+        default { _modeName = "Error, invalid mode!"; };
+    };
 
-	ctrlSetText [1000, format["Configure Screen - %1: %2", _modeName, _screenTarget]];
+    ctrlSetText [1000, format["Configure Screen - %1: %2", _modeName, _screenTarget]];
 };
 
 // populate the list boxes
@@ -56,24 +56,24 @@ _hCamList = _display displayCtrl 2100;
 lbClear _hCamList;
 _hCamList lbSetCurSel -1;
 {
-	private _name = "";
-	private _section = _x getVariable "HAVOC_Section";
+    private _name = "";
+    private _section = _x getVariable "HAVOC_Section";
 
-	if (isNil "_section") then {
-		_name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];
-	} else {
-		_name = format ["%1:%2 (%3)", _section, [_x] call CBA_fnc_getGroupIndex, name _x];
-	};
+    if (isNil "_section") then {
+        _name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];
+    } else {
+        _name = format ["%1:%2 (%3)", _section, [_x] call CBA_fnc_getGroupIndex, name _x];
+    };
 
-	_index = _hCamList lbAdd _name;
-	_hCamList lbSetData [_index, str _x];
+    _index = _hCamList lbAdd _name;
+    _hCamList lbSetData [_index, str _x];
 } forEach cTabHcamlist;
 
 {
-	private _name = format ["Vehicle: %1", getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
+    private _name = format ["Vehicle: %1", getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
 
-	_index = _hCamList lbAdd _name;
-	_hCamList lbSetData [_index, str _x];
+    _index = _hCamList lbAdd _name;
+    _hCamList lbSetData [_index, str _x];
 } forEach HAVOC_CC_vehicleCamList;
 
 lbSort [_hCamList, "ASC"];
@@ -85,8 +85,8 @@ _dCamList = _display displayCtrl 2101;
 lbClear _dCamList;
 _dCamList lbSetCurSel -1;
 {
-	_index = _dCamList lbAdd format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
-	_dCamList lbSetData [_index, str _x];
+    _index = _dCamList lbAdd format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
+    _dCamList lbSetData [_index, str _x];
 } forEach cTabUAVList;
 lbSort [_dCamList, "ASC"];
 _dCamList lbSetCurSel 0;
@@ -97,24 +97,24 @@ _satList = _display displayCtrl 2102;
 lbClear _satList;
 _satList lbSetCurSel -1;
 {
-	private _name = "";
-	private _section = _x getVariable "HAVOC_Section";
+    private _name = "";
+    private _section = _x getVariable "HAVOC_Section";
 
-	if (isNil "_section") then {
-		_name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];
-	} else {
-		_name = format ["%1:%2 (%3)", _section, [_x] call CBA_fnc_getGroupIndex, name _x];
-	};
+    if (isNil "_section") then {
+        _name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];
+    } else {
+        _name = format ["%1:%2 (%3)", _section, [_x] call CBA_fnc_getGroupIndex, name _x];
+    };
 
-	_index = _satList lbAdd _name;
-	_satList lbSetData [_index, str _x];
+    _index = _satList lbAdd _name;
+    _satList lbSetData [_index, str _x];
 } forEach cTabHcamlist;
 
 {
-	private _name = format ["Vehicle: %1", getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
+    private _name = format ["Vehicle: %1", getText (configfile >> "cfgVehicles" >> typeOf _x >> "displayname")];
 
-	_index = _satList lbAdd _name;
-	_satList lbSetData [_index, str _x];
+    _index = _satList lbAdd _name;
+    _satList lbSetData [_index, str _x];
 } forEach HAVOC_CC_vehicleCamList;
 
 lbSort [_satList, "ASC"];

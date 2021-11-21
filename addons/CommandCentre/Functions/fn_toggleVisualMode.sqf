@@ -9,13 +9,13 @@ private _currentVM = _object getVariable [format ["HAVOC_CC_screen_%1_visionMode
 private _nextVM = _currentVM + 1;
 
 if (_nextVM > 1) then {
-	if (_screenMode isEqualTo "DCAM") then {
-		if (_nextVM > 2) then {
-			_nextVM = 0;
-		};
-	} else {
-		_nextVM = 0;
-	};
+    if (_screenMode isEqualTo "DCAM") then {
+        if (_nextVM > 2) then {
+            _nextVM = 0;
+        };
+    } else {
+        _nextVM = 0;
+    };
 };
 
 [_renderTarget, [_nextVM]] remoteExec ["setPiPEffect", 0];

@@ -183,9 +183,9 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredaddons[] = {
-			"a3_weapons_f",
-			"havoc_MAIN"
-		};
+            "a3_weapons_f",
+            "havoc_MAIN"
+        };
         author = AUTHOR;
         authors[] = {"Jonpas", "Pomigit", "BadHabitz", "JoramD", "Tyrone", "YONV",};
         url = URL;

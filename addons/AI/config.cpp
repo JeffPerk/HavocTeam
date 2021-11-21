@@ -2,21 +2,21 @@
 
 class CfgPatches
 {
-	class HAVOC_AI
-	{
-		author = AUTHOR;
-		name = NAME;
-		url = URL;
-		units[] = {};
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {
-			"cba_main",
-			"cba_xeh"
-		};
-		version = VERSION;
-		authors[] = {"MitchJC"};
-		weapons[] = {};
-	};
+    class HAVOC_AI
+    {
+        author = AUTHOR;
+        name = NAME;
+        url = URL;
+        units[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "cba_main",
+            "cba_xeh"
+        };
+        version = VERSION;
+        authors[] = {"MitchJC"};
+        weapons[] = {};
+    };
 };
 
 #include "CfgVehicles.hpp"
@@ -28,8 +28,8 @@ class CfgFunctions {
 
 class Extended_PreInit_EventHandlers
 {
-	class HAVOC_AI_Event
-	{
-		init = "call compile preProcessFileLineNumbers 'z\havoc\addons\AI\XEH_preInit.sqf'";
-	};
+    class HAVOC_AI_Event
+    {
+        init = "call compile preProcessFileLineNumbers 'z\havoc\addons\AI\XEH_preInit.sqf'";
+    };
 };

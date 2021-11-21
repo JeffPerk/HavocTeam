@@ -1,19 +1,19 @@
 ﻿/*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\common\fn_isAdmin.sqf
- *	by Ojemineh
- *	
- *	check if player is admin
- *	
- *	Arguments:
- *	nothing
- *	
- *	Return:
- *	<BOOLEAN>
- *	
- *	Example:
- *	[] call Havoc_fnc_isAdmin;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\common\fn_isAdmin.sqf
+ * by Ojemineh
+ * 
+ * check if player is admin
+ * 
+ * Arguments:
+ * nothing
+ * 
+ * Return:
+ * <BOOLEAN>
+ * 
+ * Example:
+ * [] call Havoc_fnc_isAdmin;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------

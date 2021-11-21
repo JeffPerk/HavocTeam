@@ -27,13 +27,13 @@ class CfgVehicles {
         author = AUTHOR;
         displayName = "Havoc Wetsuit";
         class TransportItems
-		{
-			class HAVOC_Wetsuit
-			{
-				name = "HAVOC_Wetsuit";
-				count = 1;
-			};
-		};
+        {
+            class HAVOC_Wetsuit
+            {
+                name = "HAVOC_Wetsuit";
+                count = 1;
+            };
+        };
     };
 
     class GVAR(HAVOC_resupply): NATO_Box_Base {

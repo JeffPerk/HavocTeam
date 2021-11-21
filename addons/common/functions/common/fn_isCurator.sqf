@@ -1,19 +1,19 @@
 ﻿/*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\common\fn_isCurator.sqf
- *	by Ojemineh
- *	
- *	check if unit is curator/zeus
- *	
- *	Arguments:
- *	0: unit - <OBJECT>
- *	
- *	Return:
- *	<BOOLEAN>
- *	
- *	Example:
- *	[player] call Havoc_fnc_isCurator;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\common\fn_isCurator.sqf
+ * by Ojemineh
+ * 
+ * check if unit is curator/zeus
+ * 
+ * Arguments:
+ * 0: unit - <OBJECT>
+ * 
+ * Return:
+ * <BOOLEAN>
+ * 
+ * Example:
+ * [player] call Havoc_fnc_isCurator;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------

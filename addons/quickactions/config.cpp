@@ -7,11 +7,11 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_common"
-		};
+        };
         version = VERSION;
         versionStr = VERSION_STR;
-		author = "diwako";
-		url = URL;
+        author = "diwako";
+        url = URL;
     };
 };
 
@@ -22,9 +22,9 @@ class Extended_PreInit_EventHandlers {
 };
 
 class Extended_InitPost_EventHandlers {
-	class Helicopter {
-		init = "[(_this select 0)] call havoc_quickActions_fnc_addFastRopeAction;";
-	};
+    class Helicopter {
+        init = "[(_this select 0)] call havoc_quickActions_fnc_addFastRopeAction;";
+    };
 };
 
 #include "cfgFunctions.hpp"

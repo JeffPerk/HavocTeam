@@ -5,10 +5,10 @@ class CfgWeapons {
     class ACE_Vector;
     class Uniform_Base;
     class VestItem;
-	class V_RebreatherB;
+    class V_RebreatherB;
     class InventoryItem_Base_F;
-	class ItemCore;
-	class UniformItem;
+    class ItemCore;
+    class UniformItem;
     class U_B_Wetsuit;
 
 
@@ -45,44 +45,44 @@ class CfgWeapons {
         displayName = "Havoc Rebreather";
         class ItemInfo: VestItem {
             uniformModel = "\A3\Characters_F\Common\equip_rebreather";
-			vestType = "Rebreather";
-			mass = 10;
-			passThrough = 0.8;
-			hiddenSelections[] = {"camo"};
+            vestType = "Rebreather";
+            mass = 10;
+            passThrough = 0.8;
+            hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName = "HitNeck";
-					armor = 69;
-					passThrough = 0.2;
-				};
-				class Chest
-				{
-					hitpointName = "HitChest";
-					armor = 69;
-					passThrough = 0.2;
-				};
-				class Diaphragm
-				{
-					hitpointName = "HitDiaphragm";
-					armor = 69;
-					passThrough = 0.2;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 69;
-					passThrough = 0.2;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.2;
-				};
-			};
-		};
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            };
+        };
     };
 
     
@@ -90,17 +90,17 @@ class CfgWeapons {
         author = AUTHOR;
         displayName = "Havoc Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"A3\Characters_F\Common\Data\diver_suit_nato_co.paa"};
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"A3\Characters_F\Common\Data\diver_suit_nato_co.paa"};
         class ItemInfo: UniformItem
-		{
+        {
             uniformModel = "-";
-			uniformClass = "B_diver_F";
-			containerClass = "Supply120";
+            uniformClass = "B_diver_F";
+            containerClass = "Supply120";
             uniformType = "Neopren";
-			mass = 40;
-		};
+            mass = 40;
+        };
     };
 
 

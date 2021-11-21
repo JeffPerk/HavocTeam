@@ -2,56 +2,56 @@
 
 class CfgPatches
 {
-	class HAVOC_CommandCentre
-	{
-		author = AUTHOR;
-		name = NAME;
-		url = URL;
-		units[] = {};
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = VERSION;
-		authors[] = {"MitchJC", "Mokka"};
-		weapons[] = {};
-	};
+    class HAVOC_CommandCentre
+    {
+        author = AUTHOR;
+        name = NAME;
+        url = URL;
+        units[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
+        version = VERSION;
+        authors[] = {"MitchJC", "Mokka"};
+        weapons[] = {};
+    };
 };
 
 class CfgVehicles
 {
-	class Logic;
-	class Module_F: Logic
-	{
-		class AttributesBase
-		{
-			class Default;
-			class Edit;
-			class Combo;
-			class Checkbox;
-			class CheckboxNumber;
-			class ModuleDescription;
-			class Units;
-		};
+    class Logic;
+    class Module_F: Logic
+    {
+        class AttributesBase
+        {
+            class Default;
+            class Edit;
+            class Combo;
+            class Checkbox;
+            class CheckboxNumber;
+            class ModuleDescription;
+            class Units;
+        };
 
-		class ModuleDescription
-		{
-			class AnyBrain;
-		};
-	};
+        class ModuleDescription
+        {
+            class AnyBrain;
+        };
+    };
 
-	#include "ModuleCommsTower.hpp"
-	#include "ModuleSingleScreen.hpp"
-	#include "ModuleMultiScreen.hpp"
-	#include "ModuleStationaryRadio.hpp"
-	#include "ModuleVehicleCam.hpp"
+    #include "ModuleCommsTower.hpp"
+    #include "ModuleSingleScreen.hpp"
+    #include "ModuleMultiScreen.hpp"
+    #include "ModuleStationaryRadio.hpp"
+    #include "ModuleVehicleCam.hpp"
 };
 
 class CfgFactionClasses
 {
-	class NO_CATEGORY;
-	class HAVOC_CommandCentre: NO_CATEGORY
-	{
-		displayName = "HAVOC Command Centre";
-	};
+    class NO_CATEGORY;
+    class HAVOC_CommandCentre: NO_CATEGORY
+    {
+        displayName = "HAVOC Command Centre";
+    };
 };
 
 #include "GUI\defines.hpp"

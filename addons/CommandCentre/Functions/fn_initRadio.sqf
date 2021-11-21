@@ -2,33 +2,33 @@
 Function: HAVOC_fnc_initRadio
 
 Description:
-	Initializes a Stationary Radio for use with the Command Centre.
+    Initializes a Stationary Radio for use with the Command Centre.
 
 Arguments:
-	_object - Radio object
-	_radioOn - Turn radio on by default?
-	_radioCh1 - Default frequency of Channel 1
-	_radioCh2 - Default frequency of Channel 2
-	_radioVol - Default Radio Volume
+    _object - Radio object
+    _radioOn - Turn radio on by default?
+    _radioCh1 - Default frequency of Channel 1
+    _radioCh2 - Default frequency of Channel 2
+    _radioVol - Default Radio Volume
 
 Return Values:
-	Nothing.
+    Nothing.
 
 Examples:
     Nothing to see here
 
 Author:
-	Mokka
+    Mokka
 */
 
 params [
-	"_object",
-	["_radioClass", "TFAR_anarc210"],
-	["_radioOn", true],
-	["_radioCh1", 30],
-	["_radioCh2", 40],
-	["_radioVol", 7],
-	["_radioCode", "_bluefor"]
+    "_object",
+    ["_radioClass", "TFAR_anarc210"],
+    ["_radioOn", true],
+    ["_radioCh1", 30],
+    ["_radioCh2", 40],
+    ["_radioVol", 7],
+    ["_radioCode", "_bluefor"]
 ];
 
 if !(isServer) exitWith {};

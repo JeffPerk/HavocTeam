@@ -1,19 +1,19 @@
 ﻿/*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\common\fn_getUnitInsignia.sqf
- *	by Ojemineh
- *	
- *	get unit insignia
- *	
- *	Arguments:
- *	0: unit - <OBJECT>
- *	
- *	Return:
- *	<STRING>
- *	
- *	Example:
- *	[player] call Havoc_fnc_getUnitInsignia;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\common\fn_getUnitInsignia.sqf
+ * by Ojemineh
+ * 
+ * get unit insignia
+ * 
+ * Arguments:
+ * 0: unit - <OBJECT>
+ * 
+ * Return:
+ * <STRING>
+ * 
+ * Example:
+ * [player] call Havoc_fnc_getUnitInsignia;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------
