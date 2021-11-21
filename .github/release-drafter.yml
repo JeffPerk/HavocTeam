@@ -1,7 +1,7 @@
 branches:
   - master
 
-name-template: 'TFS $RESOLVED_VERSION'
+name-template: 'HAVOC $RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 
 categories:
