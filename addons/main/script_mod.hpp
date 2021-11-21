@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX HAVOC
+#define PREFIX havoc
 #define SUBPREFIX addons
 
 #include "script_version.hpp"
