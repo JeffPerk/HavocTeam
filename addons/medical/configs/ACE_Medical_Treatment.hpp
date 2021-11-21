@@ -35,7 +35,7 @@ class ace_medical_treatment {
         // The viscosity of a fluid is a measure of its resistance to gradual deformation by shear stress or tensile stress. For liquids, it corresponds to the informal concept of "thickness". This value will increase/decrease the viscoty of the blood with the percentage given. Where 100 = max. Using the minus will decrease viscosity
         viscosityChange = 0;
 
-        #include "treatment\medication.hpp"
+        #include "treatment\Medication.hpp"
     };
 
     class IV {

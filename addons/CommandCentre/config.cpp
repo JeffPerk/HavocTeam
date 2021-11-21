@@ -61,5 +61,5 @@ class CfgFactionClasses
 
 class CfgFunctions {
 
-    #include "cfgFunctions.hpp"
+    #include "CfgFunctions.hpp"
 };
