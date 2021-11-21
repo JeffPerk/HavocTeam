@@ -1,9 +1,9 @@
-class HAVOC_CommandCentre {
+class HAVOC_commandcentre {
 
     tag = "HAVOC";
     class Module {
 
-        file = "z\havoc\addons\CommandCentre\Functions";
+        file = "z\havoc\addons\commandcentre\Functions";
         class addRadioActions {};
         class addScreenActions {};
         class configureRadio {};

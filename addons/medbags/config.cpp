@@ -1,14 +1,13 @@
-#include "..\script_component.hpp"
+#include "script_component.hpp"
 
 class CfgPatches {
-    
-    class HAVOC_Medical_Supplies {
-        name = "$STR_HAVOC_Medical_Supplies_Title";
-        addonRootClass = "HAVOC_Medical";
+    class ADDON {
+        author = AUTHOR;
+        name = COMPONENT_NAME;
+        url = URL;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "a3_props_f_orange",
-            "havoc_medical"
+            "a3_props_f_orange"
         };
         units[] = {
             "HAVOC_Item_FirstAid",
@@ -18,18 +17,11 @@ class CfgPatches {
             "HAVOC_FirstAid",
             "HAVOC_MedicKit"
         };
-        author = "$STR_HAVOC_Medical_Supplies_Author";
-        authors[] = {
-            "O. Jemineh"
-        };
-        url = "$STR_HAVOC_Medical_Supplies_URL";
         VERSION_CONFIG;
     };
-    
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgFunctions.hpp"
 #include "CfgSounds.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

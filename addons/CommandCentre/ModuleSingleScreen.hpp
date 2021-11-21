@@ -3,7 +3,7 @@ class HAVOC_ModuleSingleScreen: Module_F
     scope = 2;
     displayName = "Setup Single Screen";
     icon = "\z\havoc\addons\media\images\icons\SingleScreen.paa";
-    category = "HAVOC_CommandCentre";
+    category = "HAVOC_commandcentre";
     function = "HAVOC_fnc_moduleSingleScreen";
     functionPriority = 4;
     isGlobal = 0;
