@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/JeffPerk/HavocTeam/releases/latest">
+    <a href="https://github.com/devgru-havoc/HavocTeam/releases/latest">
         <img src="https://img.shields.io/badge/Version-1.0.1-blue.svg?style=flat-square" alt="ACE Project Template Version">
     </a>
-    <a href="https://github.com/JeffPerk/HavocTeam/issues">
+    <a href="https://github.com/devgru-havoc/HavocTeam/issues">
         <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
     </a>
-    <a href="https://github.com/JeffPerk/HavocTeam/releases">
+    <a href="https://github.com/devgru-havoc/HavocTeam/releases">
         <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
     </a>
-    <a href="https://github.com/JeffPerk/HavocTeam/blob/master/LICENSE">
+    <a href="https://github.com/devgru-havoc/HavocTeam/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
     </a>
 </p>
@@ -32,7 +32,7 @@ Its based/inspired on/by the following projects;
 - https://github.com/AXEmod/AXE - GNU General Public License (GPLv3)
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
 - https://github.com/last-resort-gaming/Havoc-Fundamentals - MIT License
-- https://github.com/HAVOC3/HAVOC - Offical license: Arma Public License Share-Alike (APL-SA)
+- https://github.com/Theseus-Aegis/TheseusServices - Offical license: Arma Public License Share-Alike (APL-SA)
 - https://github.com/BourbonWarfare/POTATO - GNU General Public License (GPLv2).
 - https://github.com/quies-in-proelium/havocBFT - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 - https://github.com/quies-in-proelium/havocMissionTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
