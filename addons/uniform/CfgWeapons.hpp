@@ -7,7 +7,7 @@ class cfgWeapons {
     class U_B_CTRG_2;
     class U_B_CTRG_3;
     class UniformItem;
-	class Uniform_Base;
+    class Uniform_Base;
 
     // Woodland M98
     class CLASS(U_CombatUniform): U_I_CombatUniform {
@@ -15,10 +15,10 @@ class cfgWeapons {
         displayName = "Combat Fatigues [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
-			uniformClass = CLASS(Soldier_F);
-			containerClass = "Supply40";
-			mass = 40;
-		};
+            uniformClass = CLASS(Soldier_F);
+            containerClass = "Supply40";
+            mass = 40;
+        };
     };
     class CLASS(U_CombatUniform_shortsleeve): U_I_CombatUniform_shortsleeve {
         author = AUTHOR;
@@ -46,10 +46,10 @@ class cfgWeapons {
         displayName = "Combat Fatigues [M03]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
-			uniformClass = CLASS(SoldierD_F);
-			containerClass = "Supply40";
-			mass = 40;
-		};
+            uniformClass = CLASS(SoldierD_F);
+            containerClass = "Supply40";
+            mass = 40;
+        };
     };
     class CLASS(U_CombatUniformD_shortsleeve): U_I_CombatUniform_shortsleeve {
         author = AUTHOR;
@@ -204,10 +204,10 @@ class cfgWeapons {
         displayName = "Ghillie Suit [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
-			uniformClass = CLASS(sniper_F);
+            uniformClass = CLASS(sniper_F);
             containerClass = "Supply60";
             mass = 60;
-		};
+        };
     };
     // pilot
     class CLASS(B_HeliPilotCoveralls): U_B_HeliPilotCoveralls {
@@ -215,60 +215,60 @@ class cfgWeapons {
         displayName = "Heli Pilot Coveralls [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
-			uniformClass = CLASS(B_Helipilot_F);
+            uniformClass = CLASS(B_Helipilot_F);
             containerClass = "Supply40";
             mass = 60;
-		};
+        };
     };
 
     ///////////////////////////////////
     class CLASS(survival_uniform_black): Uniform_Base
-	{
-		scope=2;
-		displayName="survival_diver[black]";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass= CLASS(survival_diver_black);
-			containerClass="Supply40";
-			uniformType="Neopren";
-			mass=60;
-		};
-	};
-	class CLASS(survival_uniform_tigerstripe): Uniform_Base
-	{
-		author = AUTHOR;
-		scope=2;
-		displayName="survival_diver[tigerstripe]";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass= CLASS(survival_diver_tigerstripe);
-			containerClass="Supply40";
-			uniformType="Neopren";
-			mass=60;
-		};
-	};
+    {
+        scope=2;
+        displayName="survival_diver[black]";
+        picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass= CLASS(survival_diver_black);
+            containerClass="Supply40";
+            uniformType="Neopren";
+            mass=60;
+        };
+    };
+    class CLASS(survival_uniform_tigerstripe): Uniform_Base
+    {
+        author = AUTHOR;
+        scope=2;
+        displayName="survival_diver[tigerstripe]";
+        picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass= CLASS(survival_diver_tigerstripe);
+            containerClass="Supply40";
+            uniformType="Neopren";
+            mass=60;
+        };
+    };
 
-	class CLASS(survival_uniform_woodland): Uniform_Base
-	{
-		author = AUTHOR;
-		scope=2;
-		displayName="survival_diver[woodland]";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass= CLASS(survival_diver_woodland);
-			containerClass="Supply40";
-			uniformType="Neopren";
-			mass=60;
-		};
-	};
+    class CLASS(survival_uniform_woodland): Uniform_Base
+    {
+        author = AUTHOR;
+        scope=2;
+        displayName="survival_diver[woodland]";
+        picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass= CLASS(survival_diver_woodland);
+            containerClass="Supply40";
+            uniformType="Neopren";
+            mass=60;
+        };
+    };
 
 };
