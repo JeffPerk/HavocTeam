@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class cfgVehicles {
     class B_soldier_F;
     class I_Sniper_F;

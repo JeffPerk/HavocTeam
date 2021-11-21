@@ -12,8 +12,8 @@ class CfgWeapons {
         author = AUTHOR;
         displayName = "Boo Boo Bag";
         descriptionShort = "Contains material for first aid";
-        editorPreview = "\havoc_medical\supplies\data\previews\firstaid.jpg";
-        picture = "\havoc_medical\supplies\data\ui\firstaid_ca.paa";
+        editorPreview = QPATHTOF(data\previews\firstaid.jpg);
+        picture = QPATHTOF(data\ui\firstaid_ca.paa);
         model = "\a3\weapons_f\ammo\mag_firstaidkit.p3d";
         icon = "iconObject_1x1";
         mapSize = 0.015;

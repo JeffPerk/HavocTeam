@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="havoc">
+    <Package name="Headgear">
+        <Key ID="STR_havoc_Headgear_Cap_Headphones_BlackLogo">
+            <English>Cap Headphones (Black) Logo</English>
+            <German>Kappe, Kopfhöhrer (Schwarz) Logo</German>
+            <Japanese>ヘッドホン付き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette écouteurs (Noir) Logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_BlackLogo">
+            <English>Cap (Black) Logo</English>
+            <German>Kappe, Kopfhöhrer (Schwarz)</German>
+            <Japanese>帽子 (黒) ロゴ</Japanese>
+            <French>Casquette (Noir) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_TanLogo">
+            <English>Cap (Tan) Logo</English>
+            <German>Kappe (Hellbraun) Logo</German>
+            <Japanese>帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette (Beige) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Earpiece_BlackLogo">
+            <English>Cap Earpiece (Black) Logo</English>
+            <German>Kappe, Ohrhöhrer (Schwarz) Logo</German>
+            <Japanese>耳栓付き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette oreillette (Noir) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Earpiece_TanLogo">
+            <English>Cap Earpiece (Tan) Logo</English>
+            <German>Kappe, Ohrhöhrer (Hellbraun) Logo</German>
+            <Japanese>耳栓付き帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette oreillette (Beige) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Backwards_BlackLogo">
+            <English>Cap Backwards (Black) Logo</English>
+            <German>Kappe, umgekehrt (Schwarz) Logo</German>
+            <Japanese>後ろ向き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette retournée (Noir) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Backwards_TanLogo">
+            <English>Cap Backwards (Tan) Logo</English>
+            <German>Kappe, umgekehrt (Hellbraun) Logo</German>
+            <Japanese>後ろ向き帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette retournée (Beige) logo</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Headphones_Blackcow">
+            <English>Cap Headphones (Black) cow</English>
+            <German>Kappe, Kopfhöhrer (Schwarz) cow</German>
+            <Japanese>ヘッドホン付き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette écouteurs (Noir) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Blackcow">
+            <English>Cap (Black) cow</English>
+            <German>Kappe, Kopfhöhrer (Schwarz)</German>
+            <Japanese>帽子 (黒) ロゴ</Japanese>
+            <French>Casquette (Noir) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Tancow">
+            <English>Cap (Tan) cow</English>
+            <German>Kappe (Hellbraun) cow</German>
+            <Japanese>帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette (Beige) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Earpiece_Blackcow">
+            <English>Cap Earpiece (Black) cow</English>
+            <German>Kappe, Ohrhöhrer (Schwarz) cow</German>
+            <Japanese>耳栓付き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette oreillette (Noir) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Earpiece_Tancow">
+            <English>Cap Earpiece (Tan) cow</English>
+            <German>Kappe, Ohrhöhrer (Hellbraun) cow</German>
+            <Japanese>耳栓付き帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette oreillette (Beige) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Backwards_Blackcow">
+            <English>Cap Backwards (Black) cow</English>
+            <German>Kappe, umgekehrt (Schwarz) cow</German>
+            <Japanese>後ろ向き帽子 (黒) ロゴ</Japanese>
+            <French>Casquette retournée (Noir) cow</French>
+        </Key>
+        <Key ID="STR_havoc_Headgear_Cap_Backwards_Tancow">
+            <English>Cap Backwards (Tan) cow</English>
+            <German>Kappe, umgekehrt (Hellbraun) cow</German>
+            <Japanese>後ろ向き帽子 (黄褐) ロゴ</Japanese>
+            <French>Casquette retournée (Beige) cow</French>
+        </Key>
+    </Package>
+</Project>

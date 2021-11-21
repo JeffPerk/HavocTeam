@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgWeapons {
     class Man;
         class CAManBase : Man {

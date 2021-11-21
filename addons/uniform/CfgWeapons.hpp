@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class cfgWeapons {
     class U_I_CombatUniform;
     class U_I_CombatUniform_shortsleeve;

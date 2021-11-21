@@ -1,4 +1,4 @@
-PREP(canUnpackFirstAid)
-PREP(canUnpackMedicKit)
-PREP(doUnpackFirstAid)
-PREP(doUnpackMedicKit)
+PREP(canUnpackFirstAid);
+PREP(canUnpackMedicKit);
+PREP(doUnpackFirstAid);
+PREP(doUnpackMedicKit);
