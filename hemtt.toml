@@ -24,9 +24,6 @@ modname = "{{name}}"
 key_name = "{{prefix}}_{{version}}"
 
 
-check = [
-    "!version_set"
-]
 releasebuild = [
     "@zip havoc_v{{semver.major}}.{{semver.minor}}.{{semver.patch}}.{{semver.build}}",
     "!version_unset"
