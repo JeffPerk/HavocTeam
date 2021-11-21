@@ -24,7 +24,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "havoc_core",
+            "havoc_main",
             "ace_medical",
             "ace_medical_engine",
             "ace_medical_statemachine",
