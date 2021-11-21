@@ -8,14 +8,14 @@ private _screen_id = _object getVariable [format ["HAVOC_CC_screen_%1_ID", _sele
 private _renderTarget = format["screenrt%1", _screen_id];
 
 if !(isNil "_cam") then {
-	if !(isNull (_cam select 0)) then {
-		(_cam select 0) cameraEffect ["TERMINATE", "BACK", _renderTarget];
-		camDestroy (_cam select 0);
-	};
+    if !(isNull (_cam select 0)) then {
+        (_cam select 0) cameraEffect ["TERMINATE", "BACK", _renderTarget];
+        camDestroy (_cam select 0);
+    };
 
-	if !(isNull (_cam select 1)) then {
-		deleteVehicle (_cam select 1);
-	};
+    if !(isNull (_cam select 1)) then {
+        deleteVehicle (_cam select 1);
+    };
 };
 
 _object setVariable [format ["HAVOC_CC_screen_%1_Cam", _selection], nil];

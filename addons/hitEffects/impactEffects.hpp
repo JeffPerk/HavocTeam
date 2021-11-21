@@ -199,13 +199,13 @@ class ImpactMetal {
         lifeTime = 1;
     };
     class ImpactSmoke {
-		simulation = "particles";
+        simulation = "particles";
         qualityLevel = -1;
-		type = "ImpactSmoke";
-		position[] = {0,0,0};
-		intensity = 1;
-		interval = 1;
-		lifeTime = 1;
+        type = "ImpactSmoke";
+        position[] = {0,0,0};
+        intensity = 1;
+        interval = 1;
+        lifeTime = 1;
     };
     class ImpactSparks1 {
         simulation = "particles";

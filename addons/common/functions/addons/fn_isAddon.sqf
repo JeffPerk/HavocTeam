@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\addons\fn_isAddon.sqf
- *	by Ojemineh
- *	
- *	check if addon is available
- *	
- *	Arguments:
- *	0: classname - <STRING>
- *	
- *	Return:
- *	<BOOLEAN>
- *	
- *	Example:
- *	["Havoc_core"] call Havoc_fnc_isAddon;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\addons\fn_isAddon.sqf
+ * by Ojemineh
+ * 
+ * check if addon is available
+ * 
+ * Arguments:
+ * 0: classname - <STRING>
+ * 
+ * Return:
+ * <BOOLEAN>
+ * 
+ * Example:
+ * ["Havoc_core"] call Havoc_fnc_isAddon;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------

@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\sounds\fn_gainToDecibel.sqf
- *	by Ojemineh
- *	
- *	convert gain to decibel
- *	
- *	Arguments:
- *	0: gain - <NUMBER>
- *	
- *	Return:
- *	<NUMBER>
- *	
- *	Example:
- *	[1] call Havoc_fnc_gainToDecibel;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\sounds\fn_gainToDecibel.sqf
+ * by Ojemineh
+ * 
+ * convert gain to decibel
+ * 
+ * Arguments:
+ * 0: gain - <NUMBER>
+ * 
+ * Return:
+ * <NUMBER>
+ * 
+ * Example:
+ * [1] call Havoc_fnc_gainToDecibel;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------

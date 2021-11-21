@@ -1073,10 +1073,10 @@ class CfgWeapons {
         //displayName = "LIM-85 5.56 mm (Brown)";
         displayName = "FN Minimi SPW (Brown)";
         hiddenSelectionsTextures[] = {
-			QPATHTOF(data\lmg\minimi_01.paa),
-			QPATHTOF(data\lmg\minimi_02.paa),
-			"\A3\weapons_f\machineguns\m200\data\grip_co.paa"
-		};
+            QPATHTOF(data\lmg\minimi_01.paa),
+            QPATHTOF(data\lmg\minimi_02.paa),
+            "\A3\weapons_f\machineguns\m200\data\grip_co.paa"
+        };
     };
 
     // Equipped

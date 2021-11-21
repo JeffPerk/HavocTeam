@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/JeffPerk/HavocTeam/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
+        <img src="https://img.shields.io/badge/Version-1.0.1-blue.svg?style=flat-square" alt="ACE Project Template Version">
     </a>
     <a href="https://github.com/JeffPerk/HavocTeam/issues">
         <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
@@ -56,3 +56,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1623498241
 
 Fat_Lurch's MS_IFF_Strobe
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543390130
+

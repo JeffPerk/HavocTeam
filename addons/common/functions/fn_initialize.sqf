@@ -1,20 +1,20 @@
 #include "\a3\ui_f\hpp\definedikcodes.inc"
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\Havoc_common\functions\fn_initialize.sqf
- *	by Ojemineh
- *	
- *	initialize common addon
- *	
- *	Arguments:
- *	nothing
- *	
- *	Return:
- *	nothing
- *	
- *	Example:
- *	[] call Havoc_common_fnc_initialize;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \Havoc_common\functions\fn_initialize.sqf
+ * by Ojemineh
+ * 
+ * initialize common addon
+ * 
+ * Arguments:
+ * nothing
+ * 
+ * Return:
+ * nothing
+ * 
+ * Example:
+ * [] call Havoc_common_fnc_initialize;
+ * 
  */
 
 // -------------------------------------------------------------------------------------------------

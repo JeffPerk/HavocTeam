@@ -1,381 +1,381 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="havoc">
     <Package name="Weapons">
-        <Key ID="STR_havoc_Weapons_Box_Weapons">
+        <Key ID=" STR_HAVOC_Weapons_Box_Weapons">
             <English>[HAVOC] Weapons</English>
             <German>[HAVOC] Waffen</German>
             <Japanese>[HAVOC] 武器</Japanese>
             <French>[HAVOC] Armes</French>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_BlackCamo">
+        <Key ID=" STR_HAVOC_Weapons_MX_BlackCamo">
             <English>MX (Black Camo)</English>
             <German>MX (Schwarz Tarnfleck)</German>
             <Japanese>MX (黒)</Japanese>
             <French>MX (Camo Noir)</French>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_BlackCamo">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_BlackCamo">
             <English>MX 3GL (Black Camo)</English>
             <German>MX 3GL (Schwarz Tarnfleck)</German>
             <Japanese>MX 3GL (黒)</Japanese>
             <French>MX 3GL (Camo Noir)</French>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_greenspray">
+        <Key ID=" STR_HAVOC_Weapons_MX_greenspray">
             <English>MX (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_greenspray">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_greenspray">
             <English>MX 3GL (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_blackfine">
+        <Key ID=" STR_HAVOC_Weapons_MX_blackfine">
             <English>MX (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_blackfine">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_blackfine">
             <English>MX 3GL (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_blackhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_blackhex">
             <English>MX (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_blackhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_blackhex">
             <English>MX 3GL (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_brownswirl">
+        <Key ID=" STR_HAVOC_Weapons_MX_brownswirl">
             <English>MX (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_brownswirl">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_brownswirl">
             <English>MX 3GL (Brown Swirl  Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_dgreenpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_dgreenpat">
             <English>MX (Dark Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_dgreenpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_dgreenpat">
             <English>MX 3GL (Dark Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_greendig">
+        <Key ID=" STR_HAVOC_Weapons_MX_greendig">
             <English>MX (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_greendig">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_greendig">
             <English>MX 3GL (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_HAVOC">
+        <Key ID=" STR_HAVOC_Weapons_MX_HAVOC">
             <English>MX (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_HAVOC">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_HAVOC">
             <English>MX 3GL (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_greenstrip">
+        <Key ID=" STR_HAVOC_Weapons_MX_greenstrip">
             <English>MX (Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_greenstrip">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_greenstrip">
             <English>MX 3GL (Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_greenx">
+        <Key ID=" STR_HAVOC_Weapons_MX_greenx">
             <English>MX (Green X's Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_greenx">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_greenx">
             <English>MX 3GL (Green X's Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_greyhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_greyhex">
             <English>MX (Grey Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_greyhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_greyhex">
             <English>MX 3GL (Grey HexCamo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_snadpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_snadpat">
             <English>MX (Sand Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_snadpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_snadpat">
             <English>MX 3GL (Sand Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_greenspray">
+        <Key ID=" STR_HAVOC_Weapons_MXM_greenspray">
             <English>MXM (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_blackfine">
+        <Key ID=" STR_HAVOC_Weapons_MXM_blackfine">
             <English>MXM (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_blackhex">
+        <Key ID=" STR_HAVOC_Weapons_MXM_blackhex">
             <English>MXM (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_brownswirl">
+        <Key ID=" STR_HAVOC_Weapons_MXM_brownswirl">
             <English>MXM (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_dgreenpat">
+        <Key ID=" STR_HAVOC_Weapons_MXM_dgreenpat">
             <English>MXM (Dark Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_greendig">
+        <Key ID=" STR_HAVOC_Weapons_MXM_greendig">
             <English>MXM (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_HAVOC">
+        <Key ID=" STR_HAVOC_Weapons_MXM_HAVOC">
             <English>MXM (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_greenstrip">
+        <Key ID=" STR_HAVOC_Weapons_MXM_greenstrip">
             <English>MXM (Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_greenx">
+        <Key ID=" STR_HAVOC_Weapons_MXM_greenx">
             <English>MXM (Green Xs Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_greyhex">
+        <Key ID=" STR_HAVOC_Weapons_MXM_greyhex">
             <English>MXM (Grey Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_snadpat">
+        <Key ID=" STR_HAVOC_Weapons_MXM_snadpat">
             <English>MXM (Sand Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_greenspray">
+        <Key ID=" STR_HAVOC_Weapons_MXC_greenspray">
             <English>MXC (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_blackfine">
+        <Key ID=" STR_HAVOC_Weapons_MXC_blackfine">
             <English>MXC (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_blackhex">
+        <Key ID=" STR_HAVOC_Weapons_MXC_blackhex">
             <English>MXC (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_brownswirl">
+        <Key ID=" STR_HAVOC_Weapons_MXC_brownswirl">
             <English>MXC (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_dgreenpat">
+        <Key ID=" STR_HAVOC_Weapons_MXC_dgreenpat">
             <English>MXC (Dark Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_greendig">
+        <Key ID=" STR_HAVOC_Weapons_MXC_greendig">
             <English>MXC (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_HAVOC">
+        <Key ID=" STR_HAVOC_Weapons_MXC_HAVOC">
             <English>MXC (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_greenstrip">
+        <Key ID=" STR_HAVOC_Weapons_MXC_greenstrip">
             <English>MXC (Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_greenx">
+        <Key ID=" STR_HAVOC_Weapons_MXC_greenx">
             <English>MXC (Green Xs Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_greyhex">
+        <Key ID=" STR_HAVOC_Weapons_MXC_greyhex">
             <English>MXC (Grey Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_snadpat">
+        <Key ID=" STR_HAVOC_Weapons_MXC_snadpat">
             <English>MXC (Sand Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_greenspray">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_greenspray">
             <English>MX LMG (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_blackfine">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_blackfine">
             <English>MX LMG (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_blackhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_blackhex">
             <English>MX LMG (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_brownswirl">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_brownswirl">
             <English>MX LMG (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_dgreenpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_dgreenpat">
             <English>MX LMG (Dark Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_greendig">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_greendig">
             <English>MX LMG (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_HAVOC">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_HAVOC">
             <English>MX LMG (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_greenstrip">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_greenstrip">
             <English>MX LMG (Green Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_greenx">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_greenx">
             <English>MX LMG (Green Xs Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_greyhex">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_greyhex">
             <English>MX LMG (Grey Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_snadpat">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_snadpat">
             <English>MX LMG (Sand Pattern Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_jesus">
+        <Key ID=" STR_HAVOC_Weapons_MX_jesus">
             <English>MX (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_jesus">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_jesus">
             <English>MX 3GL (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_yonv">
+        <Key ID=" STR_HAVOC_Weapons_MX_yonv">
             <English>MX (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_yonv">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_yonv">
             <English>MX 3GL (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_browndots">
+        <Key ID=" STR_HAVOC_Weapons_MX_browndots">
             <English>MX (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_browndots">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_browndots">
             <English>MX 3GL (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_brownsplash">
+        <Key ID=" STR_HAVOC_Weapons_MX_brownsplash">
             <English>MX (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_brownsplash">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_brownsplash">
             <English>MX 3GL (Brown Splash  Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_blacksploch">
+        <Key ID=" STR_HAVOC_Weapons_MX_blacksploch">
             <English>MX (black sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_GL_blacksploch">
+        <Key ID=" STR_HAVOC_Weapons_MX_GL_blacksploch">
             <English>MX 3GL (black sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_jesus">
+        <Key ID=" STR_HAVOC_Weapons_MXM_jesus">
             <English>MXM (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_yonv">
+        <Key ID=" STR_HAVOC_Weapons_MXM_yonv">
             <English>MXM (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_browndots">
+        <Key ID=" STR_HAVOC_Weapons_MXM_browndots">
             <English>MXM (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_brownsplash">
+        <Key ID=" STR_HAVOC_Weapons_MXM_brownsplash">
             <English>MXM (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_blacksploch">
+        <Key ID=" STR_HAVOC_Weapons_MXM_blacksploch">
             <English>MXM (black sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_jesus">
+        <Key ID=" STR_HAVOC_Weapons_MXC_jesus">
             <English>MXC (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_yonv">
+        <Key ID=" STR_HAVOC_Weapons_MXC_yonv">
             <English>MXC (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_browndots">
+        <Key ID=" STR_HAVOC_Weapons_MXC_browndots">
             <English>MXC (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_brownsplash">
+        <Key ID=" STR_HAVOC_Weapons_MXC_brownsplash">
             <English>MXC (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_blacksploch">
+        <Key ID=" STR_HAVOC_Weapons_MXC_blacksploch">
             <English>MXC (black sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_jesus">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_jesus">
             <English>MX LMG (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_yonv">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_yonv">
             <English>MX LMG (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_browndots">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_browndots">
             <English>MX LMG (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_brownsplash">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_brownsplash">
             <English>MX LMG (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_blacksploch">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_blacksploch">
             <English>MX LMG (black sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXM_blackcamo">
+        <Key ID=" STR_HAVOC_Weapons_MXM_blackcamo">
             <English>MXM (BlaCK Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MXC_blackcamo">
+        <Key ID=" STR_HAVOC_Weapons_MXC_blackcamo">
             <English>MXC (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MX_SW_blackcamo">
+        <Key ID=" STR_HAVOC_Weapons_MX_SW_blackcamo">
             <English>MX LMG (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_EBR_Black_F">
+        <Key ID=" STR_HAVOC_Weapons_EBR_Black_F">
             <English>Mk14 Mod 1 EBR (Anodised Black)</English>
             <German>Mk14 Mod 1 EBR (Schwarz Eloxiert)</German>
             <French>Mk14 Mod 1 EBR (Noir Anodisé)</French>
         </Key>
-        <Key ID="STR_havoc_Weapons_Mk20_Black_F">
+        <Key ID=" STR_HAVOC_Weapons_Mk20_Black_F">
             <English>F2000 (Black Camo)</English>
             <German>F2000 (Schwarz Tarnfleck)</German>
             <French>F2000 (Camo Noir)</French>
         </Key>
-        <Key ID="STR_havoc_Weapons_Walther_P99">
+        <Key ID=" STR_HAVOC_Weapons_Walther_P99">
             <English>Walther P99</English>
             <French>Walther P99</French>
             <German>Walter P99</German>
         </Key>
-        <Key ID="STR_havoc_Weapons_Walther_P99_Tan">
+        <Key ID=" STR_HAVOC_Weapons_Walther_P99_Tan">
             <English>Walther P99 (Tan)</English>
             <French>Walther P99 (Beige)</French>
             <German>Walter P99 (Hellbraun)</German>
         </Key>
-        <Key ID="STR_havoc_Weapons_MRAWS_Black_F">
+        <Key ID=" STR_HAVOC_Weapons_MRAWS_Black_F">
             <English>MAAWS Mk4 Mod 1 (Black)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_MRAWS_Black_Rail_F">
+        <Key ID=" STR_HAVOC_Weapons_MRAWS_Black_Rail_F">
             <English>MAAWS Mk4 Mod 0 (Black)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_BlackCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_BlackCamo_mag">
             <English>30Rnd 6.5mm Magazine (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_CreedBlackCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_CreedBlackCamo_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_CreedGreensprayCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_CreedGreensprayCamo_mag">
             <English>30Rnd 6.5mm Magazine (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedblackfine_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedblackfine_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedblackhex_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedblackhex_mag">
             <English>30Rnd 6.5mm Magazine (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedbrownswirl_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedbrownswirl_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedgreendig_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedgreendig_mag">
             <English>30Rnd 6.5mm Magazine (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_CreedHAVOC_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_CreedHAVOC_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedgreenx_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedgreenx_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Green X Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedjesus_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedjesus_mag">
             <English>30Rnd 6.5mm Magazine (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedyonv_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedyonv_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedbrowndots_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedbrowndots_mag">
             <English>30Rnd 6.5mm Magazine (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedbrownsplash_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedbrownsplash_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_30Rnd_65x39_caseless_Creedblacksploch_mag">
+        <Key ID=" STR_HAVOC_Weapons_30Rnd_65x39_caseless_Creedblacksploch_mag">
             <English>30Rnd 6.5mm Creedmor Magazine (Black Sploch Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_BlackCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_BlackCamo_mag">
             <English>100Rnd 6.5mm Magazine (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_CreedBlackCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_CreedBlackCamo_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Black Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_CreedGreensprayCamo_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_CreedGreensprayCamo_mag">
             <English>100Rnd 6.5mm Magazine (Green Spray Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedblackfine_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedblackfine_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Black Fine Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedblackhex_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedblackhex_mag">
             <English>100Rnd 6.5mm Magazine (Black Hex Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedbrownswirl_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedbrownswirl_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Brown Swirl Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedgreendig_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedgreendig_mag">
             <English>100Rnd 6.5mm Magazine (Green Digital Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_CreedHAVOC_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_CreedHAVOC_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (HAVOC Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedgreenx_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedgreenx_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Green X Camo)</English>
         </Key>
-       <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedjesus_mag">
+       <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedjesus_mag">
             <English>100Rnd 6.5mm Magazine (Jesus's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedyonv_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedyonv_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (YonV's)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedbrowndots_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedbrowndots_mag">
             <English>100Rnd 6.5mm Magazine (Brown Dots Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedbrownsplash_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedbrownsplash_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Brown Splash Camo)</English>
         </Key>
-        <Key ID="STR_havoc_Weapons_100Rnd_65x39_caseless_Creedblacksploch_mag">
+        <Key ID=" STR_HAVOC_Weapons_100Rnd_65x39_caseless_Creedblacksploch_mag">
             <English>100Rnd 6.5mm Creedmor Magazine (Black Sploch Camo)</English>
         </Key>
     </Package>

@@ -1,10 +1,10 @@
 
 class HAVOC_Player {
 
-	tag = "HAVOC";
-	class Player {
+    tag = "HAVOC";
+    class Player {
 
-		file = "z\havoc\Addons\Player\Functions";
-		class ConfigPlayer {};
-	};
+        file = "z\havoc\Addons\Player\Functions";
+        class ConfigPlayer {};
+    };
 };

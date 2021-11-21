@@ -8,10 +8,11 @@
     "excludeList": [
         "initsettings.sqf",
         "initkeybinds.sqf",
+        "initSettings.sqf",
         "xeh_prep.sqf",
         "XEH_PREP.sqf",
         "XEH_PREP.hpp",
-        "\\initsettings.sqf",
+        "\\initSettings.sqf",
         "\\initkeybinds.sqf",
         "\\xeh_prep.sqf"
     ],

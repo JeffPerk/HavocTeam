@@ -1,5 +1,5 @@
 #define COMPONENT adminMenu
-#define COMPONENT_BEAUTIFIED Admin Menu
+#define COMPONENT_BEAUTIFIED AdminMenu
 
 #include "\z\havoc\addons\main\script_mod.hpp"
 #include "\z\havoc\addons\main\script_macros.hpp"

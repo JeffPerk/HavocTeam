@@ -5,11 +5,11 @@ private _host = objNull;
 call cTab_fnc_updateLists;
 
 {
-	if (_data isEqualTo (str _x)) exitWith {_host = _x;};
+    if (_data isEqualTo (str _x)) exitWith {_host = _x;};
 } forEach (cTabHcamlist + HAVOC_CC_vehicleCamList);
 
 if (isNull _host) exitWith {
-	// systemChat "Could not find camera host.";
+    // systemChat "Could not find camera host.";
 };
 
 private _cam = objNull;
@@ -22,11 +22,11 @@ _cam setvectorDirAndUp [[0, 0, -1], [0, 1, 0]];
 _cam camCommitPrepared 0;
 
 [_cam, _host] spawn {
-	params ["_cam", "_host"];
-	while {(not isNull _cam) && (not isNull _host)} do {
-		_cam setPos [(getPos _host select 0), (getPos _host select 1), (getPos _host select 2) + 300];
+    params ["_cam", "_host"];
+    while {(not isNull _cam) && (not isNull _host)} do {
+        _cam setPos [(getPos _host select 0), (getPos _host select 1), (getPos _host select 2) + 300];
         sleep 0.1;
-	};
+    };
 };
 
 _cam cameraEffect ["INTERNAL", "BACK", _renderTarget];
