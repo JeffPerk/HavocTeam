@@ -10,7 +10,7 @@ class havoc_Morphine {
     treatmentTime = ace_medical_treatment_treatmentTimeAutoinjector;
     displayName = "Morphine 10mg/1mL";
     displayNameProgress = "Injecting Morphine";
-    icon = "\z\havoc\addons\data\icon\VPN.paa";
+    icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     category = "medication";
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackStart = "";
@@ -32,7 +32,7 @@ class havoc_Morphine {
 class havoc_Epinephrine: havoc_Morphine {
     displayName = "Adrenaline 1mg/1mL";
     displayNameProgress = "Injecting Adrenaline";
-    icon = "\z\havoc\addons\data\icon\VPN.paa";
+    icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_vpnMedicationSuccess";
     requiresAll=true;
@@ -48,7 +48,7 @@ class havoc_Epinephrine: havoc_Morphine {
 class Naloxone : havoc_Morphine {
     displayName="Naloxone 1.6mg/4mL";
     displayNameProgress="Injecting Naloxone";
-    icon="\z\havoc\addons\data\icon\VPN.paa";
+    icon="\z\havoc\addons\media\images\icon\VPN.paa";
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_naloxoneSuccess";
     requiresAll=true;
@@ -61,7 +61,7 @@ class Naloxone : havoc_Morphine {
 class Fentanyl: havoc_Morphine{
     displayName="Fentanyl 100mcg/2mL";
     displayNameProgress="Injecting Fentanyl";
-    icon = "\z\havoc\addons\data\icon\VPN.paa";
+    icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_vpnMedicationSuccess";
     requiresAll=true;
@@ -74,7 +74,7 @@ class Fentanyl: havoc_Morphine{
 class Ketamine_6mg : havoc_Morphine {
     displayName="Ketamine 6mg/2mL";
     displayNameProgress="Injecting Ketamine 6mg/2mL";
-    icon = "\z\havoc\addons\data\icon\VPN.paa";
+    icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     requiresAll=true;
     items[] = {
         "havoc_ketamine"
@@ -88,7 +88,7 @@ class Ketamine_6mg : havoc_Morphine {
 class Ketamine_200mg : havoc_Morphine {
     displayName="Ketamine 200mg/2mL";
     displayNameProgress="Injecting Ketamine 200mg/2mL";
-    icon = "\z\havoc\addons\data\icon\VPN.paa";
+    icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     requiresAll=true;
     items[] = {
         "havoc_ketamine"
@@ -109,7 +109,7 @@ class NonVPNMedication : havoc_Morphine {
 class Tetra : NonVPNMedication {
     displayName="Tetracycline 250mg";
     displayNameProgress="Giving Tetracycline";
-    icon="\z\havoc\addons\data\icon\tetra.paa";
+    icon="\z\havoc\addons\media\images\icon\tetra.paa";
     items[]={
         "havoc_tetra"
     };
@@ -121,7 +121,7 @@ class Tetra : NonVPNMedication {
 class Apap : NonVPNMedication {
     displayName="Paracetemol 1g";
     displayNameProgress="Giving Paracetemol 1g";
-    icon="\z\havoc\addons\data\icon\apap.paa";
+    icon="\z\havoc\addons\media\images\icon\apap.paa";
     condition = "";
     callbackStart = "";
 
