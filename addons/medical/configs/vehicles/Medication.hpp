@@ -1,7 +1,7 @@
     
 class havoc_MorphineItem : Item_Base_F {
-    scope=SCOPE_PUBLIC;
-    scopeCurator=SCOPE_PUBLIC;
+    scope=2;
+    scopeCurator=2;
     displayName="Morphine 10mg/1mL Ampoule";
     icon="\z\havoc\addons\media\images\icon\VPN.paa";
     vehicleClass="Items";
@@ -11,8 +11,8 @@ class havoc_MorphineItem : Item_Base_F {
     };
 };
 class havoc_epinephrineItem : Item_Base_F {
-    scope=SCOPE_PUBLIC;
-    scopeCurator=SCOPE_PUBLIC;
+    scope=2;
+    scopeCurator=2;
     displayName="Adrenaline 1mg/1mL Ampoule";
     icon="\z\havoc\addons\media\images\icon\VPN.paa";
     vehicleClass="Items";
@@ -22,8 +22,8 @@ class havoc_epinephrineItem : Item_Base_F {
     };
 };
 class havoc_fentanylItem : Item_Base_F {
-    scope=SCOPE_PUBLIC;
-    scopeCurator=SCOPE_PUBLIC;
+    scope=2;
+    scopeCurator=2;
     displayName="Fentanyl 100mcg/2mL";
     icon="\z\havoc\addons\media\images\icon\VPN.paa";
     vehicleClass="Items";
