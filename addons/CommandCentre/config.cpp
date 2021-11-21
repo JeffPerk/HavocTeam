@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-    class HAVOC_CommandCentre
+    class HAVOC_commandcentre
     {
         author = AUTHOR;
         name = NAME;
@@ -48,7 +48,7 @@ class CfgVehicles
 class CfgFactionClasses
 {
     class NO_CATEGORY;
-    class HAVOC_CommandCentre: NO_CATEGORY
+    class HAVOC_commandcentre: NO_CATEGORY
     {
         displayName = "HAVOC Command Centre";
     };

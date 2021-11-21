@@ -3,7 +3,7 @@ class HAVOC_ModuleVehicleCam: Module_F
     scope = 2;
     displayName = "Add Vehicle Camera";
     icon = "\z\havoc\addons\media\images\icons\Camera.paa";
-    category = "HAVOC_CommandCentre";
+    category = "HAVOC_commandcentre";
     function = "HAVOC_fnc_moduleVehicleCam";
     functionPriority = 4;
     isGlobal = 0;

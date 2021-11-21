@@ -3,7 +3,7 @@ class HAVOC_ModuleMultiScreen: Module_F
     scope = 2;
     displayName = "Setup Multi Screen";
     icon = "\z\havoc\addons\media\images\icons\MultiScreen.paa";
-    category = "HAVOC_CommandCentre";
+    category = "HAVOC_commandcentre";
     function = "HAVOC_fnc_moduleMultiScreen";
     functionPriority = 4;
     isGlobal = 0;

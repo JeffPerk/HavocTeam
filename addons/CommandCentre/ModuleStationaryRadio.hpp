@@ -3,7 +3,7 @@ class HAVOC_ModuleStationaryRadio: Module_F
     scope = 2;
     displayName = "Setup Stationary Radio";
     icon = "\z\havoc\addons\media\images\icons\StationaryRadio.paa"; //todo: proper icon
-    category = "HAVOC_CommandCentre";
+    category = "HAVOC_commandcentre";
     function = "HAVOC_fnc_moduleStationaryRadio";
     functionPriority = 4;
     isGlobal = 0;
