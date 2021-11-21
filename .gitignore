@@ -16,7 +16,6 @@ extensions/vcproj64/*
 .vscode/*
 tools/temp
 *.cache
-*.pbo
 texHeaders.bin
 *.swp
 *.swo
