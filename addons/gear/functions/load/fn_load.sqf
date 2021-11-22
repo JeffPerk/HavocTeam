@@ -1,21 +1,21 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\load\fn_load.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\load\fn_load.sqf
+ * by Ojemineh
  *
- *	load files
+ * load files
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
- *	1: role	- <STRING>
- *	2: type	- <STRING>
- *	3: team	- <STRING>
+ * Arguments:
+ * 0: unit - <OBJECT>
+ * 1: role - <STRING>
+ * 2: type - <STRING>
+ * 3: team - <STRING>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player, "curator"] call havoc_gear_fnc_load;
+ * Example:
+ * [player, "curator"] call havoc_gear_fnc_load;
  *
  */
 
@@ -35,7 +35,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit, _role, _type, _team] remoteExecCall ["havoc_gear_fnc_load", _unit];
+    [_unit, _role, _type, _team] remoteExecCall ["havoc_gear_fnc_load", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------
@@ -57,9 +57,9 @@ if (_team isEqualTo "") then { _team = _gear_team; };
 // PLAYERS DEFAULT GOGGLES
 
 if (GEAR_KEEP_GOGGLES) then {
-	if ((goggles _unit) != "") then {
-		_unit setVariable ["havoc_gear_goggles", (goggles _unit)];
-	};
+    if ((goggles _unit) != "") then {
+        _unit setVariable ["havoc_gear_goggles", (goggles _unit)];
+    };
 };
 
 // -------------------------------------------------------------------------------------------------

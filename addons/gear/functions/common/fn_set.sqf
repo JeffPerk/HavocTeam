@@ -1,21 +1,21 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\common\fn_set.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\common\fn_set.sqf
+ * by Ojemineh
  *
- *	set unit role
+ * set unit role
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
- *	1: role	- <STRING>
- *	2: type	- <STRING>
- *	3: team	- <STRING>
+ * Arguments:
+ * 0: unit - <OBJECT>
+ * 1: role - <STRING>
+ * 2: type - <STRING>
+ * 3: team - <STRING>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player, "curator", "0", "nato"] call havoc_gear_fnc_set;
+ * Example:
+ * [player, "curator", "0", "nato"] call havoc_gear_fnc_set;
  *
  */
 
@@ -36,7 +36,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit, _role, _type, _team, _load] remoteExecCall ["havoc_gear_fnc_set", _unit];
+    [_unit, _role, _type, _team, _load] remoteExecCall ["havoc_gear_fnc_set", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------

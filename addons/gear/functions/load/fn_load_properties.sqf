@@ -1,21 +1,21 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\load\fn_load_properties.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\load\fn_load_properties.sqf
+ * by Ojemineh
  *
- *	load properties
+ * load properties
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
- *	1: role	- <STRING>
- *	2: type	- <STRING>
- *	3: team	- <STRING>
+ * Arguments:
+ * 0: unit - <OBJECT>
+ * 1: role - <STRING>
+ * 2: type - <STRING>
+ * 3: team - <STRING>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player, "curator"] call havoc_gear_fnc_load_properties;
+ * Example:
+ * [player, "curator"] call havoc_gear_fnc_load_properties;
  *
  */
 
@@ -35,7 +35,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit, _role, _type, _team] remoteExecCall ["havoc_gear_fnc_load_properties", _unit];
+    [_unit, _role, _type, _team] remoteExecCall ["havoc_gear_fnc_load_properties", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------
@@ -60,60 +60,60 @@ private _data = [] call compile preprocessFileLineNumbers _file;
 
 if (isNil "_data") exitWith {[4, "Can't read unit-properties from file (%1)", [_file], "gear"] call havoc_fnc_log;};
 
-private _data_insignia	= (_data select 0);
-private _data_rank		= (_data select 1);
-private _data_medic		= (_data select 2);
-private _data_engineer	= (_data select 3);
-private _data_eod		= (_data select 4);
-private _data_safety	= (_data select 5);
+private _data_insignia = (_data select 0);
+private _data_rank  = (_data select 1);
+private _data_medic  = (_data select 2);
+private _data_engineer = (_data select 3);
+private _data_eod  = (_data select 4);
+private _data_safety = (_data select 5);
 
 // -------------------------------------------------------------------------------------------------
 
 // INSIGNIA
 if (_data_insignia != "") then {
-	[_unit, _data_insignia] call havoc_fnc_setUnitInsignia;
+    [_unit, _data_insignia] call havoc_fnc_setUnitInsignia;
 };
 
 // -------------------------------------------------------------------------------------------------
 
 // RANK (PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPTAIN, MAJOR, COLONEL)
 if (_data_rank != "") then {
-	_unit setUnitRank _data_rank;
+    _unit setUnitRank _data_rank;
 };
 
 // -------------------------------------------------------------------------------------------------
 
 // MEDIC (0-2)
 if (_data_medic > -1) then {
-	if (_data_medic > 0) then {
-		_unit setUnitTrait ["medic", 1];
-		_unit setVariable ["ACE_medical_medicClass", _data_medic, true];
-	} else {
-		_unit setUnitTrait ["medic", 0];
-		_unit setVariable ["ACE_medical_medicClass", 0, true];
-	};
+    if (_data_medic > 0) then {
+        _unit setUnitTrait ["medic", 1];
+        _unit setVariable ["ACE_medical_medicClass", _data_medic, true];
+    } else {
+        _unit setUnitTrait ["medic", 0];
+        _unit setVariable ["ACE_medical_medicClass", 0, true];
+    };
 };
 
 // ENGINEER (0-2)
 if (_data_engineer > -1) then {
-	if (_data_engineer > 0) then {
-		_unit setUnitTrait ["engineer", 1];
-		_unit setVariable ["ACE_isEngineer", _data_engineer, true];
-	} else {
-		_unit setUnitTrait ["engineer", 0];
-		_unit setVariable ["ACE_isEngineer", 0, true];
-	};
+    if (_data_engineer > 0) then {
+        _unit setUnitTrait ["engineer", 1];
+        _unit setVariable ["ACE_isEngineer", _data_engineer, true];
+    } else {
+        _unit setUnitTrait ["engineer", 0];
+        _unit setVariable ["ACE_isEngineer", 0, true];
+    };
 };
 
 // EOD (0-1)
 if (_data_eod > -1) then {
-	if (_data_eod isEqualTo 1) then {
-		_unit setUnitTrait ["explosiveSpecialist", 1];
-		_unit setVariable  ["ACE_isEOD", true, true];
-	} else {
-		_unit setUnitTrait ["explosiveSpecialist", 0];
-		_unit setVariable  ["ACE_isEOD", false, true];
-	};
+    if (_data_eod isEqualTo 1) then {
+        _unit setUnitTrait ["explosiveSpecialist", 1];
+        _unit setVariable  ["ACE_isEOD", true, true];
+    } else {
+        _unit setUnitTrait ["explosiveSpecialist", 0];
+        _unit setVariable  ["ACE_isEOD", false, true];
+    };
 };
 
 // -------------------------------------------------------------------------------------------------
@@ -121,20 +121,20 @@ if (_data_eod > -1) then {
 // WEAPON SAFETY
 if (count _data_safety > 0) then {
 
-	private _safety_primary = (_data_safety select 0);
-	if (_safety_primary > 0) then {
-		[_unit, (primaryWeapon _unit), (primaryWeapon _unit), false] call havoc_fnc_weaponLock;
-	};
+    private _safety_primary = (_data_safety select 0);
+    if (_safety_primary > 0) then {
+        [_unit, (primaryWeapon _unit), (primaryWeapon _unit), false] call havoc_fnc_weaponLock;
+    };
 
-	private _safety_secondary = (_data_safety select 1);
-	if (_safety_secondary > 0) then {
-		[_unit, (secondaryWeapon _unit), (secondaryWeapon _unit), false] call havoc_fnc_weaponLock;
-	};
+    private _safety_secondary = (_data_safety select 1);
+    if (_safety_secondary > 0) then {
+        [_unit, (secondaryWeapon _unit), (secondaryWeapon _unit), false] call havoc_fnc_weaponLock;
+    };
 
-	private _safety_handgun = (_data_safety select 2);
-	if (_safety_handgun > 0) then {
-		[_unit, (handgunWeapon _unit), (handgunWeapon _unit), false] call havoc_fnc_weaponLock;
-	};
+    private _safety_handgun = (_data_safety select 2);
+    if (_safety_handgun > 0) then {
+        [_unit, (handgunWeapon _unit), (handgunWeapon _unit), false] call havoc_fnc_weaponLock;
+    };
 
 };
 

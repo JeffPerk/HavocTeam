@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\glasses\functions\blindfold\fn_blindfold_doPutOn.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\glasses\functions\blindfold\fn_blindfold_doPutOn.sqf
+ * by Ojemineh
  *
- *	put blindfold on
+ * put blindfold on
  *
- *	Arguments:
- *	0: caller	- <OBJECT>
- *	1: target	- <OBJECT>
+ * Arguments:
+ * 0: caller - <OBJECT>
+ * 1: target - <OBJECT>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[_player, _target] call havoc_glasses_fnc_blindfold_doPutOn;
+ * Example:
+ * [_player, _target] call havoc_glasses_fnc_blindfold_doPutOn;
  *
  */
 
@@ -33,33 +33,33 @@ if (isNull _target) exitWith {};
 
 [_caller, _target] spawn {
 
-	params ["_caller", "_target"];
+    params ["_caller", "_target"];
 
-	private _blindfolds = ["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"];
-	if (count (_blindfolds arrayIntersect (items _caller)) < 1) exitWith {};
+    private _blindfolds = ["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"];
+    if (count (_blindfolds arrayIntersect (items _caller)) < 1) exitWith {};
 
-	if (_caller == _target) then {
-		[_caller, "Gear"] call ACE_common_fnc_doGesture;
-	} else {
-		[_caller, "PutDown"] call ACE_common_fnc_doGesture;
-	};
-	sleep 0.8;
+    if (_caller == _target) then {
+        [_caller, "Gear"] call ACE_common_fnc_doGesture;
+    } else {
+        [_caller, "PutDown"] call ACE_common_fnc_doGesture;
+    };
+    sleep 0.8;
 
-	private _googles = (goggles _target);
-	if (_googles != "") then {
-		removeGoggles _target;
-		[_target, _googles, 1, [1,2,3], true] call havoc_fnc_addItem;
-	};
+    private _googles = (goggles _target);
+    if (_googles != "") then {
+        removeGoggles _target;
+        [_target, _googles, 1, [1,2,3], true] call havoc_fnc_addItem;
+    };
 
-	{
-		if (_x in (items _caller)) exitWith {
-			_target addGoggles _x;
-			_caller removeItem _x;
-		};
-	} forEach _blindfolds;
+    {
+        if (_x in (items _caller)) exitWith {
+            _target addGoggles _x;
+            _caller removeItem _x;
+        };
+    } forEach _blindfolds;
 
-	if (_caller == _target) then {
-		[_caller, "Stand"] call ACE_common_fnc_doGesture;
-	};
+    if (_caller == _target) then {
+        [_caller, "Stand"] call ACE_common_fnc_doGesture;
+    };
 
 };

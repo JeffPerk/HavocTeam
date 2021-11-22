@@ -1,18 +1,18 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\common\fn_restore.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\common\fn_restore.sqf
+ * by Ojemineh
  *
- *	restores unit loadout
+ * restores unit loadout
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
+ * Arguments:
+ * 0: unit - <OBJECT>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player] call havoc_gear_fnc_restore;
+ * Example:
+ * [player] call havoc_gear_fnc_restore;
  *
  */
 
@@ -29,7 +29,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit] remoteExecCall ["havoc_gear_fnc_restore", _unit];
+    [_unit] remoteExecCall ["havoc_gear_fnc_restore", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------
@@ -42,8 +42,8 @@ _unit setUnitLoadout [_loadout, false];
 
 private _insignia = (_array select 1);
 if (_insignia != "") then {
-	[_unit, ""] call BIS_fnc_setUnitInsignia;
-	[_unit, _insignia] call BIS_fnc_setUnitInsignia;
+    [_unit, ""] call BIS_fnc_setUnitInsignia;
+    [_unit, _insignia] call BIS_fnc_setUnitInsignia;
 };
 
 _unit setVariable ["havoc_gear_storage", nil, true];

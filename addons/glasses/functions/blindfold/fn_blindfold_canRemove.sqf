@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\glasses\functions\blindfold\fn_blindfold_canRemove.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\glasses\functions\blindfold\fn_blindfold_canRemove.sqf
+ * by Ojemineh
  *
- *	check if blindfold can be removed from unit
+ * check if blindfold can be removed from unit
  *
- *	Arguments:
- *	0: caller	- <OBJECT>
- *	1: target	- <OBJECT>
+ * Arguments:
+ * 0: caller - <OBJECT>
+ * 1: target - <OBJECT>
  *
- *	Return:
- *	<BOOLEAN>
+ * Return:
+ * <BOOLEAN>
  *
- *	Example:
- *	[_player, _target] call havoc_glasses_fnc_blindfold_canRemove;
+ * Example:
+ * [_player, _target] call havoc_glasses_fnc_blindfold_canRemove;
  *
  */
 
@@ -34,12 +34,12 @@ if (isNull _target) exitWith {false};
 private _return = false;
 
 _return = (
-	((goggles _target) in ["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"]) &&
-	(alive _caller) &&
-	!(_caller getVariable ["ace_captives_isSurrendering", false]) &&
-	!(_caller getVariable ["ace_captives_isHandcuffed", false]) &&
-	!(_caller getVariable ["ace_isUnconscious", false]) &&
-	(Not visibleMap)
+    ((goggles _target) in ["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"]) &&
+    (alive _caller) &&
+    !(_caller getVariable ["ace_captives_isSurrendering", false]) &&
+    !(_caller getVariable ["ace_captives_isHandcuffed", false]) &&
+    !(_caller getVariable ["ace_isUnconscious", false]) &&
+    (Not visibleMap)
 );
 
 _return;

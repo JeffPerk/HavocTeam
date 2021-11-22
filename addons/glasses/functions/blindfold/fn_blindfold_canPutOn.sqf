@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\glasses\functions\blindfold\fn_blindfold_canPutOn.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\glasses\functions\blindfold\fn_blindfold_canPutOn.sqf
+ * by Ojemineh
  *
- *	check if unit can wear a blindfold
+ * check if unit can wear a blindfold
  *
- *	Arguments:
- *	0: caller	- <OBJECT>
- *	1: target	- <OBJECT>
+ * Arguments:
+ * 0: caller - <OBJECT>
+ * 1: target - <OBJECT>
  *
- *	Return:
- *	<BOOLEAN>
+ * Return:
+ * <BOOLEAN>
  *
- *	Example:
- *	[_player, _target] call havoc_glasses_fnc_blindfold_canPutOn;
+ * Example:
+ * [_player, _target] call havoc_glasses_fnc_blindfold_canPutOn;
  *
  */
 
@@ -33,16 +33,16 @@ if (isNull _target) exitWith {false};
 
 private _return = false;
 
-//	(("havoc_G_Blindfold_Black" in items _unit) || ("havoc_G_Blindfold_White" in items _unit)) &&
+// (("havoc_G_Blindfold_Black" in items _unit) || ("havoc_G_Blindfold_White" in items _unit)) &&
 
 _return = (
-	(count (["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"] arrayIntersect (items _caller)) > 0) &&
-	(alive _caller) &&
-	((vehicle _target) == _target) &&
-	!(_caller getVariable ["ace_captives_isSurrendering", false]) &&
-	!(_caller getVariable ["ace_captives_isHandcuffed", false]) &&
-	!(_caller getVariable ["ace_isUnconscious", false]) &&
-	(Not visibleMap)
+    (count (["havoc_Blindfold_Black", "havoc_Blindfold_White", "havoc_Blindfold_White_Blood"] arrayIntersect (items _caller)) > 0) &&
+    (alive _caller) &&
+    ((vehicle _target) == _target) &&
+    !(_caller getVariable ["ace_captives_isSurrendering", false]) &&
+    !(_caller getVariable ["ace_captives_isHandcuffed", false]) &&
+    !(_caller getVariable ["ace_isUnconscious", false]) &&
+    (Not visibleMap)
 );
 
 _return;

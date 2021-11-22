@@ -1,18 +1,18 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\common\fn_removeAll.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\common\fn_removeAll.sqf
+ * by Ojemineh
  *
- *	remove gear from unit
+ * remove gear from unit
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
+ * Arguments:
+ * 0: unit - <OBJECT>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player] call havoc_gear_fnc_removeAll;
+ * Example:
+ * [player] call havoc_gear_fnc_removeAll;
  *
  */
 
@@ -29,7 +29,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit] remoteExecCall ["havoc_gear_fnc_removeAll", _unit];
+    [_unit] remoteExecCall ["havoc_gear_fnc_removeAll", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------

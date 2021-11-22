@@ -1,18 +1,18 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\common\fn_store.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\common\fn_store.sqf
+ * by Ojemineh
  *
- *	stores unit loadout
+ * stores unit loadout
  *
- *	Arguments:
- *	0: unit	- <OBJECT>
+ * Arguments:
+ * 0: unit - <OBJECT>
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[player] call havoc_gear_fnc_store;
+ * Example:
+ * [player] call havoc_gear_fnc_store;
  *
  */
 
@@ -29,7 +29,7 @@ if (isNull _unit) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 if (Not local _unit) exitWith {
-	[_unit] remoteExecCall ["havoc_gear_fnc_store", _unit];
+    [_unit] remoteExecCall ["havoc_gear_fnc_store", _unit];
 };
 
 // -------------------------------------------------------------------------------------------------

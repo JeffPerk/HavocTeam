@@ -1,18 +1,18 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\havoc\addons\gear\functions\fn_initialize.sqf
- *	by Ojemineh
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\havoc\addons\gear\functions\fn_initialize.sqf
+ * by Ojemineh
  *
- *	initialize gear addon
+ * initialize gear addon
  *
- *	Arguments:
- *	nothing
+ * Arguments:
+ * nothing
  *
- *	Return:
- *	nothing
+ * Return:
+ * nothing
  *
- *	Example:
- *	[] call havoc_gear_fnc_initialize;
+ * Example:
+ * [] call havoc_gear_fnc_initialize;
  *
  */
 
@@ -35,40 +35,40 @@ if (isNil "GEAR_KEEP_GOGGLES") then { GEAR_KEEP_GOGGLES = true; };
 
 [] spawn {
 
-	waitUntil {if (!isNull (findDisplay 46)) exitWith {true}; false};
-	waitUntil {if ((!isNull player) && (time > 1)) exitWith {true}; false};
+    waitUntil {if (!isNull (findDisplay 46)) exitWith {true}; false};
+    waitUntil {if ((!isNull player) && (time > 1)) exitWith {true}; false};
 
-	if (player in entities "HeadlessClient_F") exitWith {};
+    if (player in entities "HeadlessClient_F") exitWith {};
 
-	player addEventHandler ["Respawn", {
+    player addEventHandler ["Respawn", {
 
-		params ["_unit", "_corpse"];
+        params ["_unit", "_corpse"];
 
-		private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
-		if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
+        private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
+        if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
 
-		false;
-	}];
+        false;
+    }];
 
-	player addEventHandler ["Take", {
+    player addEventHandler ["Take", {
 
-		params ["_unit", "_container", "_item"];
+        params ["_unit", "_container", "_item"];
 
-		private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
-		if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
+        private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
+        if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
 
-		false;
-	}];
+        false;
+    }];
 
-	player addEventHandler ["InventoryClosed", {
+    player addEventHandler ["InventoryClosed", {
 
-		params ["_unit", "_container"];
+        params ["_unit", "_container"];
 
-		private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
-		if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
+        private _insignia = [_unit] call havoc_fnc_getUnitInsignia;
+        if (_insignia != "") then {[_unit, _insignia] call havoc_fnc_setUnitInsignia;};
 
-		false;
-	}];
+        false;
+    }];
 
 };
 
