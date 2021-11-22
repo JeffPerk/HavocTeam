@@ -11,11 +11,13 @@ class CfgPatches {
         };
         units[] = {
             "HAVOC_Item_FirstAid",
-            "HAVOC_Item_MedicKit"
+            "HAVOC_Item_MedicKit",
+            "HAVOC_Item_DrugKit"
         };
         weapons[] = {
             "HAVOC_FirstAid",
-            "HAVOC_MedicKit"
+            "HAVOC_MedicKit",
+            "HAVOC_DrugKit"
         };
         VERSION_CONFIG;
     };

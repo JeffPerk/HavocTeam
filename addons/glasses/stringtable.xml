@@ -8,7 +8,7 @@
 		<Container name="Glasses">
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_Title">
-				<Original>havoc Glasses</Original>
+				<Original>[havoc] Glasses</Original>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Author">
 				<Original>havoc-Team</Original>
@@ -39,7 +39,7 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_RegulatorMask_DisplayName">
-				<Original>Regulator Facepiece</Original>
+				<Original>[Havoc]Regulator Facepiece</Original>
 				<German>Regulierer-Gesichtsmaske</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_RegulatorMask_Description">
@@ -48,7 +48,7 @@
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_Respirator_DisplayName">
-				<Original>APR</Original>
+				<Original>[Havoc ]APR</Original>
 				<German>Atemschutzgerät</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Description">
@@ -56,7 +56,7 @@
 				<German></German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Black_DisplayName">
-				<Original>APR (Black)</Original>
+				<Original>[Havoc] APR (Black)</Original>
 				<German>Atemschutzgerät (Schwarz)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Black__Description">
@@ -64,7 +64,7 @@
 				<German></German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Olive_DisplayName">
-				<Original>APR (Olive)</Original>
+				<Original>[Havoc] APR (Olive)</Original>
 				<German>Atemschutzgerät (Oliv)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Olive_Description">
@@ -72,7 +72,7 @@
 				<German></German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Sand_DisplayName">
-				<Original>APR (Sand)</Original>
+				<Original>[Havoc] APR (Sand)</Original>
 				<German>Atemschutzgerät (Sand)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Respirator_Sand_Description">
@@ -81,7 +81,7 @@
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_Blindfold_Black_DisplayName">
-				<Original>Blindfold (fabric, black)</Original>
+				<Original>[Havoc] Blindfold (fabric, black)</Original>
 				<German>Augenbinde (Gewebe, schwarz)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Blindfold_Black_Description">
@@ -90,7 +90,7 @@
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_Blindfold_White_DisplayName">
-				<Original>Blindfold (fabric, white)</Original>
+				<Original>[Havoc] Blindfold (fabric, white)</Original>
 				<German>Augenbinde (Gewebe, weiß)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Blindfold_White_Description">
@@ -99,7 +99,7 @@
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_havoc_Glasses_Blindfold_White_Blood_DisplayName">
-				<Original>Blindfold (fabric, bloody)</Original>
+				<Original>[Havoc] Blindfold (fabric, bloody)</Original>
 				<German>Augenbinde (Gewebe, blutig)</German>
 			</Key>
 			<Key ID="STR_havoc_Glasses_Blindfold_White_Blood_Description">

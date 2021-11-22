@@ -18,7 +18,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_khaki_west : havoc_TFAR_rt1523g_kitbag {
-        displayName = "RT-1523G Kitbag (Green)";
+        displayName = "[Havoc] RT-1523G Kitbag (Green)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -26,7 +26,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_coyote_west : havoc_TFAR_rt1523g_kitbag {
-        displayName = "RT-1523G Kitbag (Coyote)";
+        displayName = "[Havoc] RT-1523G Kitbag (Coyote)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_cbr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -34,7 +34,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_winter_west : havoc_TFAR_rt1523g_kitbag {
-        displayName = "RT-1523G Kitbag (Winter)";
+        displayName = "[Havoc] RT-1523G Kitbag (Winter)";
         hiddenSelectionsTextures[] = {QPATHTOF(qip\data\textures\kitbag_wte.paa)};
         scope = 2;
         scopeCurator = 2;
@@ -42,7 +42,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_black_west : havoc_TFAR_rt1523g_kitbag {
-        displayName = "RT-1523G Kitbag (Black)";
+        displayName = "[Havoc] RT-1523G Kitbag (Black)";
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -61,7 +61,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_khaki_east : havoc_TFAR_mr3000_kitbag {
-        displayName = "MR3000 Kitbag (Green)";
+        displayName = "[Havoc] MR3000 Kitbag (Green)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -69,7 +69,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_coyote_east : havoc_kitbag_khaki_east {
-        displayName = "MR3000 Kitbag (Coyote)";
+        displayName = "[Havoc] MR3000 Kitbag (Coyote)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_cbr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -77,7 +77,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_winter_east : havoc_kitbag_khaki_east {
-        displayName = "MR3000 Kitbag (Winter)";
+        displayName = "[Havoc] MR3000 Kitbag (Winter)";
         hiddenSelectionsTextures[] = {QPATHTOF(qip\data\textures\kitbag_wte.paa)};
         scope = 2;
         scopeCurator = 2;
@@ -85,7 +85,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_black_east : havoc_kitbag_khaki_east {
-        displayName = "MR3000 Kitbag (Black)";
+        displayName = "[Havoc] MR3000 Kitbag (Black)";
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -104,7 +104,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_khaki_independent : havoc_TFAR_anprc155_kitbag {
-        displayName = "AN/PRC155 Kitbag (Green)";
+        displayName = "[Havoc] AN/PRC155 Kitbag (Green)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -112,7 +112,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_coyote_independent : havoc_TFAR_anprc155_kitbag {
-        displayName = "AN/PRC155 Kitbag (Coyote)";
+        displayName = "[Havoc] AN/PRC155 Kitbag (Coyote)";
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_cbr_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -120,7 +120,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_winter_independent : havoc_TFAR_anprc155_kitbag {
-        displayName = "AN/PRC155 Kitbag (Winter)";
+        displayName = "[Havoc] AN/PRC155 Kitbag (Winter)";
         hiddenSelectionsTextures[] = {QPATHTOF(qip\data\textures\kitbag_wte.paa)};
         scope = 2;
         scopeCurator = 2;
@@ -128,7 +128,7 @@ class CfgVehicles {
     };
 
     class havoc_kitbag_black_independent : havoc_TFAR_anprc155_kitbag {
-        displayName = "AN/PRC155 Kitbag (Black)";
+        displayName = "[Havoc] AN/PRC155 Kitbag (Black)";
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
         scope = 2;
         scopeCurator = 2;
@@ -147,7 +147,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatwd_east : havoc_TFAR_mr6000l_ilbe {
-        displayName = "MR6000L ILBE (MARPAT-WD)";
+        displayName = "[Havoc] MR6000L ILBE (MARPAT-WD)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_co.paa"};
@@ -157,7 +157,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatd_east : havoc_TFAR_mr6000l_ilbe {
-        displayName = "MR6000L ILBE (MARPAT-D)";
+        displayName = "[Havoc] MR6000L ILBE (MARPAT-D)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_d.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_d_co.paa"};
@@ -167,7 +167,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_coyote_east : havoc_TFAR_mr6000l_ilbe {
-        displayName = "MR6000L ILBE (Coyote)";
+        displayName = "[Havoc] MR6000L ILBE (Coyote)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_coy.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_coy_co.paa"};
@@ -177,7 +177,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_khaki_east : havoc_TFAR_mr6000l_ilbe {
-        displayName = "MR6000L ILBE (Green)";
+        displayName = "[Havoc] MR6000L ILBE (Green)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_gr.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_gr_co.paa"};
@@ -198,7 +198,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatwd_west : havoc_TFAR_anarc210_ilbe {
-        displayName = "AN/PRC-210 ILBE (MARPAT-WD)";
+        displayName = "[Havoc] AN/PRC-210 ILBE (MARPAT-WD)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_co.paa"};
@@ -208,7 +208,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatd_west : havoc_TFAR_anarc210_ilbe {
-        displayName = "AN/PRC-210 ILBE (MARPAT-D)";
+        displayName = "[Havoc] AN/PRC-210 ILBE (MARPAT-D)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_d.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_d_co.paa"};
@@ -218,7 +218,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_coyote_west : havoc_TFAR_anarc210_ilbe {
-        displayName = "AN/PRC-210 ILBE (Coyote)";
+        displayName = "[Havoc] AN/PRC-210 ILBE (Coyote)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_coy.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_coy_co.paa"};
@@ -228,7 +228,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_khaki_west : havoc_TFAR_anarc210_ilbe {
-        displayName = "AN/PRC-210 ILBE (Green)";
+        displayName = "[Havoc] AN/PRC-210 ILBE (Green)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_gr.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_gr_co.paa"};
@@ -249,7 +249,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatwd_independent : havoc_TFAR_anarc164_ilbe {
-        displayName = "AN/PRC-164 ILBE (MARPAT-WD)";
+        displayName = "[Havoc] AN/PRC-164 ILBE (MARPAT-WD)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_co.paa"};
@@ -259,7 +259,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_marpatd_independent : havoc_TFAR_anarc164_ilbe {
-        displayName = "AN/PRC-164 ILBE (MARPAT-D)";
+        displayName = "[Havoc] AN/PRC-164 ILBE (MARPAT-D)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_d.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_d_co.paa"};
@@ -269,7 +269,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_coyote_independent : havoc_TFAR_anarc164_ilbe {
-        displayName = "AN/PRC-164 ILBE (Coyote)";
+        displayName = "[Havoc] AN/PRC-164 ILBE (Coyote)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_coy.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_coy_co.paa"};
@@ -279,7 +279,7 @@ class CfgVehicles {
     };
 
     class havoc_ilbe_khaki_independent : havoc_TFAR_anarc164_ilbe {
-        displayName = "AN/PRC-164 ILBE (Green)";
+        displayName = "[Havoc] AN/PRC-164 ILBE (Green)";
         picture = "y\tfw_radios\addons\ilbe\data\icons\ilbe_icon_gr.paa";
         editorPreview = "";
         hiddenSelectionsTextures[] = {"y\tfw_radios\addons\ilbe\data\model\ilbe_gr_co.paa"};

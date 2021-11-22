@@ -16,3 +16,13 @@
     [1, 3600, 240],
     true
 ] call CBA_fnc_addSetting;
+
+//Settable list for using drug per medical class
+[
+    QGVAR(medLvl_drug),
+    "LIST",
+    ["Medical Level", "Training level required to use Medications"],
+    CBA_SETTINGS_CAT,
+    [[1, 2], ["Medics", "Doctors"], 2],
+    true
+] call CBA_settings_fnc_init;

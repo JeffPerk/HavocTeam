@@ -13,7 +13,7 @@ class cfgVehicles {
         scope = 1;
         author = AUTHOR;
         side = 1;
-        displayName = "Rifleman [M98]";
+        displayName = "[Havoc] Rifleman [M98]";
         uniformClass =QCLASS(U_CombatUniform);
         model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
         hiddenSelections[] = {
@@ -25,12 +25,12 @@ class cfgVehicles {
         };
     };
     class CLASS(Scout_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [M98] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [M98] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniform_shortsleeve);
         model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
     };
     class CLASS(Ranger_F): CLASS(Scout_F) {
-        displayName = "Rifleman [M98] (Ranger)";
+        displayName = "[Havoc] Rifleman [M98] (Ranger)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\texture\uniform_m98_ranger.paa)
         };
@@ -38,7 +38,7 @@ class cfgVehicles {
 
     // med
     class CLASS(SoldierMED_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [Mediterranean]";
+        displayName = "[Havoc] Rifleman [Mediterranean]";
         uniformClass =QCLASS(U_CombatUniformMC);
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
@@ -51,19 +51,19 @@ class cfgVehicles {
         };
     };
     class CLASS(RunnerMED_F): CLASS(SoldierMED_F){
-        displayName = "Rifleman [Mediterranean] (T-shirt)";
+        displayName = "[Havoc] Rifleman [Mediterranean] (T-shirt)";
         uniformClass =QCLASS(U_CombatUniformMC_tshirt);
         model = "\A3\Characters_F\BLUFOR\b_soldier_02.p3d";
     };
     class CLASS(ScoutMED_F): CLASS(SoldierMED_F){
-        displayName = "Rifleman [Mediterranean] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [Mediterranean] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformMC_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
     };
 
     // tropical
     class CLASS(SoldierTROP_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [Tropical]";
+        displayName = "[Havoc] Rifleman [Tropical]";
         uniformClass =QCLASS(U_CombatUniformMC);
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
@@ -76,19 +76,19 @@ class cfgVehicles {
         };
     };
     class CLASS(RunnerTROP_F): CLASS(SoldierTROP_F) {
-        displayName = "Rifleman [Tropical] (T-shirt)";
+        displayName = "[Havoc] Rifleman [Tropical] (T-shirt)";
         uniformClass =QCLASS(U_CombatUniformMC_tshirt);
         model = "\A3\Characters_F\BLUFOR\b_soldier_02.p3d";
     };
     class CLASS(ScoutTROP_F): CLASS(SoldierTROP_F) {
-        displayName = "Rifleman [Tropical] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [Tropical] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformMC_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
     };
 
     // Desert M03
     class CLASS(SoldierD_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [M03]";
+        displayName = "[Havoc] Rifleman [M03]";
         uniformClass =QCLASS(U_CombatUniformD);
         hiddenSelections[] = {
             "Camo",
@@ -99,13 +99,13 @@ class cfgVehicles {
         };
     };
     class CLASS(ScoutD_F): CLASS(SoldierD_F) {
-        displayName = "Rifleman [M03] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [M03] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformD_shortsleeve);
         model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
     };
     // Multicam
     class CLASS(SoldierMC_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [Multicam]";
+        displayName = "[Havoc] Rifleman [Multicam]";
         uniformClass =QCLASS(U_CombatUniformMC);
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
@@ -118,18 +118,18 @@ class cfgVehicles {
         };
     };
     class CLASS(RunnerMC_F): CLASS(SoldierMC_F) {
-        displayName = "Rifleman [Multicam] (T-shirt)";
+        displayName = "[Havoc] Rifleman [Multicam] (T-shirt)";
         uniformClass =QCLASS(U_CombatUniformMC_tshirt);
         model = "\A3\Characters_F\BLUFOR\b_soldier_02.p3d";
     };
     class CLASS(ScoutMC_F): CLASS(SoldierMC_F) {
-        displayName = "Rifleman [Multicam] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [Multicam] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformMC_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
     };
     // Snow
     class CLASS(SoldierS_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [Snow]";
+        displayName = "[Havoc] Rifleman [Snow]";
         uniformClass =QCLASS(U_CombatUniformSNOW);
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
         //model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
@@ -143,13 +143,13 @@ class cfgVehicles {
         };
     };
     class CLASS(ScoutS_F): CLASS(SoldierS_F){
-        displayName = "Rifleman [Snow] (Rolled-up)";
+        displayName = "[Havoc] Rifleman [Snow] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformSNOW_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
     };
     // Black
     class CLASS(SoldierB_F): CLASS(Soldier_F) {
-        displayName = "Rifleman [Black]";
+        displayName = "[Havoc] Rifleman [Black]";
         uniformClass =QCLASS(U_CombatUniformBlack);
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
         //model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
@@ -163,7 +163,7 @@ class cfgVehicles {
         };
     };
     class CLASS(ScoutB_F): CLASS(SoldierB_F) {
-        displayName = "Rifleman [Black] (Thermal Suit)";
+        displayName = "[Havoc] Rifleman [Black] (Thermal Suit)";
         uniformClass =QCLASS(U_CombatUniformBlack_full);
         model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
     };
@@ -173,7 +173,7 @@ class cfgVehicles {
         scope = 1;
         author = AUTHOR;
         side = 1;
-        displayName = "Sniper [M98]";
+        displayName = "[Havoc] Sniper [M98]";
         uniformClass = QCLASS(U_GhillieSuit);
         hiddenSelections[] = {
             "Camo",
@@ -189,7 +189,7 @@ class cfgVehicles {
         scope = 1;
         author = AUTHOR;
         side = 1;
-        displayName = "Helicopter Pilot [M98]";
+        displayName = "[Havoc] Helicopter Pilot [M98]";
         uniformClass = QCLASS(B_HeliPilotCoveralls);
         //model = "\A3\Characters_F\Common\coveralls.p3d";
         hiddenSelections[] = {

@@ -77,30 +77,6 @@ class havoc_ketamine : ACE_morphine {
     };
 };
 
-class havoc_tetra : ACE_morphine {
-    scope=2;
-    displayName="Tetracycline 250mg capsule";
-    descriptionShort="Antibiotic capsule";
-    descriptionUse="Antibiotic capsule";
-    picture="\z\havoc\addons\media\images\icon\tetra.paa";
-    class ItemInfo: CBA_MiscItem_ItemInfo {
-        mass = 0.01;
-    };
-};
-
-class havoc_Apap : ACE_morphine {
-    scope=2;
-    author="Monk";
-    displayName="Paracetemol 2x500mg Tablets";
-    picture="\z\havoc\addons\media\images\icon\apap.paa";
-    model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
-    descriptionShort="Analgesic/Antipyretic, used for light pain and fever";
-    descriptionUse="Analgesic/Antipyretic, used for light pain and fever";
-    class ItemInfo: CBA_MiscItem_ItemInfo {
-        mass=0.5;
-    };
-};
-
 class havoc_VPN : ACE_ItemCore {
     scope=2;
     displayName="3mL Drug Syringe";

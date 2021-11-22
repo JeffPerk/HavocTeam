@@ -44,7 +44,7 @@ class CfgVehicles {
         side = 1;
         faction = QUOTE(PREFIX);
         show = "true";
-        role = "Default";
+        role = "SpecialOperative"; 
         displayName = "Breacher";
         uniformClass = "USP_G3C_CU_KP_MX_MC";
         items[] = {"ACE_MapTools","HAVOC_FirstAid","ACE_EarPlugs"};

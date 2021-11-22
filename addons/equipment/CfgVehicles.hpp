@@ -11,7 +11,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         author = AUTHOR;
-        displayName = "Havoc Rebreather";
+        displayName = "[Havoc] Rebreather";
         class TransportItems
         {
             class HAVOC_Item_rebreather
@@ -25,7 +25,7 @@ class CfgVehicles {
     class Item_U_B_Wetsuit;
     class HAVOC_Item_Wetsuit : Item_U_B_Wetsuit {
         author = AUTHOR;
-        displayName = "Havoc Wetsuit";
+        displayName = "[Havoc] Wetsuit";
         class TransportItems
         {
             class HAVOC_Wetsuit
@@ -49,7 +49,7 @@ class CfgVehicles {
             verticalOffsetWorld=0;
             init="[this,10,true,true] call havoc_fnc_AmmoCrate;";
         };
-        displayName = "HAVOC Resupply";
+        displayName = "[Havoc] Resupply";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         slingLoadCargoMemoryPoints[]=
@@ -94,7 +94,7 @@ class CfgVehicles {
             verticalOffset=0.79000002;
             verticalOffsetWorld=0;
         };
-        displayName = "HAVOC Arsenal";
+        displayName = "[Havoc] Arsenal";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_dragging_canDrag = 0; 
@@ -133,7 +133,7 @@ class CfgVehicles {
 
     class HAVOC_Item_Vector_Designator: ACE_Item_Vector {
         author = "NemessisRE";
-        displayName = "[havoc] ACE Vector Designator (NVG/TI)";
+        displayName = "[Havoc] ACE Vector Designator (NVG/TI)";
         class TransportItems {
             class HAVOC_Vector_Designator {
                 name="HAVOC_Vector_Designator";
@@ -143,7 +143,7 @@ class CfgVehicles {
     };
 
     class HAVOC_Item_Vector_Designator_NVG: HAVOC_Item_Vector_Designator {
-        displayName = "[havoc] ACE Vector Designator (NVG)";
+        displayName = "[Havoc] ACE Vector Designator (NVG)";
         class TransportItems {
             class HAVOC_Vector_Designator {
                 name="HAVOC_Vector_Designator_NVG";
@@ -154,7 +154,7 @@ class CfgVehicles {
 
     class Item_optic_Nightstalker;
     class HAVOC_Item_optic_Nightstalker: Item_optic_Nightstalker {
-        displayName="[havoc] Nightstalker";
+        displayName="[Havoc] Nightstalker";
         author="NemesisRE";
         vehicleClass="WeaponAccessories";
         class TransportItems {
@@ -167,7 +167,7 @@ class CfgVehicles {
 
     class Item_optic_AMS;
     class HAVOC_Item_optic_AMS: Item_optic_AMS {
-        displayName="[havoc] AMS (Black)";
+        displayName="[Havoc] AMS (Black)";
         author="NemesisRE";
         class TransportItems {
             class HAVOC_optic_AMS {
@@ -177,7 +177,7 @@ class CfgVehicles {
         };
     };
     class HAVOC_Item_optic_AMS_khk: HAVOC_Item_optic_AMS {
-        displayName="[havoc] AMS (Khaki)";
+        displayName="[Havoc] AMS (Khaki)";
         class TransportItems {
             class HAVOC_optic_AMS_khk {
                 name="HAVOC_optic_AMS_khk";
@@ -186,7 +186,7 @@ class CfgVehicles {
         };
     };
     class HAVOC_Item_optic_AMS_snd: HAVOC_Item_optic_AMS {
-        displayName="[havoc] AMS (Sand)";
+        displayName="[Havoc] AMS (Sand)";
         class TransportItems {
             class HAVOC_optic_AMS_snd {
                 name="HAVOC_optic_AMS_snd";
@@ -195,7 +195,7 @@ class CfgVehicles {
         };
     };
     class HAVOC_Item_optic_AMSTI: Item_optic_AMS {
-        displayName="[havoc] AMS-TI (Black)";
+        displayName="[Havoc] AMS-TI (Black)";
         author="NemesisRE";
         class TransportItems {
             class HAVOC_optic_AMS {
@@ -205,7 +205,7 @@ class CfgVehicles {
         };
     };
     class HAVOC_Item_optic_AMSTI_khk: HAVOC_Item_optic_AMSTI {
-        displayName="[havoc] AMS-TI (Khaki)";
+        displayName="[Havoc] AMS-TI (Khaki)";
         class TransportItems {
             class HAVOC_optic_AMS_khk {
                 name="HAVOC_optic_AMSTI_khk";
@@ -214,7 +214,7 @@ class CfgVehicles {
         };
     };
     class HAVOC_Item_optic_AMSTI_snd: HAVOC_Item_optic_AMSTI {
-        displayName="[havoc] AMS-TI (Sand)";
+        displayName="[Havoc] AMS-TI (Sand)";
         class TransportItems {
             class HAVOC_optic_AMS_snd {
                 name="HAVOC_optic_AMSTI_snd";
