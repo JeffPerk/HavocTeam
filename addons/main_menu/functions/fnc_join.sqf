@@ -27,10 +27,10 @@ if (isNil "CBA_fnc_log") then {
 uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
 
-INFO("Auto joining to HAVOC Training Server");
+INFO("Auto joining to HAVOC Ops Server");
 
 GVAR(serverAddress) = "209.127.181.27";
-GVAR(serverPort) = "2322";
+GVAR(serverPort) = "2302";
 GVAR(joinTimeout) = diag_tickTime + 5;
 
 // "Click" server browser from main menu
