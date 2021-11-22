@@ -15,11 +15,9 @@ class SurgicalKit: FieldDressing {};
 class PersonalAidKit: BasicBandage {};
 class larynxtubus {
     displayName = "Insert Advanced Airway";
-    displayNameProgress = "Inserting i-Gel...";
 };
 class Guedeltubus:larynxtubus {
     displayName = "Insert Basic Airway";
-    displayNameProgress = "Inserting NPA...";
 };
 class Overstretch: larynxtubus {
     displayName = "Hyperextending Head";

@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class cfgWeapons {
     class U_I_CombatUniform;
     class U_I_CombatUniform_shortsleeve;
@@ -12,7 +13,7 @@ class cfgWeapons {
     // Woodland M98
     class CLASS(U_CombatUniform): U_I_CombatUniform {
         author = AUTHOR;
-        displayName = "Combat Fatigues [M98]";
+        displayName = "[Havoc] Combat Fatigues [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(Soldier_F);
@@ -22,7 +23,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniform_shortsleeve): U_I_CombatUniform_shortsleeve {
         author = AUTHOR;
-        displayName = "Combat Fatigues [M98] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [M98] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(Scout_F);
@@ -32,7 +33,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniform_ranger): U_I_CombatUniform_shortsleeve {
         author = AUTHOR;
-        displayName = "Combat Fatigues [M98] (Ranger)";
+        displayName = "[Havoc] Combat Fatigues [M98] (Ranger)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(Ranger_F);
@@ -43,7 +44,7 @@ class cfgWeapons {
     // Desert M98
     class CLASS(U_CombatUniformD): U_I_CombatUniform {
         author = AUTHOR;
-        displayName = "Combat Fatigues [M03]";
+        displayName = "[Havoc] Combat Fatigues [M03]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierD_F);
@@ -53,7 +54,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformD_shortsleeve): U_I_CombatUniform_shortsleeve {
         author = AUTHOR;
-        displayName = "Combat Fatigues [M03] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [M03] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutD_F);
@@ -64,7 +65,7 @@ class cfgWeapons {
     // Multicam
     class CLASS(U_CombatUniformMC): U_B_CTRG_1 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Multicam]";
+        displayName = "[Havoc] Combat Fatigues [Multicam]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierMC_F);
@@ -74,7 +75,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformMC_tshirt): U_B_CTRG_2 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Multicam] (T-shirt)";
+        displayName = "[Havoc] Combat Fatigues [Multicam] (T-shirt)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(RunnerMC_F);
@@ -84,7 +85,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformMC_shortsleeve): U_B_CTRG_3 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Multicam] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [Multicam] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutMC_F);
@@ -96,7 +97,7 @@ class cfgWeapons {
     // MED
     class CLASS(U_CombatUniformMED): U_B_CTRG_1 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Mediterranean]";
+        displayName = "[Havoc] Combat Fatigues [Mediterranean]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierMED_F);
@@ -106,7 +107,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformMED_tshirt): U_B_CTRG_2 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Mediterranean] (T-shirt)";
+        displayName = "[Havoc] Combat Fatigues [Mediterranean] (T-shirt)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(RunnerMED_F);
@@ -116,7 +117,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformMED_shortsleeve): U_B_CTRG_3 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Mediterranean] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [Mediterranean] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutMED_F);
@@ -127,7 +128,7 @@ class cfgWeapons {
     // tropical
     class CLASS(U_CombatUniformTROP): U_B_CTRG_1 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Tropical]";
+        displayName = "[Havoc] Combat Fatigues [Tropical]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierTROP_F);
@@ -138,7 +139,7 @@ class cfgWeapons {
 
     class CLASS(U_CombatUniformTROP_tshirt): U_B_CTRG_2 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Tropical] (T-shirt)";
+        displayName = "[Havoc] Combat Fatigues [Tropical] (T-shirt)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(RunnerTROP_F);
@@ -148,7 +149,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformTROP_shortsleeve): U_B_CTRG_3 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Tropical] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [Tropical] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutTROP_F);
@@ -159,7 +160,7 @@ class cfgWeapons {
     // Snow
     class CLASS(U_CombatUniformSNOW): U_B_CTRG_1 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Snow]";
+        displayName = "[Havoc] Combat Fatigues [Snow]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierS_F);
@@ -169,7 +170,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformSNOW_shortsleeve): U_B_CTRG_3 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Snow] (Rolled-up)";
+        displayName = "[Havoc] Combat Fatigues [Snow] (Rolled-up)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutS_F);
@@ -180,7 +181,7 @@ class cfgWeapons {
     // black
     class CLASS(U_CombatUniformB): U_B_CTRG_1 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Black]";
+        displayName = "[Havoc] Combat Fatigues [Black]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(SoldierB_F);
@@ -190,7 +191,7 @@ class cfgWeapons {
     };
     class CLASS(U_CombatUniformB_full): U_B_CTRG_3 {
         author = AUTHOR;
-        displayName = "Combat Fatigues [Black] (Thermal Suit)";
+        displayName = "[Havoc] Combat Fatigues [Black] (Thermal Suit)";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(ScoutB_F);
@@ -201,7 +202,7 @@ class cfgWeapons {
     // ghillie
     class CLASS(U_GhillieSuit): U_I_GhillieSuit {
         author = AUTHOR;
-        displayName = "Ghillie Suit [M98]";
+        displayName = "[Havoc] Ghillie Suit [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(sniper_F);
@@ -212,7 +213,7 @@ class cfgWeapons {
     // pilot
     class CLASS(B_HeliPilotCoveralls): U_B_HeliPilotCoveralls {
         author = AUTHOR;
-        displayName = "Heli Pilot Coveralls [M98]";
+        displayName = "[Havoc] Heli Pilot Coveralls [M98]";
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = CLASS(B_Helipilot_F);

@@ -2,6 +2,9 @@
 
 class CfgPatches {
   class ADDON {
+    author = AUTHOR;
+    name = COMPONENT_NAME;
+    url = URL;
     units[] = {
         QCLASS(Soldier_F),
         QCLASS(Scout_F),
@@ -64,10 +67,7 @@ class CfgPatches {
         "A3_Characters_F_BLUFOR",
         "A3_Characters_F_Common"
     };
-    version = "1.31";
-    versionStr = "1.31";
-    author = AUTHOR;
-
+    VERSION_CONFIG;
   };
 };
 

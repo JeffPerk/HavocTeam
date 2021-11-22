@@ -24,63 +24,63 @@
 		<Container name="RadioBag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_BLACK">
-				<Original>Radio Pack (Black)</Original>
+				<Original>[Havoc] Radio Pack (Black)</Original>
 				<German>Funkrucksack (Schwarz)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_BW_D">
-				<Original>Radio Pack (BW Tropic)</Original>
+				<Original>[Havoc] Radio Pack (BW Tropic)</Original>
 				<German>Funkrucksack (BW Tropen)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_BW_W">
-				<Original>Radio Pack (BW Camo)</Original>
+				<Original>[Havoc] Radio Pack (BW Camo)</Original>
 				<German>Funkrucksack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_COYOTE">
-				<Original>Radio Pack (Coyote)</Original>
+				<Original>[Havoc] Radio Pack (Coyote)</Original>
 				<German>Funkrucksack (Coyote)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_GREEN_DARK">
-				<Original>Radio Pack (Green Dark)</Original>
+				<Original>[Havoc] Radio Pack (Green Dark)</Original>
 				<German>Funkrucksack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_GREEN_DGTL">
-				<Original>Radio Pack (Green Digital)</Original>
+				<Original>[Havoc] Radio Pack (Green Digital)</Original>
 				<German>Funkrucksack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_GREEN_RNGR">
-				<Original>Radio Pack (Green Ranger)</Original>
+				<Original>[Havoc] Radio Pack (Green Ranger)</Original>
 				<German>Funkrucksack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_HEX_CAMO">
-				<Original>Radio Pack (Hex Camo)</Original>
+				<Original>[Havoc] Radio Pack (Hex Camo)</Original>
 				<German>Funkrucksack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_HEX_GREEN">
-				<Original>Radio Pack (Hex Green)</Original>
+				<Original>[Havoc] Radio Pack (Hex Green)</Original>
 				<German>Funkrucksack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_MARPAT_D">
-				<Original>Radio Pack (MARPAT-D)</Original>
+				<Original>[Havoc] Radio Pack (MARPAT-D)</Original>
 				<German>Funkrucksack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_MARPAT_W">
-				<Original>Radio Pack (MARPAT-W)</Original>
+				<Original>[Havoc] Radio Pack (MARPAT-W)</Original>
 				<German>Funkrucksack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_MTP">
-				<Original>Radio Pack (MTP)</Original>
+				<Original>[Havoc] Radio Pack (MTP)</Original>
 				<German>Funkrucksack (MTP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_OCP">
-				<Original>Radio Pack (OCP)</Original>
+				<Original>[Havoc] Radio Pack (OCP)</Original>
 				<German>Funkrucksack (OCP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_UCP">
-				<Original>Radio Pack (UCP)</Original>
+				<Original>[Havoc] Radio Pack (UCP)</Original>
 				<German>Funkrucksack (UCP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_WDL">
-				<Original>Radio Pack (Woodland)</Original>
+				<Original>[Havoc] Radio Pack (Woodland)</Original>
 				<German>Funkrucksack (Waldtarn)</German>
 			</Key>
 			<!-- =============================================================================== -->

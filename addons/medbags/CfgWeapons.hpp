@@ -12,8 +12,8 @@ class CfgWeapons {
         author = AUTHOR;
         displayName = "Boo Boo Bag";
         descriptionShort = "Contains material for first aid";
-        editorPreview = "\havoc_medical\supplies\data\previews\firstaid.jpg";
-        picture = "\havoc_medical\supplies\data\ui\firstaid_ca.paa";
+        editorPreview = QPATHTOF(data\previews\firstaid.jpg);
+        picture = QPATHTOF(data\ui\firstaid_ca.paa);
         model = "\a3\weapons_f\ammo\mag_firstaidkit.p3d";
         icon = "iconObject_1x1";
         mapSize = 0.015;
@@ -29,6 +29,21 @@ class CfgWeapons {
         descriptionShort = "Contains materials to resupply medics";
         editorPreview = QPATHTOF(data\previews\medickit.jpg);
         picture = QPATHTOF(data\ui\medickit_ca.paa);
+        model = "\a3\props_f_orange\humanitarian\camps\firstaidkit_01_closed_f.p3d";
+        icon = "iconObject_1x1";
+        mapSize = 0.015;
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 50;
+        };
+    };
+
+    class HAVOC_DrugKit: ACE_ItemCore {
+        scope = 2;
+        author = AUTHOR;
+        displayName = "Drug Kit";
+        descriptionShort = "Contains materials to resupply DR's";
+        editorPreview = QPATHTOF(data\previews\booboo_ca.paa);
+        picture = QPATHTOF(data\previews\booboo_ca.paa);
         model = "\a3\props_f_orange\humanitarian\camps\firstaidkit_01_closed_f.p3d";
         icon = "iconObject_1x1";
         mapSize = 0.015;

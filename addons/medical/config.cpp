@@ -9,7 +9,6 @@ class CfgPatches {
             "havoc_fentanylItem",
             "havoc_naloxonelItem",
             "havoc_ketamineItem",
-            "havoc_ApapItem"
         };
 
         weapons[] = {
@@ -17,8 +16,6 @@ class CfgPatches {
             "havoc_fentanyl",
             "havoc_ketamine",
             "havoc_ketamine_200mg",
-            "havoc_tetra",
-            "havoc_Apap",
             "havoc_VPN",
             "havoc_NDC"
         };
@@ -44,7 +41,6 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgModuleCategories.hpp"
 
 #include "configs\CfgVehicles.hpp"
 #include "configs\CfgWeapons.hpp"

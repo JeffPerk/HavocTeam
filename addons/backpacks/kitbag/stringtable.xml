@@ -24,123 +24,123 @@
 		<Container name="Kitbag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BLACK">
-				<Original>Kitbag (Black)</Original>
+				<Original>[Havoc] Kitbag (Black)</Original>
 				<German>Seesack (Schwarz)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BLACK_MEDIC">
-				<Original>Kitbag (Black MED)</Original>
+				<Original>[Havoc] Kitbag (Black MED)</Original>
 				<German>Seesack (Schwarz MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BW_D">
-				<Original>Kitbag (BW Tropic)</Original>
+				<Original>[Havoc] Kitbag (BW Tropic)</Original>
 				<German>Seesack (BW Tropen)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BW_D_MEDIC">
-				<Original>Kitbag (BW Tropic MED)</Original>
+				<Original>[Havoc] Kitbag (BW Tropic MED)</Original>
 				<German>Seesack (BW Tropen MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BW_W">
-				<Original>Kitbag (BW Camo)</Original>
+				<Original>[Havoc] Kitbag (BW Camo)</Original>
 				<German>Seesack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_BW_W_MEDIC">
-				<Original>Kitbag (BW Camo MED)</Original>
+				<Original>[Havoc] Kitbag (BW Camo MED)</Original>
 				<German>Seesack (BW Fleck MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_COYOTE">
-				<Original>Kitbag (Coyote)</Original>
+				<Original>[Havoc] Kitbag (Coyote)</Original>
 				<German>Seesack (Coyote)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_COYOTE_MEDIC">
-				<Original>Kitbag (Coyote MED)</Original>
+				<Original>[Havoc] Kitbag (Coyote MED)</Original>
 				<German>Seesack (Coyote MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_DARK">
-				<Original>Kitbag (Green Dark)</Original>
+				<Original>[Havoc] Kitbag (Green Dark)</Original>
 				<German>Seesack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_DARK_MEDIC">
-				<Original>Kitbag (Green Dark MED)</Original>
+				<Original>[Havoc] Kitbag (Green Dark MED)</Original>
 				<German>Seesack (Grün Dunkel MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_DGTL">
-				<Original>Kitbag (Green Digital)</Original>
+				<Original>[Havoc] Kitbag (Green Digital)</Original>
 				<German>Seesack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_DGTL_MEDIC">
-				<Original>Kitbag (Green Digital MED)</Original>
+				<Original>[Havoc] Kitbag (Green Digital MED)</Original>
 				<German>Seesack (Grün Digital MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_RNGR">
-				<Original>Kitbag (Green Ranger)</Original>
+				<Original>[Havoc] Kitbag (Green Ranger)</Original>
 				<German>Seesack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_GREEN_RNGR_MEDIC">
-				<Original>Kitbag (Green Ranger MED)</Original>
+				<Original>[Havoc] Kitbag (Green Ranger MED)</Original>
 				<German>Seesack (Grün Ranger MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_HEX_CAMO">
-				<Original>Kitbag (Hex Camo)</Original>
+				<Original>[Havoc] Kitbag (Hex Camo)</Original>
 				<German>Seesack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_HEX_CAMO_MEDIC">
-				<Original>Kitbag (Hex Camo MED)</Original>
+				<Original>[Havoc] Kitbag (Hex Camo MED)</Original>
 				<German>Seesack (Hex Camo MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_HEX_GREEN">
-				<Original>Kitbag (Hex Green)</Original>
+				<Original>[Havoc] Kitbag (Hex Green)</Original>
 				<German>Seesack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_HEX_GREEN_MEDIC">
-				<Original>Kitbag (Hex Green MED)</Original>
+				<Original>[Havoc] Kitbag (Hex Green MED)</Original>
 				<German>Seesack (Hex Grün MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MARPAT_D">
-				<Original>Kitbag (MARPAT-D)</Original>
+				<Original>[Havoc] Kitbag (MARPAT-D)</Original>
 				<German>Seesack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MARPAT_D_MEDIC">
-				<Original>Kitbag (MARPAT-D MED)</Original>
+				<Original>[Havoc] Kitbag (MARPAT-D MED)</Original>
 				<German>Seesack (MARPAT-D MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MARPAT_W">
-				<Original>Kitbag (MARPAT-W)</Original>
+				<Original>[Havoc] Kitbag (MARPAT-W)</Original>
 				<German>Seesack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MARPAT_W_MEDIC">
-				<Original>Kitbag (MARPAT-W MED)</Original>
+				<Original>[Havoc] Kitbag (MARPAT-W MED)</Original>
 				<German>Seesack (MARPAT-W MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MTP">
-				<Original>Kitbag (MTP)</Original>
+				<Original>[Havoc] Kitbag (MTP)</Original>
 				<German>Seesack (MTP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_MTP_MEDIC">
-				<Original>Kitbag (MTP MED)</Original>
+				<Original>[Havoc] Kitbag (MTP MED)</Original>
 				<German>Seesack (MTP MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_OCP">
-				<Original>Kitbag (OCP)</Original>
+				<Original>[Havoc] Kitbag (OCP)</Original>
 				<German>Seesack (OCP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_OCP_MEDIC">
-				<Original>Kitbag (OCP MED)</Original>
+				<Original>[Havoc] Kitbag (OCP MED)</Original>
 				<German>Seesack (OCP MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_UCP">
-				<Original>Kitbag (UCP)</Original>
+				<Original>[Havoc] Kitbag (UCP)</Original>
 				<German>Seesack (UCP)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_UCP_MEDIC">
-				<Original>Kitbag (UCP MED)</Original>
+				<Original>[Havoc] Kitbag (UCP MED)</Original>
 				<German>Seesack (UCP MED)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_WDL">
-				<Original>Kitbag (Wood Classic)</Original>
+				<Original>[Havoc] Kitbag (Wood Classic)</Original>
 				<German>Seesack (Wald Klassisch)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_Kitbag_01_WDL_MEDIC">
-				<Original>Kitbag (Wood Classic MED)</Original>
+				<Original>[Havoc] Kitbag (Wood Classic MED)</Original>
 				<German>Seesack (Wald Klassisch MED)</German>
 			</Key>
 			<!-- =============================================================================== -->

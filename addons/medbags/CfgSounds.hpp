@@ -17,5 +17,12 @@ class CfgSounds {
         titles[] = {};
         duration = 1.400;
     };
+
+    class HAVOC_Medical_DrugKit_Open_1 {
+        name = "";
+        sound[] = {"\z\havoc\addons\medbags\data\sounds\medickit_open_1.ogg", db-0, 1};
+        titles[] = {};
+        duration = 1.400;
+    };
     
 };

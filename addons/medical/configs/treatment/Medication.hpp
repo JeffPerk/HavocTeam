@@ -18,7 +18,7 @@ class Morphine {
     hrIncreaseLow[]={-15,-25};
     hrIncreaseNormal[]={-15,-25};
     hrIncreaseHigh[]={-15,-30};
-    timeInSystem=9800;
+    timeInSystem=3600;
     maxDose=4;
     inCompatableMedication[]={};
     viscosityChange=-3;
@@ -49,7 +49,7 @@ class Adenosine {
 class PainKillers {
     painReduce=0.69999999;
     timeInSystem=120;
-    maxDose=10;
+    maxDose=20;
     inCompatableMedication[]={};
     viscosityChange=5;
 };
@@ -73,14 +73,14 @@ class Fentanyl {
     hrIncreaseLow[]={-10,-15};
     hrIncreaseNormal[]={-10,-15};
     hrIncreaseHigh[]={-10,-20};
-    timeInSystem=6800;
+    timeInSystem=3600;
     maxDose=4;
     inCompatableMedication[]={};
     viscosityChange=-3;
 };
 
 class Ketamine_6mg {
-    painReduce=50;
+    painReduce=12.5;
     hrIncreaseLow[]={15,25};
     hrIncreaseNormal[]={15,35};
     hrIncreaseHigh[]={15,45};
@@ -99,36 +99,11 @@ class Ketamine_200mg : Ketamine_6mg {
     hrIncreaseNormal[]={15,35};
     hrIncreaseHigh[]={15,45};
     timeInSystem=1800;
-    maxDose=0;
+    maxDose=1;
     inCompatableMedication[]={};
     forcedUnconcious = 1;
     // onOverDose = "systemChat str _target";
     viscosityChange=5;
     unconsciousTime=300;
     effectTime = 30;
-};
-
-class Tetra : PainKillers {
-    painReduce=0;
-    hrIncreaseLow[]={0,0};
-    hrIncreaseNormal[]={0,0};
-    hrIncreaseHigh[]={0,0};
-    timeInSystem=5000;
-    viscosityChange=0;
-};
-
-class paracetamol : PainKillers {
-    painReduce=2;
-    timeInSystem=1200;
-    maxDose=15;
-    inCompatableMedication[]={};
-};
-class paracetamol_half : paracetamol {
-    painReduce=1;
-};
-class paracetamol_quarter : paracetamol {
-    painReduce=0.5;
-};
-class paracetamol_nil : paracetamol {
-    painReduce=0;
 };

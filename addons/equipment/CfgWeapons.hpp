@@ -14,7 +14,7 @@ class CfgWeapons {
 
     class HAVOC_Vector_Designator: ACE_Vector {
         author = "NemesisRE";
-        displayName = "[havoc] ACE Vector Designator (NVG/TI))";
+        displayName = "[Havoc] ACE Vector Designator (NVG/TI))";
         descriptionShort = "Rangefinder/Designator";
         simulation = "weapon";
         magazines[] = {"Laserbatteries"};
@@ -42,7 +42,7 @@ class CfgWeapons {
     
     class HAVOC_rebreather: V_RebreatherB {
         author = AUTHOR;
-        displayName = "Havoc Rebreather";
+        displayName = "[Havoc] Rebreather";
         class ItemInfo: VestItem {
             uniformModel = "\A3\Characters_F\Common\equip_rebreather";
             vestType = "Rebreather";
@@ -88,7 +88,7 @@ class CfgWeapons {
     
     class HAVOC_Wetsuit : U_B_Wetsuit {
         author = AUTHOR;
-        displayName = "Havoc Wetsuit";
+        displayName = "[Havoc] Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         hiddenSelections[] = {"camo"};
@@ -106,14 +106,14 @@ class CfgWeapons {
 
 
     class HAVOC_Vector_Designator_NVG: HAVOC_Vector_Designator {
-        displayName = "[havoc] ACE Vector Designator (NVG)";
+        displayName = "[Havoc] ACE Vector Designator (NVG)";
         visionMode[] = {"Normal","NVG"};
         thermalMode[] = {};
     };
 
     class HAVOC_optic_Nightstalker: optic_Nightstalker {
         author="NemesisRE";
-        displayName="[havoc] Nightstalker";
+        displayName="[Havoc] Nightstalker";
         descriptionShort = "Nightstalker Sight<br />Magnification: 1x-10x";
         class ItemInfo: InventoryOpticsItem_Base_F {
             mass=12;
@@ -165,8 +165,8 @@ class CfgWeapons {
 
     class HAVOC_optic_AMS_base: ItemCore {
         author="NemesisRE";
-        displayName="[havoc] AMS Base";
-        descriptionShort="[havoc] AMS (NVG)";
+        displayName="[Havoc] AMS Base";
+        descriptionShort="[Havoc] AMS (NVG)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -240,8 +240,8 @@ class CfgWeapons {
     };
     class HAVOC_optic_AMSTI_base: ItemCore {
         author="NemesisRE";
-        displayName="[havoc] AMS-TI Base";
-        descriptionShort="[havoc] AMS (NVG/TI)";
+        displayName="[Havoc] AMS-TI Base";
+        descriptionShort="[Havoc] AMS (NVG/TI)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -320,20 +320,20 @@ class CfgWeapons {
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[havoc] AMS (Black)";
+        displayName="[Havoc] AMS (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
     class HAVOC_optic_AMS_khk: HAVOC_optic_AMS {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
-        displayName="[havoc] AMS (Khaki)";
+        displayName="[Havoc] AMS (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
     class HAVOC_optic_AMS_snd: HAVOC_optic_AMS {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
-        displayName="[havoc] AMS (Sand)";
+        displayName="[Havoc] AMS (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
@@ -343,20 +343,20 @@ class CfgWeapons {
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[havoc] AMS-TI (Black)";
+        displayName="[Havoc] AMS-TI (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
     class HAVOC_optic_AMSTI_khk: HAVOC_optic_AMSTI {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
-        displayName="[havoc] AMS-TI (Khaki)";
+        displayName="[Havoc] AMS-TI (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
     class HAVOC_optic_AMSTI_snd: HAVOC_optic_AMSTI {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
-        displayName="[havoc] AMS-TI (Sand)";
+        displayName="[Havoc] AMS-TI (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
