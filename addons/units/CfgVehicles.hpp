@@ -12,13 +12,11 @@ class CfgVehicles {
     class EventHandlers : EventHandlers {class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};}; \
 
 
-    class rhsusf_army_ocp_helipilot { class EventHandlers; };
-    class rhsusf_infantry_socom_marsoc_base { class EventHandlers; };
 
 
     //////////////////////////////////////////
 
-    class GVAR(helipilot): rhsusf_army_ocp_helipilot {
+    class GVAR(helipilot): B_recon_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 1;
@@ -38,7 +36,7 @@ class CfgVehicles {
     };   
 
     ////////////////////////////////////
-    class GVAR(socom): rhsusf_infantry_socom_marsoc_base {
+    class GVAR(socom): B_recon_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 1;

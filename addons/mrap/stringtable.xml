@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma_Extended_Environment">
+
+	<!-- ####################################################################################### -->
+	<Package name="havoc_Helicopters">
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Container name="Helicopters">
+			<!-- =============================================================================== -->
+			<Key ID="STR_havoc_mrap_Title">
+				<Original>Dropping Purple Smoke Helicopters</Original>
+			</Key>
+			<Key ID="STR_havoc_mrap_Author">
+				<Original>Dropping Purple Smoke-Team</Original>
+			</Key>
+			<Key ID="STR_havoc_mrap_URL">
+				<Original>https://github.com/ghosts-of-battle/mods</Original>
+			</Key>
+			<!-- =============================================================================== -->
+		</Container>
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	</Package>
+	<!-- ####################################################################################### -->
+
+</Project>
