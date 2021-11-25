@@ -3,21 +3,12 @@
     <Package name="Weapons">
         <Key ID="STR_havoc_weapons_Box_Weapons">
             <Original>[HAVOC] Weapons</Original>
-            <German>[HAVOC] Waffen</German>
-            <Japanese>[HAVOC] 武器</Japanese>
-            <French>[HAVOC] Armes</French>
         </Key>
         <Key ID="STR_havoc_weapons_MX_BlackCamo">
             <Original>[Havoc] MX (Black Camo)</Original>
-            <German>MX (Schwarz Tarnfleck)</German>
-            <Japanese>MX (黒)</Japanese>
-            <French>MX (Camo Noir)</French>
         </Key>
         <Key ID="STR_havoc_weapons_MX_GL_BlackCamo">
             <Original>[Havoc] MX 3GL (Black Camo)</Original>
-            <German>MX 3GL (Schwarz Tarnfleck)</German>
-            <Japanese>MX 3GL (黒)</Japanese>
-            <French>MX 3GL (Camo Noir)</French>
         </Key>
         <Key ID="STR_havoc_weapons_MX_greenspray">
             <Original>[Havoc] MX (Green Spray Camo)</Original>
@@ -270,23 +261,15 @@
         </Key>
         <Key ID="STR_havoc_weapons_EBR_Black_F">
             <Original>[Havoc] Mk14 Mod 1 EBR (Anodised Black)</Original>
-            <German>Mk14 Mod 1 EBR (Schwarz Eloxiert)</German>
-            <French>Mk14 Mod 1 EBR (Noir Anodisé)</French>
         </Key>
         <Key ID="STR_havoc_weapons_Mk20_Black_F">
             <Original>[Havoc] F2000 (Black Camo)</Original>
-            <German>F2000 (Schwarz Tarnfleck)</German>
-            <French>F2000 (Camo Noir)</French>
         </Key>
         <Key ID="STR_havoc_weapons_Walther_P99">
             <Original[Havoc] >Walther P99</Original>
-            <French>Walther P99</French>
-            <German>Walter P99</German>
         </Key>
         <Key ID="STR_havoc_weapons_Walther_P99_Tan">
             <Original>[Havoc] Walther P99 (Tan)</Original>
-            <French>Walther P99 (Beige)</French>
-            <German>Walter P99 (Hellbraun)</German>
         </Key>
         <Key ID="STR_havoc_weapons_MRAWS_Black_F">
             <Original>[Havoc] MAAWS Mk4 Mod 1 (Black)</Original>
@@ -378,5 +361,121 @@
         <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_Creedblacksploch_mag">
             <Original>[Havoc] 100Rnd 6.5mm Creedmor Magazine (Black Sploch Camo)</Original>
         </Key>
+<!-- .................................................................... -->
+        <Key ID="STR_havoc_weapons_MX_brush">
+            <Original>[Havoc] MX (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_GL_brush">
+            <Original>[Havoc] MX 3GL (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXM_brush">
+            <Original>[Havoc] MXM (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXC_brush">
+            <Original>[Havoc] MXC (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_SW_brush">
+            <Original>[Havoc] MX LMG (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_brush_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Magazine (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_Creedbrush_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Creedmor Magazine (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_brush_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Magazine (Brush Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_Creedbrush_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Creedmor Magazine (Brush Camo)</Original>
+        </Key>
+
+<!-- .................................................................... -->
+        <Key ID="STR_havoc_weapons_MX_yonv2">
+            <Original>[Havoc] MX (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_GL_yonv2">
+            <Original>[Havoc] MX 3GL (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXM_yonv2">
+            <Original>[Havoc] MXM (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXC_yonv2">
+            <Original>[Havoc] MXC (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_SW_yonv2">
+            <Original>[Havoc] MX LMG (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_yonv2_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Magazine (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_Creedyonv2_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Creedmor Magazine (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_yonv2_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Magazine (YonV2 Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_Creedyonv2_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Creedmor Magazine (YonV2 Camo)</Original>
+        </Key>
+
+<!-- .................................................................... -->
+        <Key ID="STR_havoc_weapons_MX_walker">
+            <Original>[Havoc] MX (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_GL_walker">
+            <Original>[Havoc] MX 3GL (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXM_walker">
+            <Original>[Havoc] MXM (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXC_walker">
+            <Original>[Havoc] MXC (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_SW_walker">
+            <Original>[Havoc] MX LMG (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_walker_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Magazine (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_Creedwalker_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Creedmor Magazine (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_walker_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Magazine (Walker Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_Creedwalker_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Creedmor Magazine (Walker Camo)</Original>
+        </Key>
+<!-- .................................................................... -->
+        <Key ID="STR_havoc_weapons_MX_trash">
+            <Original>[Havoc] MX (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_GL_trash">
+            <Original>[Havoc] MX 3GL (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXM_trash">
+            <Original>[Havoc] MXM (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MXC_trash">
+            <Original>[Havoc] MXC (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_MX_SW_trash">
+            <Original>[Havoc] MX LMG (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_trash_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Magazine (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_100Rnd_65x39_caseless_Creedtrash_mag">
+            <Original>[Havoc] 100Rnd 6.5mm Creedmor Magazine (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_trash_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Magazine (Trash Camo)</Original>
+        </Key>
+        <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_Creedtrash_mag">
+            <Original>[Havoc] 30Rnd 6.5mm Creedmor Magazine (Trash Camo)</Original>
+        </Key>
+
+
     </Package>
 </Project>

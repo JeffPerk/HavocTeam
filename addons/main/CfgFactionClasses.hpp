@@ -1,8 +1,7 @@
 class CfgFactionClasses {    
     class NO_CATEGORY;
 
-    class HAVOC: NO_CATEGORY
-    {
+    class HAVOC: NO_CATEGORY {
         displayName = PREFIX;
     };
     class PREFIX: NO_CATEGORY {
@@ -11,8 +10,7 @@ class CfgFactionClasses {
         priority = 0;
         side = 1; // 1 Blufor 2 opfor 3 independant i think.
     };
-    class HAVOC_Modules: NO_CATEGORY
-    {
+    class HAVOC_Modules: NO_CATEGORY {
         displayName = PREFIX;
     };
 };

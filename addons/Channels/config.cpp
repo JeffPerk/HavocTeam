@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOCFundamentals_Channels
-    {
+class CfgPatches {
+    class HAVOCFundamentals_Channels {
+
         author = QAUTHOR;
         name = NAME;
         url = URL;

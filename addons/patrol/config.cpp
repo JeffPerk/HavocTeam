@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class cfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
+
         name = "HAVOC: Patrol";
         author = "Head";
         url = URL;

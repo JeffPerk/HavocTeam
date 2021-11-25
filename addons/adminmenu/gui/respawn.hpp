@@ -1,7 +1,5 @@
-class Controls
-{
-    class respawnMenuPlayersText: RscText
-    {
+class Controls {
+    class respawnMenuPlayersText: RscText {
         idc = IDC_HAVOC_ADMINMENU_RESP_SPECTATORTEXT;
         text = "Players in Spectator: 0";
         
@@ -12,8 +10,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL1;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class spectatorListBox: RscListBox
-    {
+    class spectatorListBox: RscListBox {
         idc = IDC_HAVOC_ADMINMENU_RESP_SPECTATORLIST;
         
         sizeEx = HAVOC_ADMINMENU_STD_SIZEX;
@@ -42,8 +39,7 @@ class Controls
         h = 0.308 * safezoneH;
     };
 
-    class respawnMenuAddButton: GVAR(RscButtonMenu)
-    {
+    class respawnMenuAddButton: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_RESP_ADDBUTTON;
         text = "Add";
         x = HAVOC_ADMINMENU_RESP_X_COL2;
@@ -52,8 +48,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
         onButtonClick=QUOTE((ctrlParent (param [0])) call FUNC(respawn_addAction));
     };
-    class respawnMenuRemoveButton: GVAR(RscButtonMenu)
-    {
+    class respawnMenuRemoveButton: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_RESP_REMOVEBUTTON;
         text = "Remove";
         x = HAVOC_ADMINMENU_RESP_X_COL2;
@@ -62,8 +57,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
         onButtonClick=QUOTE((ctrlParent (param [0])) call FUNC(respawn_removeAction));
     };
-    class respawnMenuRscComboRole: RscCombo
-    {
+    class respawnMenuRscComboRole: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_ROLECOMBO;
         text = "Role";
         
@@ -75,8 +69,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL2;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class RankText: RscText
-    {
+    class RankText: RscText {
         idc = -1;
         text = "Unit rank:";
         
@@ -88,8 +81,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
     
-    class RankSelector: RscToolbox
-    {
+    class RankSelector: RscToolbox {
         idc = IDC_HAVOC_ADMINMENU_RESP_RANK;
         
         style="0x02 + 0x30 + 0x800";
@@ -133,8 +125,7 @@ class Controls
         h = 2*HAVOC_ADMINMENU_STD_HEIGHT;
     };
 
-    class respawnMenuVOIP: GVAR(RscButtonMenu)
-    {
+    class respawnMenuVOIP: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_RESP_SPECTATORVOIP;
         text = "Toggle Spectator VOIP";
         x = HAVOC_ADMINMENU_RESP_X_COL3;
@@ -144,8 +135,7 @@ class Controls
         tooltip = "Toggles the spectator channel for you (ACRE/TFAR), so that you can talk to dead players if alive.";
         onButtonClick = QUOTE((ctrlParent (param [0])) call FUNC(respawn_toggleSpectatorVOIP));
     };
-    class groupListBox: RscListBox
-    {
+    class groupListBox: RscListBox {
         idc = IDC_HAVOC_ADMINMENU_RESP_GROUPLIST;
 
         sizeEx = HAVOC_ADMINMENU_STD_SIZEX;
@@ -174,8 +164,7 @@ class Controls
         h = 0.308 * safezoneH;
     };
 
-    class respawnGroupDetailsText: RscText
-    {
+    class respawnGroupDetailsText: RscText {
         idc = -1;
         text = "Group Details:";
         
@@ -186,8 +175,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL1;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuGroupNameText: RscEdit
-    {
+    class respawnMenuGroupNameText: RscEdit {
         idc = IDC_HAVOC_ADMINMENU_RESP_GROUPNAME;
         text = "INSERT_GROUP_NAME";
         
@@ -200,8 +188,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL4;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuFactionCategoryCombo: RscCombo
-    {
+    class respawnMenuFactionCategoryCombo: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_FACTIONCATEGORY;
         text = "FactionCategory"; /*Formerly side */
         
@@ -213,8 +200,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL4;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuFactionCombo: RscCombo
-    {
+    class respawnMenuFactionCombo: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_FACTION;
         text = "Faction";
         
@@ -226,8 +212,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL4;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuSideCombo: RscCombo
-    {
+    class respawnMenuSideCombo: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_SIDE;
         text = "Side";
         
@@ -240,8 +225,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
     
-    class respawnMenuSpawnMarkerText: RscText
-    {
+    class respawnMenuSpawnMarkerText: RscText {
         idc = -1;
         text = "Spawn with ORBAT marker?";
         
@@ -252,8 +236,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL4;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuGroupMarkerCheckbox: RscCheckBox
-    {
+    class respawnMenuGroupMarkerCheckbox: RscCheckBox {
         idc = IDC_HAVOC_ADMINMENU_RESP_GROUPMARKERCHECKBOX;
         text = "Give group marker";
         x = HAVOC_ADMINMENU_RESP_X_COL4 + (7 * (((safezoneW / safezoneH) min 1.2) / 40));
@@ -262,8 +245,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
         //action = "['respawnMenuToggleGroupCheckbox'] spawn havoc_respawn_fnc_handleRespawnUI";
     };
-    class respawnMenuMarkerName: RscEdit
-    {
+    class respawnMenuMarkerName: RscEdit {
         idc = IDC_HAVOC_ADMINMENU_RESP_GROUPMARKERNAME;
         text = "INSERT_MARKER_NAME";
         
@@ -279,8 +261,7 @@ class Controls
     
     
         //Marker combo boxs
-    class MarkerTypeCombo: RscCombo
-    {
+    class MarkerTypeCombo: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_MARKERTYPE;
         text = "Side";
         
@@ -293,8 +274,7 @@ class Controls
         w = HAVOC_ADMINMENU_RESP_W_COL4;
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
-    class MarkerColourCombo: RscCombo
-    {
+    class MarkerColourCombo: RscCombo {
         idc = IDC_HAVOC_ADMINMENU_RESP_MARKERCOLOUR;
         text = "Side";
         
@@ -307,8 +287,7 @@ class Controls
         h = HAVOC_ADMINMENU_STD_HEIGHT;
     };
     
-    class respawnMenuSpawnButton: GVAR(RscButtonMenu)
-    {
+    class respawnMenuSpawnButton: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_RESP_SPAWNBUTTON;
         text = "Spawn Group";
         x = HAVOC_ADMINMENU_RESP_X_COL4;

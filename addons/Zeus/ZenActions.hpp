@@ -12,19 +12,19 @@ class zen_context_menu_actions {
             priority = 50;
             args = 0;
         };
-        class FOBSmall : FOBCamp {
+        class FOBSmall: FOBCamp {
             displayName = "Small";
             icon = "";
             priority = 49;
             args = 1;
         };
-        class FOBMedium : FOBCamp {
+        class FOBMedium: FOBCamp {
             displayName = "Medium";
             icon = "";
             priority = 48;
             args = 2;
         };
-        class FOBLarge : FOBCamp {
+        class FOBLarge: FOBCamp {
             displayName = "Large";
             icon = "";
             priority = 47;

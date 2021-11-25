@@ -2,7 +2,7 @@
 Function: uav.sqf
 
 Description:
-	Script to service UAVs.
+    Script to service UAVs.
 
 Arguments:
     _veh - The vehicle to service
@@ -12,13 +12,13 @@ Arguments:
     _playerDistance - Players have to stay within this distance for servicing to continue
 
 Return Values:
-	Nothing
+    Nothing
 
 Examples:
     Nothing to see here.
 
 Author:
-	Mokka
+    Mokka
 */
 
 params [
@@ -34,7 +34,7 @@ if (isNull _veh)  exitWith {};
 
 if(_veh isKindOf "UAV") then {
 
-	_type = getText(configFile >> "CfgVehicles" >> (typeOf _veh) >> "DisplayName");
+    _type = getText(configFile >> "CfgVehicles" >> (typeOf _veh) >> "DisplayName");
 
     _msg = format ["Servicing %1, This will tafke at least %2", _type, _serviceTime call YAINA_F_fnc_formatDuration];
     if(_sideChat) then {

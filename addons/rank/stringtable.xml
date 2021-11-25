@@ -2,8 +2,8 @@
 <Project name="HAVOC">
     <Package name="Rank">
         <Key ID="STR_HAVOC_rank_Corporal">
-            <English>Corporal</English>
-            <English>Corporal</English>
+            <Original>Corporal</Original>
+            <Original>Corporal</Original>
             <Czech>Desátník</Czech>
             <French>Corporel</French>
             <German>Korporal</German>
@@ -14,8 +14,8 @@
             <Spanish>Corporal</Spanish>
         </Key>
         <Key ID="STR_HAVOC_rank_Sergeant">
-            <English>Sergeant</English>
-            <English>Sergeant</English>
+            <Original>Sergeant</Original>
+            <Original>Sergeant</Original>
             <Czech>Četař</Czech>
             <French>Sergent</French>
             <German>Feldwebel</German>
@@ -26,8 +26,8 @@
             <Spanish>Sargento</Spanish>
         </Key>
         <Key ID="STR_HAVOC_rank_Lieutenant">
-            <English>Lieutenant</English>
-            <English>Lieutenant</English>
+            <Original>Lieutenant</Original>
+            <Original>Lieutenant</Original>
             <Czech>Poručík</Czech>
             <French>Lieutenant</French>
             <German>Leutnant</German>
@@ -38,8 +38,8 @@
             <Spanish>Teniente</Spanish>
         </Key>
         <Key ID="STR_HAVOC_rank_Captain">
-            <English>Captain</English>
-            <English>Captain</English>
+            <Original>Captain</Original>
+            <Original>Captain</Original>
             <Czech>Kapitán</Czech>
             <French>Capitaine</French>
             <German>Kapitän</German>
@@ -50,8 +50,8 @@
             <Spanish>Capitán</Spanish>
         </Key>
         <Key ID="STR_HAVOC_rank_Major">
-            <English>Major</English>
-            <English>Major</English>
+            <Original>Major</Original>
+            <Original>Major</Original>
             <Czech>Major</Czech>
             <French>Majeur</French>
             <German>Haupt</German>
@@ -62,8 +62,8 @@
             <Spanish>Destacado</Spanish>
         </Key>
         <Key ID="STR_HAVOC_rank_Colonel">
-            <English>Colonel</English>
-            <English>Colonel</English>
+            <Original>Colonel</Original>
+            <Original>Colonel</Original>
             <Czech>Plukovník</Czech>
             <French>Colonel</French>
             <German>Oberst</German>

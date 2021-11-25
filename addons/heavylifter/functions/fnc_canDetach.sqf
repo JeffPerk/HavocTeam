@@ -10,7 +10,7 @@
  * Can Detach Hooks <BOOL>
  *
  * Example:
- * [heli, player] call tac_heavylifter_fnc_canDetach
+ * [heli, player] call havoc_heavylifter_fnc_canDetach
  *
  * Public: No
  */

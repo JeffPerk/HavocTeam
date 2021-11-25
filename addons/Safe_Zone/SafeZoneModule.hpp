@@ -1,5 +1,4 @@
-class HAVOC_ModuleSafeZone: Module_F
-{
+class HAVOC_ModuleSafeZone: Module_F {
     scope = 2;
     displayName = "Safe Zone";
     icon = "\z\havoc\addons\media\images\icons\Safe_Zone.paa";
@@ -10,36 +9,31 @@ class HAVOC_ModuleSafeZone: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class SafeZoneEnable: Checkbox
-              {
+    class Attributes: AttributesBase {
+        class SafeZoneEnable: Checkbox {
                 property = "HAVOC_SafeZoneEnable";
                 displayName = "Enabled";
                 tooltip = "Enable/Disable this Safe Zone Module.";
                 typeName = "BOOL";
                 defaultValue = true;
             };
-            class SafeZoneSize: Edit
-              {
+            class SafeZoneSize: Edit {
                 property = "HAVOC_SafeZoneSize";
                 displayName = "Size";
                 tooltip = "Area of Safe Zone around this module in meters";
                 typeName = "NUMBER";
                 defaultValue = 150;
             };
-        class SafeZoneDuration: Edit
-              {
+        class SafeZoneDuration: Edit {
                 property = "HAVOC_SafeZoneDuration";
                 displayName = "Duration";
                 tooltip = "How long should the safe zone be active. 0 means permanent.";
                 typeName = "NUMBER";
                 defaultValue = 0;
             };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Place this module to create a Safe Zone around the module location.",
             "Players will be forbidden from shooting Weapons/Vehicle Turrets within the safe zone area",

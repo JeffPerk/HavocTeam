@@ -2,23 +2,23 @@
 <Project name="HAVOC">
     <Package name="Pointing">
         <Key ID="STR_HAVOC_Pointing_DisplayName">
-            <English>Havoc - Pointing</English>
+            <Original>Havoc - Pointing</Original>
             <Polish>Havoc - Wskazywanie</Polish>
         </Key>
         <Key ID="STR_HAVOC_Pointing_Vehicle_Enabled">
-            <English>Enable pointing in vehicles</English>
+            <Original>Enable pointing in vehicles</Original>
             <Polish>Włącz wskazywanie w pojazdach</Polish>
         </Key>
         <Key ID="STR_HAVOC_Pointing_Vehicle_Enabled_Description">
-            <English>Allows to point current camera direction in vehicles to rest of the crew.</English>
+            <Original>Allows to point current camera direction in vehicles to rest of the crew.</Original>
             <Polish>Pozwala na wskazywanie aktualnego obrotu kamery reszcie załogi pojazdu.</Polish>
         </Key>
         <Key ID="STR_HAVOC_Pointing_Key_PointVehicle">
-            <English>Point direction (vehicle)</English>
+            <Original>Point direction (vehicle)</Original>
             <Polish>Wskaż kierunek (w pojeździe)</Polish>
         </Key>
         <Key ID="STR_HAVOC_Pointing_Key_PointVehicle_Description">
-            <English>Point direction to the rest of the current vehicle crew.</English>
+            <Original>Point direction to the rest of the current vehicle crew.</Original>
             <Polish>Wskaż kierunek reszcie załogi aktualnego pojazdu.</Polish>
         </Key>
     </Package>

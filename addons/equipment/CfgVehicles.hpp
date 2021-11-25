@@ -12,10 +12,8 @@ class CfgVehicles {
         scopeCurator = 2;
         author = AUTHOR;
         displayName = "[Havoc] Rebreather";
-        class TransportItems
-        {
-            class HAVOC_Item_rebreather
-            {
+        class TransportItems {
+            class HAVOC_Item_rebreather {
                 name = "Havoc Rebreather";
                 count = 1;
             };
@@ -23,13 +21,11 @@ class CfgVehicles {
     };
 
     class Item_U_B_Wetsuit;
-    class HAVOC_Item_Wetsuit : Item_U_B_Wetsuit {
+    class HAVOC_Item_Wetsuit: Item_U_B_Wetsuit {
         author = AUTHOR;
         displayName = "[Havoc] Wetsuit";
-        class TransportItems
-        {
-            class HAVOC_Wetsuit
-            {
+        class TransportItems {
+            class HAVOC_Wetsuit {
                 name = "HAVOC_Wetsuit";
                 count = 1;
             };
@@ -40,8 +36,7 @@ class CfgVehicles {
         scope = 2;
         author = QAUTHOR;
         mapSize=1.53;
-        class SimpleObject
-        {
+        class SimpleObject {
             eden=1;
             animate[]={};
             hide[]={};
@@ -52,32 +47,26 @@ class CfgVehicles {
         displayName = "[Havoc] Resupply";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
-        slingLoadCargoMemoryPoints[]=
-        {
+        slingLoadCargoMemoryPoints[]= {
             "SlingLoadCargo1",
             "SlingLoadCargo2",
             "SlingLoadCargo3",
             "SlingLoadCargo4"
         };
-        class EventHandlers: EventHandlers
-        {
+        class EventHandlers: EventHandlers {
         init = "[this,10,true,true] call havoc_fnc_AmmoCrate;";
         };
         editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
         _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             "z\havoc\addons\Equipment\data\havoc_ammobox_signs_ca.paa",
             "z\havoc\addons\Equipment\data\havoc_ammo_co.paa",
         };
-        class TransportMagazines
-        {
+        class TransportMagazines {
         };
-        class TransportWeapons
-        {
+        class TransportWeapons {
         };
-        class TransportItems
-        {
+        class TransportItems {
         };
         transportAmmo=30000;
         supplyRadius=10;
@@ -86,8 +75,7 @@ class CfgVehicles {
         scope = 2;
         author = QAUTHOR;
         mapSize=1.53;
-        class SimpleObject
-        {
+        class SimpleObject {
             eden=1;
             animate[]={};
             hide[]={};
@@ -99,31 +87,25 @@ class CfgVehicles {
         icon="iconCrateVeh";
         ace_dragging_canDrag = 0; 
         ace_dragging_canCarry = 0;
-        slingLoadCargoMemoryPoints[]=
-        {
+        slingLoadCargoMemoryPoints[]= {
             "SlingLoadCargo1",
             "SlingLoadCargo2",
             "SlingLoadCargo3",
             "SlingLoadCargo4"
         };
-        class EventHandlers: EventHandlers
-        {
+        class EventHandlers: EventHandlers {
         };
         editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
         _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             "z\havoc\addons\Equipment\data\havoc_ammobox_signs_caA.paa",
             "z\havoc\addons\Equipment\data\havoc_ammohavocA_co.paa"
         };
-        class TransportMagazines
-        {
+        class TransportMagazines {
         };
-        class TransportWeapons
-        {
+        class TransportWeapons {
         };
-        class TransportItems
-        {
+        class TransportItems {
         };
         transportAmmo=30000;
         supplyRadius=10;

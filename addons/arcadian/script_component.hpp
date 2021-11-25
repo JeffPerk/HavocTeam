@@ -37,10 +37,11 @@
         }; \
     };
 
+
 #define MACRO_BLUFOR_VEHICLE \
     scope = 2; \
     forceInGarage = 0; \
     side = 1; \
-    faction = QCLASS(BLU); \
-    crew = QCLASS(Unit_B_Contractor); \
-    typicalCargo[] = {QCLASS(Unit_B_Contractor)};
+    faction = QUOTE(PREFIX); \
+    crew = QCLASS(socom); \
+    typicalCargo[] = {QCLASS(socom)};

@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_FOBs
-    {
+class CfgPatches {
+    class HAVOC_FOBs {
+
         author = AUTHOR;
         name = NAME;
         url = URL;

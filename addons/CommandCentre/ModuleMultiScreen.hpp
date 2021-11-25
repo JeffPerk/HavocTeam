@@ -1,5 +1,4 @@
-class HAVOC_ModuleMultiScreen: Module_F
-{
+class HAVOC_ModuleMultiScreen: Module_F {
     scope = 2;
     displayName = "Setup Multi Screen";
     icon = "\z\havoc\addons\media\images\icons\MultiScreen.paa";
@@ -10,43 +9,37 @@ class HAVOC_ModuleMultiScreen: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class MultiScreenCam: Checkbox
-          {
+    class Attributes: AttributesBase {
+        class MultiScreenCam: Checkbox {
                 property = "HAVOC_MultiScreenCam";
                 displayName = "Allow Helmet Cams";
                 tooltip = "Allow/Disallow viewing Helmet Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
-        class MultiScreenDrone: Checkbox
-          {
+        class MultiScreenDrone: Checkbox {
                 property = "HAVOC_MultiScreenDrone";
                 displayName = "Allow Drone Cams";
                 tooltip = "Allow/Disallow viewing Drone Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
-        class MultiScreenSat: Checkbox
-          {
+        class MultiScreenSat: Checkbox {
                 property = "HAVOC_MultiScreenSat";
                 displayName = "Allow Satellite View";
                 tooltip = "Allow/Disallow viewing Satellite Imagery through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
-        class MultiScreenSelections: Edit
-          {
+        class MultiScreenSelections: Edit {
                 property = "HAVOC_MultiScreenSelections";
                 displayName = "Screen Texture Selections";
                 tooltip = "Texture Selections of the multiple screens. Enter as comma-separated list, eg: '1,2,3'";
                 defaultValue = """1,2,3""";
         };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Sync multi-screen objects to this module to turn them into Command Centre screens.",
             "You can select which modules of the command centre can be viewed on the screen.",

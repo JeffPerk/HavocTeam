@@ -9,7 +9,7 @@ class CfgVehicles {
             "Black", 1
         };
     };
- 
+
     // Tan
     class CLASS(Arcadian_B_Tan): CLASS(Arcadian_Unarmed_Base) {
         MACRO_BLUFOR_VEHICLE
@@ -19,6 +19,7 @@ class CfgVehicles {
             "Tan", 1
         };
     };
+
     // Green
     class CLASS(Arcadian_B_Green): CLASS(Arcadian_Unarmed_Base) {
         MACRO_BLUFOR_VEHICLE
@@ -40,6 +41,7 @@ class CfgVehicles {
         };
     };
 
+
     // Armed - Black
     class CLASS(Arcadian_Armed_B_Black): CLASS(Arcadian_Armed_Base) {
         MACRO_BLUFOR_VEHICLE
@@ -60,6 +62,7 @@ class CfgVehicles {
         };
     };
 
+
     // Green
     class CLASS(Arcadian_Armed_B_Green): CLASS(Arcadian_Armed_Base) {
         MACRO_BLUFOR_VEHICLE
@@ -69,6 +72,7 @@ class CfgVehicles {
             "Armed_Green", 1
         };
     };
+
 
     // Grey
     class CLASS(Arcadian_Armed_B_Grey): CLASS(Arcadian_Armed_Base) {

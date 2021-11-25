@@ -208,362 +208,356 @@ class spark4 {
     sound[] ={QPATHTOF(Sounds\AL\spark4.ogg), db+5, 1};
     titles[] = {0, ""};
 };
-class spark5
-{
+class spark5 {
+
     name = "spark5";
     sound[] ={QPATHTOF(Sounds\AL\spark5.ogg), db+5, 1};
     titles[] = {0, ""};
 };
-class earthquake_02
-{
+class earthquake_02 {
+
     name = "earthquake_02";
     sound[] ={QPATHTOF(Sounds\AL\earthquake_02.ogg), 0.7, 1};
     titles[] = {0, ""};
 };
-class telep_01
-{
+class telep_01 {
     name = "telep_01";
     sound[] = {QPATHTOF(Sounds\AL\telep_01.ogg), db+5, 1};
     titles[] = {};
 };
-class telep_02
-{
+class telep_02 {
     name = "telep_02";
     sound[] = {QPATHTOF(Sounds\AL\telep_02.ogg), db+5, 1};
     titles[] = {};
 };
-class telep_03
-{
+class telep_03 {
     name = "telep_03";
     sound[] = {QPATHTOF(Sounds\AL\telep_03.ogg), db+5, 1};
     titles[] = {};
 };
-class telep_04
-{
+class telep_04 {
     name = "telep_04";
     sound[] = {QPATHTOF(Sounds\AL\telep_04.ogg), db+5, 1};
     titles[] = {};
 };
-class telep_05
-{
+class telep_05 {
     name = "telep_05";
     sound[] = {QPATHTOF(Sounds\AL\telep_05.ogg), db+5, 1};
     titles[] = {};
 };
-class tremor
-{
+class tremor {
     name = "tremor";
     sound[] = {QPATHTOF(Sounds\AL\tremor.ogg), db+5, 1};
     titles[] = {};
 };
-class rafala_smug_01
-{
+class rafala_smug_01 {
+
     name = "rafala_smug_01";
     sound[] = {QPATHTOF(Sounds\AL\rafala_smug_01.ogg), 1, 1};
     titles[] = {};
 };
-class rafala_smug_02
-{
+class rafala_smug_02 {
+
     name = "rafala_smug_02";
     sound[] = {QPATHTOF(Sounds\AL\rafala_smug_02.ogg), 1, 1};
     titles[] = {};
 };
-class rafala_smug_03
-{
+class rafala_smug_03 {
+
     name = "rafala_smug_03";
     sound[] = {QPATHTOF(Sounds\AL\rafala_smug_03.ogg), 1, 1};
     titles[] = {};
 };
-class smugg_01
-{
+class smugg_01 {
+
     name = "smugg_01";
     sound[] = {QPATHTOF(Sounds\AL\smugg_01.ogg), 1, 1};
     titles[] = {};
 };
-class smugg_02
-{
+class smugg_02 {
+
     name = "smugg_02";
     sound[] = {QPATHTOF(Sounds\AL\smugg_02.ogg), 1, 1};
     titles[] = {};
 };
-class smugg_03
-{
+class smugg_03 {
+
     name = "smugg_03";
     sound[] = {QPATHTOF(Sounds\AL\smugg_03.ogg), 1, 1};
     titles[] = {};
 };
-class zoomin
-{
+class zoomin {
+
     name = "zoomin";
     sound[] = {QPATHTOF(Sounds\AL\zoomin.ogg), db+25, 1};
     titles[] = {};
 };
-class strigat_1
-{
+class strigat_1 {
+
     name = "strigat_1";
     sound[] = {QPATHTOF(Sounds\AL\strigat_1.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_2
-{
+class strigat_2 {
+
     name = "strigat_2";
     sound[] = {QPATHTOF(Sounds\AL\strigat_2.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_3
-{
+class strigat_3 {
+
     name = "strigat_3";
     sound[] = {QPATHTOF(Sounds\AL\strigat_3.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_4
-{
+class strigat_4 {
+
     name = "strigat_4";
     sound[] = {QPATHTOF(Sounds\AL\strigat_4.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_5
-{
+class strigat_5 {
+
     name = "strigat_5";
     sound[] = {QPATHTOF(Sounds\AL\strigat_5.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_6
-{
+class strigat_6 {
+
     name = "strigat_6";
     sound[] = {QPATHTOF(Sounds\AL\strigat_6.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_7
-{
+class strigat_7 {
+
     name = "strigat_7";
     sound[] = {QPATHTOF(Sounds\AL\strigat_7.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_8
-{
+class strigat_8 {
+
     name = "strigat_8";
     sound[] = {QPATHTOF(Sounds\AL\strigat_8.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_9
-{
+class strigat_9 {
+
     name = "strigat_9";
     sound[] = {QPATHTOF(Sounds\AL\strigat_9.ogg),db+20, 1};
     titles[] = {};
 };
-class strigat_91
-{
+class strigat_91 {
+
     name = "strigat_91";
     sound[] = {QPATHTOF(Sounds\AL\strigat_91.ogg), db+20, 1};
     titles[] = {};
 };
-class strigat_92
-{
+class strigat_92 {
+
     name = "strigat_92";
     sound[] = {QPATHTOF(Sounds\AL\strigat_92.ogg), db+20, 1};
     titles[] = {};
 };
-class bodyfall_metal_3
-{
+class bodyfall_metal_3 {
+
     name = "bodyfall_metal_3";
     sound[] = {QPATHTOF(Sounds\AL\bodyfall_metal_3.ogg), db+20, 1};
     titles[] = {};
 };
-class bodyfall_wood_1
-{
+class bodyfall_wood_1 {
+
     name = "bodyfall_wood_1";
     sound[] = {QPATHTOF(Sounds\AL\bodyfall_wood_1.ogg), db+20, 1};
     titles[] = {};
 };
-class bodyfall_wood_2
-{
+class bodyfall_wood_2 {
+
     name = "bodyfall_wood_2";
     sound[] = {QPATHTOF(Sounds\AL\bodyfall_wood_2.ogg), db+20, 1};
     titles[] = {};
 };
-class bodyfall_wood_3
-{
+class bodyfall_wood_3 {
+
     name = "bodyfall_wood_3";
     sound[] = {QPATHTOF(Sounds\AL\bodyfall_wood_3.ogg), db+20, 1};
     titles[] = {};
 };
-class tele_message
-{
+class tele_message {
+
     name = "tele_message";
     sound[] = {QPATHTOF(Sounds\AL\tele_message.ogg), db+30, 1};
     titles[] = {};
 };
-class puls
-{
+class puls {
+
     name = "puls";
     sound[] = {QPATHTOF(Sounds\AL\puls.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_1
-{
+class halu_1 {
+
     name = "halu_1";
     sound[] = {QPATHTOF(Sounds\AL\halu_1.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_2
-{
+class halu_2 {
+
     name = "halu_2";
     sound[] = {QPATHTOF(Sounds\AL\halu_2.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_3
-{
+class halu_3 {
+
     name = "halu_3";
     sound[] = {QPATHTOF(Sounds\AL\halu_3.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_4
-{
+class halu_4 {
+
     name = "halu_4";
     sound[] = {QPATHTOF(Sounds\AL\halu_4.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_5
-{
+class halu_5 {
+
     name = "halu_5";
     sound[] = {QPATHTOF(Sounds\AL\halu_5.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_6
-{
+class halu_6 {
+
     name = "halu_6";
     sound[] = {QPATHTOF(Sounds\AL\halu_6.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_7
-{
+class halu_7 {
+
     name = "halu_7";
     sound[] = {QPATHTOF(Sounds\AL\halu_7.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_8
-{
+class halu_8 {
+
     name = "halu_8";
     sound[] = {QPATHTOF(Sounds\AL\halu_8.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_9
-{
+class halu_9 {
+
     name = "halu_9";
     sound[] = {QPATHTOF(Sounds\AL\halu_9.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_91
-{
+class halu_91 {
+
     name = "halu_91";
     sound[] = {QPATHTOF(Sounds\AL\halu_91.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_92
-{
+class halu_92 {
+
     name = "halu_92";
     sound[] = {QPATHTOF(Sounds\AL\halu_92.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_93
-{
+class halu_93 {
+
     name = "halu_93";
     sound[] = {QPATHTOF(Sounds\AL\halu_93.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_94
-{
+class halu_94 {
+
     name = "halu_94";
     sound[] = {QPATHTOF(Sounds\AL\halu_94.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_95
-{
+class halu_95 {
+
     name = "halu_95";
     sound[] = {QPATHTOF(Sounds\AL\halu_95.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_96
-{
+class halu_96 {
+
     name = "halu_96";
     sound[] = {QPATHTOF(Sounds\AL\halu_96.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_97
-{
+class halu_97 {
+
     name = "halu_97";
     sound[] = {QPATHTOF(Sounds\AL\halu_97.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_98
-{
+class halu_98 {
+
     name = "halu_98";
     sound[] = {QPATHTOF(Sounds\AL\halu_98.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_99
-{
+class halu_99 {
+
     name = "halu_99";
     sound[] = {QPATHTOF(Sounds\AL\halu_99.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_991
-{
+class halu_991 {
+
     name = "halu_991";
     sound[] = {QPATHTOF(Sounds\AL\halu_991.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_992
-{
+class halu_992 {
+
     name = "halu_992";
     sound[] = {QPATHTOF(Sounds\AL\halu_992.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_993
-{
+class halu_993 {
+
     name = "halu_993";
     sound[] = {QPATHTOF(Sounds\AL\halu_993.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_994
-{
+class halu_994 {
+
     name = "halu_994";
     sound[] = {QPATHTOF(Sounds\AL\halu_994.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_995
-{
+class halu_995 {
+
     name = "halu_995";
     sound[] = {QPATHTOF(Sounds\AL\halu_995.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_996
-{
+class halu_996 {
+
     name = "halu_996";
     sound[] = {QPATHTOF(Sounds\AL\halu_996.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_997
-{
+class halu_997 {
+
     name = "halu_997";
     sound[] = {QPATHTOF(Sounds\AL\halu_997.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_998
-{
+class halu_998 {
+
     name = "halu_998";
     sound[] = {QPATHTOF(Sounds\AL\halu_998.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_999
-{
+class halu_999 {
+
     name = "halu_999";
     sound[] = {QPATHTOF(Sounds\AL\halu_999.ogg), db+10, 1};
     titles[] = {};
 };
-class halu_9999
-{
+class halu_9999 {
+
     name = "halu_9999";
     sound[] = {QPATHTOF(Sounds\AL\halu_9999.ogg), db+10, 1};
     titles[] = {};

@@ -1,5 +1,5 @@
     
-class havoc_MorphineItem : Item_Base_F {
+class havoc_MorphineItem: Item_Base_F {
     scope=2;
     scopeCurator=2;
     displayName="Morphine 10mg/1mL Ampoule";
@@ -10,7 +10,7 @@ class havoc_MorphineItem : Item_Base_F {
         TRANSPORT_ITEM(havoc_morphine,1)
     };
 };
-class havoc_epinephrineItem : Item_Base_F {
+class havoc_epinephrineItem: Item_Base_F {
     scope=2;
     scopeCurator=2;
     displayName="Adrenaline 1mg/1mL Ampoule";
@@ -21,7 +21,7 @@ class havoc_epinephrineItem : Item_Base_F {
         TRANSPORT_ITEM(havoc_epinephrine,1)
     };
 };
-class havoc_fentanylItem : Item_Base_F {
+class havoc_fentanylItem: Item_Base_F {
     scope=2;
     scopeCurator=2;
     displayName="Fentanyl 100mcg/2mL";
@@ -33,7 +33,7 @@ class havoc_fentanylItem : Item_Base_F {
     };
 };
 
-class havoc_naloxonelItem : Item_Base_F {
+class havoc_naloxonelItem: Item_Base_F {
     scope=2;
     scopeCurator=2;
     displayName="Naloxone 1.6mg/4mL";
@@ -44,7 +44,7 @@ class havoc_naloxonelItem : Item_Base_F {
         TRANSPORT_ITEM(havoc_naloxone,1)
     };
 };
-class havoc_ketamineItem : Item_Base_F {
+class havoc_ketamineItem: Item_Base_F {
     scope=2;
     scopeCurator=2;
     displayName="Naloxone 1.6mg/4mL";

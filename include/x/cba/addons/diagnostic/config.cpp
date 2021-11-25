@@ -7,8 +7,7 @@
 
 #define _ARMA_
 
-class CfgPatches
-{
+class CfgPatches {
 	class cba_diagnostic
 	{
 		name = "$STR_cba_diagnostic_component";

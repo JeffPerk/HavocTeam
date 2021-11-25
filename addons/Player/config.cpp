@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Player
-    {
+class CfgPatches {
+    class HAVOC_Player {
+
         author = AUTHOR;
         name = COMPONENT_NAME;
         url = URL;

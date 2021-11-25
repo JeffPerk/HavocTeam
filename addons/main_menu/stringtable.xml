@@ -2,60 +2,60 @@
 <Project name="HAVOC">
     <Package name="Main_Menu">
         <Key ID="STR_HAVOC_Main_Menu_SpotlightHeader">
-            <English>Havoc Ops</English>
+            <Original>Havoc Ops</Original>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightHeaderT">
-            <English>Havoc Training</English>
+            <Original>Havoc Training</Original>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightHeaderD">
-            <English>Havoc Dev/Test</English>
+            <Original>Havoc Dev/Test</Original>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoin">
-            <English>Join Ops Server</English>
+            <Original>Join Ops Server</Original>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinT">
-            <English>Join Training Server</English>
+            <Original>Join Training Server</Original>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_SpotlightJoinD">
-            <English>Join Dev/Test Server</English>
+            <Original>Join Dev/Test Server</Original>
             <Polish>Dołącz</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_AdminLogin">
-            <English>Admin Login</English>
+            <Original>Admin Login</Original>
             <Polish>Admin Zaloguj</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_AdminLogout">
-            <English>Admin Logout</English>
+            <Original>Admin Logout</Original>
             <Polish>Admin Wyloguj</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_PasswordPlaceholder">
-            <English>Password</English>
+            <Original>Password</Original>
             <Polish>Hasło</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_Missions">
-            <English>Missions</English>
+            <Original>Missions</Original>
             <Polish>Misje</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_ServerStatus_Joining">
-            <English>Joining</English>
+            <Original>Joining</Original>
             <Polish>Dołączanie</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_ServerStatus_Joining_Desc">
-            <English>Trying to establish connection with the server, please wait.</English>
+            <Original>Trying to establish connection with the server, please wait.</Original>
             <Polish>Trwa ustanawianie połączenia z serwerem, proszę czekać.</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_ServerStatus_Connected">
-            <English>Connected to server</English>
+            <Original>Connected to server</Original>
             <Polish>Podłączono do serwera</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_ServerStatus_Connected_Desc">
-            <English>You're connected to the server. Please wait for the admin to select mission.&lt;br /&gt;(You can use #login command to log in as admin)</English>
+            <Original>You're connected to the server. Please wait for the admin to select mission.&lt;br /&gt;(You can use #login command to log in as admin)</Original>
             <Polish>Jesteś podłączony do serwera. Proszę czekać aż admin wybierze misję.&lt;br /&gt;(Możesz użyć komendy #login aby zalogować się jako admin)</Polish>
         </Key>
         <Key ID="STR_HAVOC_Main_Menu_ServerStatus_ConnectedAdmin_Desc">
-            <English>You're connected to the server as admin.&lt;br /&gt;(You can use #missions command to show missions list)</English>
+            <Original>You're connected to the server as admin.&lt;br /&gt;(You can use #missions command to show missions list)</Original>
             <Polish>Jesteś podłączony do serwera jako admin.&lt;br /&gt;(Możesz użyć komendy #missions aby wyświetlić listę misji)</Polish>
         </Key>
     </Package>

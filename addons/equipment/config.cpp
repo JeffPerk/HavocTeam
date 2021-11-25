@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Equipment
-    {
+class CfgPatches {
+    class HAVOC_Equipment {
+
         author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;

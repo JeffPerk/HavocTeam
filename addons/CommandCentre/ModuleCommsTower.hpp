@@ -1,5 +1,4 @@
-class HAVOC_ModuleCommsTower: Module_F
-{
+class HAVOC_ModuleCommsTower: Module_F {
     scope = 2;
     displayName = "Comms Tower";
     icon = "\z\havoc\addons\media\images\icons\RadioTower.paa";
@@ -10,12 +9,10 @@ class HAVOC_ModuleCommsTower: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class ModuleDescription: ModuleDescription{};
+    class Attributes: AttributesBase {
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Synched objects get turned into TFAR comms towers.",
             "You can sync as many objects to this module as you like, but it's likely not necessary to have more than one."

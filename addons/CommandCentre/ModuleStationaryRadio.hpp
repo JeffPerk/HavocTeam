@@ -1,5 +1,4 @@
-class HAVOC_ModuleStationaryRadio: Module_F
-{
+class HAVOC_ModuleStationaryRadio: Module_F {
     scope = 2;
     displayName = "Setup Stationary Radio";
     icon = "\z\havoc\addons\media\images\icons\StationaryRadio.paa"; //todo: proper icon
@@ -10,58 +9,50 @@ class HAVOC_ModuleStationaryRadio: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class StationaryRadioOn: Checkbox
-          {
+    class Attributes: AttributesBase {
+        class StationaryRadioOn: Checkbox {
                 property = "HAVOC_StationaryRadioOn";
                 displayName = "Turn Radio On";
                 tooltip = "If enabled, the radio will be turned on on Mission Start.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
-        class StationaryRadioCh1: Edit
-          {
+        class StationaryRadioCh1: Edit {
                 property = "HAVOC_StationaryRadioCh1";
                 displayName = "Channel 1 Freq.";
                 tooltip = "Default frequency for Channel 1. Can be changed later.";
                 typeName = "NUMBER";
                 defaultValue = 30;
         };
-        class StationaryRadioCh2: Edit
-          {
+        class StationaryRadioCh2: Edit {
                 property = "HAVOC_StationaryRadioCh2";
                 displayName = "Channel 2 Freq.";
                 tooltip = "Default frequency for Channel 2. Can be changed later.";
                 typeName = "NUMBER";
                 defaultValue = 40;
         };
-        class StationaryRadioVol: Edit
-          {
+        class StationaryRadioVol: Edit {
                 property = "HAVOC_StationaryRadioVol";
                 displayName = "Speaker Volume";
                 tooltip = "Default volume of the Radio. Can be changed later. Value between 1 and 10.";
                 typeName = "NUMBER";
                 defaultValue = 7;
         };
-        class StationaryRadioClass: Edit
-          {
+        class StationaryRadioClass: Edit {
                 property = "HAVOC_StationaryRadioClass";
                 displayName = "Radio Class Name";
                 tooltip = "Classname of the radio to spawn in, only change this when you want the radio to work with non-BLUFOR nets.";
                 defaultValue = """TFAR_anarc210""";
         };
-        class StationaryRadioCode: Edit
-          {
+        class StationaryRadioCode: Edit {
                 property = "HAVOC_StationaryRadioCode";
                 displayName = "Radio Encryption Code";
                 tooltip = "Encryption code of the radio. Only change this if you know what you're doing.";
                 defaultValue = """_bluefor""";
         };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Synched objects will turn into a stationary radio which allows monitoring frequencies over speaker.",
             "You can set the starting parameters for the radio, but they can be changed later.",

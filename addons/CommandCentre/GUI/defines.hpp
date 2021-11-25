@@ -103,21 +103,18 @@
 ///////////////////////////////////////////////////////////////////////////
 /// Base Classes
 ///////////////////////////////////////////////////////////////////////////
-class HAVOC_CC_RscText
-{
+class HAVOC_CC_RscText {
     deletable = 0;
     fade = 0;
     type = 0;
     idc = -1;
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
@@ -131,8 +128,7 @@ class HAVOC_CC_RscText
     w = 0.3;
     style = 0;
     shadow = 1;
-    colorShadow[] = 
-    {
+    colorShadow[] =  {
         0,
         0,
         0,
@@ -141,44 +137,38 @@ class HAVOC_CC_RscText
     font = "RobotoCondensed";
     SizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     linespacing = 1;
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
 };
-class HAVOC_CC_RscStructuredText
-{
+class HAVOC_CC_RscStructuredText {
     deletable = 0;
     fade = 0;
     type = 13;
     idc = -1;
     style = 0;
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
         1
     };
-    class Attributes
-    {
+    class Attributes {
         font = "RobotoCondensed";
         color = "#ffffff";
         colorLink = "#D09B43";
@@ -193,22 +183,19 @@ class HAVOC_CC_RscStructuredText
     size = "( ( ( ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     shadow = 1;
 };
-class HAVOC_CC_RscPicture
-{
+class HAVOC_CC_RscPicture {
     deletable = 0;
     fade = 0;
     type = 0;
     idc = -1;
     style = 48;
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
@@ -224,30 +211,26 @@ class HAVOC_CC_RscPicture
     y = 0;
     w = 0.2;
     h = 0.15;
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
 };
-class HAVOC_CC_RscEdit
-{
+class HAVOC_CC_RscEdit {
     deletable = 0;
     fade = 0;
     type = 2;
@@ -255,29 +238,25 @@ class HAVOC_CC_RscEdit
     y = 0;
     h = 0.04;
     w = 0.2;
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         0.95,
         0.95,
         0.95,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorSelection[] = 
-    {
+    colorSelection[] =  {
         "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
@@ -291,157 +270,134 @@ class HAVOC_CC_RscEdit
     shadow = 2;
     sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     canModify = 1;
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
 };
-class HAVOC_CC_RscCombo
-{
+class HAVOC_CC_RscCombo {
     deletable = 0;
     fade = 0;
     type = 4;
-    colorSelect[] = 
-    {
+    colorSelect[] =  {
         0,
         0,
         0,
         1
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
         1
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         1
     };
-    colorScrollbar[] = 
-    {
+    colorScrollbar[] =  {
         1,
         0,
         0,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorPicture[] = 
-    {
+    colorPicture[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureSelected[] = 
-    {
+    colorPictureSelected[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureDisabled[] = 
-    {
+    colorPictureDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorPictureRight[] = 
-    {
+    colorPictureRight[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureRightSelected[] = 
-    {
+    colorPictureRightSelected[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureRightDisabled[] = 
-    {
+    colorPictureRightDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorTextRight[] = 
-    {
+    colorTextRight[] =  {
         1,
         1,
         1,
         1
     };
-    colorSelectRight[] = 
-    {
+    colorSelectRight[] =  {
         0,
         0,
         0,
         1
     };
-    colorSelect2Right[] = 
-    {
+    colorSelect2Right[] =  {
         0,
         0,
         0,
         1
     };
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
     maxHistoryDelay = 1;
-    class ComboScrollBar
-    {
-        color[] = 
-        {
+    class ComboScrollBar {
+        color[] =  {
             1,
             1,
             1,
@@ -456,8 +412,7 @@ class HAVOC_CC_RscCombo
     y = 0;
     w = 0.12;
     h = 0.035;
-    colorSelectBackground[] = 
-    {
+    colorSelectBackground[] =  {
         1,
         1,
         1,
@@ -466,71 +421,61 @@ class HAVOC_CC_RscCombo
     arrowEmpty = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_ca.paa";
     arrowFull = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_active_ca.paa";
     wholeHeight = 0.45;
-    colorActive[] = 
-    {
+    colorActive[] =  {
         1,
         0,
         0,
         1
     };
 };
-class HAVOC_CC_RscListBox
-{
+class HAVOC_CC_RscListBox {
     deletable = 0;
     fade = 0;
     type = 5;
     rowHeight = 0;
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorScrollbar[] = 
-    {
+    colorScrollbar[] =  {
         1,
         0,
         0,
         0
     };
-    colorSelect[] = 
-    {
+    colorSelect[] =  {
         0,
         0,
         0,
         1
     };
-    colorSelect2[] = 
-    {
+    colorSelect2[] =  {
         0,
         0,
         0,
         1
     };
-    colorSelectBackground[] = 
-    {
+    colorSelectBackground[] =  {
         0.95,
         0.95,
         0.95,
         1
     };
-    colorSelectBackground2[] = 
-    {
+    colorSelectBackground2[] =  {
         1,
         1,
         1,
         0.5
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
@@ -541,94 +486,80 @@ class HAVOC_CC_RscListBox
     autoScrollRewind = 0;
     arrowEmpty = "#(argb,8,8,3)color(1,1,1,1)";
     arrowFull = "#(argb,8,8,3)color(1,1,1,1)";
-    colorPicture[] = 
-    {
+    colorPicture[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureSelected[] = 
-    {
+    colorPictureSelected[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureDisabled[] = 
-    {
+    colorPictureDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorPictureRight[] = 
-    {
+    colorPictureRight[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureRightSelected[] = 
-    {
+    colorPictureRightSelected[] =  {
         1,
         1,
         1,
         1
     };
-    colorPictureRightDisabled[] = 
-    {
+    colorPictureRightDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorTextRight[] = 
-    {
+    colorTextRight[] =  {
         1,
         1,
         1,
         1
     };
-    colorSelectRight[] = 
-    {
+    colorSelectRight[] =  {
         0,
         0,
         0,
         1
     };
-    colorSelect2Right[] = 
-    {
+    colorSelect2Right[] =  {
         0,
         0,
         0,
         1
     };
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
-    class ListScrollBar
-    {
-        color[] = 
-        {
+    class ListScrollBar {
+        color[] =  {
             1,
             1,
             1,
@@ -644,8 +575,7 @@ class HAVOC_CC_RscListBox
     font = "RobotoCondensed";
     sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     shadow = 0;
-    colorShadow[] = 
-    {
+    colorShadow[] =  {
         0,
         0,
         0,
@@ -654,63 +584,54 @@ class HAVOC_CC_RscListBox
     period = 1.2;
     maxHistoryDelay = 1;
 };
-class HAVOC_CC_RscButton
-{
+class HAVOC_CC_RscButton {
     deletable = 0;
     fade = 0;
     type = 1;
     text = "";
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0.5
     };
-    colorBackgroundDisabled[] = 
-    {
+    colorBackgroundDisabled[] =  {
         0,
         0,
         0,
         0.5
     };
-    colorBackgroundActive[] = 
-    {
+    colorBackgroundActive[] =  {
         0,
         0,
         0,
         1
     };
-    colorFocused[] = 
-    {
+    colorFocused[] =  {
         0,
         0,
         0,
         1
     };
-    colorShadow[] = 
-    {
+    colorShadow[] =  {
         0,
         0,
         0,
         0
     };
-    colorBorder[] = 
-    {
+    colorBorder[] =  {
         0,
         0,
         0,
@@ -732,89 +653,76 @@ class HAVOC_CC_RscButton
     offsetPressedY = 0;
     borderSize = 0;
 };
-class HAVOC_CC_RscShortcutButton
-{
+class HAVOC_CC_RscShortcutButton {
     deletable = 0;
     fade = 0;
     type = 16;
     x = 0.1;
     y = 0.1;
-    class HitZone
-    {
+    class HitZone {
         left = 0;
         top = 0;
         right = 0;
         bottom = 0;
     };
-    class ShortcutPos
-    {
+    class ShortcutPos {
         left = 0;
         top = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 20) - (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)) / 2";
         w = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1) * (3/4)";
         h = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     };
-    class TextPos
-    {
+    class TextPos {
         left = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1) * (3/4)";
         top = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 20) - (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)) / 2";
         right = 0.005;
         bottom = 0;
     };
-    shortcuts[] = 
-    {
+    shortcuts[] =  {
     };
     textureNoShortcut = "#(argb,8,8,3)color(0,0,0,0)";
-    color[] = 
-    {
+    color[] =  {
         1,
         1,
         1,
         1
     };
-    colorFocused[] = 
-    {
+    colorFocused[] =  {
         1,
         1,
         1,
         1
     };
-    color2[] = 
-    {
+    color2[] =  {
         0.95,
         0.95,
         0.95,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
         1
     };
-    colorBackgroundFocused[] = 
-    {
+    colorBackgroundFocused[] =  {
         "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
         1
     };
-    colorBackground2[] = 
-    {
+    colorBackground2[] =  {
         1,
         1,
         1,
         1
     };
-    class Attributes
-    {
+    class Attributes {
         font = "RobotoCondensed";
         color = "#E5E5E5";
         align = "left";
@@ -827,29 +735,25 @@ class HAVOC_CC_RscShortcutButton
     w = 0.183825;
     h = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 20)";
     textSecondary = "";
-    colorSecondary[] = 
-    {
+    colorSecondary[] =  {
         1,
         1,
         1,
         1
     };
-    colorFocusedSecondary[] = 
-    {
+    colorFocusedSecondary[] =  {
         1,
         1,
         1,
         1
     };
-    color2Secondary[] = 
-    {
+    color2Secondary[] =  {
         0.95,
         0.95,
         0.95,
         1
     };
-    colorDisabledSecondary[] = 
-    {
+    colorDisabledSecondary[] =  {
         1,
         1,
         1,
@@ -872,50 +776,43 @@ class HAVOC_CC_RscShortcutButton
     text = "";
     url = "";
     action = "";
-    class AttributesImage
-    {
+    class AttributesImage {
         font = "RobotoCondensed";
         color = "#E5E5E5";
         align = "left";
     };
 };
-class HAVOC_CC_RscShortcutButtonMain
-{
+class HAVOC_CC_RscShortcutButtonMain {
     idc = -1;
     style = 0;
     default = 0;
     w = 0.313726;
     h = 0.104575;
-    color[] = 
-    {
+    color[] =  {
         1,
         1,
         1,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
-    class HitZone
-    {
+    class HitZone {
         left = 0;
         top = 0;
         right = 0;
         bottom = 0;
     };
-    class ShortcutPos
-    {
+    class ShortcutPos {
         left = 0.0145;
         top = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 20) - (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)) / 2";
         w = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2) * (3/4)";
         h = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
     };
-    class TextPos
-    {
+    class TextPos {
         left = "(((safezoneW / safezoneH) min 1.2) / 32) * 1.5";
         top = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 20)*2 - (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)) / 2";
         right = 0.005;
@@ -933,36 +830,31 @@ class HAVOC_CC_RscShortcutButtonMain
     sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
     text = "";
     action = "";
-    class Attributes
-    {
+    class Attributes {
         font = "RobotoCondensed";
         color = "#E5E5E5";
         align = "left";
         shadow = "false";
     };
-    class AttributesImage
-    {
+    class AttributesImage {
         font = "RobotoCondensed";
         color = "#E5E5E5";
         align = "false";
     };
 };
-class HAVOC_CC_RscFrame
-{
+class HAVOC_CC_RscFrame {
     type = 0;
     idc = -1;
     deletable = 0;
     style = 64;
     shadow = 2;
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
@@ -976,21 +868,18 @@ class HAVOC_CC_RscFrame
     w = 0.3;
     h = 0.3;
 };
-class HAVOC_CC_RscSlider
-{
+class HAVOC_CC_RscSlider {
     deletable = 0;
     fade = 0;
     type = 3;
     style = 1024;
-    color[] = 
-    {
+    color[] =  {
         1,
         1,
         1,
         0.8
     };
-    colorActive[] = 
-    {
+    colorActive[] =  {
         1,
         1,
         1,
@@ -1002,14 +891,12 @@ class HAVOC_CC_RscSlider
     w = 0.3;
     h = 0.025;
 };
-class IGUIBack
-{
+class IGUIBack {
     type = 0;
     idc = 124;
     style = 128;
     text = "";
-    colorText[] = 
-    {
+    colorText[] =  {
         0,
         0,
         0,
@@ -1022,16 +909,14 @@ class IGUIBack
     y = 0.1;
     w = 0.1;
     h = 0.1;
-    colorbackground[] = 
-    {
+    colorbackground[] =  {
         "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
         "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
         "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
         "(profilenamespace getvariable ['IGUI_BCG_RGB_A',0.8])"
     };
 };
-class HAVOC_CC_RscCheckBox
-{
+class HAVOC_CC_RscCheckBox {
     idc = -1;
     type = 77;
     deletable = 0;
@@ -1041,71 +926,61 @@ class HAVOC_CC_RscCheckBox
     y = "0.36 * safezoneH + safezoneY";
     w = "0.025 * safezoneW";
     h = "0.04 * safezoneH";
-    color[] = 
-    {
+    color[] =  {
         1,
         1,
         1,
         0.7
     };
-    colorFocused[] = 
-    {
+    colorFocused[] =  {
         1,
         1,
         1,
         1
     };
-    colorHover[] = 
-    {
+    colorHover[] =  {
         1,
         1,
         1,
         1
     };
-    colorPressed[] = 
-    {
+    colorPressed[] =  {
         1,
         1,
         1,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.2
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorBackgroundFocused[] = 
-    {
+    colorBackgroundFocused[] =  {
         0,
         0,
         0,
         0
     };
-    colorBackgroundHover[] = 
-    {
+    colorBackgroundHover[] =  {
         0,
         0,
         0,
         0
     };
-    colorBackgroundPressed[] = 
-    {
+    colorBackgroundPressed[] =  {
         0,
         0,
         0,
         0
     };
-    colorBackgroundDisabled[] = 
-    {
+    colorBackgroundDisabled[] =  {
         0,
         0,
         0,
@@ -1121,54 +996,46 @@ class HAVOC_CC_RscCheckBox
     texturePressedUnchecked = "A3\Ui_f\data\GUI\RscCommon\RscCheckBox\CheckBox_unchecked_ca.paa";
     textureDisabledChecked = "A3\Ui_f\data\GUI\RscCommon\RscCheckBox\CheckBox_checked_ca.paa";
     textureDisabledUnchecked = "A3\Ui_f\data\GUI\RscCommon\RscCheckBox\CheckBox_unchecked_ca.paa";
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
-    soundEnter[] = 
-    {
+    soundEnter[] =  {
         "",
         0.1,
         1
     };
-    soundPush[] = 
-    {
+    soundPush[] =  {
         "",
         0.1,
         1
     };
-    soundClick[] = 
-    {
+    soundClick[] =  {
         "",
         0.1,
         1
     };
-    soundEscape[] = 
-    {
+    soundEscape[] =  {
         "",
         0.1,
         1
     };
 };
-class HAVOC_CC_RscTextCheckBox
-{
+class HAVOC_CC_RscTextCheckBox {
     idc = -1;
     type = 7;
     style = 0;
@@ -1176,78 +1043,67 @@ class HAVOC_CC_RscTextCheckBox
     y = "0.36 * safezoneH + safezoneY";
     w = "0.025 * safezoneW";
     h = "0.04 * safezoneH";
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         0,
         0,
         1
     };
-    color[] = 
-    {
+    color[] =  {
         0,
         0,
         0,
         0
     };
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0
     };
-    colorTextSelect[] = 
-    {
+    colorTextSelect[] =  {
         0,
         0.8,
         0,
         1
     };
-    colorSelectedBg[] = 
-    {
+    colorSelectedBg[] =  {
         "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
         "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
         1
     };
-    colorSelect[] = 
-    {
+    colorSelect[] =  {
         0,
         0,
         0,
         1
     };
-    colorTextDisable[] = 
-    {
+    colorTextDisable[] =  {
         0.4,
         0.4,
         0.4,
         1
     };
-    colorDisable[] = 
-    {
+    colorDisable[] =  {
         0.4,
         0.4,
         0.4,
         1
     };
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
@@ -1257,17 +1113,14 @@ class HAVOC_CC_RscTextCheckBox
     sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
     rows = 1;
     columns = 1;
-    strings[] = 
-    {
+    strings[] =  {
         "UNCHECKED"
     };
-    checked_strings[] = 
-    {
+    checked_strings[] =  {
         "CHECKED"
     };
 };
-class HAVOC_CC_RscButtonMenu
-{
+class HAVOC_CC_RscButtonMenu {
     idc = -1;
     type = 16;
     style = "0x02 + 0xC0";
@@ -1283,86 +1136,74 @@ class HAVOC_CC_RscButtonMenu
     animTextureFocused = "#(argb,8,8,3)color(1,1,1,1)";
     animTexturePressed = "#(argb,8,8,3)color(1,1,1,1)";
     animTextureDefault = "#(argb,8,8,3)color(1,1,1,1)";
-    colorBackground[] = 
-    {
+    colorBackground[] =  {
         0,
         0,
         0,
         0.8
     };
-    colorBackgroundFocused[] = 
-    {
+    colorBackgroundFocused[] =  {
         1,
         1,
         1,
         1
     };
-    colorBackground2[] = 
-    {
+    colorBackground2[] =  {
         0.75,
         0.75,
         0.75,
         1
     };
-    color[] = 
-    {
+    color[] =  {
         1,
         1,
         1,
         1
     };
-    colorFocused[] = 
-    {
+    colorFocused[] =  {
         0,
         0,
         0,
         1
     };
-    color2[] = 
-    {
+    color2[] =  {
         0,
         0,
         0,
         1
     };
-    colorText[] = 
-    {
+    colorText[] =  {
         1,
         1,
         1,
         1
     };
-    colorDisabled[] = 
-    {
+    colorDisabled[] =  {
         1,
         1,
         1,
         0.25
     };
     textSecondary = "";
-    colorSecondary[] = 
-    {
+    colorSecondary[] =  {
         1,
         1,
         1,
         1
     };
-    colorFocusedSecondary[] = 
-    {
+    colorFocusedSecondary[] =  {
         0,
         0,
         0,
         1
     };
-    color2Secondary[] = 
-    {
+    color2Secondary[] =  {
         0,
         0,
         0,
         1
     };
-    colorDisabledSecondary[] = 
-    {
+    colorDisabledSecondary[] =  {
         1,
         1,
         1,
@@ -1375,54 +1216,46 @@ class HAVOC_CC_RscButtonMenu
     periodOver = 1.2;
     size = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
     sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
-    tooltipColorText[] = 
-    {
+    tooltipColorText[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorBox[] = 
-    {
+    tooltipColorBox[] =  {
         1,
         1,
         1,
         1
     };
-    tooltipColorShade[] = 
-    {
+    tooltipColorShade[] =  {
         0,
         0,
         0,
         0.65
     };
-    class TextPos
-    {
+    class TextPos {
         left = "0.25 * (((safezoneW / safezoneH) min 1.2) / 40)";
         top = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) - (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)) / 2";
         right = 0.005;
         bottom = 0;
     };
-    class Attributes
-    {
+    class Attributes {
         font = "PuristaLight";
         color = "#E5E5E5";
         align = "left";
         shadow = "false";
     };
-    class ShortcutPos
-    {
+    class ShortcutPos {
         left = "5.25 * (((safezoneW / safezoneH) min 1.2) / 40)";
         top = 0;
         w = "1 * (((safezoneW / safezoneH) min 1.2) / 40)";
         h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
     };
 };
-class HAVOC_CC_RscButtonMenuOK
-{
+class HAVOC_CC_RscButtonMenuOK {
     idc = 1;
-    shortcuts[] = 
-    {
+    shortcuts[] =  {
         "0x00050000 + 0",
         28,
         57,
@@ -1431,23 +1264,18 @@ class HAVOC_CC_RscButtonMenuOK
     default = 1;
     text = "OK";
 };
-class HAVOC_CC_RscButtonMenuCancel
-{
+class HAVOC_CC_RscButtonMenuCancel {
     idc = 2;
-    shortcuts[] = 
-    {
+    shortcuts[] =  {
         "0x00050000 + 1"
     };
     text = "Cancel";
 };
-class HAVOC_CC_RscControlsGroup
-{
+class HAVOC_CC_RscControlsGroup {
     deletable = 0;
     fade = 0;
-    class VScrollbar
-    {
-        color[] = 
-        {
+    class VScrollbar {
+        color[] =  {
             1,
             1,
             1,
@@ -1456,10 +1284,8 @@ class HAVOC_CC_RscControlsGroup
         width = 0.021;
         autoScrollEnabled = 1;
     };
-    class HScrollbar
-    {
-        color[] = 
-        {
+    class HScrollbar {
+        color[] =  {
             1,
             1,
             1,
@@ -1467,8 +1293,7 @@ class HAVOC_CC_RscControlsGroup
         };
         height = 0.028;
     };
-    class Controls
-    {
+    class Controls {
     };
     type = 15;
     idc = -1;

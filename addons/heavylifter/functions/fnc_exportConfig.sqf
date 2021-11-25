@@ -12,7 +12,7 @@
  * None
  *
  * Example:
- * [] spawn tac_heavylifter_fnc_exportConfig
+ * [] spawn havoc_heavylifter_fnc_exportConfig
  *
  * Public: Yes
  */

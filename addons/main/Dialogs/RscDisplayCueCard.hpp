@@ -1,5 +1,4 @@
-class RscDisplayCueCard
-{
+class RscDisplayCueCard {
     idd = 20305;
     enableSimulation = 1;
     closeOnMissionEnd = 0;
@@ -9,10 +8,8 @@ class RscDisplayCueCard
     onUnload = "[""onUnload"",_this,""RscDisplayCueCard"",'HAVOCDisplays'] call  (uinamespace getvariable 'BIS_fnc_initDisplay')";
     movingEnable = true;
 
-    class Controls
-    {
-        class Picture: RscPictureKeepAspect
-        {
+    class Controls {
+        class Picture: RscPictureKeepAspect {
             idc = 1001;
             text = "#(argb,8,8,3)color(1,0,0,0.2)";
             x = "safezoneX + 5 * (((safezoneW / safezoneH) min 1.2) / 40)";
@@ -49,8 +46,7 @@ class RscDisplayCueCard
             ";
         };
 
-        class NotePad: RscEdit
-        {
+        class NotePad: RscEdit {
             idc = 1002;
             x = 0.288594 * safezoneW + safezoneX;
             y = 0.093 * safezoneH + safezoneY;
@@ -87,10 +83,8 @@ class RscDisplayCueCard
         };
     };
 
-    class controlsBackground
-    {
-        class NotePadBackground: RscPicture
-        {
+    class controlsBackground {
+        class NotePadBackground: RscPicture {
             idc = 1200;
             text = "z\havoc\addons\media\images\cuecards\notepad_CA.paa";
             x = 0.288594 * safezoneW + safezoneX;

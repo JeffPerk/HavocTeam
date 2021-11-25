@@ -10,7 +10,7 @@
  * None
  *
 * Example:
- * [heli] call tac_heavylifter_fnc_unprepare
+ * [heli] call havoc_heavylifter_fnc_unprepare
  *
  * Public: No
  */

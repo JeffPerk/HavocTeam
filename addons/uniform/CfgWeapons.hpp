@@ -223,14 +223,12 @@ class cfgWeapons {
     };
 
     ///////////////////////////////////
-    class CLASS(survival_uniform_black): Uniform_Base
-    {
+    class CLASS(survival_uniform_black): Uniform_Base {
         scope=2;
-        displayName="survival_diver[black]";
+        displayName="[Havoc] Survival_diver[black]";
         picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        class ItemInfo: UniformItem
-        {
+        class ItemInfo: UniformItem {
             uniformModel="-";
             uniformClass= CLASS(survival_diver_black);
             containerClass="Supply40";
@@ -238,15 +236,13 @@ class cfgWeapons {
             mass=60;
         };
     };
-    class CLASS(survival_uniform_tigerstripe): Uniform_Base
-    {
+    class CLASS(survival_uniform_tigerstripe): Uniform_Base {
         author = AUTHOR;
         scope=2;
-        displayName="survival_diver[tigerstripe]";
+        displayName="[Havoc] Survival_diver[tigerstripe]";
         picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        class ItemInfo: UniformItem
-        {
+        class ItemInfo: UniformItem {
             uniformModel="-";
             uniformClass= CLASS(survival_diver_tigerstripe);
             containerClass="Supply40";
@@ -255,15 +251,13 @@ class cfgWeapons {
         };
     };
 
-    class CLASS(survival_uniform_woodland): Uniform_Base
-    {
+    class CLASS(survival_uniform_woodland): Uniform_Base {
         author = AUTHOR;
         scope=2;
-        displayName="survival_diver[woodland]";
+        displayName="[Havoc] Survival_diver[woodland]";
         picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        class ItemInfo: UniformItem
-        {
+        class ItemInfo: UniformItem {
             uniformModel="-";
             uniformClass= CLASS(survival_diver_woodland);
             containerClass="Supply40";
@@ -271,5 +265,4 @@ class cfgWeapons {
             mass=60;
         };
     };
-
 };

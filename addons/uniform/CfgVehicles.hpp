@@ -50,12 +50,12 @@ class cfgVehicles {
             QPATHTOF(data\texture\havoc_mtp_clothing1_co.paa)
         };
     };
-    class CLASS(RunnerMED_F): CLASS(SoldierMED_F){
+    class CLASS(RunnerMED_F): CLASS(SoldierMED_F) {
         displayName = "[Havoc] Rifleman [Mediterranean] (T-shirt)";
         uniformClass =QCLASS(U_CombatUniformMC_tshirt);
         model = "\A3\Characters_F\BLUFOR\b_soldier_02.p3d";
     };
-    class CLASS(ScoutMED_F): CLASS(SoldierMED_F){
+    class CLASS(ScoutMED_F): CLASS(SoldierMED_F) {
         displayName = "[Havoc] Rifleman [Mediterranean] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformMC_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
@@ -142,7 +142,7 @@ class cfgVehicles {
             QPATHTOF(data\texture\uniform_snow.paa)
         };
     };
-    class CLASS(ScoutS_F): CLASS(SoldierS_F){
+    class CLASS(ScoutS_F): CLASS(SoldierS_F) {
         displayName = "[Havoc] Rifleman [Snow] (Rolled-up)";
         uniformClass =QCLASS(U_CombatUniformSNOW_shortsleeve);
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
@@ -201,12 +201,11 @@ class cfgVehicles {
         };
     };
     ////////////////////////////////////////////////////////////
-    class CLASS(survival_diver_black): b_soldier_survival_F
-    {
+    class CLASS(survival_diver_black): b_soldier_survival_F {
         nameSound="veh_infantry_diver_s";
         _generalMacro="b_soldier_survival_F";
         scope=1;
-        displayName="survival_diver[black]";
+        displayName="[Havoc] Survival_diver[black]";
         model = "\A3\Characters_F_EPA\BLUFOR\b_soldier_survival_01.p3d";
         modelSides[]={3,1};
         uniformClass="U_B_survival_uniform";
@@ -245,12 +244,11 @@ class cfgVehicles {
             ""
         };
     };
-    class CLASS(survival_diver_tigerstripe): b_soldier_survival_F
-    {
+    class CLASS(survival_diver_tigerstripe): b_soldier_survival_F {
         nameSound="veh_infantry_diver_s";
         _generalMacro="b_soldier_survival_F";
         scope=1;
-        displayName="survival_diver[tigerstripe]";
+        displayName="[Havoc] Survival_diver[tigerstripe]";
         model = "\A3\Characters_F_EPA\BLUFOR\b_soldier_survival_01.p3d";
         modelSides[]={3,1};
         uniformClass="U_B_survival_uniform";
@@ -289,13 +287,12 @@ class cfgVehicles {
             ""
         };
     };
-    class CLASS(survival_diver_woodland): b_soldier_survival_F
-    {
+    class CLASS(survival_diver_woodland): b_soldier_survival_F {
         author = AUTHOR;
         nameSound="veh_infantry_diver_s";
         _generalMacro="b_soldier_survival_F";
         scope=1;
-        displayName="survival_diver[woodland]";
+        displayName="[Havoc] Survival_diver[woodland]";
         model = "\A3\Characters_F_EPA\BLUFOR\b_soldier_survival_01.p3d";
         modelSides[]={3,1};
         uniformClass="U_B_survival_uniform";

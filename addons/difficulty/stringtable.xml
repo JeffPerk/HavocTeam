@@ -2,10 +2,10 @@
 <Project name="HAVOC">
     <Package name="Difficulty">
         <Key ID="STR_HAVOC_Difficulty_DifficultyName">
-            <English>Havoc</English>
+            <Original>Havoc</Original>
         </Key>
         <Key ID="STR_HAVOC_Difficulty_DifficultyDescription">
-            <English>Custom Havoc settings.</English>
+            <Original>Custom Havoc settings.</Original>
             <Polish>Własne ustawienia Havoc.</Polish>
         </Key>
     </Package>

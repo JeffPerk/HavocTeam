@@ -21,7 +21,17 @@ class CfgMagazineWells {
             QCLASS(100Rnd_65x39_caseless_Creedgreenx_mag),
             QCLASS(100Rnd_65x39_caseless_Creedbrowndots_mag),
             QCLASS(100Rnd_65x39_caseless_Creedbrownsplash_mag),
-            QCLASS(100Rnd_65x39_caseless_Creedblacksploch_mag)
+            QCLASS(100Rnd_65x39_caseless_Creedblacksploch_mag),
+            QCLASS(30Rnd_65x39_caseless_Creedtrash_mag),
+            QCLASS(100Rnd_65x39_caseless_Creedtrash_mag),
+            QCLASS(30Rnd_65x39_caseless_Creedyonv2_mag),
+            QCLASS(100Rnd_65x39_caseless_Creedyonv2_mag),
+            QCLASS(30Rnd_65x39_caseless_Creedwalker_mag),
+            QCLASS(100Rnd_65x39_caseless_Creedwalker_mag),
+            QCLASS(30Rnd_65x39_caseless_Creedbrush_mag),
+            QCLASS(100Rnd_65x39_caseless_Creedbrush_mag),
+            QCLASS(30Rnd_65x39_caseless_BlackCamo_mag),
+            QCLASS(30Rnd_65x39_caseless_BlackCamo_mag)
         };
     };
 };

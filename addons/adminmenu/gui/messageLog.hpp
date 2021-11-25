@@ -1,7 +1,5 @@
-class Controls
-{
-    class BackgroundMessagesList: RscText
-    {
+class Controls {
+    class BackgroundMessagesList: RscText {
         x = 0;
         y = 0;
         w = HAVOC_ADMINMENU_MSGS_W_LIST;
@@ -10,8 +8,7 @@ class Controls
         style = "0x02";
     };
 
-    class ListMessages: RscListBox
-    {
+    class ListMessages: RscListBox {
         idc = IDC_HAVOC_ADMINMENU_MSGS_LIST;
         //style = 32 + 16; // LB_MULTI + ST_MULTI
         sizeEx = HAVOC_ADMINMENU_STD_SIZEX;
@@ -30,8 +27,7 @@ class Controls
         h = HAVOC_ADMINMENU_MSGS_H_LIST;
     };
 
-    class ButtonPrintSelected: GVAR(RscButtonMenu)
-    {
+    class ButtonPrintSelected: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_MSGS_COPY;
         text = "PRINT SELECTED TO RPT";
         onButtonClick = QUOTE(_this call FUNC(messageLog_print));
@@ -42,8 +38,7 @@ class Controls
         w = 9 * HAVOC_ADMINMENU_STD_WIDTH;
     };
 
-    class ButtonPrintAll: GVAR(RscButtonMenu)
-    {
+    class ButtonPrintAll: GVAR(RscButtonMenu) {
         idc = IDC_HAVOC_ADMINMENU_MSGS_COPYALL;
         text = "PRINT ALL TO RPT";
         tooltip = "Prints all logged entries to RPT.";

@@ -45,7 +45,7 @@ class havoc_Epinephrine: havoc_Morphine {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-class Naloxone : havoc_Morphine {
+class Naloxone: havoc_Morphine {
     displayName="Naloxone 1.6mg/4mL";
     displayNameProgress="Injecting Naloxone";
     icon="\z\havoc\addons\media\images\icon\VPN.paa";
@@ -59,7 +59,7 @@ class Naloxone : havoc_Morphine {
     litter[] = {{}};
 };
 
-class Fentanyl: havoc_Morphine{
+class Fentanyl: havoc_Morphine {
     displayName="Fentanyl 100mcg/2mL";
     displayNameProgress="Injecting Fentanyl";
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";
@@ -73,7 +73,7 @@ class Fentanyl: havoc_Morphine{
     litter[] = {{}};
 };
 
-class Ketamine_6mg : havoc_Morphine {
+class Ketamine_6mg: havoc_Morphine {
     displayName="Ketamine 6mg/2mL";
     displayNameProgress="Injecting Ketamine 6mg/2mL";
     medicRequired = QGVAR(medLvl_drug);
@@ -88,7 +88,7 @@ class Ketamine_6mg : havoc_Morphine {
     litter[] = {{}};
 };
 
-class Ketamine_200mg : havoc_Morphine {
+class Ketamine_200mg: havoc_Morphine {
     displayName="Ketamine 200mg/2mL";
     displayNameProgress="Injecting Ketamine 200mg/2mL";
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";

@@ -10,7 +10,7 @@
  * Can Attach Hooks <BOOL>
  *
  * Example:
- * [heli, player] call tac_heavylifter_fnc_canAttach
+ * [heli, player] call havoc_heavylifter_fnc_canAttach
  *
  * Public: No
  */

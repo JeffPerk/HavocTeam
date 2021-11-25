@@ -2,10 +2,10 @@
 Function: general.sqf
 
 Description:
-	Script to service general vehicles (except UAVs).
+    Script to service general vehicles (except UAVs).
 
 Arguments:
-	_kind - Base class name of the vehicle to service
+    _kind - Base class name of the vehicle to service
     _veh - The vehicle to service
     _serviceTime - Time in seconds to service the vehicle for
     _serviceRand - Random delay for the servicing duration
@@ -14,13 +14,13 @@ Arguments:
     _playerDistance - Players have to stay within this distance for servicing to continue
 
 Return Values:
-	Nothing
+    Nothing
 
 Examples:
     Nothing to see here.
 
 Author:
-	Mokka
+    Mokka
 */
 
 params [
@@ -40,7 +40,7 @@ if(_veh isKindOf _kind && !(_veh isKindOf "UAV")) then {
 
     if !(_allowAny || (driver _veh isEqualTo player)) exitWith {};
 
-	_type = getText(configFile >> "CfgVehicles" >> (typeOf _veh) >> "DisplayName");
+    _type = getText(configFile >> "CfgVehicles" >> (typeOf _veh) >> "DisplayName");
 
     _msg = format ["Servicing %1, This will take at least %2", _type, _serviceTime call YAINA_F_fnc_formatDuration];
 

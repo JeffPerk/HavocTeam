@@ -1,7 +1,7 @@
     
 
 class ACE_atropine;
-class ACE_morphine : ACE_ItemCore {
+class ACE_morphine: ACE_ItemCore {
     scope=2;
     displayName="Morphine autoinjector 10mg/1mL";
     descriptionShort="Analgesic, used for moderate pain";
@@ -11,7 +11,7 @@ class ACE_morphine : ACE_ItemCore {
     };
 };
 
-class ACE_epinephrine : ACE_ItemCore {
+class ACE_epinephrine: ACE_ItemCore {
     scope=2;
     displayName="Adrenaline autoinjector 1mg/1mL";
     descriptionShort="Sympathomimetic, increases HR, bronchodilation and vasoconstriction";
@@ -23,7 +23,7 @@ class ACE_epinephrine : ACE_ItemCore {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-class havoc_morphine : ACE_ItemCore {
+class havoc_morphine: ACE_ItemCore {
     scope=2;
     displayName="Morphine 10mg/1mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\morphine.paa";
@@ -34,7 +34,7 @@ class havoc_morphine : ACE_ItemCore {
     };
 };
 
-class havoc_epinephrine : ACE_ItemCore {
+class havoc_epinephrine: ACE_ItemCore {
     scope=2;
     displayName="Adrenaline 1mg/1mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\epi.paa";
@@ -44,7 +44,7 @@ class havoc_epinephrine : ACE_ItemCore {
         mass = 0.01;
     };
 };
-class havoc_naloxone : ACE_atropine {
+class havoc_naloxone: ACE_atropine {
     scope=2;
     displayName="Naloxone Hydrochloride Dihydrate 1.6mg/4mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\naloxone.paa";
@@ -55,7 +55,7 @@ class havoc_naloxone : ACE_atropine {
     };
 };
 
-class havoc_fentanyl : ACE_morphine {
+class havoc_fentanyl: ACE_morphine {
     scope=2;
     displayName="Fentanyl 100mcg/2mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\fentanyl.paa";
@@ -66,7 +66,7 @@ class havoc_fentanyl : ACE_morphine {
     };
 };
 
-class havoc_ketamine : ACE_morphine {
+class havoc_ketamine: ACE_morphine {
     scope=2;
     displayName="Ketamine Hydrochloride 200mg/2mL Ampoule";
     descriptionShort="Dissociative analgesic/anestehtic used for severe pain, available in a 25mg or 200mg doses. Causes mild hypertension and tachycardia.";
@@ -77,7 +77,7 @@ class havoc_ketamine : ACE_morphine {
     };
 };
 
-class havoc_VPN : ACE_ItemCore {
+class havoc_VPN: ACE_ItemCore {
     scope=2;
     displayName="3mL Drug Syringe";
     descriptionShort="For administering drugs";

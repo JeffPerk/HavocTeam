@@ -1,9 +1,7 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_SafeZone
-    {
+class CfgPatches {
+    class HAVOC_SafeZone {
         author = AUTHOR;
         name = NAME;
         url = URL;
@@ -16,13 +14,10 @@ class CfgPatches
     };
 };
 
-class CfgVehicles
-{
+class CfgVehicles {
     class Logic;
-    class Module_F: Logic
-    {
-        class AttributesBase
-        {
+    class Module_F: Logic {
+        class AttributesBase {
             class Default;
             class Edit;
             class Combo;
@@ -32,8 +27,7 @@ class CfgVehicles
             class Units;
         };
 
-        class ModuleDescription
-        {
+        class ModuleDescription {
             class AnyBrain;
         };
     };
@@ -41,6 +35,5 @@ class CfgVehicles
 };
 
 class CfgFunctions {
-
     #include "CfgFunctions.hpp"
 };

@@ -50,51 +50,44 @@ class CfgWeapons {
             passThrough = 0.8;
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
-            class HitpointsProtectionInfo
-            {
-                class Neck
-                {
+class HitpointsProtectionInfo {
+                class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
                     passThrough = 0.2;
                 };
-                class Chest
-                {
+                class Chest {
                     hitpointName = "HitChest";
                     armor = 69;
                     passThrough = 0.2;
                 };
-                class Diaphragm
-                {
+                class Diaphragm {
                     hitpointName = "HitDiaphragm";
                     armor = 69;
                     passThrough = 0.2;
                 };
-                class Abdomen
-                {
+                class Abdomen {
                     hitpointName = "HitAbdomen";
                     armor = 69;
                     passThrough = 0.2;
                 };
-                class Body
-                {
+                class Body {
                     hitpointName = "HitBody";
                     passThrough = 0.2;
                 };
-            };
+            }
         };
     };
 
     
-    class HAVOC_Wetsuit : U_B_Wetsuit {
+    class HAVOC_Wetsuit: U_B_Wetsuit {
         author = AUTHOR;
         displayName = "[Havoc] Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"A3\Characters_F\Common\Data\diver_suit_nato_co.paa"};
-        class ItemInfo: UniformItem
-        {
+        class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = "B_diver_F";
             containerClass = "Supply120";

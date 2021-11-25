@@ -2,13 +2,13 @@
 <Project name="HAVOC">
     <Package name="RemoteSensors">
         <Key ID="STR_HAVOC_RemoteSensors_DisplayName">
-            <English>Havoc - Remote Sensors</English>
+            <Original>Havoc - Remote Sensors</Original>
         </Key>
         <Key ID="STR_HAVOC_RemoteSensors_Enabled">
-            <English>Enable remote sensors on clients</English>
+            <Original>Enable remote sensors on clients</Original>
         </Key>
         <Key ID="STR_HAVOC_RemoteSensors_Enabled_Description">
-            <English>This command will halt raycasting calculations (on the local machine only) for all groups which don't contain any local entities. Units, that are not in a group with at least one local member, will not check visibility of other units. This will cause, that remote units will not have updated knowsAbout and it will save some CPU time. If a group contains a single local entity then calculations will still be performed for the entire group.</English>
+            <Original>This command will halt raycasting calculations (on the local machine only) for all groups which don't contain any local entities. Units, that are not in a group with at least one local member, will not check visibility of other units. This will cause, that remote units will not have updated knowsAbout and it will save some CPU time. If a group contains a single local entity then calculations will still be performed for the entire group.</Original>
         </Key>
     </Package>
 </Project>

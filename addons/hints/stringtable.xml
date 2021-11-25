@@ -8,13 +8,13 @@
   <Container name="Hints">
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_Title">
-    <English>HAVOC Hint</English>
+    <Original>HAVOC Hint</Original>
    </Key>
    <Key ID="STR_HAVOC_Hints_Author">
-    <English>HAVOC</English>
+    <Original>HAVOC</Original>
    </Key>
    <Key ID="STR_HAVOC_Hints_URL">
-    <English>https://github.com/HAVOCmod/HAVOC</English>
+    <Original>https://github.com/HAVOCmod/HAVOC</Original>
    </Key>
    <!-- =============================================================================== -->
   </Container>
@@ -24,20 +24,20 @@
   <Container name="CBA_Categories">
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Category">
-    <English>HAVOC Hints</English>
+    <Original>HAVOC Hints</Original>
     <German>HAVOC Hinweise</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Category_core">
-    <English>core Settings</English>
+    <Original>core Settings</Original>
     <German>Allgemeines</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Category_Colors">
-    <English>Hint Colors</English>
+    <Original>Hint Colors</Original>
     <German>Farben</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Category_Options">
-    <English>Hint Options</English>
+    <Original>Hint Options</Original>
     <German>Optionen</German>
    </Key>
    <!-- =============================================================================== -->
@@ -48,140 +48,140 @@
   <Container name="CBA_Settings">
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Position_Title">
-    <English>Screen Position</English>
+    <Original>Screen Position</Original>
     <German>Bildschirmposition</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Position_Tip">
-    <English>Position on the screen</English>
+    <Original>Position on the screen</Original>
     <German>Position auf dem Bildschirm</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Position_0">
-    <English>top right</English>
+    <Original>top right</Original>
     <German>oben rechts</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Position_1">
-    <English>top left</English>
+    <Original>top left</Original>
     <German>oben links</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Position_2">
-    <English>bottom left</English>
+    <Original>bottom left</Original>
     <German>unten links</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Position_3">
-    <English>bottom right</English>
+    <Original>bottom right</Original>
     <German>unten rechts</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Duration_Title">
-    <English>Duration</English>
+    <Original>Duration</Original>
     <German>Anzeigedauer</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Duration_Tip">
-    <English>Display duration in seconds</English>
+    <Original>Display duration in seconds</Original>
     <German>Anzeigedauer in Sekunden</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Sound_Title">
-    <English>Signal Sound</English>
+    <Original>Signal Sound</Original>
     <German>Hinweiston</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Sound_Tip">
-    <English>Play an acoustic note</English>
+    <Original>Play an acoustic note</Original>
     <German>Spiele einen Hinweiston ab</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Sound_0">
-    <English>disabled</English>
+    <Original>disabled</Original>
     <German>deaktiviert</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Sound_1">
-    <English>Type 1 (default)</English>
+    <Original>Type 1 (default)</Original>
     <German>Typ 1 (Standard)</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Sound_2">
-    <English>Type 2</English>
+    <Original>Type 2</Original>
     <German>Typ 2</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Sound_3">
-    <English>Type 3</English>
+    <Original>Type 3</Original>
     <German>Typ 3</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Sound_4">
-    <English>Type 4</English>
+    <Original>Type 4</Original>
     <German>Typ 4</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Color_Background_Title">
-    <English>Background</English>
+    <Original>Background</Original>
     <German>Hintergrund</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Color_Background_Tip">
-    <English>Color for the background</English>
+    <Original>Color for the background</Original>
     <German>Farbe für den Hintergrund</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Color_Default_Title">
-    <English>Default</English>
+    <Original>Default</Original>
     <German>Standard</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Color_Default_Tip">
-    <English>Color for standart hints</English>
+    <Original>Color for standart hints</Original>
     <German>Farbe für allgemeine Hinweise</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Color_Info_Title">
-    <English>Information</English>
+    <Original>Information</Original>
     <German>Information</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Color_Info_Tip">
-    <English>Color for informations</English>
+    <Original>Color for informations</Original>
     <German>Farbe für Informationen</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Color_Alert_Title">
-    <English>Alert</English>
+    <Original>Alert</Original>
     <German>Warnung</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Color_Alert_Tip">
-    <English>Color for alerts</English>
+    <Original>Color for alerts</Original>
     <German>Farbe für Warnungen</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Queue_Size_Title">
-    <English>Stacked Size</English>
+    <Original>Stacked Size</Original>
     <German>Stapelgröße</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Queue_Size_Tip">
-    <English>Maximum amount of stacked hints</English>
+    <Original>Maximum amount of stacked hints</Original>
     <German>Maximale Anzahl der gestapelten Hinweise</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Queue_Alpha_Title">
-    <English>Transparency</English>
+    <Original>Transparency</Original>
     <German>Transparenz</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Queue_Alpha_Tip">
-    <English>Amount of transparency of stacked hints(alpha-channel)</English>
+    <Original>Amount of transparency of stacked hints(alpha-channel)</Original>
     <German
         >Grad der Durchsichtigkeit der gestapelten Hinweise (Alpha-Kanal)</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Option_ACE_Title">
-    <English>Include ACE</English>
+    <Original>Include ACE</Original>
     <German>ACE einbeziehen</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Option_ACE_Tip">
-    <English>ACE hints will be shown in HAVOC style</English>
+    <Original>ACE hints will be shown in HAVOC style</Original>
     <German>ACE Hinweise werden im HAVOC-Stil angezeigt</German>
    </Key>
    <!-- =============================================================================== -->
    <Key ID="STR_HAVOC_Hints_CBA_Option_CBA_Title">
-    <English>Include CBA</English>
+    <Original>Include CBA</Original>
     <German>CBA einbeziehen</German>
    </Key>
    <Key ID="STR_HAVOC_Hints_CBA_Option_CBA_Tip">
-    <English>CBA hints will be shown in HAVOC style</English>
+    <Original>CBA hints will be shown in HAVOC style</Original>
     <German>CBA Hinweise werden im HAVOC-Stil angezeigt</German>
    </Key>
    <!-- =============================================================================== -->

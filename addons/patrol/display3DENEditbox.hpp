@@ -23,12 +23,12 @@ class RscMap;
 #define MSGBOX_Y    0.25
 
 class ctrlDefault;
-class ctrlDefaultText;// : ctrlDefault;
-class ctrlStatic;// : ctrlDefaultText;
-class ctrlListNBox;// : ctrlDefaultText;
-class ctrlTree;// : ctrlDefaultText;
-class ctrlEdit;// : ctrlDefaultText;
-class ctrlToolBox;// : ctrlDefaultText;
+class ctrlDefaultText;//: ctrlDefault;
+class ctrlStatic;//: ctrlDefaultText;
+class ctrlListNBox;//: ctrlDefaultText;
+class ctrlTree;//: ctrlDefaultText;
+class ctrlEdit;//: ctrlDefaultText;
+class ctrlToolBox;//: ctrlDefaultText;
 class ctrlStaticBackgroundDisableTiles;
 class ctrlStaticTitle;
 class ctrlStaticBackground;
@@ -38,22 +38,19 @@ class ctrlButtonCancel;
 class ctrlStructuredText;
 class ctrlCheckbox;
 
-class GVAR(editBox)
-{
+class GVAR(editBox) {
+
     idd = -1;
     movingEnable = 0;
     enableSimulation = 1;
     enableDisplay = 1;
     onUnload = "_this call havoc_patrol_fnc_3denPatrol";
-    class Controls
-    {
-        class Back : ctrlStaticBackgroundDisableTiles
-        {
+    class Controls {
+        class Back: ctrlStaticBackgroundDisableTiles {
             x = SafeZoneX; y = SafeZoneY;
             w = SafeZoneW; h = SafeZoneH;
         };
-        class Title: ctrlStaticTitle
-        {
+        class Title: ctrlStaticTitle {
             idc = IDC_DISPLAY3DENMSGBOX_TITLE;
             x = (MSGBOX_X);
             y = (MSGBOX_Y);
@@ -61,24 +58,21 @@ class GVAR(editBox)
             h = 5 * GRID_H;
             text = "Patrol generator";
         };
-        class Background: ctrlStaticBackground
-        {
+        class Background: ctrlStaticBackground {
             idc = IDC_DISPLAY3DENMSGBOX_BACKGROUND;
             x = (MSGBOX_X);
             y = (MSGBOX_Y) + SIZE_M * GRID_H;
             w = (MSGBOX_W) * GRID_W;
             h =  MSGBOX_H * GRID_H;
         };
-        class BottomBackground: ctrlStaticFooter
-        {
+        class BottomBackground: ctrlStaticFooter {
             idc = IDC_DISPLAY3DENMSGBOX_BOTTOMBACKGROUND;
             x = (MSGBOX_X);
             y = (MSGBOX_Y) + (MSGBOX_H * GRID_H);
             w = (MSGBOX_W) * GRID_W;
             h = 5 * GRID_H;
         };
-        class ButtonOK: ctrlButtonOK
-        {
+        class ButtonOK: ctrlButtonOK {
             idc = 3434;
             x = MSGBOX_X + (MSGBOX_W * 1/3) * GRID_W;
             y = (MSGBOX_Y) + (MSGBOX_H * GRID_H);
@@ -86,8 +80,7 @@ class GVAR(editBox)
             h = 5 * GRID_H;
             onButtonDown = "(ctrlParent (_this select 0)) closeDisplay 1;";
         };
-        class ButtonCancel: ctrlButtonCancel
-        {
+        class ButtonCancel: ctrlButtonCancel {
             idc = 3432;
             x = MSGBOX_X + (MSGBOX_W * 2/3) * GRID_W;
             y = (MSGBOX_Y) + (MSGBOX_H * GRID_H);
@@ -95,16 +88,14 @@ class GVAR(editBox)
             h = 5 * GRID_H;
             onButtonDown = "(ctrlParent (_this select 0)) closeDisplay 2;";
         };
-        class PatrolShapeLabel : ctrlStructuredText
-        {
+        class PatrolShapeLabel: ctrlStructuredText {
             x = (MSGBOX_X);
             y = (MSGBOX_Y)+ (SIZE_M) * GRID_H;
             w = (MSGBOX_W) * GRID_W;
             h = 10 * GRID_H;
             text = "Shape of patrol path";
         };
-        class PatrolShape : ctrlToolbox
-        {
+        class PatrolShape: ctrlToolbox {
             IDC  = 1337;
             x = (MSGBOX_X);
             y = (MSGBOX_Y)+ (SIZE_M+5) * GRID_H;
@@ -123,16 +114,14 @@ class GVAR(editBox)
             };
             values[] = {0,1};
         };
-        class PatrolRadiusLabel : ctrlStructuredText
-        {
+        class PatrolRadiusLabel: ctrlStructuredText  {
             x = (MSGBOX_X);
             y = (MSGBOX_Y)+ (SIZE_M+23) * GRID_H;
             w = (MSGBOX_W) * GRID_W;
             h = 5 * GRID_H;
             text = "Radius:";
         };
-        class PatrolRadiusText : ctrlEdit
-        {
+        class PatrolRadiusText: ctrlEdit {
             IDC  = 1338;
             x = (MSGBOX_X)+0.08;
             y = (MSGBOX_Y)+ (SIZE_M+23) * GRID_H;
@@ -140,16 +129,14 @@ class GVAR(editBox)
             h = 5 * GRID_H;
             text = "100";
         };
-        class PatrolPointsLabel : ctrlStructuredText
-        {
+        class PatrolPointsLabel: ctrlStructuredText {
             x = (MSGBOX_X);
             y = (MSGBOX_Y)+ (SIZE_M+30) * GRID_H;
             w = (MSGBOX_W) * GRID_W;
             h = 5 * GRID_H;
             text = "Points:";
         };
-        class PatrolPointsText : ctrlEdit
-        {
+        class PatrolPointsText: ctrlEdit  {
             IDC  = 1339;
             x = (MSGBOX_X)+0.08;
             y = (MSGBOX_Y)+ (SIZE_M+30) * GRID_H;
@@ -157,8 +144,7 @@ class GVAR(editBox)
             h = 5 * GRID_H;
             text = "8";
         };
-        class onRoad : ctrlCheckbox
-        {
+        class onRoad: ctrlCheckbox {
             IDC  = 1340;
             x = (MSGBOX_X)+0.005;
             y = (MSGBOX_Y)+ (SIZE_M+35) * GRID_H;
@@ -166,8 +152,7 @@ class GVAR(editBox)
             h = 7 * GRID_H;
             text = "Yeah";
         };
-        class onRoadLabel : ctrlStructuredText
-        {
+        class onRoadLabel: ctrlStructuredText {
             x = (MSGBOX_X)+0.005+0.04;
             y = (MSGBOX_Y)+ (SIZE_M+35+0.7) * GRID_H;
             w = (MSGBOX_W) * GRID_W;

@@ -1,7 +1,6 @@
-class CfgPatches
-{
-    class havoc_quickActions
-    {
+class CfgPatches {
+    class havoc_quickActions {
+
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

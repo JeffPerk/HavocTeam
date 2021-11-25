@@ -942,4 +942,217 @@ class CfgVehicles {
         class TransportItems {};
         class TransportBackpacks {};
     };
+    
+/////////////////////////////////////////
+    class CLASS(Item_MX_brush): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_brush);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_brush),1);
+        };
+    };
+    class CLASS(Item_MX_GL_brush): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_GL_brush);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_GL_brush),1);
+        };
+    };
+    class CLASS(Item_MX_SW_brush): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_SW_brush);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_SW_brush),1);
+        };
+    };
+    class CLASS(Item_MXC_brush): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXC_brush);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXC_brush),1);
+        };
+    };
+    class CLASS(Item_MXM_brush): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXM_brush);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXM_brush),1);
+        };
+    };
+
+
+/////////////////////////////////////////
+    class CLASS(Item_MX_yonv2): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_yonv2);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_yonv2),1);
+        };
+    };
+    class CLASS(Item_MX_GL_yonv2): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_GL_yonv2);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_GL_yonv2),1);
+        };
+    };
+    class CLASS(Item_MX_SW_yonv2): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_SW_yonv2);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_SW_yonv2),1);
+        };
+    };
+    class CLASS(Item_MXC_yonv2): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXC_yonv2);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXC_yonv2),1);
+        };
+    };
+    class CLASS(Item_MXM_yonv2): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXM_yonv2);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXM_yonv2),1);
+        };
+    };
+
+
+
+/////////////////////////////////////////
+    class CLASS(Item_MX_trash): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_trash);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_trash),1);
+        };
+    };
+    class CLASS(Item_MX_GL_trash): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_GL_trash);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_GL_trash),1);
+        };
+    };
+    class CLASS(Item_MX_SW_trash): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MX_SW_trash);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_SW_trash),1);
+        };
+    };
+    class CLASS(Item_MXC_trash): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXC_trash);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXC_trash),1);
+        };
+    };
+    class CLASS(Item_MXM_trash): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "YonV";
+        displayName = CSTRING(MXM_trash);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXM_trash),1);
+        };
+    };
+
+
+/////////////////////////////////////////
+    class CLASS(Item_MX_walker): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "walker";
+        displayName = CSTRING(MX_walker);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_walker),1);
+        };
+    };
+    class CLASS(Item_MX_GL_walker): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "walker";
+        displayName = CSTRING(MX_GL_walker);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_GL_walker),1);
+        };
+    };
+    class CLASS(Item_MX_SW_walker): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "walker";
+        displayName = CSTRING(MX_SW_walker);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MX_SW_walker),1);
+        };
+    };
+    class CLASS(Item_MXC_walker): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "walker";
+        displayName = CSTRING(MXC_walker);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXC_walker),1);
+        };
+    };
+    class CLASS(Item_MXM_walker): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "walker";
+        displayName = CSTRING(MXM_walker);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MXM_walker),1);
+        };
+    };
 };
+
