@@ -132,10 +132,6 @@ if (local _unit) then {
     _unit setVariable ["HAVOC_Section", _Section, true];
 
 
-    call havoc_rank_fnc_rank;
-    call havoc_role_fnc_role;
-
-
     call {
         if (_Section == "Command") exitwith {
             group _unit setVariable ["BFT_groupMarker_visible", true];
@@ -178,14 +174,12 @@ if (local _unit) then {
         };
     };
 
-
-
 };
 
 //========== SideChat Config
 if (hasinterface) then {
     if ((isClass (configFile >> "CfgPatches" >> "task_force_radio")) && (EnableSideChat)) then {
-        if ((_Section == "Command") || (_Section == "909 EAW")) then {
+        if ((_Section == "Command") || (_Section == "Reaper")) then {
             1 enablechannel [true, false];
         };
     };
