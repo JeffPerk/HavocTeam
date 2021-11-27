@@ -198,60 +198,44 @@ class CfgVehicles {
 
 
     // Public
-    class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
+    class CLASS(Arcadian_B_Black): CLASS(Arcadian_Base) {
         scope = 2;
         scopeCurator = 2;
-        forceInGarage = 1;
-        side = 2;
-        faction = QCLASS(IND);
+        forceInGarage = 0;
+        side = 1;
+        faction = PREFIX;
         displayName = CSTRING(Black);
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
-        crew = QCLASS(Unit_I_Contractor);
-        typicalCargo[] = {QCLASS(Unit_I_Contractor)};
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Contractor)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_black_co.paa)
         };
     };
-    class CLASS(Arcadian_B_Black): CLASS(Arcadian_I_Black) {
+
+    class CLASS(Arcadian_B_Tan): CLASS(Arcadian_B_Black) {
         scope = 2;
         forceInGarage = 0;
+        displayName = CSTRING(Tan);
         side = 1;
         faction = PREFIX;
-        crew = QCLASS(Unit_B_Contractor);
-        typicalCargo[] = {QCLASS(Unit_B_Contractor)};
-    };
-
-    class CLASS(Arcadian_I_Tan): CLASS(Arcadian_I_Black) {
-        scope = 2;
-        displayName = CSTRING(Tan);
-        editorPreview = QPATHTOF(ui\Arcadian_Tan.jpg);
+        crew = QCLASS(socom);
+        typicalCargo[] = {QCLASS(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_tan_co.paa)
         };
     };
-    class CLASS(Arcadian_B_Tan): CLASS(Arcadian_I_Tan) {
+
+    class CLASS(Arcadian_B_Green): CLASS(Arcadian_B_Black) {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = PREFIX;
-        crew = QCLASS(Unit_B_Contractor);
-        typicalCargo[] = {QCLASS(Unit_B_Contractor)};
-    };
-
-    class CLASS(Arcadian_I_Green): CLASS(Arcadian_I_Black) {
-        scope = 2;
         displayName = CSTRING(Green);
-        editorPreview = QPATHTOF(ui\Arcadian_Green.jpg);
+        faction = PREFIX;
+        crew = QCLASS(socom);
+        typicalCargo[] = {QCLASS(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_green_co.paa)
         };
-    };
-    class CLASS(Arcadian_B_Green): CLASS(Arcadian_I_Green) {
-        scope = 2;
-        forceInGarage = 0;
-        side = 1;
-        faction = PREFIX;
-        crew = QCLASS(Unit_B_Contractor);
-        typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
 };
