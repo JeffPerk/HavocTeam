@@ -1,26 +1,28 @@
 #include "script_component.hpp"
 /*
- * Author: 3Mydlo3
- * Function creates task from given task namespace.
- *
- * Arguments:
- * 0: Task namespace <CBA_NAMESPACE>
- *
- * Return Value:
- * None
- *
- * Example:
- * None
- *
- * Public: No
+* Author: 3Mydlo3
+* Function creates task from given task namespace.
+*
+* Arguments:
+* 0: Task namespace <CBA_NAMESPACE>
+* 0: Task config name <STRING>
+* 1: Task namespace <CBA_NAMESPACE>
+*
+* Return Value:
+* None
+*
+* Example:
+* None
+*
+* Public: No
  */
 
 params ["_taskConfigName", "_taskNamespace"];
 
 INFO_1("Creating '%1'",_taskConfigName);
 
-private _title = _taskNamespace getVariable ["title", ""];
-private _description = _taskNamespace getVariable ["description", ""];
+private _title = _taskNamespace getVariable ["title", DEFAULT_TITLE(_taskConfigName)];
+private _description = _taskNamespace getVariable ["description", DEFAULT_DESCRIPTION(_taskConfigName)];
 private _marker = _taskNamespace getVariable ["marker", ""];
 private _object = _taskNamespace getVariable ["object", ""];
 private _position = _taskNamespace getVariable ["position", []];
