@@ -125,7 +125,7 @@ class CfgVehicles {
                 hitpoint = "Light_R";
                 selection = "Light_R";
             };
-			class LightCarHeadR02: LightCarHeadR01 {
+            class LightCarHeadR02: LightCarHeadR01 {
                 position = "LightCarHeadR02";
                 direction = "LightCarHeadR02_end";
                 hitpoint = "Light_R2";
