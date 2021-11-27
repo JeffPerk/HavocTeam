@@ -2,23 +2,23 @@
 <Project name="HAVOC">
     <Package name="Respawn">
         <Key ID="STR_HAVOC_Respawn_DisplayName">
-            <English>Havoc - Respawn</English>
+            <Original>Havoc - Respawn</Original>
             <Polish>Havoc - Odrodzenie</Polish>
         </Key>
         <Key ID="STR_HAVOC_Respawn_Enabled">
-            <English>Enable respawn</English>
+            <Original>Enable respawn</Original>
             <Polish>Włącz odrodzenie</Polish>
         </Key>
         <Key ID="STR_HAVOC_Respawn_Enabled_Description">
-            <English>Enables respawn with given delay.</English>
+            <Original>Enables respawn with given delay.</Original>
             <Polish>Włącza odrodzenie z określonym opóźnieniem.</Polish>
         </Key>
         <Key ID="STR_HAVOC_Respawn_Time">
-            <English>Respawn delay</English>
+            <Original>Respawn delay</Original>
             <Polish>Opóźnienie odrodzenia</Polish>
         </Key>
         <Key ID="STR_HAVOC_Respawn_Time_Description">
-            <English>How much time must pass before player will respawn (if respawn is enabled).</English>
+            <Original>How much time must pass before player will respawn (if respawn is enabled).</Original>
             <Polish>Jak dużo czasu musi upłynąć by gracz mógł się odrodzić (jeśli odrodzenie jest włączone).</Polish>
         </Key>
     </Package>

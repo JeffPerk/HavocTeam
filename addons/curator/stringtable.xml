@@ -2,18 +2,18 @@
 <Project name="HAVOC">
     <Package name="Curator">
         <Key ID="STR_HAVOC_Curator_isZeus">
-            <English>Zeus</English>
+            <Original>Zeus</Original>
         </Key>
         <Key ID="STR_HAVOC_Curator_isZeus_Description">
-            <English>Controls whether unit will have Zeus interface.</English>
+            <Original>Controls whether unit will have Zeus interface.</Original>
             <Polish>Ustala czy jednostka ma mieć dostęp do interfejsu Zeusa.</Polish>
         </Key>
         <Key ID="STR_HAVOC_Curator_GetZeus">
-            <English>Zeus</English>
+            <Original>Zeus</Original>
             <Polish>Zeus</Polish>
         </Key>
         <Key ID="STR_HAVOC_Curator_GetZeus_Description">
-            <English>Give yourself Zeus functinality.</English>
+            <Original>Give yourself Zeus functinality.</Original>
             <Polish>Daj sobie funkcjonalność Zeusa.</Polish>
         </Key>
     </Package>

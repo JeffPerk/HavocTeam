@@ -1,8 +1,6 @@
 class RadioProtocolBase;
-class RadioProtocolENG: RadioProtocolBase
-{
-    class Words
-    {
+class RadioProtocolENG: RadioProtocolBase {
+    class Words {
         __1[] = {}; 
         __1_1[] = {}; 
         __2[] = {}; 
@@ -657,8 +655,7 @@ class RadioProtocolENG: RadioProtocolBase
         Yousuf[] = {}; 
         zero[] = {}; 
         zulu[] = {};
-        class Combat: Normal
-        {
+        class Combat: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -1314,8 +1311,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class Normal
-        {
+        class Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -1971,8 +1967,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class CombatEngage: Normal
-        {
+        class CombatEngage: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -2628,8 +2623,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class NormalContact: Normal
-        {
+        class NormalContact: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -3285,8 +3279,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class CombatContact: Normal
-        {
+        class CombatContact: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -3942,8 +3935,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class Stealth: Normal
-        {
+        class Stealth: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -4599,8 +4591,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class NormalEngage: Normal
-        {
+        class NormalEngage: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -5256,8 +5247,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class NormalTarget: Normal
-        {
+        class NormalTarget: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -5913,8 +5903,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class NormalWatch: Normal
-        {
+        class NormalWatch: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -6570,8 +6559,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class StealthEngage: Normal
-        {
+        class StealthEngage: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -7227,8 +7215,7 @@ class RadioProtocolENG: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
         };
-        class StealthWatch: Normal
-        {
+        class StealthWatch: Normal {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -7887,10 +7874,8 @@ class RadioProtocolENG: RadioProtocolBase
     };
 };
 
-class RadioProtocolENGB: RadioProtocolBase
-{
-    class Words
-        {
+class RadioProtocolENGB: RadioProtocolBase {
+    class Words {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -8547,8 +8532,7 @@ class RadioProtocolENGB: RadioProtocolBase
             zulu[] = {};
         };
 };
-class RadioProtocolPER: RadioProtocolBase
-        {
+class RadioProtocolPER: RadioProtocolBase {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
@@ -9204,8 +9188,7 @@ class RadioProtocolPER: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
 };
-class RadioProtocolGRE: RadioProtocolBase
-        {
+class RadioProtocolGRE: RadioProtocolBase {
             __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 

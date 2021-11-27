@@ -2,11 +2,11 @@
 <Project name="HAVOC">
     <Package name="Friendly_Fire">
         <Key ID="STR_HAVOC_Friendly_Fire_DisplayName">
-            <English>Havoc - Friendly Fire</English>
+            <Original>Havoc - Friendly Fire</Original>
             <Polish>Havoc - Ogień sojuszniczy</Polish>
         </Key>
         <Key ID="STR_HAVOC_Friendly_Fire_Logging_Enabled">
-            <English>Friendly fire logging</English>
+            <Original>Friendly fire logging</Original>
             <Polish>Logowanie ognia sojuszniczego</Polish>
         </Key>
     </Package>

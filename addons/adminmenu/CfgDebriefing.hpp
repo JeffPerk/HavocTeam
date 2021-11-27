@@ -1,7 +1,5 @@
-class CfgDebriefing
-{
-    class GVAR(victory)
-    {
+class CfgDebriefing {
+    class GVAR(victory) {
         title = "Mission Successful";
         description = "";
         subtitle = "";
@@ -10,8 +8,7 @@ class CfgDebriefing
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(defeat)
-    {
+    class GVAR(defeat) {
         title = "Mission Failed";
         description = "";
         subtitle = "";
@@ -20,8 +17,7 @@ class CfgDebriefing
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(draw)
-    {
+    class GVAR(draw) {
         title = "Draw";
         description = "";
         subtitle = "";
@@ -30,8 +26,7 @@ class CfgDebriefing
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(technical_issues)
-    {
+    class GVAR(technical_issues) {
         title = "Technical Issues";
         description = "";
         subtitle = "";

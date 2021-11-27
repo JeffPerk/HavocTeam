@@ -2,259 +2,259 @@
 <Project name="HAVOC">
     <Package name="ShootingRange">
         <Key ID="STR_HAVOC_ShootingRange_Range">
-            <English>Shooting Range</English>
+            <Original>Shooting Range</Original>
             <German>Schießstand</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_ModuleDesc">
-            <English>This module allows you to set up a Shooting Range.</English>
+            <Original>This module allows you to set up a Shooting Range.</Original>
             <German>Dieses Modul erlaubt dir einen Schießstand einzurichten.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Name">
-            <English>Name</English>
+            <Original>Name</Original>
             <German>Name</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_NameDesc">
-            <English>Name of the current range.</English>
+            <Original>Name of the current range.</Original>
             <German>Name des aktuellen Schießstands.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Targets">
-            <English>Targets</English>
+            <Original>Targets</Original>
             <German>Ziele</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetsDesc">
-            <English>List of object names used as targets, separated by commas. Can be synchronized objects.</English>
+            <Original>List of object names used as targets, separated by commas. Can be synchronized objects.</Original>
             <German>Liste der Objektnamen, die als Ziele benutzt werden. Durch Kommas trennen. Die Objekte können synchronisiert sein.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetsInvalid">
-            <English>Invalid Targets</English>
+            <Original>Invalid Targets</Original>
             <German>Ungültige Ziele</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetsInvalidDesc">
-            <English>List of object names used as invalid targets, separated by commas. Must be same amount as targets when used in Trigger mode, fill empty slots with 'nil'.</English>
+            <Original>List of object names used as invalid targets, separated by commas. Must be same amount as targets when used in Trigger mode, fill empty slots with 'nil'.</Original>
             <German>Liste der Objektnamen, die als ungültige Ziele genutzt werden. Durch Kommas trennen. Muss die selbe Anzahl wie die Zahl der Ziele haben, wenn es im Auslöser-Modus genutzt werden soll. Leere Slots mit 'nil' füllen.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Controllers">
-            <English>Controllers</English>
+            <Original>Controllers</Original>
             <German>Regler</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_ControllersDesc">
-            <English>List of object names used as controllers, separated by commas.</English>
+            <Original>List of object names used as controllers, separated by commas.</Original>
             <German>Liste der Objektnamen, die als Regler genutzt werden. Durch Kommas trennen.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_SoundSources">
-            <English>Sound Sources</English>
+            <Original>Sound Sources</Original>
             <German>Soundquellen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_SoundSourcesDesc">
-            <English>List of object names used as sound sources (in addition to controllers), separated by commas.</English>
+            <Original>List of object names used as sound sources (in addition to controllers), separated by commas.</Original>
             <German>Liste der Objektnamen, die als Soundquelle (zusätzlich zu Reglern)  genutzt werden. Durch Kommas trennen.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Mode">
-            <English>Mode</English>
+            <Original>Mode</Original>
             <German>Modus</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_ModeDesc">
-            <English>Time and Hit require Duration, Trigger requires Trigger Markers. Default: Timed</English>
+            <Original>Time and Hit require Duration, Trigger requires Trigger Markers. Default: Timed</Original>
             <German>Zeit- und Treffermodus benötigen Zeit. Auslösermodus benötigt Auslöser-Markierungen. Standard: Zeitmodus</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Durations">
-            <English>Durations</English>
+            <Original>Durations</Original>
             <German>Laufzeiten</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DurationsDesc">
-            <English>List of available shooting durations in seconds, separated by commas. Only used in Timed, Hit (Time Limited) and Rampage Modes. Default: 0, 30, 60, 150, 300</English>
+            <Original>List of available shooting durations in seconds, separated by commas. Only used in Timed, Hit (Time Limited) and Rampage Modes. Default: 0, 30, 60, 150, 300</Original>
             <German>Liste der möglichen Standardzeiten für einen Durchgang. Durch Kommas trennen. Wird nur im Auf Zeit, Treffer (Zeitlimit) und Amoklauf Modus genutzt. Standard: 0, 30, 60, 150, 300</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultDuration">
-            <English>Default Duration</English>
+            <Original>Default Duration</Original>
             <German>Standardzeit</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultDurationDesc">
-            <English>Default shooting duration in seconds. Only used in Timed, Hit (Time Limited) and Rampage Modes. Default: 60</English>
+            <Original>Default shooting duration in seconds. Only used in Timed, Hit (Time Limited) and Rampage Modes. Default: 60</Original>
             <German>Standardzeit, die für einen Durchgang genutzt wird. Wird nur im Auf Zeit, Treffer (Zeitlimit) und Amoklauf Modus genutzt. Standard: 60</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetAmounts">
-            <English>Target Amounts</English>
+            <Original>Target Amounts</Original>
             <German>Anzahl der Ziele</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetAmountsDesc">
-            <English>List of available number of target pop-ups, separated by commas. Only used in Hit (Target Limited) Mode. Default: 5, 10, 15, 30, 45</English>
+            <Original>List of available number of target pop-ups, separated by commas. Only used in Hit (Target Limited) Mode. Default: 5, 10, 15, 30, 45</Original>
             <German>Liste der möglichen Zahl aufklappbarer Ziele. Durch Kommas trennen. Wird nur im Treffermodus (Ziellimit) genutzt. Standard: 15</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultTargetAmount">
-            <English>Default Target Amount</English>
+            <Original>Default Target Amount</Original>
             <German>Standard Anzahl an Zielen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultTargetAmountDesc">
-            <English>Default amount of target pop-ups. Only used in Hit (Target Limited) Mode. Default: 15</English>
+            <Original>Default amount of target pop-ups. Only used in Hit (Target Limited) Mode. Default: 15</Original>
             <German>Standard Anzahl an aufklappbaren Ziele. Wird nur im Treffermodus (Ziellimit) genutzt. Standard: 15</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_PauseDurations">
-            <English>Pause Durations</English>
+            <Original>Pause Durations</Original>
             <German>Pausenlängen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_PauseDurationsDesc">
-            <English>List of available pause durations during target pop-ups in seconds, separated by commas. Only used in Timed Mode. Default: 1, 2, 3, 4, 5</English>
+            <Original>List of available pause durations during target pop-ups in seconds, separated by commas. Only used in Timed Mode. Default: 1, 2, 3, 4, 5</Original>
             <German>Liste der möglichen Pausen für aufklappende Ziele. Durch Kommas trennen. Wird nur im Zeitmodus genutzt. Standard: 1, 2, 3, 4, 5</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultPauseDuration">
-            <English>Default Pause Duration</English>
+            <Original>Default Pause Duration</Original>
             <German>Standard-Pausenlänge</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultPauseDurationDesc">
-            <English>Default pause duration during target pop-ups in seconds. Default: 3</English>
+            <Original>Default pause duration during target pop-ups in seconds. Default: 3</Original>
             <German>Standard-Pausenlänge während Ziele aufklappen in Sekunden. Standard: 3</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_CountdownTimes">
-            <English>Countdown Times</English>
+            <Original>Countdown Times</Original>
             <German>Countdown-Zeiten</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_CountdownTimesDesc">
-            <English>List of times it takes from pressing start to first target pop-up (lowest: 5). Default: 6, 9, 12, 15</English>
+            <Original>List of times it takes from pressing start to first target pop-up (lowest: 5). Default: 6, 9, 12, 15</Original>
             <German>Liste der Zeiten, die nach dem Drücken von Start vergehen können, bis das erste Ziel aufklappt (niedrigste: 5). Standard: 6, 9, 12, 15</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultCountdownTime">
-            <English>Default Countdown Time</English>
+            <Original>Default Countdown Time</Original>
             <German>Standard Countdown-Zeit</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_DefaultCountdownTimeDesc">
-            <English>Default time it takes from pressing start to first target pop-up (lowest: 5). Default: 9</English>
+            <Original>Default time it takes from pressing start to first target pop-up (lowest: 5). Default: 9</Original>
             <German>Standardzeit, die nach dem Drücken von Start vergeht, bis das erste Ziel aufklappt (niedrigste: 5). Standard: 9</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TriggerMarkers">
-            <English>Trigger Markers</English>
+            <Original>Trigger Markers</Original>
             <German>Auslöser-Markierungen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TriggerMarkersDesc">
-            <English>List of trigger markers (triggers will be generated) or triggers used for controlled target pop-ups, separated by commas. Must be in order with targets. Available in Trigger Mode only.</English>
+            <Original>List of trigger markers (triggers will be generated) or triggers used for controlled target pop-ups, separated by commas. Must be in order with targets. Available in Trigger Mode only.</Original>
             <German>Liste der Auslöser-Markierungen (Auslöser werden generiert) oder der Auslöser zur Kontrolle der aufklappenden Ziele. Durch Kommas trennen. Muss in der Reihenfolge der Ziele sein. Nur im Auslöser-Modus verfügbar.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_PopOnTriggerExit">
-            <English>Pop on Trigger Exit</English>
+            <Original>Pop on Trigger Exit</Original>
             <German>Abklappen, wenn Auslöserbereich verlassen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_PopOnTriggerExitDesc">
-            <English>Pop targets down when exiting the trigger. Available in Trigger Mode only.</English>
+            <Original>Pop targets down when exiting the trigger. Available in Trigger Mode only.</Original>
             <German>Klappt Ziele ab, wenn der Auslöserbereich verlassen wird. Nur im Auslöser-Modus verfügbar.</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Timed">
-            <English>Timed</English>
+            <Original>Timed</Original>
             <German>Auf Zeit</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Hit">
-            <English>Hit</English>
+            <Original>Hit</Original>
             <German>Treffer</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_HitTimeLimit">
-            <English>Hit (Time Limit)</English>
+            <Original>Hit (Time Limit)</Original>
             <German>Treffer (Zeitlimit)</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_HitTargetLimit">
-            <English>Hit (Target Limit)</English>
+            <Original>Hit (Target Limit)</Original>
             <German>Treffer (Ziellimit)</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Trigger">
-            <English>Trigger</English>
+            <Original>Trigger</Original>
             <German>Auslöser</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Rampage">
-            <English>Rampage</English>
+            <Original>Rampage</Original>
             <German>Amoklauf</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Start">
-            <English>Start</English>
+            <Original>Start</Original>
             <German>Start</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Stop">
-            <English>Stop</English>
+            <Original>Stop</Original>
             <German>Stop</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Configure">
-            <English>Configure</English>
+            <Original>Configure</Original>
             <German>Konfigurieren</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Configuration">
-            <English>Configuration</English>
+            <Original>Configuration</Original>
             <German>Einstellungen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Check">
-            <English>Check</English>
+            <Original>Check</Original>
             <German>Prüfen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Seconds">
-            <English>Seconds</English>
+            <Original>Seconds</Original>
             <German>Sekunden</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Started">
-            <English>Started</English>
+            <Original>Started</Original>
             <German>Gestartet</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Stopped">
-            <English>Stopped</English>
+            <Original>Stopped</Original>
             <German>Gestoppt</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Failed">
-            <English>Failed</English>
+            <Original>Failed</Original>
             <German>Fehlgeschlagen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Finished">
-            <English>Finished</English>
+            <Original>Finished</Original>
             <German>Beendet</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Duration">
-            <English>Duration</English>
+            <Original>Duration</Original>
             <German>Dauer</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetAmount">
-            <English>Target Amount</English>
+            <Original>Target Amount</Original>
             <German>Anzahl der Ziele</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_PauseDuration">
-            <English>Pause Duration</English>
+            <Original>Pause Duration</Original>
             <German>Pausenlänge</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_CountdownTime">
-            <English>Countdown Time</English>
+            <Original>Countdown Time</Original>
             <German>Countdown-Zeit</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Infinite">
-            <English>Infinite</English>
+            <Original>Infinite</Original>
             <German>Unendlich</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_GetReady">
-            <English>Get Ready!</English>
+            <Original>Get Ready!</Original>
             <German>Bereit machen!</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Go">
-            <English>Go!</English>
+            <Original>Go!</Original>
             <German>Los!</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Warning">
-            <English>Warning!</English>
+            <Original>Warning!</Original>
             <German>Warnung!</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_Accuracy">
-            <English>Accuracy</English>
+            <Original>Accuracy</Original>
             <German>Genauigkeit</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TimeElapsed">
-            <English>Time Elapsed</English>
+            <Original>Time Elapsed</Original>
             <German>Zeit vergangen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_By">
-            <English>By</English>
+            <Original>By</Original>
             <German>Von</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetHitBy">
-            <English>Target hit by</English>
+            <Original>Target hit by</Original>
             <German>Ziel getroffen von</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_TargetsHit">
-            <English>Targets Hit</English>
+            <Original>Targets Hit</Original>
             <German>Ziele getroffen</German>
         </Key>
         <Key ID="STR_HAVOC_ShootingRange_InvalidTargetHit">
-            <English>Invalid Target Hit</English>
+            <Original>Invalid Target Hit</Original>
             <German>Ungültiges Ziel getroffen</German>
         </Key>
     </Package>

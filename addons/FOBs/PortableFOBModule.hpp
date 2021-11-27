@@ -1,5 +1,5 @@
-class HAVOC_ModulePortableFOB_Camp: Module_F
-{
+class HAVOC_ModulePortableFOB_Camp: Module_F {
+
     scope = 2;
     displayName = "Portable FOB - Camp";
     icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
@@ -10,16 +10,13 @@ class HAVOC_ModulePortableFOB_Camp: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class Type: Combo
-              {
+    class Attributes: AttributesBase {
+        class Type: Combo {
                 property = "HAVOC_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_CAMP""";
-                class values
-                {
+                class values {
                     class ANY_CAMP      {name = "Any (Camp)";       value = "ANY_CAMP";};
                     // Camps
                     class Camp_1       {name = "Camp #1";        value = "Camp_1";};
@@ -31,10 +28,9 @@ class HAVOC_ModulePortableFOB_Camp: Module_F
                     class Camp_CamoNet_3     {name = "Camp (Net) #4";      value = "Camp_CamoNet_3";};
                 };
             };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Place this module to turn synchronized objects into Portable FOBs.",
             "Make sure the size for the selected FOB is appropriate for the synchronized object.",
@@ -47,8 +43,8 @@ class HAVOC_ModulePortableFOB_Camp: Module_F
     };
 };
 
-class HAVOC_ModulePortableFOB_Small: Module_F
-{
+class HAVOC_ModulePortableFOB_Small: Module_F {
+
     scope = 2;
     displayName = "Portable FOB - Small";
     icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
@@ -59,16 +55,13 @@ class HAVOC_ModulePortableFOB_Small: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class Type: Combo
-              {
+    class Attributes: AttributesBase {
+        class Type: Combo {
                 property = "HAVOC_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_SMALL""";
-                class values
-                {
+                class values {
                     class ANY_SMALL      {name = "Any (Small)";       value = "ANY_SMALL";};
                     // Small
                     class Small_AA_Pos      {name = "Small AA Position";     value = "Small_AA_Pos";};
@@ -92,10 +85,9 @@ class HAVOC_ModulePortableFOB_Small: Module_F
                     class Small_Tank_Pos     {name = "Small Tank Position";     value = "Small_Tank_Pos";};
                 };
             };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Place this module to turn synchronized objects into Portable FOBs.",
             "Make sure the size for the selected FOB is appropriate for the synchronized object.",
@@ -108,8 +100,8 @@ class HAVOC_ModulePortableFOB_Small: Module_F
     };
 };
 
-class HAVOC_ModulePortableFOB_Medium: Module_F
-{
+class HAVOC_ModulePortableFOB_Medium: Module_F {
+
     scope = 2;
     displayName = "Portable FOB - Medium";
     icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
@@ -120,16 +112,13 @@ class HAVOC_ModulePortableFOB_Medium: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class Type: Combo
-              {
+    class Attributes: AttributesBase {
+        class Type: Combo {
                 property = "HAVOC_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_MEDIUM""";
-                class values
-                {
+                class values {
                     class ANY_MEDIUM     {name = "Any Medium";       value = "ANY_Medium";};
                     // Medium
                     class Medium_Bunker_1     {name = "Medium Bunker #1";      value = "Medium_Bunker_1";};
@@ -159,10 +148,9 @@ class HAVOC_ModulePortableFOB_Medium: Module_F
                     class Medium_VehicleWorkshop_1  {name = "Medium Vehicle Workshop #1";   value = "Medium_VehicleWorkshop_1";};
                 };
             };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Place this module to turn synchronized objects into Portable FOBs.",
             "Make sure the size for the selected FOB is appropriate for the synchronized object.",
@@ -175,8 +163,8 @@ class HAVOC_ModulePortableFOB_Medium: Module_F
     };
 };
 
-class HAVOC_ModulePortableFOB_Large: Module_F
-{
+class HAVOC_ModulePortableFOB_Large: Module_F {
+
     scope = 2;
     displayName = "Portable FOB - Large";
     icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
@@ -187,16 +175,13 @@ class HAVOC_ModulePortableFOB_Large: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class Type: Combo
-              {
+    class Attributes: AttributesBase {
+        class Type: Combo {
                 property = "HAVOC_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_LARGE""";
-                class values
-                {
+                class values {
                     class ANY_LARGE      {name = "Any Large";       value = "ANY_LARGE";};
                     //Large
                     class Large_Bunker_1     {name = "Large Bunker #1";      value = "Large_Bunker_1";};
@@ -225,10 +210,9 @@ class HAVOC_ModulePortableFOB_Large: Module_F
                     class Large_ReconPost_1    {name = "Large Recon Post #1";     value = "Large_ReconPost_1";};
                 };
             };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Place this module to turn synchronized objects into Portable FOBs.",
             "Make sure the size for the selected FOB is appropriate for the synchronized object.",

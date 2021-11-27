@@ -1,5 +1,4 @@
-class RscNotepad
-{
+class RscNotepad {
     idd = 20306;
     enableSimulation = 1;
     closeOnMissionEnd = 0;
@@ -28,10 +27,8 @@ class RscNotepad
     ";
     able = true;
 
-    class Controls
-    {
-        class NotePad: RscEdit
-        {
+    class Controls {
+        class NotePad: RscEdit {
             idc = 1004;
             x = 0.288594 * safezoneW + safezoneX;
             y = 0.093 * safezoneH + safezoneY;
@@ -66,10 +63,8 @@ class RscNotepad
         };
     };
 
-    class controlsBackground
-    {
-        class NotePadBackground: RscPicture
-        {
+    class controlsBackground {
+        class NotePadBackground: RscPicture {
             idc = 1201;
             text = "z\havoc\addons\media\images\cuecards\notepad_CA.paa";
             x = 0.288594 * safezoneW + safezoneX;

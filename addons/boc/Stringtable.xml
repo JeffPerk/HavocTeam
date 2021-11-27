@@ -3,37 +3,37 @@
   <Package name="BOC">
     <Container name="Modules">
       <Key ID="STR_HAVOC_BOC_moduleDisabledisp">
-        <English>Prohibit BackpackOnChest</English>
+        <Original>Prohibit BackpackOnChest</Original>
         <French>Interdire le sac en position ventral</French>
         <German>BackpackOnChest verbieten</German>
         <Japanese>BackpackOnChest を制限</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleDisabledesc">
-        <English>Placing this module will prohibit the use of BackpackOnChest.</English>
+        <Original>Placing this module will prohibit the use of BackpackOnChest.</Original>
         <French>Le placement de ce module interdira le positionement du sac sur le ventre.</French>
         <German>Verbietet das benutzen von BackpackOnChest.</German>
         <Japanese>モジュールにより BackpackOnChest の使用を制限します。</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleAdd-disp">
-        <English>Add Chestpack</English>
+        <Original>Add Chestpack</Original>
         <French>Ajouter un sac ventral</French>
         <German>Chestpack hinzufügen</German>
         <Japanese>チェストパック追加</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleAdd-desc">
-         <English>Adds a chestpack (with invenory) to all syncronized Units.</English>
+        <Original>Adds a chestpack (with invenory) to all syncronized Units.</Original>
         <French>Ajoute un sac ventral (avec inventaire) à toutes les unités syncronisées.</French>
         <German>Fügt einen Chestpack allen syncronisierten Einheiten hinzu.</German>
         <Japanese>同期された全ユニットにチェストパック(インベントリ付)を追加します。</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleOnChest-disp">
-        <English>Backpack on Chest</English>
+        <Original>Backpack on Chest</Original>
         <French>Sac à dos en position ventral</French>
         <German>Rucksack auf den Bauch</German>
         <Japanese>前側にバックパック</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleOnChest-desc">
-        <English>Puts current backpack on the chest.</English>
+        <Original>Puts current backpack on the chest.</Original>
         <French>Place le sac à dos actuel en position ventral.</French>
         <German>Schnallt den aktuellen Rucksack auf den Bauch.</German>
         <Japanese>現在のバックパックを前側に置きます。</Japanese>
@@ -41,19 +41,19 @@
     </Container>
     <Container name="UI">
       <Key ID="STR_HAVOC_BOC_OnChest">
-        <English>Put backpack on chest</English>
+        <Original>Put backpack on chest</Original>
         <French>Mettre le sac à dos en position ventral</French>
         <German>Rucksack auf den Bauch schnallen</German>
         <Japanese>バックパックを前側にする</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_OnBack">
-        <English>Put backpack on back</English>
+        <Original>Put backpack on back</Original>
         <French>Remettre le sac à dos ventral dans le dos</French>
         <German>Rucksack auf den Rücken</German>
         <Japanese>バックパックを後ろ側にする</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_Swap">
-        <English>Swap rucksacks</English>
+        <Original>Swap rucksacks</Original>
         <French>Intervertir les sacs</French>
         <German>Rucksäcke tauschen</German>
         <Japanese>バックパックを入れ替え</Japanese>
@@ -61,7 +61,7 @@
     </Container>
     <Container name="Hints">
       <Key ID="STR_HAVOC_BOC_crouch">
-        <English>You can not prone with a backpack on chest</English>
+        <Original>You can not prone with a backpack on chest</Original>
         <French>Vous ne pouvez pas couché avec un sac à dos sur la poitrine</French>
         <German>Du kannst nicht liegen mit einem Rucksack auf der Brust</German>
         <Japanese />

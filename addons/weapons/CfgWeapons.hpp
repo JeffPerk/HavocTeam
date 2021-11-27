@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 class CfgWeapons {
     class Man;
-        class CAManBase : Man {
+        class CAManBase: Man {
             minGunElev = -89;
             maxGunElev = 89;
         };
@@ -824,7 +824,7 @@ class CfgWeapons {
             QPATHTOF(data\mx\xmx_long_co-blackcamo.paa),
             QPATHTOF(data\mx\xmx_long_co-blackcamo.paa)
         };
-        baseWeapon = QCLASS(MXM_jesus);
+        baseWeapon = QCLASS(MXM_blackcamo);
     };
 
     class CLASS(MXM_browndots): arifle_MXM_Black_F {
@@ -934,7 +934,7 @@ class CfgWeapons {
             QPATHTOF(data\mx\xmx_lmg_co-blackcamo.paa),
             QPATHTOF(data\mx\xmx_lmg_co-blackcamo.paa)
         };
-        baseWeapon = QCLASS(MX_SW_jesus);
+        baseWeapon = QCLASS(MX_SW_blackcamo);
     };
 
     class CLASS(MX_SW_browndots): arifle_MX_SW_Black_F {
@@ -1021,7 +1021,7 @@ class CfgWeapons {
         baseWeapon = QCLASS(Walther_P99);
     };
 
-    class CLASS(hgun_P07_blk_F) : hgun_P07_F {
+    class CLASS(hgun_P07_blk_F): hgun_P07_F {
         author = "nopryl.no";
         baseWeapon = QCLASS(hgun_P07_blk_F);
         //displayName = "P07 9 mm (Black)";
@@ -1068,7 +1068,7 @@ class CfgWeapons {
     };
 
     class LMG_03_F;
-    class CLASS(LMG_03_brn_F) : LMG_03_F {
+    class CLASS(LMG_03_brn_F): LMG_03_F {
         author = "nopryl.no";
         baseWeapon = QCLASS(LMG_03_brn_F),;
         //displayName = "LIM-85 5.56 mm (Brown)";
@@ -1112,5 +1112,292 @@ class CfgWeapons {
                 item = "optic_aco";
             };
         };
+    };
+    
+//////////////////////////////////////////////////////////////////////////////////
+    class CLASS(MX_trash): arifle_MX_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_trash);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_trash.paa),
+            QPATHTOF(data\mx\xmx_short_co_trash.paa)
+        };
+        baseWeapon = QCLASS(MX_trash);
+    };
+
+    class CLASS(MX_GL_trash): arifle_MX_GL_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_GL_trash);
+        picture = QPATHTOF(UI\mx_gl_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_trash.paa),
+            "\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"
+        };
+        baseWeapon = QCLASS(MX_GL_trash);
+    };
+
+    class CLASS(MX_SW_trash): arifle_MX_SW_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MX_SW_trash);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_lmg_co_trash.paa),
+            QPATHTOF(data\mx\xmx_lmg_co_trash.paa)
+        };
+        baseWeapon = QCLASS(MX_SW_trash);
+    };
+
+    class CLASS(MXC_trash): arifle_MXC_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXC_trash);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_short_co_trash.paa),
+            QPATHTOF(data\mx\xmx_short_co_trash.paa)
+        };
+        baseWeapon = QCLASS(MXC_trash);
+    };
+
+    class CLASS(MXM_trash): arifle_MXM_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXM_trash);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_long_co_trash.paa),
+            QPATHTOF(data\mx\xmx_long_co_trash.paa)
+        };
+        baseWeapon = QCLASS(MXM_trash);
+    };
+
+///////////////////////////////////////////////////
+    class CLASS(MX_yonv2): arifle_MX_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_yonv2);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_yonv2.paa),
+            QPATHTOF(data\mx\xmx_short_co_yonv2.paa)
+        };
+        baseWeapon = QCLASS(MX_yonv2);
+    };
+
+    class CLASS(MX_GL_yonv2): arifle_MX_GL_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_GL_yonv2);
+        picture = QPATHTOF(UI\mx_gl_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_yonv2.paa),
+            "\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"
+        };
+        baseWeapon = QCLASS(MX_GL_yonv2);
+    };
+
+    class CLASS(MX_SW_yonv2): arifle_MX_SW_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MX_SW_yonv2);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_lmg_co_yonv2.paa),
+            QPATHTOF(data\mx\xmx_lmg_co_yonv2.paa)
+        };
+        baseWeapon = QCLASS(MX_SW_yonv2);
+    };
+
+    class CLASS(MXC_yonv2): arifle_MXC_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXC_yonv2);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_short_co_yonv2.paa),
+            QPATHTOF(data\mx\xmx_short_co_yonv2.paa)
+        };
+        baseWeapon = QCLASS(MXC_yonv2);
+    };
+
+    class CLASS(MXM_yonv2): arifle_MXM_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXM_yonv2);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_long_co_yonv2.paa),
+            QPATHTOF(data\mx\xmx_long_co_yonv2.paa)
+        };
+        baseWeapon = QCLASS(MXM_yonv2);
+    };
+
+
+///////////////////////////////////////////////////
+    class CLASS(MX_brush): arifle_MX_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_brush);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_brush.paa),
+            QPATHTOF(data\mx\xmx_short_co_brush.paa)
+        };
+        baseWeapon = QCLASS(MX_brush);
+    };
+
+    class CLASS(MX_GL_brush): arifle_MX_GL_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_GL_brush);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_brush.paa),
+            "\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"
+        };
+        baseWeapon = QCLASS(MX_GL_brush);
+    };
+
+    class CLASS(MX_SW_brush): arifle_MX_SW_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MX_SW_brush);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_lmg_co_brush.paa),
+            QPATHTOF(data\mx\xmx_lmg_co_brush.paa)
+        };
+        baseWeapon = QCLASS(MX_SW_brush);
+    };
+
+    class CLASS(MXC_brush): arifle_MXC_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXC_brush);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_short_co_brush.paa),
+            QPATHTOF(data\mx\xmx_short_co_brush.paa)
+        };
+        baseWeapon = QCLASS(MXC_brush);
+    };
+
+    class CLASS(MXM_brush): arifle_MXM_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXM_brush);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_long_co_brush.paa),
+            QPATHTOF(data\mx\xmx_long_co_brush.paa)
+        };
+        baseWeapon = QCLASS(MXM_brush);
+    };
+
+
+
+///////////////////////////////////////////////////
+    class CLASS(MX_walker): arifle_MX_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_walker);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_walker.paa),
+            QPATHTOF(data\mx\xmx_short_co_walker.paa)
+        };
+        baseWeapon = QCLASS(MX_walker);
+    };
+
+    class CLASS(MX_GL_walker): arifle_MX_GL_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas";
+        displayName = CSTRING(MX_GL_walker);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_base_co_walker.paa),
+            "\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"
+        };
+        baseWeapon = QCLASS(MX_GL_walker);
+    };
+
+    class CLASS(MX_SW_walker): arifle_MX_SW_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MX_SW_walker);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_lmg_co_walker.paa),
+            QPATHTOF(data\mx\xmx_lmg_co_walker.paa)
+        };
+        baseWeapon = QCLASS(MX_SW_walker);
+    };
+
+    class CLASS(MXC_walker): arifle_MXC_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXC_walker);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_short_co_walker.paa),
+            QPATHTOF(data\mx\xmx_short_co_walker.paa)
+        };
+        baseWeapon = QCLASS(MXC_walker);
+    };
+
+    class CLASS(MXM_walker): arifle_MXM_Black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        displayName = CSTRING(MXM_walker);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mx\xmx_long_co_walker.paa),
+            QPATHTOF(data\mx\xmx_long_co_walker.paa)
+        };
+        baseWeapon = QCLASS(MXM_walker);
     };
 };

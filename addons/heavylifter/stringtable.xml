@@ -2,43 +2,43 @@
 <Project name="HAVOC">
     <Package name="HeavyLifter">
         <Key ID="STR_HAVOC_HeavyLifter_Helper">
-            <English>Heavy Duty Hooks</English>
+            <Original>Heavy Duty Hooks</Original>
             <Spanish>Ganchos</Spanish>
             <German>Schwerlasthaken</German>
             <French>Crochets à haute résistance</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Attach">
-            <English>Attach Hooks</English>
+            <Original>Attach Hooks</Original>
             <Spanish>Fijar Ganchos</Spanish>
             <German>Schwerlasthaken befestigen</German>
             <French>Attacher les crochets</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Detach">
-            <English>Detach Hooks</English>
+            <Original>Detach Hooks</Original>
             <Spanish>Soltar Ganchos</Spanish>
             <German>Schwerlasthaken lösen</German>
             <French>Déhavocher les crochets</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Attaching">
-            <English>Attaching Hooks ...</English>
+            <Original>Attaching Hooks ...</Original>
             <Spanish>Fijando Ganchos ...</Spanish>
             <German>Befestige Schwerlasthaken...</German>
             <French>Attachage des crochets...</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Detaching">
-            <English>Detaching Hooks ...</English>
+            <Original>Detaching Hooks ...</Original>
             <Spanish>Soltando Ganchos ...</Spanish>
             <German>Löse Schwerlasthaken...</German>
             <French>Déhavochage des crochets...</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Attached">
-            <English>Hooks Attached</English>
+            <Original>Hooks Attached</Original>
             <Spanish>Ganchos Fijados</Spanish>
             <German>Schwerlasthaken befestigt</German>
             <French>Crochets attachés</French>
         </Key>
         <Key ID="STR_HAVOC_HeavyLifter_Detached">
-            <English>Hooks Detached</English>
+            <Original>Hooks Detached</Original>
             <Spanish>Ganchos Sueltos</Spanish>
             <German>Schwerlasthaken gelöst</German>
             <French>Crochets déhavochés</French>

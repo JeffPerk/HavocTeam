@@ -1,5 +1,4 @@
-class HAVOC_Modulerole: Module_F
-{
+class HAVOC_Modulerole: Module_F {
     scope = 2;
     displayName = "Role Selection";
     icon = "\a3\modules_f_bootcamp\Data\IconBootcampStage.paa";
@@ -10,12 +9,10 @@ class HAVOC_Modulerole: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class ModuleDescription: ModuleDescription{};
+    class Attributes: AttributesBase {
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Sync this module to an object to add the function to sleect a Role.",
             "This Module can be synced to multiple objects or multiple modules can be used."

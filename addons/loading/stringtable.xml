@@ -2,7 +2,7 @@
 <Project name="HAVOC">
     <Package name="Loading">
         <Key ID="STR_HAVOC_Loading_Author">
-            <English>Author: %1</English>
+            <Original>Author: %1</Original>
             <Polish>Autor: %1</Polish>
         </Key>
     </Package>

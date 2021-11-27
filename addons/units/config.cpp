@@ -6,6 +6,12 @@ class CfgPatches {
         units[] = {
             QGVAR(helipilot),
             QGVAR(socom),
+            QGVAR(socom_blk),
+            QGVAR(socom_slv),
+            QGVAR(socom_blu),
+            QGVAR(socom_gld),
+            QGVAR(socom_grn),
+            QGVAR(socom_red)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {};

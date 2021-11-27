@@ -2,15 +2,15 @@
 <Project name="HAVOC">
     <Package name="Fries">
         <Key ID="STR_HAVOC_Fries_DisplayName">
-            <English>Havoc - FRIES</English>
+            <Original>Havoc - FRIES</Original>
             <Polish>Havoc - FRIES</Polish>
         </Key>
         <Key ID="STR_HAVOC_Fries_AutoAdd">
-            <English>Auto add FRIES</English>
+            <Original>Auto add FRIES</Original>
             <Polish>Auto dodawanie FRIES</Polish>
         </Key>
         <Key ID="STR_HAVOC_Fries_AutoAdd_Description">
-            <English>Automatically add FRIES to helicopters that support them.</English>
+            <Original>Automatically add FRIES to helicopters that support them.</Original>
             <Polish>Automatycznie dodawaj FRIES do śmigłowców które je wspierają.</Polish>
         </Key>
     </Package>

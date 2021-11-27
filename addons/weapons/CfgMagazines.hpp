@@ -196,5 +196,97 @@ class CfgMagazines {
         displayName = CSTRING(100Rnd_65x39_caseless_Creedblacksploch_mag);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co-blacksploch.paa)};
-    };    
+    };  
+///////////////////////////////////////////////////////////////
+    class CLASS(30Rnd_65x39_caseless_brush_mag): 30Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, TyroneMF";
+        displayName = CSTRING(30Rnd_65x39_caseless_brush_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_brush.paa)};
+    };
+    class CLASS(30Rnd_65x39_caseless_Creedbrush_mag): 30Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(30Rnd_65x39_caseless_Creedbrush_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_brush.paa)};
+    };
+    class CLASS(100Rnd_65x39_caseless_brush_mag): 100Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, TyroneMF";
+        displayName = CSTRING(100Rnd_65x39_caseless_brush_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_brush.paa)};
+    };
+    class CLASS(100Rnd_65x39_caseless_Creedbrush_mag): 100Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(100Rnd_65x39_caseless_Creedbrush_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_brush.paa)};
+    };
+
+///////////////////////////////////////////////////////////////
+    class CLASS(30Rnd_65x39_caseless_Creedtrash_mag): 30Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(30Rnd_65x39_caseless_Creedtrash_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_trash.paa)};
+    };
+    class CLASS(100Rnd_65x39_caseless_Creedtrash_mag): 100Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(100Rnd_65x39_caseless_Creedtrash_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_trash.paa)};
+    };
+
+    class CLASS(30Rnd_65x39_caseless_Creedwalker_mag): 30Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(30Rnd_65x39_caseless_Creedwalker_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_walker.paa)};
+    };
+    class CLASS(100Rnd_65x39_caseless_Creedwalker_mag): 100Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(100Rnd_65x39_caseless_Creedwalker_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_walker.paa)};
+    };
+    class CLASS(30Rnd_65x39_caseless_Creedyonv2_mag): 30Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(30Rnd_65x39_caseless_Creedyonv2_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_yonv2.paa)};
+    };
+    class CLASS(100Rnd_65x39_caseless_Creedyonv2_mag): 100Rnd_65x39_caseless_mag {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "YonV";
+        ammo = "ACE_65_Creedmor_Ball";
+        displayName = CSTRING(100Rnd_65x39_caseless_Creedyonv2_mag);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\mx\xmx_base_co_yonv2.paa)};
+    };
 };

@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Media
-    {
+class CfgPatches {
+    class HAVOC_Media {
+
         author = QAUTHOR;
          name = COMPONENT_NAME;
         url = URL;

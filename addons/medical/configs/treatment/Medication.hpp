@@ -93,7 +93,7 @@ class Ketamine_6mg {
     effectTime = 30;
 };
 
-class Ketamine_200mg : Ketamine_6mg {
+class Ketamine_200mg: Ketamine_6mg {
     painReduce=50;
     hrIncreaseLow[]={15,25};
     hrIncreaseNormal[]={15,35};

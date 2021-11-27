@@ -16,7 +16,7 @@ class PersonalAidKit: BasicBandage {};
 class larynxtubus {
     displayName = "Insert Advanced Airway";
 };
-class Guedeltubus:larynxtubus {
+class Guedeltubus: larynxtubus {
     displayName = "Insert Basic Airway";
 };
 class Overstretch: larynxtubus {

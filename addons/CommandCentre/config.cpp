@@ -1,9 +1,7 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_commandcentre
-    {
+class CfgPatches {
+    class HAVOC_commandcentre {
         author = AUTHOR;
         name = NAME;
         url = URL;
@@ -16,13 +14,10 @@ class CfgPatches
     };
 };
 
-class CfgVehicles
-{
+class CfgVehicles {
     class Logic;
-    class Module_F: Logic
-    {
-        class AttributesBase
-        {
+    class Module_F: Logic {
+        class AttributesBase {
             class Default;
             class Edit;
             class Combo;
@@ -32,8 +27,7 @@ class CfgVehicles
             class Units;
         };
 
-        class ModuleDescription
-        {
+        class ModuleDescription {
             class AnyBrain;
         };
     };
@@ -45,11 +39,9 @@ class CfgVehicles
     #include "ModuleVehicleCam.hpp"
 };
 
-class CfgFactionClasses
-{
+class CfgFactionClasses {
     class NO_CATEGORY;
-    class HAVOC_commandcentre: NO_CATEGORY
-    {
+    class HAVOC_commandcentre: NO_CATEGORY {
         displayName = "HAVOC Command Centre";
     };
 };
@@ -60,6 +52,5 @@ class CfgFactionClasses
 
 
 class CfgFunctions {
-
     #include "CfgFunctions.hpp"
 };

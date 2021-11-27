@@ -22,8 +22,7 @@ class RscLadderPicture;
 class VScrollbar;
 class HScrollbar;
 class RscXSliderH;
-class DefaultFont
-{
+class DefaultFont {
     font = "RobotoCondensed";
 };
 

@@ -1,5 +1,4 @@
-class HAVOC_ModuleVehicleCam: Module_F
-{
+class HAVOC_ModuleVehicleCam: Module_F {
     scope = 2;
     displayName = "Add Vehicle Camera";
     icon = "\z\havoc\addons\media\images\icons\Camera.paa";
@@ -10,12 +9,10 @@ class HAVOC_ModuleVehicleCam: Module_F
     isTriggerActivated = 0;
     isDisposable = 0;
     is3DEN = 0;
-    class Attributes: AttributesBase
-    {
-        class ModuleDescription: ModuleDescription{};
+    class Attributes: AttributesBase {
+        class ModuleDescription: ModuleDescription {};
     };
-    class ModuleDescription: ModuleDescription
-    {
+    class ModuleDescription: ModuleDescription {
         description[] = {
             "Synched vehicle can be viewed from the Command Center screens.",
             "You can sync as many vehicles to this module as you like."

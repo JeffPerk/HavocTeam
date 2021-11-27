@@ -3,8 +3,7 @@ class CfgVehicles {
     class ModuleEmpty_F;
 
     class ModuleCurator_F: Module_F {
-        class Attributes
-        {
+        class Attributes {
             class HAVOC_Config_Zeus {
                 property = QUOTE(HAVOC_Config_Zeus);
                 control = "Checkbox";
@@ -17,6 +16,4 @@ class CfgVehicles {
             };
         };
     };
-
-
 };

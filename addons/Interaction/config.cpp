@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Interaction
-    {
+class CfgPatches {
+    class HAVOC_Interaction {
+
         author = QAUTHOR;
         name = NAME;
         url = URL;

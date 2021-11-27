@@ -44,7 +44,7 @@ class CfgVehicles {
         isDisposable = 0;
         is3DEN = 0;
         author = "DerZade";
-        class Arguments : ArgumentsBaseUnits {
+        class Arguments: ArgumentsBaseUnits {
             class Units: Units {};
             class classname {
                 displayName = "Chestpack classname"; // Argument label
@@ -71,7 +71,7 @@ class CfgVehicles {
                 defaultValue = "_this setObjectTextureGlobal [0, ""#(rgb,8,8,3)color(0,0,1,1)""];";
             };
         };
-        class ModuleDescription : ModuleDescription {
+        class ModuleDescription: ModuleDescription {
             sync[]={"AnyPerson1","AnyPerson2"};
             description = $STR_HAVOC_BOC_moduleAdd-desc;
             class AnyPerson1 {
@@ -80,7 +80,7 @@ class CfgVehicles {
                 icon = "iconMan"; // Custom icon (can be file path or CfgVehicleIcons entry)
                 side = 1; // Custom side (will determine icon color)
             };
-            class AnyPerson2 : AnyPerson1 {};
+            class AnyPerson2: AnyPerson1 {};
         };
     };
 
@@ -96,7 +96,7 @@ class CfgVehicles {
         isDisposable = 0;
         is3DEN = 0;
         author = "DerZade";
-        class Arguments : ArgumentsBaseUnits {
+        class Arguments: ArgumentsBaseUnits {
             class Units: Units {};
             class classname {
                 displayName = "Backpack classname"; // Argument label
@@ -111,7 +111,7 @@ class CfgVehicles {
                 defaultValue = 0;
             };
         };
-        class ModuleDescription : ModuleDescription {
+        class ModuleDescription: ModuleDescription {
             sync[]={"AnyPerson1","AnyPerson2"};
             description = $STR_HAVOC_BOC_moduleOnChest-desc;
             class AnyPerson1 {
@@ -120,7 +120,7 @@ class CfgVehicles {
                 icon = "iconMan"; // Custom icon (can be file path or CfgVehicleIcons entry)
                 side = 1; // Custom side (will determine icon color)
             };
-            class AnyPerson2 : AnyPerson1 {};
+            class AnyPerson2: AnyPerson1 {};
         };
     };
 

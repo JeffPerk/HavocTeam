@@ -1,5 +1,4 @@
-class GVAR(modal)
-{
+class GVAR(modal) {
     idd = IDD_HAVOC_ADMINMENU;
     movingEnable = 0;
     enableDisplay = 1;
@@ -7,10 +6,8 @@ class GVAR(modal)
 
     onLoad = QUOTE(_this call FUNC(modalOnLoad););
     onUnload = QUOTE(_this call FUNC(modalOnUnload););
-    class Controls
-    {
-        class Background: RscText
-        {
+    class Controls {
+        class Background: RscText {
             idc = IDC_HAVOC_ADMINMENU_MODAL_BACK;
             colorBackground[] = {0, 0, 0, 0};
             x = "1 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
@@ -18,8 +15,7 @@ class GVAR(modal)
             w = "38 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "23 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class TitleBackground: RscText
-        {
+        class TitleBackground: RscText {
             idc = IDC_HAVOC_ADMINMENU_MODAL_TBACK;
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
             x = "1.5 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
@@ -27,8 +23,7 @@ class GVAR(modal)
             w = "37 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class Title: RscTitle
-        {
+        class Title: RscTitle {
             idc = IDC_HAVOC_ADMINMENU_MODAL_TITLE;
             text = "HAVOC Admin Menu";
             style = 0;
@@ -38,8 +33,7 @@ class GVAR(modal)
             w = "37 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class GroupBackground: RscText
-        {
+        class GroupBackground: RscText {
             idc = IDC_HAVOC_ADMINMENU_MODAL_GBACK;
             colorBackground[] = {0, 0, 0, 0.8};
             shadow = 2;
@@ -50,8 +44,7 @@ class GVAR(modal)
             w = "37 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "20.3 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class Group: RscControlsGroup
-        {
+        class Group: RscControlsGroup {
             idc = IDC_HAVOC_ADMINMENU_G_MODAL;
             x = "1.6 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             y = "3.8 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
@@ -59,8 +52,7 @@ class GVAR(modal)
             h = "20.1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
             class Controls {};
         };
-        class Close
-        {
+        class Close {
             idc = IDC_HAVOC_ADMINMENU_MODAL_CLOSE;
             type = 1;
             style = 48 + 2048;

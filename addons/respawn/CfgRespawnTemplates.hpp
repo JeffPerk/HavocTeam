@@ -1,8 +1,7 @@
-class CfgRespawnTemplates
-{
+class CfgRespawnTemplates {
+
     // Class used in respawnTemplates entry
-    class GVAR(default)
-    {
+    class GVAR(default) {
         displayName = CSTRING(DisplayName);
         onPlayerKilled = QFUNC(onPlayerKilled);
         onPlayerRespawn = QFUNC(onPlayerRespawn);

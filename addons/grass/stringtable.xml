@@ -2,15 +2,15 @@
 <Project name="HAVOC">
     <Package name="Grass">
         <Key ID="STR_HAVOC_Grass_DisplayName">
-            <English>Havoc - Grass</English>
+            <Original>Havoc - Grass</Original>
             <Polish>Havoc - Trawa</Polish>
         </Key>
         <Key ID="STR_HAVOC_Grass_Forced">
-            <English>Force Grass</English>
+            <Original>Force Grass</Original>
             <Polish>Wymuś trawę</Polish>
         </Key>
         <Key ID="STR_HAVOC_Grass_Forced_Description">
-            <English>Forces grass for all players</English>
+            <Original>Forces grass for all players</Original>
             <Polish>Wymusza trawę u wszystkich graczy</Polish>
         </Key>
     </Package>

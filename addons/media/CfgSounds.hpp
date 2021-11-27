@@ -1,35 +1,30 @@
-class CfgSounds
-{
+class CfgSounds {
+
     sounds[] = {};
-    class Denied
-    {
+    class Denied {
         name  = "Denied";
         sound[]  = { "z\havoc\addons\media\Sounds\Denied.ogg", 1, 1, 100 };
         titles[] = { 0, "" };
     };
 
-    class AirRaid
-    {
+    class AirRaid {
         name  = "AirRaid";
         sound[]  = { "z\havoc\addons\media\Sounds\AirRaid.ogg", 1, 1, 100 };
         titles[] = { 0, "" };
     };
 
-    class NukeAlarm
-    {
+    class NukeAlarm {
         name  = "NukeAlarm";
         sound[]  = { "z\havoc\addons\media\Sounds\NukeAlarm.ogg", 1, 1, 100 };
         titles[] = { 0, "" };
     };
 
-    class Windows
-    {
+    class Windows {
         name  = "Windows";
         sound[]  = { "z\havoc\addons\media\Sounds\Windows.ogg", 1, 1, 100 };
         titles[] = { 0, "" };
     };
-    class CallToPrayer
-    {
+    class CallToPrayer {
         name   = "CallToPrayer";
         sound[]  = { "z\havoc\addons\media\Sounds\CallToPrayer.ogg", 1, 1, 100 };
         titles[] = { 0, "" };

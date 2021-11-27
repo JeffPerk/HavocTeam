@@ -1,9 +1,7 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Zeus
-    {
+class CfgPatches {
+    class HAVOC_Zeus {
         author = AUTHOR;
         name = NAME;
         url = URL;

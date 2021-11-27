@@ -24,7 +24,7 @@ player createDiaryRecord ["Diary", ["Short Range Frequencies",
 "
 <br/><font face='PuristaLight' color='#ffcc00' font size='20' >**LISTENING ON AN UNAUTHORISED FREQUENCY IS STRICTLY PROHIBITED.**</font>
 <br/>
-<br/>Below is a list of the default Short Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times. Don't forget the MERT Frequency!
+<br/>Below is a list of the default Short Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times. 
 <br/>
 <br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 -- Local Net    - Frequency:501 Mhz</font>
 <br/><font face='PuristaLight' color='#ffcc00'> Channel: 2 -- Red Squadron Net     - Frequency:502 Mhz</font>

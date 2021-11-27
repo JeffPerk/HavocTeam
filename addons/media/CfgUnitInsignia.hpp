@@ -1,79 +1,68 @@
-class CfgUnitInsignia
-{
-    class Logo
-    {
+class CfgUnitInsignia {
+
+    class Logo {
         displayName = "HAVOC Logo";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
         textureVehicle = "";
     };
-    class bolo
-    {
+    class bolo {
         displayName = "HAVOC BOLO";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
         textureVehicle = "";
     };
 
-    class blackp
-    {
+    class blackp {
         displayName = "Black Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\black.paa";
         textureVehicle = "";
     };
 
-    class bluep
-    {
+    class bluep {
         displayName = "Blue Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\blue.paa";
         textureVehicle = "";
     };
-    class grayp
-    {
+    class grayp {
         displayName = "Gray Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\gray.paa";
         textureVehicle = "";
     };
-    class blackp
-    {
+    class blackp {
         displayName = "Black Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\black.paa";
         textureVehicle = "";
     };
-    class greenp
-    {
+    class greenp {
         displayName = "Green Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\green.paa";
         textureVehicle = "";
     };
-    class redp
-    {
+    class redp {
         displayName = "Red Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\red.paa";
         textureVehicle = "";
     };
-    class silverp
-    {
+    class silverp {
         displayName = "Silver Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\silver.paa";
         textureVehicle = "";
     };
-    class goldwp
-    {
+    class goldwp {
         displayName = "Gold Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\gold.paa";
         textureVehicle = "";
     };
-    class cmdp
-    {
+    class cmdp {
         displayName = "Gold Squadron";
         author = QAUTHOR;
         texture = "z\havoc\addons\Media\images\command.paa";

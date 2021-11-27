@@ -72,8 +72,7 @@ class GVAR(RscListNBox): RscListNBox {
     sizeEx = HAVOC_ADMINMENU_STD_SIZEX;
 };
 
-class ADDON
-{
+class ADDON {
     idd = IDD_HAVOC_ADMINMENU;
     movingEnable = 0;
     enableDisplay = 1;
@@ -81,10 +80,8 @@ class ADDON
 
     onLoad = QUOTE(_this call FUNC(onLoad););
     onUnload = QUOTE(_this call FUNC(onUnload););
-    class Controls
-    {
-        class Title: RscTitle
-        {
+    class Controls {
+        class Title: RscTitle {
             idc = -1;
             text = "HAVOC Admin Menu";
             style = 0;
@@ -95,8 +92,7 @@ class ADDON
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
 
-        class TitleFPS: Title
-        {
+        class TitleFPS: Title {
             idc = IDC_HAVOC_ADMINMENU_FPS;
             text = "";
             style = 1;
@@ -106,8 +102,7 @@ class ADDON
 
 
         // Buttons for Tabs
-        class TabDashboard: RscButtonMenu
-        {
+        class TabDashboard: RscButtonMenu {
             idc = IDC_HAVOC_ADMINMENU_DASH;
             text = "Dashboard";
             tooltip = "";
@@ -118,8 +113,7 @@ class ADDON
             w = "5.8 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class TabPlayerManagement: TabDashboard
-        {
+        class TabPlayerManagement: TabDashboard {
             idc = IDC_HAVOC_ADMINMENU_PMAN;
             text = "Player Management";
             tooltip = "Perform actions on players";
@@ -127,8 +121,7 @@ class ADDON
             x = "6.9 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             w = "9 * (((safezoneW / safezoneH) min 1.2) / 40)";
         };
-        class TabRespawnPlayers: TabDashboard
-        {
+        class TabRespawnPlayers: TabDashboard {
             idc = IDC_HAVOC_ADMINMENU_RESP;
             text = "Respawn";
             tooltip = "Respawn dead players back in the game";
@@ -136,8 +129,7 @@ class ADDON
             x = "16 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             w = "4.8 * (((safezoneW / safezoneH) min 1.2) / 40)";
         };
-        class TabEndMission: TabDashboard
-        {
+        class TabEndMission: TabDashboard {
             idc = IDC_HAVOC_ADMINMENU_ENDM;
             text = "End Mission";
             tooltip = "Select and execute a mission ending";
@@ -145,8 +137,7 @@ class ADDON
             x = "20.9 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             w = "5.9 * (((safezoneW / safezoneH) min 1.2) / 40)";
         };
-        class TabMessageLog: TabDashboard
-        {
+        class TabMessageLog: TabDashboard {
             idc = IDC_HAVOC_ADMINMENU_MSGS;
             text = "Logs";
             tooltip = "Status and debug messages from HAVOC components";
@@ -156,8 +147,7 @@ class ADDON
         };
 
         // Groups for Tabs
-        class GroupBase: RscControlsGroup
-        {
+        class GroupBase: RscControlsGroup {
             x = "1.1 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             y = "3.3 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
             w = "0";
@@ -165,40 +155,35 @@ class ADDON
             class Controls {};
         };
 
-        class GroupDashboard: GroupBase
-        {
+        class GroupDashboard: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_DASH;
             w = HAVOC_GROUPBASE_W;
             h = HAVOC_GROUPBASE_H;
             #include "dashboard.hpp"
         };
 
-        class GroupPlayerManagement: GroupBase
-        {
+        class GroupPlayerManagement: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_PMAN;
             w = HAVOC_GROUPBASE_W;
             h = HAVOC_GROUPBASE_H;
             #include "playerManagement.hpp"
         };
 
-        class GroupRespawn: GroupBase
-        {
+        class GroupRespawn: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_RESP;
             w = HAVOC_GROUPBASE_W;
             h = HAVOC_GROUPBASE_H;
             #include "respawn.hpp"
         };
 
-        class GroupEndMission: GroupBase
-        {
+        class GroupEndMission: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_ENDM;
             w = HAVOC_GROUPBASE_W;
             h = HAVOC_GROUPBASE_H;
             #include "endMission.hpp"
         };
 
-        class GroupMessageLog: GroupBase
-        {
+        class GroupMessageLog: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_MSGS;
             w = HAVOC_GROUPBASE_W;
             h = HAVOC_GROUPBASE_H;
@@ -206,8 +191,7 @@ class ADDON
         };
 
         // Utility Tab
-        class UtilityTitleBackground: RscText
-        {
+        class UtilityTitleBackground: RscText {
             idc = IDC_HAVOC_ADMINMENU_UTIL_TBACK;
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
             x = "1 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
@@ -215,8 +199,7 @@ class ADDON
             w = "38 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class UtilityTitle: RscTitle
-        {
+        class UtilityTitle: RscTitle {
             idc = IDC_HAVOC_ADMINMENU_UTIL_TITLE;
             text = "Utility Title";
             style = 0;
@@ -226,8 +209,7 @@ class ADDON
             w = "38 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class UtilityGroup: GroupBase
-        {
+        class UtilityGroup: GroupBase {
             idc = IDC_HAVOC_ADMINMENU_G_UTIL;
             y = "4.3 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
             w = "37.8 * (((safezoneW / safezoneH) min 1.2) / 40)";
@@ -235,23 +217,19 @@ class ADDON
         };
     };
 
-    class ControlsBackground
-    {
-        class TitleBackground: RscText
-        {
+    class ControlsBackground {
+        class TitleBackground: RscText {
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
             x = "1 * (((safezoneW / safezoneH) min 1.2) / 40) + (safezoneX + (safezoneW - ((safezoneW / safezoneH) min 1.2))/2)";
             y = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
             w = "38 * (((safezoneW / safezoneH) min 1.2) / 40)";
             h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
         };
-        class TabsBackgroundLeft: TitleBackground
-        {
+        class TabsBackgroundLeft: TitleBackground {
             colorBackground[] = {0, 0, 0, 1};
             y = "2.1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         };
-        class MainBackground: TitleBackground
-        {
+        class MainBackground: TitleBackground {
             colorBackground[] = {0, 0, 0, 0.7};
             y = "3.2 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
             h = "20.8 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
@@ -271,8 +249,7 @@ class GVAR(respawnMapDialog) {
     class objects {
     };
     class controls {
-        class FullRespawnMap : RscMapControl
-        {
+        class FullRespawnMap: RscMapControl {
             idc = IDC_HAVOC_ADMINMENU_RESP_MAP_CONTROL;
             type = 100;
             x = 0 * safezoneW + safezoneX;
@@ -296,8 +273,7 @@ class GVAR(adminEyeDialog) {
     class objects {
     };
     class controls {
-        class FullRespawnMap : RscMapControl
-        {
+        class FullRespawnMap: RscMapControl {
             idc = IDC_HAVOC_ADMINMENU_ADME_MAP_CONTROL;
             type = 100;
             x = 0 * safezoneW + safezoneX;

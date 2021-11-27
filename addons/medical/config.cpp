@@ -52,14 +52,13 @@ class CfgPatches {
 #include "configs\ZEN_Context_Actions.hpp"
 
 
-class CfgFunctions
-{
-    class ace_medical_statemachine
-    {
+class CfgFunctions {
+    class ace_medical_statemachine {
+
         tag = "ace_medical_statemachine";
-        class Functions
-        {
-            class handleStateCardiacArrest{
+        class Functions {
+
+            class handleStateCardiacArrest {
                 
             file="z\havoc\addons\medical\function_overwrites\fn_handleStateCardiacArrest.sqf";
             };

@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class HAVOC_Training
-    {
+class CfgPatches {
+    class HAVOC_Training {
+
         author = AUTHOR;
         name = NAME;
         url = URL;

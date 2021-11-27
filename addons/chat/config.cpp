@@ -1,9 +1,8 @@
 #include "script_component.hpp"
 
-class cfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
+
         name = "HAVOC: Chat commands";
         author = "Freddo";
         url = "http://www.teamonehavoctical.com";

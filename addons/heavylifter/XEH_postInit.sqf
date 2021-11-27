@@ -13,7 +13,7 @@ addMissionEventHandler ["Draw3D", {
             _x params ["_start", "_end"];
             drawLine3D [cursorObject modelToWorldVisual _start, cursorObject modelToWorldVisual _end, [0, 255, 255, 1]]; // Center - Cyan
             drawLine3D [(cursorObject modelToWorldVisual _start) vectorDiff _attachPos, (cursorObject modelToWorldVisual _end) vectorDiff _attachPos, [255, 0, 0, 1]]; // Config - Red
-            private _dynamicAttachPos = cursorObject getVariable ["tac_heavylifter_testAttachPos", [-100, -100, -100]];
+            private _dynamicAttachPos = cursorObject getVariable ["havoc_heavylifter_testAttachPos", [-100, -100, -100]];
             if !(_dynamicAttachPos isEqualTo [-100, -100, -100]) then {
                 drawLine3D [(cursorObject modelToWorldVisual _start) vectorDiff _dynamicAttachPos, (cursorObject modelToWorldVisual _end) vectorDiff _dynamicAttachPos, [0, 255, 0, 1]]; // Dynamic - Green
             };

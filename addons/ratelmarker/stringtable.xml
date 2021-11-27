@@ -2,43 +2,43 @@
 <Project name="HAVOC">
     <Package name="RatelMarker">
         <Key ID="STR_HAVOC_RatelMarker_DisplayName">
-            <English>RATEL Marker</English>
+            <Original>RATEL Marker</Original>
             <Spanish>Marcador RATEL</Spanish>
             <German>RATEL Markierer</German>
             <French>Marqueur RATEL</French>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_Open">
-            <English>Open RATEL Marker</English>
+            <Original>Open RATEL Marker</Original>
             <Spanish>Abril Marcador RATEL</Spanish>
             <German>RATEL Markierer öffnen</German>
             <French>Ouvrir marqueur RATEL</French>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_InvalidCoordinates">
-            <English>Invalid Coordinates!</English>
+            <Original>Invalid Coordinates!</Original>
             <Spanish>Coordenadas Inválidas!</Spanish>
             <German>Ungültige Koordinaten!</German>
             <French>Mauvaises coordonés</French>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_MarkerCreated">
-            <English>RATEL Marker Created (Open Map to Focus)</English>
+            <Original>RATEL Marker Created (Open Map to Focus)</Original>
             <Spanish>Marcador RATEL Creado (Abrir Mapa para Centrarse)</Spanish>
             <German>RATEL Markierung erstellt (Karte öffnen um zu zentrieren)</German>
             <French>Balise RATEL crée (Ouvrir la carte pour focaliser)</French>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_QRM_Create">
-            <English>Create Quick Reference Marker</English>
+            <Original>Create Quick Reference Marker</Original>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_QRM_Mode">
-            <English>Quick Reference Marker Mode</English>
+            <Original>Quick Reference Marker Mode</Original>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_QRM_VehiclePos">
-            <English>Vehicle Position</English>
+            <Original>Vehicle Position</Original>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_QRM_ViewPos">
-            <English>View Position</English>
+            <Original>View Position</Original>
         </Key>
         <Key ID="STR_HAVOC_RatelMarker_QRM_Error">
-            <English>Could not create Quick Reference Marker</English>
+            <Original>Could not create Quick Reference Marker</Original>
         </Key>
     </Package>
 </Project>
