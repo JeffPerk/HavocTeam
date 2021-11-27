@@ -206,8 +206,8 @@ class CfgVehicles {
         faction = PREFIX;
         displayName = CSTRING(Black);
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
-        crew = QCLASS(Unit_B_Contractor);
-        typicalCargo[] = {QCLASS(Unit_B_Contractor)};
+        crew = QCLASS(socom);
+        typicalCargo[] = {QCLASS(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_black_co.paa)
         };
