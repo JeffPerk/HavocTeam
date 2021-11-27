@@ -20,6 +20,7 @@ texHeaders.bin
 Thumbs.db
 *.sqfc
 releases/*
+optionals/*.pbo
 
 ## Added by HEMTT
 ####
