@@ -21,7 +21,7 @@
         <Japanese>チェストパック追加</Japanese>
       </Key>
       <Key ID="STR_HAVOC_BOC_moduleAdd-desc">
-         <Original>Adds a chestpack (with invenory) to all syncronized Units.</Original>
+        <Original>Adds a chestpack (with invenory) to all syncronized Units.</Original>
         <French>Ajoute un sac ventral (avec inventaire) à toutes les unités syncronisées.</French>
         <German>Fügt einen Chestpack allen syncronisierten Einheiten hinzu.</German>
         <Japanese>同期された全ユニットにチェストパック(インベントリ付)を追加します。</Japanese>

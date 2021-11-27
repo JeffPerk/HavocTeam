@@ -36,7 +36,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -81,7 +81,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -128,7 +128,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -174,7 +174,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -222,7 +222,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -269,7 +269,7 @@ class CfgVehicles {
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX ;
+        faction=PREFIX;
         crew="B_Soldier_F";
         typicalCargo[]= {
 
