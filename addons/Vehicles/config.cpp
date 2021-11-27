@@ -39,5 +39,5 @@ class CfgVehicles {
 
 class CfgFunctions {
 
-    #include "cfgFunctions.hpp"
+    #include "CfgFunctions.hpp"
 };
