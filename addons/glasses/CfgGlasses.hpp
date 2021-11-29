@@ -3,8 +3,8 @@ class CfgGlasses {
     class None;
 
     class G_RegulatorMask_F;
-    class CLASS(RegulatorMask): G_RegulatorMask_F {
-        _generalMacro = CLASS(RegulatorMask);
+    class GVAR(RegulatorMask): G_RegulatorMask_F {
+        _generalMacro = GVAR(RegulatorMask);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -23,8 +23,8 @@ class CfgGlasses {
     };
 
     class G_AirPurifyingRespirator_01_F;
-    class CLASS(Respirator): G_AirPurifyingRespirator_01_F {
-        _generalMacro = CLASS(Respirator);
+    class GVAR(Respirator): G_AirPurifyingRespirator_01_F {
+        _generalMacro = GVAR(Respirator);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -43,8 +43,8 @@ class CfgGlasses {
     };
 
     class G_AirPurifyingRespirator_02_black_F;
-    class CLASS(Respirator_Black): G_AirPurifyingRespirator_02_black_F {
-        _generalMacro = CLASS(Respirator_Black);
+    class GVAR(Respirator_Black): G_AirPurifyingRespirator_02_black_F {
+        _generalMacro = GVAR(Respirator_Black);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -63,8 +63,8 @@ class CfgGlasses {
     };
 
     class G_AirPurifyingRespirator_02_olive_F;
-    class CLASS(Respirator_Olive): G_AirPurifyingRespirator_02_olive_F {
-        _generalMacro = CLASS(Respirator_Olive);
+    class GVAR(Respirator_Olive): G_AirPurifyingRespirator_02_olive_F {
+        _generalMacro = GVAR(Respirator_Olive);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -83,8 +83,8 @@ class CfgGlasses {
     };
 
     class G_AirPurifyingRespirator_02_sand_F;
-    class CLASS(Respirator_Sand): G_AirPurifyingRespirator_02_sand_F {
-        _generalMacro = CLASS(Respirator_Sand);
+    class GVAR(Respirator_Sand): G_AirPurifyingRespirator_02_sand_F {
+        _generalMacro = GVAR(Respirator_Sand);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -104,8 +104,8 @@ class CfgGlasses {
 
     class G_Blindfold_01_base_F;
     class G_Blindfold_01_black_F;
-    class CLASS(Blindfold_Black): G_Blindfold_01_black_F {
-        _generalMacro = CLASS(Blindfold_Black);
+    class GVAR(Blindfold_Black): G_Blindfold_01_black_F {
+        _generalMacro = GVAR(Blindfold_Black);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -128,8 +128,8 @@ class CfgGlasses {
     };
 
     class G_Blindfold_01_white_F;
-    class CLASS(Blindfold_White): G_Blindfold_01_white_F {
-        _generalMacro = CLASS(Blindfold_White);
+    class GVAR(Blindfold_White): G_Blindfold_01_white_F {
+        _generalMacro = GVAR(Blindfold_White);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -151,8 +151,8 @@ class CfgGlasses {
         ACE_TintAmount = 2;
     };
 
-    class CLASS(Blindfold_White_Blood): G_Blindfold_01_white_F {
-        _generalMacro = CLASS(Blindfold_White_Blood);
+    class GVAR(Blindfold_White_Blood): G_Blindfold_01_white_F {
+        _generalMacro = GVAR(Blindfold_White_Blood);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;

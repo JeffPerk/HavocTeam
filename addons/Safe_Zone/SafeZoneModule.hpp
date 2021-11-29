@@ -2,7 +2,7 @@ class HAVOC_ModuleSafeZone: Module_F {
     scope = 2;
     displayName = "Safe Zone";
     icon = "\z\havoc\addons\media\images\icons\Safe_Zone.paa";
-    category = "HAVOC_Modules";
+    category = QUOTE(PREFIX);
     function = "havoc_fnc_moduleSafeZone";
     functionPriority = 4;
     isGlobal = 0;

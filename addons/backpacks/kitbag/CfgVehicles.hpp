@@ -5,7 +5,7 @@ class CfgVehicles {
 
     class B_Kitbag_Base;
 
-    class CLASS(Kitbag_01_Base): B_Kitbag_Base {
+    class GVAR(Kitbag_01_Base): B_Kitbag_Base {
         scope = 1;
         scopeArsenal = 0;
         scopeCurator = 0;
@@ -25,7 +25,7 @@ class CfgVehicles {
 
     // KITBAG BLACK
 
-    class CLASS(Kitbag_01_BLACK): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BLACK): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -37,7 +37,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_black_co.paa)};
     };
 
-    class CLASS(Kitbag_01_BLACK_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BLACK_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -51,7 +51,7 @@ class CfgVehicles {
 
     // KITBAG BW D
 
-    class CLASS(Kitbag_01_BW_D): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BW_D): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -63,7 +63,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_bw_d_co.paa)};
     };
 
-    class CLASS(Kitbag_01_BW_D_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BW_D_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -77,7 +77,7 @@ class CfgVehicles {
 
     // KITBAG BW W
 
-    class CLASS(Kitbag_01_BW_W): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BW_W): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -89,7 +89,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_bw_w_co.paa)};
     };
 
-    class CLASS(Kitbag_01_BW_W_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_BW_W_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -104,7 +104,7 @@ class CfgVehicles {
 
     // KITBAG COYOTE
 
-    class CLASS(Kitbag_01_COYOTE): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_COYOTE): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -116,7 +116,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_coyote_co.paa)};
     };
 
-    class CLASS(Kitbag_01_COYOTE_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_COYOTE_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -130,7 +130,7 @@ class CfgVehicles {
 
     // KITBAG GREEN DARK
 
-    class CLASS(Kitbag_01_GREEN_DARK): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_DARK): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -142,7 +142,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_green_dark_co.paa)};
     };
 
-    class CLASS(Kitbag_01_GREEN_DARK_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_DARK_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -156,7 +156,7 @@ class CfgVehicles {
 
     // KITBAG GREEN DIGITAL
 
-    class CLASS(Kitbag_01_GREEN_DGTL): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_DGTL): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -168,7 +168,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_green_dgtl_co.paa)};
     };
 
-    class CLASS(Kitbag_01_GREEN_DGTL_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_DGTL_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -182,7 +182,7 @@ class CfgVehicles {
 
     // KITBAG GREEN RANGER
 
-    class CLASS(Kitbag_01_GREEN_RNGR): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_RNGR): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -194,7 +194,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_green_rngr_co.paa)};
     };
 
-    class CLASS(Kitbag_01_GREEN_RNGR_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_GREEN_RNGR_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -208,7 +208,7 @@ class CfgVehicles {
 
     // KITBAG HEX CAMO
 
-    class CLASS(Kitbag_01_HEX_CAMO): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_HEX_CAMO): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -220,7 +220,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_hex_camo_co.paa)};
     };
 
-    class CLASS(Kitbag_01_HEX_CAMO_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_HEX_CAMO_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -234,7 +234,7 @@ class CfgVehicles {
 
     // KITBAG HEX GREEN
 
-    class CLASS(Kitbag_01_HEX_GREEN): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_HEX_GREEN): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -246,7 +246,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_hex_green_co.paa)};
     };
 
-    class CLASS(Kitbag_01_HEX_GREEN_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_HEX_GREEN_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -260,7 +260,7 @@ class CfgVehicles {
 
     // KITBAG MARPAT D
 
-    class CLASS(Kitbag_01_MARPAT_D): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MARPAT_D): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -272,7 +272,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_marpat_d_co.paa)};
     };
 
-    class CLASS(Kitbag_01_MARPAT_D_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MARPAT_D_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -286,7 +286,7 @@ class CfgVehicles {
 
     // KITBAG MARPAT W
 
-    class CLASS(Kitbag_01_MARPAT_W): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MARPAT_W): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -298,7 +298,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_marpat_w_co.paa)};
     };
 
-    class CLASS(Kitbag_01_MARPAT_W_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MARPAT_W_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -312,7 +312,7 @@ class CfgVehicles {
 
     // KITBAG MTP
 
-    class CLASS(Kitbag_01_MTP): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MTP): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -324,7 +324,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_mtp_co.paa)};
     };
 
-    class CLASS(Kitbag_01_MTP_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_MTP_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -338,7 +338,7 @@ class CfgVehicles {
 
     // KITBAG OCP
 
-    class CLASS(Kitbag_01_OCP): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_OCP): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -350,7 +350,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_ocp_co.paa)};
     };
 
-    class CLASS(Kitbag_01_OCP_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_OCP_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -364,7 +364,7 @@ class CfgVehicles {
 
     // KITBAG UCP
 
-    class CLASS(Kitbag_01_UCP): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_UCP): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -376,7 +376,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_ucp_co.paa)};
     };
 
-    class CLASS(Kitbag_01_UCP_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_UCP_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -390,7 +390,7 @@ class CfgVehicles {
 
     // KITBAG WOODLAND
 
-    class CLASS(Kitbag_01_WDL): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_WDL): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -402,7 +402,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(kitbag\data\textures\kitbag_wdl_co.paa)};
     };
 
-    class CLASS(Kitbag_01_WDL_MEDIC): CLASS(Kitbag_01_Base) {
+    class GVAR(Kitbag_01_WDL_MEDIC): GVAR(Kitbag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;

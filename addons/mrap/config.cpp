@@ -1,7 +1,5 @@
 #include "script_component.hpp"
 
-
-
 class CfgPatches {
     class ADDON {
 
@@ -12,7 +10,14 @@ class CfgPatches {
         requiredAddons[] = {
             "havoc_MAIN"
         };
-        units[] = {};
+        units[] = {
+            QGVAR(B_MRAP_sand_camo);
+            QGVAR(B_MRAP_hmg_sand_camo);
+            QGVAR(B_MRAP_gmg_sand_camo);
+            QGVAR(B_MRAP_tropic_camo);
+            QGVAR(B_MRAP_hmg_tropic_camo);
+            QGVAR(B_MRAP_gmg_tropic_camo);
+        };
         weapons[] = {};
         authors[] = {
             "YonV"
@@ -30,13 +35,13 @@ class CfgVehicles {
     class B_T_MRAP_01_hmg_F;
 
     /// sand
-    class CLASS(B_MRAP_sand_camo): B_MRAP_01_F {
+    class GVAR(B_MRAP_sand_camo): B_MRAP_01_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -75,13 +80,13 @@ class CfgVehicles {
         };
     };
 //
-    class CLASS(B_MRAP_hmg_sand_camo): B_MRAP_01_hmg_F {
+    class GVAR(B_MRAP_hmg_sand_camo): B_MRAP_01_hmg_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -122,13 +127,13 @@ class CfgVehicles {
     };
 //
 
-    class CLASS(B_MRAP_gmg_sand_camo): B_MRAP_01_gmg_F {
+    class GVAR(B_MRAP_gmg_sand_camo): B_MRAP_01_gmg_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -168,13 +173,13 @@ class CfgVehicles {
         };
     };
 /// trop
-    class CLASS(B_MRAP_tropic_camo): B_T_MRAP_01_F {
+    class GVAR(B_MRAP_tropic_camo): B_T_MRAP_01_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -216,13 +221,13 @@ class CfgVehicles {
 
 
 //
-    class CLASS(B_MRAP_hmg_tropic_camo): B_T_MRAP_01_hmg_F {
+    class GVAR(B_MRAP_hmg_tropic_camo): B_T_MRAP_01_hmg_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 
@@ -263,13 +268,13 @@ class CfgVehicles {
     };
 //
 
-    class CLASS(B_MRAP_gmg_tropic_camo): B_T_MRAP_01_gmg_F {
+    class GVAR(B_MRAP_gmg_tropic_camo): B_T_MRAP_01_gmg_F {
 
         author = AUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
-        faction=PREFIX;
+        faction = QUOTE(PREFIX);
         crew="B_Soldier_F";
         typicalCargo[]= {
 

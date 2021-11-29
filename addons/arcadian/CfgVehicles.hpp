@@ -24,7 +24,7 @@ class CfgVehicles {
     };
 
     // Base
-    class CLASS(Arcadian_Base): CUP_SUV_Unarmed_Base {
+    class GVAR(Arcadian_Base): CUP_SUV_Unarmed_Base {
         dlc = QUOTE(PREFIX);
         scope = 1;
         author = "TyroneMF, GilleeDoo";
@@ -198,42 +198,42 @@ class CfgVehicles {
 
 
     // Public
-    class CLASS(Arcadian_B_Black): CLASS(Arcadian_Base) {
+    class GVAR(Arcadian_B_Black): GVAR(Arcadian_Base) {
         scope = 2;
         scopeCurator = 2;
         forceInGarage = 0;
         side = 1;
-        faction = PREFIX;
+        faction = QUOTE(PREFIX);
         displayName = CSTRING(Black);
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
-        crew = QCLASS(socom);
-        typicalCargo[] = {QCLASS(socom)};
+        crew = QGVAR(socom);
+        typicalCargo[] = {QGVAR(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_black_co.paa)
         };
     };
 
-    class CLASS(Arcadian_B_Tan): CLASS(Arcadian_B_Black) {
+    class GVAR(Arcadian_B_Tan): GVAR(Arcadian_B_Black) {
         scope = 2;
         forceInGarage = 0;
         displayName = CSTRING(Tan);
         side = 1;
-        faction = PREFIX;
-        crew = QCLASS(socom);
-        typicalCargo[] = {QCLASS(socom)};
+        faction = QUOTE(PREFIX);
+        crew = QGVAR(socom);
+        typicalCargo[] = {QGVAR(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_tan_co.paa)
         };
     };
 
-    class CLASS(Arcadian_B_Green): CLASS(Arcadian_B_Black) {
+    class GVAR(Arcadian_B_Green): GVAR(Arcadian_B_Black) {
         scope = 2;
         forceInGarage = 0;
         side = 1;
         displayName = CSTRING(Green);
-        faction = PREFIX;
-        crew = QCLASS(socom);
-        typicalCargo[] = {QCLASS(socom)};
+        faction = QUOTE(PREFIX);
+        crew = QGVAR(socom);
+        typicalCargo[] = {QGVAR(socom)};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_green_co.paa)
         };

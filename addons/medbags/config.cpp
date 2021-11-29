@@ -10,14 +10,14 @@ class CfgPatches {
             "a3_props_f_orange"
         };
         units[] = {
-            "HAVOC_Item_FirstAid",
-            "HAVOC_Item_MedicKit",
-            "HAVOC_Item_DrugKit"
+            QGVAR(Item_FirstAid),
+            QGVAR(Item_MedicKit),
+            QGVAR(Item_DrugKit)
         };
         weapons[] = {
-            "HAVOC_FirstAid",
-            "HAVOC_MedicKit",
-            "HAVOC_DrugKit"
+            QGVAR(FirstAid),
+            QGVAR(MedicKit),
+            QGVAR(DrugKit)
         };
         VERSION_CONFIG;
     };

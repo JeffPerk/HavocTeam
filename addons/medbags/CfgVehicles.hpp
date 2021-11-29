@@ -12,7 +12,7 @@ class CfgVehicles {
         class ACE_SelfActions {
             class ACE_Equipment {
                 
-                class havoc_Medical_Supplies_Action_FirstAid {
+                class GVAR(Medical_Supplies_Action_FirstAid) {
                     displayName = "Unpack Boo Boo Bag";
                     condition = "[_player] call havoc_medbags_fnc_canUnpackFirstAid";
                     statement = "[_player] call havoc_medbags_fnc_doUnpackFirstAid";
@@ -21,7 +21,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
                 
-                class havoc_Medical_Supplies_Action_MedicKit {
+                class GVAR(Medical_Supplies_Action_MedicKit) {
                     displayName = "Unpack Medic Bag";
                     condition = "[_player] call havoc_medbags_fnc_canUnpackMedicKit";
                     statement = "[_player] call havoc_medbags_fnc_doUnpackMedicKit";
@@ -30,7 +30,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
 
-                class havoc_Medical_Supplies_Action_DrugKit {
+                class GVAR(Medical_Supplies_Action_DrugKit) {
                     displayName = "Unpack Medic Bag";
                     condition = "[_player] call havoc_medbags_fnc_canUnpackDrugKit";
                     statement = "[_player] call havoc_medbags_fnc_doUnpackDrugKit";
@@ -47,7 +47,7 @@ class CfgVehicles {
     // MEDICAL SUPPLIES
     class Item_Base_F;
     
-    class havoc_Item_FirstAid: Item_Base_F {
+    class GVAR(Item_FirstAid): Item_Base_F {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -56,11 +56,11 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\firstaid.jpg);
         vehicleClass = "Items";
         class TransportItems {
-            MACRO_ADDITEM(havoc_FirstAid,1);
+            MACRO_ADDITEM(GVAR(FirstAid),1);
         };
     };
     
-    class havoc_Item_MedicKit: Item_Base_F {
+    class GVAR(Item_MedicKit): Item_Base_F {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -69,11 +69,11 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\medickit.jpg);
         vehicleClass = "Items";
         class TransportItems {
-            MACRO_ADDITEM(havoc_MediKit,1);
+            MACRO_ADDITEM(GVAR(MediKit),1);
         };
     };
     
-    class havoc_Item_HAVOC_DrugKit: Item_Base_F {
+    class GVAR(Item_DrugKit): Item_Base_F {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -82,7 +82,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\booboo_ca.paa);
         vehicleClass = "Items";
         class TransportItems {
-            MACRO_ADDITEM(havoc_MediKit,1);
+            MACRO_ADDITEM(GVAR(MediKit),1);
         };
     };
 };

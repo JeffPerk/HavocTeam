@@ -5,22 +5,22 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(Arcadian_I_Black),
-            QCLASS(Arcadian_B_Black),
-            QCLASS(Arcadian_I_Tan),
-            QCLASS(Arcadian_B_Tan),
-            QCLASS(Arcadian_I_Green),
-            QCLASS(Arcadian_B_Green),
-            QCLASS(Arcadian_I_Grey),
-            QCLASS(Arcadian_B_Grey),
-            QCLASS(Arcadian_Armed_I_Black),
-            QCLASS(Arcadian_Armed_B_Black),
-            QCLASS(Arcadian_Armed_I_Tan),
-            QCLASS(Arcadian_Armed_B_Tan),
-            QCLASS(Arcadian_Armed_I_Green),
-            QCLASS(Arcadian_Armed_B_Green),
-            QCLASS(Arcadian_Armed_I_Grey),
-            QCLASS(Arcadian_Armed_B_Grey)
+            QGVAR(Arcadian_I_Black),
+            QGVAR(Arcadian_B_Black),
+            QGVAR(Arcadian_I_Tan),
+            QGVAR(Arcadian_B_Tan),
+            QGVAR(Arcadian_I_Green),
+            QGVAR(Arcadian_B_Green),
+            QGVAR(Arcadian_I_Grey),
+            QGVAR(Arcadian_B_Grey),
+            QGVAR(Arcadian_Armed_I_Black),
+            QGVAR(Arcadian_Armed_B_Black),
+            QGVAR(Arcadian_Armed_I_Tan),
+            QGVAR(Arcadian_Armed_B_Tan),
+            QGVAR(Arcadian_Armed_I_Green),
+            QGVAR(Arcadian_Armed_B_Green),
+            QGVAR(Arcadian_Armed_I_Grey),
+            QGVAR(Arcadian_Armed_B_Grey)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

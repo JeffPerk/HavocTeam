@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgVehicles {
 
     // Box
@@ -7,32 +8,32 @@ class CfgVehicles {
 
     // Rebreather
     class Vest_V_RebreatherB;
-    class HAVOC_vest_rebreather: Vest_V_RebreatherB {
+    class GVAR(Item_vest_rebreather): Vest_V_RebreatherB {
         scope = 2;
         scopeCurator = 2;
         author = AUTHOR;
         displayName = "[Havoc] Rebreather";
         class TransportItems {
-            class HAVOC_Item_rebreather {
-                name = "Havoc Rebreather";
+            class GVAR(rebreather) {
+                name = QGVAR(rebreather);
                 count = 1;
             };
         };
     };
 
     class Item_U_B_Wetsuit;
-    class HAVOC_Item_Wetsuit: Item_U_B_Wetsuit {
+    class GVAR(Item_Wetsuit): Item_U_B_Wetsuit {
         author = AUTHOR;
         displayName = "[Havoc] Wetsuit";
         class TransportItems {
-            class HAVOC_Wetsuit {
-                name = "HAVOC_Wetsuit";
+            class GVAR(Wetsuit) {
+                name = QGVAR(Wetsuit);
                 count = 1;
             };
         };
     };
 
-    class GVAR(HAVOC_resupply): NATO_Box_Base {
+    class GVAR(resupply): NATO_Box_Base {
         scope = 2;
         author = QAUTHOR;
         mapSize=1.53;
@@ -71,7 +72,7 @@ class CfgVehicles {
         transportAmmo=30000;
         supplyRadius=10;
     };
-    class GVAR(HAVOC_arsenal): NATO_Box_Base {
+    class GVAR(arsenal): NATO_Box_Base {
         scope = 2;
         author = QAUTHOR;
         mapSize=1.53;
@@ -113,93 +114,93 @@ class CfgVehicles {
 
     class ACE_Item_Vector;
 
-    class HAVOC_Item_Vector_Designator: ACE_Item_Vector {
+    class GVAR(Item_Vector_Designator): ACE_Item_Vector {
         author = "NemessisRE";
         displayName = "[Havoc] ACE Vector Designator (NVG/TI)";
         class TransportItems {
-            class HAVOC_Vector_Designator {
-                name="HAVOC_Vector_Designator";
+            class GVAR(Vector_Designator) {
+                name=QGVAR(Vector_Designator);
                 count=1;
             };
         };
     };
 
-    class HAVOC_Item_Vector_Designator_NVG: HAVOC_Item_Vector_Designator {
+    class GVAR(Item_Vector_Designator_NVG): GVAR(Item_Vector_Designator) {
         displayName = "[Havoc] ACE Vector Designator (NVG)";
         class TransportItems {
-            class HAVOC_Vector_Designator {
-                name="HAVOC_Vector_Designator_NVG";
+            class GVAR(Vector_Designator) {
+                name=QGVAR(Vector_Designator);
                 count=1;
             };
         };
     };
 
     class Item_optic_Nightstalker;
-    class HAVOC_Item_optic_Nightstalker: Item_optic_Nightstalker {
+    class GVAR(Item_optic_Nightstalker): Item_optic_Nightstalker {
         displayName="[Havoc] Nightstalker";
         author="NemesisRE";
         vehicleClass="WeaponAccessories";
         class TransportItems {
-            class HAVOC_optic_Nightstalker {
-                name="HAVOC_optic_Nightstalker";
+            class GVAR(optic_Nightstalker) {
+                name=QGVAR(optic_Nightstalker);
                 count=1;
             };
         };
     };
 
     class Item_optic_AMS;
-    class HAVOC_Item_optic_AMS: Item_optic_AMS {
+    class GVAR(Item_optic_AMS): Item_optic_AMS {
         displayName="[Havoc] AMS (Black)";
         author="NemesisRE";
         class TransportItems {
-            class HAVOC_optic_AMS {
-                name="HAVOC_optic_AMS";
+            class GVAR(optic_AMS) {
+                name=QGVAR(optic_AMS);
                 count=1;
             };
         };
     };
-    class HAVOC_Item_optic_AMS_khk: HAVOC_Item_optic_AMS {
+    class GVAR(Item_optic_AMS_khk): GVAR(Item_optic_AMS) {
         displayName="[Havoc] AMS (Khaki)";
         class TransportItems {
-            class HAVOC_optic_AMS_khk {
-                name="HAVOC_optic_AMS_khk";
+            class GVAR(optic_AMS_khk) {
+                name=QGVAR(optic_AMS_khk);
                 count=1;
             };
         };
     };
-    class HAVOC_Item_optic_AMS_snd: HAVOC_Item_optic_AMS {
+    class GVAR(Item_optic_AMS_snd): GVAR(Item_optic_AMS) {
         displayName="[Havoc] AMS (Sand)";
         class TransportItems {
-            class HAVOC_optic_AMS_snd {
-                name="HAVOC_optic_AMS_snd";
+            class GVAR(optic_AMS_snd) {
+                name=QGVAR(optic_AMS_snd);
                 count=1;
             };
         };
     };
-    class HAVOC_Item_optic_AMSTI: Item_optic_AMS {
+    class GVAR(Item_optic_AMSTI): Item_optic_AMS {
         displayName="[Havoc] AMS-TI (Black)";
         author="NemesisRE";
         class TransportItems {
-            class HAVOC_optic_AMS {
-                name="HAVOC_optic_AMSTI";
+            class GVAR(optic_AMS) {
+                name=QGVAR(optic_AMS);
                 count=1;
             };
         };
     };
-    class HAVOC_Item_optic_AMSTI_khk: HAVOC_Item_optic_AMSTI {
+    class GVAR(Item_optic_AMSTI_khk): GVAR(Item_optic_AMSTI) {
         displayName="[Havoc] AMS-TI (Khaki)";
         class TransportItems {
-            class HAVOC_optic_AMS_khk {
-                name="HAVOC_optic_AMSTI_khk";
+            class GVAR(optic_AMS_khk) {
+                name=QGVAR(optic_AMS_khk) ;
                 count=1;
             };
         };
     };
-    class HAVOC_Item_optic_AMSTI_snd: HAVOC_Item_optic_AMSTI {
+    class GVAR(Item_optic_AMSTI_snd): GVAR(Item_optic_AMSTI) {
         displayName="[Havoc] AMS-TI (Sand)";
         class TransportItems {
-            class HAVOC_optic_AMS_snd {
-                name="HAVOC_optic_AMSTI_snd";
+            class GVAR(optic_AMS_snd) {
+                name=QGVAR(optic_AMS_snd);
                 count=1;
             };
         };
@@ -208,8 +209,8 @@ class CfgVehicles {
     class Box_NATO_Support_F;
     class ACE_Box_Misc: Box_NATO_Support_F {
         class TransportItems {
-            class HAVOC_Vector_Designator {
-                name="HAVOC_Vector_Designator_NVG";
+            class GVAR(Vector_Designator) {
+                name=QGVAR(Vector_Designator);
                 count=3;
             };
         };

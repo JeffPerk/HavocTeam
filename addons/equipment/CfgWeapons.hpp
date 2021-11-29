@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgWeapons {
 
     class optic_Nightstalker;
@@ -12,7 +13,7 @@ class CfgWeapons {
     class U_B_Wetsuit;
 
 
-    class HAVOC_Vector_Designator: ACE_Vector {
+    class GVAR(Vector_Designator): ACE_Vector {
         author = "NemesisRE";
         displayName = "[Havoc] ACE Vector Designator (NVG/TI))";
         descriptionShort = "Rangefinder/Designator";
@@ -40,7 +41,7 @@ class CfgWeapons {
     };
 
     
-    class HAVOC_rebreather: V_RebreatherB {
+    class GVAR(rebreather): V_RebreatherB {
         author = AUTHOR;
         displayName = "[Havoc] Rebreather";
         class ItemInfo: VestItem {
@@ -50,7 +51,7 @@ class CfgWeapons {
             passThrough = 0.8;
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -80,7 +81,7 @@ class HitpointsProtectionInfo {
     };
 
     
-    class HAVOC_Wetsuit: U_B_Wetsuit {
+    class GVAR(Wetsuit): U_B_Wetsuit {
         author = AUTHOR;
         displayName = "[Havoc] Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
@@ -98,13 +99,13 @@ class HitpointsProtectionInfo {
 
 
 
-    class HAVOC_Vector_Designator_NVG: HAVOC_Vector_Designator {
+    class GVAR(Vector_Designator_NVG): GVAR(Vector_Designator) {
         displayName = "[Havoc] ACE Vector Designator (NVG)";
         visionMode[] = {"Normal","NVG"};
         thermalMode[] = {};
     };
 
-    class HAVOC_optic_Nightstalker: optic_Nightstalker {
+    class GVAR(optic_Nightstalker): optic_Nightstalker {
         author="NemesisRE";
         displayName="[Havoc] Nightstalker";
         descriptionShort = "Nightstalker Sight<br />Magnification: 1x-10x";
@@ -156,7 +157,7 @@ class HitpointsProtectionInfo {
         inertia=0.2;
     };
 
-    class HAVOC_optic_AMS_base: ItemCore {
+    class GVAR(optic_AMS_base): ItemCore {
         author="NemesisRE";
         displayName="[Havoc] AMS Base";
         descriptionShort="[Havoc] AMS (NVG)";
@@ -231,7 +232,7 @@ class HitpointsProtectionInfo {
         };
         inertia=0.2;
     };
-    class HAVOC_optic_AMSTI_base: ItemCore {
+    class GVAR(optic_AMSTI_base): ItemCore {
         author="NemesisRE";
         displayName="[Havoc] AMS-TI Base";
         descriptionShort="[Havoc] AMS (NVG/TI)";
@@ -307,7 +308,7 @@ class HitpointsProtectionInfo {
         };
         inertia=0.2;
     };
-    class HAVOC_optic_AMS: HAVOC_optic_AMS_base {
+    class GVAR(optic_AMS): GVAR(optic_AMS_base) {
         author="NemesisRE";
         _generalMacro="optic_AMS";
         scope=2;
@@ -316,21 +317,21 @@ class HitpointsProtectionInfo {
         displayName="[Havoc] AMS (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
-    class HAVOC_optic_AMS_khk: HAVOC_optic_AMS {
+    class GVAR(optic_AMS_khk): GVAR(optic_AMS) {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
         displayName="[Havoc] AMS (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
-    class HAVOC_optic_AMS_snd: HAVOC_optic_AMS {
+    class GVAR(optic_AMS_snd): GVAR(optic_AMS) {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
         displayName="[Havoc] AMS (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
-    class HAVOC_optic_AMSTI: HAVOC_optic_AMSTI_base {
+    class GVAR(optic_AMSTI): GVAR(optic_AMSTI_base) {
         author="NemesisRE";
         _generalMacro="optic_AMS";
         scope=2;
@@ -339,14 +340,14 @@ class HitpointsProtectionInfo {
         displayName="[Havoc] AMS-TI (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
-    class HAVOC_optic_AMSTI_khk: HAVOC_optic_AMSTI {
+    class GVAR(optic_AMSTI_khk):  GVAR(optic_AMSTI) {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
         displayName="[Havoc] AMS-TI (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
-    class HAVOC_optic_AMSTI_snd: HAVOC_optic_AMSTI {
+    class GVAR(optic_AMSTI_snd):  GVAR(optic_AMSTI) {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
         displayName="[Havoc] AMS-TI (Sand)";

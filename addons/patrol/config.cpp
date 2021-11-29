@@ -3,8 +3,8 @@
 class CfgPatches {
     class ADDON {
 
-        name = "HAVOC: Patrol";
-        author = "Head";
+        author = AUTHOR;
+        name = COMPONENT_NAME;
         url = URL;
         units[] = {};
         weapons[] = {};

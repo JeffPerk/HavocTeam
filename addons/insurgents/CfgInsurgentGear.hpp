@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class GVAR(gear) {
     class Vanilla {
         headgear[] = {

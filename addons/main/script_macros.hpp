@@ -80,7 +80,7 @@ class Extended_PreStart_EventHandlers {                 \
 
 // Class
 #define CLASS(var1) DOUBLES(PREFIX,var1)
-#define QCLASS(var1) QUOTE(DOUBLES(PREFIX,var1))
+//#define QGVAR(var1) QUOTE(DOUBLES(PREFIX,var1))
 
 // Internal
 /* #define DOUBLES(var1,var2) ##var1##_##var2
@@ -187,7 +187,6 @@ class Extended_PreStart_EventHandlers {                 \
 // LOADOUT DEFINES
 
 #define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
-#define TRANSPORT_ITEM(id,qty) class _xx_##id { name = #id; count = qty; };
 #define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
 #define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
 

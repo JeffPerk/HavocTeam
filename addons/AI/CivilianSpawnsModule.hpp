@@ -2,7 +2,7 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
     scope = 2;
     displayName = "AI Spawn - Civilian";
     icon = "\z\havoc\addons\media\images\Icons\AI CIV.paa";
-    category = "HAVOC_Modules";
+    category = QUOTE(PREFIX);
     function = "havoc_fnc_moduleCivilianSpawns";
     functionPriority = 2;
     isGlobal = 0;

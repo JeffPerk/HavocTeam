@@ -11,7 +11,7 @@ class Turrets: Turrets {
         stabilizedInAxes = 0; // StabilizedInAxesNone
         gunBeg = "muzzle_1";
         gunEnd = "chamber_1";
-        weapons[] = {QCLASS(LMG_Minigun_SUV)};
+        weapons[] = {QGVAR(LMG_Minigun_SUV)};
         maxHorizontalRotSpeed = 2;
         maxVerticalRotSpeed = 2;
         magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};

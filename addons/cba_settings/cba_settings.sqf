@@ -331,7 +331,7 @@ FORCE ace_finger_maxRange = 4;
 FORCE ace_pylons_enabledForZeus = true;
 FORCE ace_pylons_enabledFromAmmoTrucks = true;
 FORCE ace_pylons_rearmNewPylons = true;
-FORCE ace_pylons_requireEngineer = true;
+FORCE ace_pylons_requireEngineer = false;
 FORCE ace_pylons_requireToolkit = true;
 FORCE ace_pylons_searchDistance = 25;
 FORCE ace_pylons_timePerPylon = 5;
@@ -920,7 +920,7 @@ FORCE SSS_setting_resetVehicleOnRTB = true;
 FORCE SSS_setting_restoreCrewOnRTB = true;
 FORCE SSS_setting_slingLoadSearchRadius = 100;
 FORCE SSS_setting_slingLoadWhitelist = "";
-FORCE SSS_setting_useChatNotifications = true;
+FORCE SSS_setting_useChatNotifications = false;
 
 // [TCA] BFT
 FORCE TCA_bft_groupMarkers_colorsBlacklist = "ColorBLUFOR, ColorOPFOR, ColorIndependent, ColorCivilian, ColorUNKNOWN, Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";

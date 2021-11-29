@@ -43,5 +43,5 @@
     forceInGarage = 0; \
     side = 1; \
     faction = QUOTE(PREFIX); \
-    crew = QCLASS(socom); \
-    typicalCargo[] = {QCLASS(socom)};
+    crew = QGVAR(socom); \
+    typicalCargo[] = {QGVAR(socom)};

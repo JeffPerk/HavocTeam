@@ -4,20 +4,20 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "havoc_MorphineItem",
-            "havoc_epinephrineItem",
-            "havoc_fentanylItem",
-            "havoc_naloxonelItem",
-            "havoc_ketamineItem",
+            QGVAR(MorphineItem),
+            QGVAR(epinephrineItem),
+            QGVAR(fentanylItem),
+            QGVAR(naloxonelItem),
+            QGVAR(ketamineItem),
         };
 
         weapons[] = {
-            "havoc_naloxone",
-            "havoc_fentanyl",
-            "havoc_ketamine",
-            "havoc_ketamine_200mg",
-            "havoc_VPN",
-            "havoc_NDC"
+            QGVAR(naloxone),
+            QGVAR(fentanyl),
+            QGVAR(ketamine),
+            QGVAR(ketamine_200mg),
+            QGVAR(VPN),
+            QGVAR(NDC)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

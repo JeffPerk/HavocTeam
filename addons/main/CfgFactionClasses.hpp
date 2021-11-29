@@ -1,9 +1,6 @@
 class CfgFactionClasses {    
     class NO_CATEGORY;
 
-    class HAVOC: NO_CATEGORY {
-        displayName = PREFIX;
-    };
     class PREFIX: NO_CATEGORY {
         displayName = "Havoc"; //Faction name in-game
         icon = LOGO_PATH;

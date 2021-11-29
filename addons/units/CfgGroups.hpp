@@ -34,7 +34,7 @@ class CfgGroups {
             class SpecOps {
                 name = "Special Forces";
 
-                class HAVOC_Default_Squad {
+                class GVAR(Default_Squad) {
                     name = "Command Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -80,7 +80,7 @@ class CfgGroups {
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_slv_Squad {
+                class GVAR(slv_Squad) {
                     name = "Silver Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -126,7 +126,7 @@ class CfgGroups {
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_blk_Squad {
+                class GVAR(blk_Squad) {
                     name = "Black Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -172,7 +172,7 @@ class CfgGroups {
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_blu_Squad {
+                class GVAR(blu_Squad) {
                     name = "Blue Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -218,7 +218,7 @@ class CfgGroups {
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_gld_Squad {
+                class GVAR(gld_Squad) {
                     name = "Gold Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -263,7 +263,7 @@ class CfgGroups {
                     };
                 };
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_grn_Squad {
+                class GVAR(grn_Squad) {
                     name = "Green Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -309,7 +309,7 @@ class CfgGroups {
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
-                class HAVOC_red_Squad {
+                class GVAR(red_Squad) {
                     name = "Red Squadron";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -355,7 +355,7 @@ class CfgGroups {
                 };
 
 
-                class HAVOC_flight_crew_2person {
+                class GVAR(flight_crew_2person) {
                     name = "flight crew (2 person)";
                     side = 1;
                     faction = QUOTE(PREFIX);
@@ -376,7 +376,7 @@ class CfgGroups {
                     };
                 };
 
-                class HAVOC_flight_crew_4 {
+                class GVAR(flight_crew_4) {
                     name = "flight crew (4 person)";
                     side = 1;
                     faction = QUOTE(PREFIX);

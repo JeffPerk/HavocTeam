@@ -27,12 +27,12 @@
 				<Original>[Havoc] Radio Pack (Black)</Original>
 				<German>Funkrucksack (Schwarz)</German>
 			</Key>
-			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_BW_D">
-				<Original>[Havoc] Radio Pack (BW Tropic)</Original>
-				<German>Funkrucksack (BW Tropen)</German>
+			<Key ID="STR_HAVOC_Backpacks_RadioBag_ou">
+				<Original>[Havoc] Radio Pack (Urban)</Original>
+				<German>Funkrucksack (Urban)</German>
 			</Key>
-			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_BW_W">
-				<Original>[Havoc] Radio Pack (BW Camo)</Original>
+			<Key ID="STR_HAVOC_Backpacks_RadioBag_trop">
+				<Original>[Havoc] Radio Pack (Tropic)</Original>
 				<German>Funkrucksack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_HAVOC_Backpacks_RadioBag_02_COYOTE">

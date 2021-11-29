@@ -1,3 +1,4 @@
+#include "..\script_component.hpp"    
 /*
  * ARMA EXTENDED ENVIRONMENT
  * \havoc_medical\supplies\functions\fn_doUnpackDrugKit.sqf
@@ -35,10 +36,10 @@ if (isNull _unit) exitWith {};
     _unit playAction "Gear";
     
     if (vehicle _unit != _unit) then {
-        playSound "HAVOC_Medical_DrugKit_Open_1";
+        playSound QGVAR(Medical_DrugKit_Open_1);
     } else {
         private _pitch = random [0.6, 1, 1.4];
-        [_unit, "HAVOC_Medical_DrugKit_Open_1", [], 30, 1000, -1, _pitch] call HAVOC_fnc_play3dSound;
+        [_unit, QGVAR(Medical_DrugKit_Open_1), [], 30, 1000, -1, _pitch] call HAVOC_fnc_play3dSound;
     };
     
     HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS = false;
@@ -76,7 +77,7 @@ if (isNull _unit) exitWith {};
     
     if (HAVOC_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
         
-        [_unit, "HAVOC_Medical_DrugKit_Open_1"] call HAVOC_fnc_stop3dSound;
+        [_unit, QGVAR(Medical_DrugKit_Open_1)] call HAVOC_fnc_stop3dSound;
         
         _unit playActionNow "Stand";
         

@@ -1,8 +1,8 @@
     
 
-class havoc_Morphine {
+class GVAR(Morphine) {
     allowSelfTreatment = 1;
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     treatmentTimeSelfCoef = 1; // todo: this isn't used anywhere, remove?
     consumeItem = 1;
     allowedSelections[] = {"LeftArm", "RightArm", "LeftLeg", "RightLeg"};
@@ -17,7 +17,7 @@ class havoc_Morphine {
     callbackSuccess = "havoc_Medical_fnc_vpnMedicationSuccess";
     callbackFailure = "";
     items[] = {
-        "havoc_morphine"
+        QGVAR(Morphine)
     };
     
     animationMedic = "AinvPknlMstpSnonWnonDnon_medic1";
@@ -28,16 +28,16 @@ class havoc_Morphine {
     litter[] = {{}};
 };
 
-class havoc_Epinephrine: havoc_Morphine {
+class GVAR(Epinephrine): GVAR(Morphine) {
     displayName = "Adrenaline 1mg/1mL";
     displayNameProgress = "Injecting Adrenaline";
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_vpnMedicationSuccess";
     requiresAll=true;
     items[] = {
-        "havoc_epinephrine"
+        QGVAR(Epinephrine)
     };
     litter[] = {{}};
 };
@@ -45,42 +45,42 @@ class havoc_Epinephrine: havoc_Morphine {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-class Naloxone: havoc_Morphine {
+class Naloxone: GVAR(Morphine) {
     displayName="Naloxone 1.6mg/4mL";
     displayNameProgress="Injecting Naloxone";
     icon="\z\havoc\addons\media\images\icon\VPN.paa";
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_naloxoneSuccess";
     requiresAll=true;
     items[] = {
-        "havoc_naloxone"
+        GVAR(naloxone)
     };
     litter[] = {{}};
 };
 
-class Fentanyl: havoc_Morphine {
+class Fentanyl: GVAR(Morphine) {
     displayName="Fentanyl 100mcg/2mL";
     displayNameProgress="Injecting Fentanyl";
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     condition = "havoc_Medical_fnc_vpnMedicationCondition";
     callbackSuccess = "havoc_Medical_fnc_vpnMedicationSuccess";
     requiresAll=true;
     items[]={
-        "havoc_fentanyl"
+        GVAR(fentanyl)
     };
     litter[] = {{}};
 };
 
-class Ketamine_6mg: havoc_Morphine {
+class Ketamine_6mg: GVAR(Morphine) {
     displayName="Ketamine 6mg/2mL";
     displayNameProgress="Injecting Ketamine 6mg/2mL";
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";
     requiresAll=true;
     items[] = {
-        "havoc_ketamine"
+        GVAR(ketamine)
     };
     callbackStart = "";
     callbackProgress = "";
@@ -88,14 +88,14 @@ class Ketamine_6mg: havoc_Morphine {
     litter[] = {{}};
 };
 
-class Ketamine_200mg: havoc_Morphine {
+class Ketamine_200mg: GVAR(Morphine) {
     displayName="Ketamine 200mg/2mL";
     displayNameProgress="Injecting Ketamine 200mg/2mL";
     icon = "\z\havoc\addons\media\images\icon\VPN.paa";
-    medicRequired = QGVAR(medLvl_drug);
+    medicRequired = GVAR(medLvl_drug);
     requiresAll=true;
     items[] = {
-        "havoc_ketamine"
+        GVAR(ketamine)
     };
     callbackStart = "";
     callbackProgress = "";

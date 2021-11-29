@@ -1,7 +1,7 @@
 class AnimationSources: AnimationSources {
     class Revolving {
         source = "revolving";
-        weapon = QCLASS(LMG_Minigun_SUV);
+        weapon = QGVAR(LMG_Minigun_SUV);
     };
     class CloseCover {
         source = "user";
