@@ -1,4 +1,4 @@
-    
+ 
 class BasicBandage;
 class FieldDressing: BasicBandage {
     treatmentTime = 7.7;

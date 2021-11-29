@@ -7,7 +7,7 @@ class CfgWeapons {
     
     // MEDICAL SUPPLIES
     
-    class HAVOC_FirstAid: ACE_ItemCore {
+    class GVAR(FirstAid): ACE_ItemCore {
         scope = 2;
         author = AUTHOR;
         displayName = "Boo Boo Bag";
@@ -22,7 +22,7 @@ class CfgWeapons {
         };
     };
     
-    class HAVOC_MedicKit: ACE_ItemCore {
+    class GVAR(MedicKit): ACE_ItemCore {
         scope = 2;
         author = AUTHOR;
         displayName = "Medic Bag";
@@ -37,7 +37,7 @@ class CfgWeapons {
         };
     };
 
-    class HAVOC_DrugKit: ACE_ItemCore {
+    class GVAR(DrugKit): ACE_ItemCore {
         scope = 2;
         author = AUTHOR;
         displayName = "Drug Kit";

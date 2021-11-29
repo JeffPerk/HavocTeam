@@ -7,42 +7,42 @@ class CfgPatches {
         url = URL;
         units[] = {};
         weapons[] = {
-            QCLASS(Cap_Headphones_BlackLogo),
-            QCLASS(Cap_BlackLogo),
-            QCLASS(Cap_TanLogo),
-            QCLASS(Cap_Earpiece_BlackLogo),
-            QCLASS(Cap_Earpiece_TanLogo),
-            QCLASS(Cap_Backwards_BlackLogo),
-            QCLASS(Cap_Backwards_TanLogo),
-            QCLASS(Cap_Headphones_Blackcow),
-            QCLASS(Cap_Blackcow),
-            QCLASS(Cap_Tancow),
-            QCLASS(Cap_Earpiece_Blackcow),
-            QCLASS(Cap_Earpiece_Tancow),
-            QCLASS(Cap_Backwards_Blackcow),
-            QCLASS(Cap_Backwards_Tancow),
-            QCLASS(H_MilCap_m98),
-            QCLASS(H_MilCap_snow),
-            QCLASS(H_Booniehat_m98),
-            QCLASS(H_HelmetIA),
-            QCLASS(H_HelmetIA_snow),
-            QCLASS(H_HelmetB),
-            QCLASS(H_HelmetB_snow),
-            QCLASS(H_HelmetB_camo),
-            QCLASS(H_HelmetB_light),
-            QCLASS(H_HelmetB_light_brn),
-            QCLASS(H_HelmetB_light_snow),
-            QCLASS(H_HelmetSpecB),
-            QCLASS(H_HelmetSpecB_brn),
-            QCLASS(H_HelmetSpecB_gry),
-            QCLASS(H_HelmetSpecB_snow),
-            QCLASS(H_Booniehat_trop),
-            QCLASS(H_Booniehat_med),
-            QCLASS(H_Booniehat_multi),
-            QCLASS(H_MilCap_med),
-            QCLASS(H_MilCap_trop),
-            QCLASS(H_HelmetB_med),
-            QCLASS(H_HelmetB_trop)
+            QGVAR(Cap_Headphones_BlackLogo),
+            QGVAR(Cap_BlackLogo),
+            QGVAR(Cap_TanLogo),
+            QGVAR(Cap_Earpiece_BlackLogo),
+            QGVAR(Cap_Earpiece_TanLogo),
+            QGVAR(Cap_Backwards_BlackLogo),
+            QGVAR(Cap_Backwards_TanLogo),
+            QGVAR(Cap_Headphones_Blackcow),
+            QGVAR(Cap_Blackcow),
+            QGVAR(Cap_Tancow),
+            QGVAR(Cap_Earpiece_Blackcow),
+            QGVAR(Cap_Earpiece_Tancow),
+            QGVAR(Cap_Backwards_Blackcow),
+            QGVAR(Cap_Backwards_Tancow),
+            QGVAR(H_MilCap_m98),
+            QGVAR(H_MilCap_snow),
+            QGVAR(H_Booniehat_m98),
+            QGVAR(H_HelmetIA),
+            QGVAR(H_HelmetIA_snow),
+            QGVAR(H_HelmetB),
+            QGVAR(H_HelmetB_snow),
+            QGVAR(H_HelmetB_camo),
+            QGVAR(H_HelmetB_light),
+            QGVAR(H_HelmetB_light_brn),
+            QGVAR(H_HelmetB_light_snow),
+            QGVAR(H_HelmetSpecB),
+            QGVAR(H_HelmetSpecB_brn),
+            QGVAR(H_HelmetSpecB_gry),
+            QGVAR(H_HelmetSpecB_snow),
+            QGVAR(H_Booniehat_trop),
+            QGVAR(H_Booniehat_med),
+            QGVAR(H_Booniehat_multi),
+            QGVAR(H_MilCap_med),
+            QGVAR(H_MilCap_trop),
+            QGVAR(H_HelmetB_med),
+            QGVAR(H_HelmetB_trop)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
@@ -62,126 +62,126 @@ class cfgWeapons {
     class H_HelmetIA;
 
     // Soft
-    class CLASS(H_MilCap_m98): H_MilCap_ocamo {
+    class GVAR(H_MilCap_m98): H_MilCap_ocamo {
         author = AUTHOR;
         displayName = "[Havoc] Military Cap (M98)";
         picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_gry_ca.paa";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\MilCap_m98.paa)};
     };
-    class CLASS(H_MilCap_snow): H_MilCap_ocamo {
+    class GVAR(H_MilCap_snow): H_MilCap_ocamo {
         author = AUTHOR;
         displayName = "[Havoc] Military Cap (Snow)";
         picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_gry_ca.paa";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\MilCap_snow.paa)};
     };
-    class CLASS(H_Booniehat_m98): H_Booniehat_khk {
+    class GVAR(H_Booniehat_m98): H_Booniehat_khk {
         author = AUTHOR;
         displayName = "[Havoc] Booniehat (M98)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\BoonieHat_m98.paa)};
     };
 
-    class CLASS(H_Booniehat_med): H_Booniehat_khk {
+    class GVAR(H_Booniehat_med): H_Booniehat_khk {
         author = AUTHOR;
         displayName = "[Havoc] Booniehat (CTRG MED)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_booniehat.paa)};
     };
-    class CLASS(H_Booniehat_trop): H_Booniehat_khk {
+    class GVAR(H_Booniehat_trop): H_Booniehat_khk {
         author = AUTHOR;
         displayName = "[Havoc] Booniehat (CTRG Tropical)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_trop_booniehat.paa)};
     };
-    class CLASS(H_Booniehat_multi): H_Booniehat_khk {
+    class GVAR(H_Booniehat_multi): H_Booniehat_khk {
         author = AUTHOR;
         displayName = "[Havoc] Booniehat (Multicam)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_multi_booniehat.paa)};
     };
-    class CLASS(H_MilCap_med): H_MilCap_ocamo {
+    class GVAR(H_MilCap_med): H_MilCap_ocamo {
         author = AUTHOR;
         displayName = "[Havoc] Military Cap (CTRG MED)";
         picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_gry_ca.paa";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_cappatrol.paa)};
     };
-    class CLASS(H_MilCap_trop): H_MilCap_ocamo {
+    class GVAR(H_MilCap_trop): H_MilCap_ocamo {
         author = AUTHOR;
         displayName = "[Havoc] Military Cap (CTRG Tropical)";
         picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_gry_ca.paa";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_trop_cappatrol.paa)};
     };
     // old helmet
-    class CLASS(H_HelmetIA): H_HelmetIA {
+    class GVAR(H_HelmetIA): H_HelmetIA {
         author = AUTHOR;
         displayName = "[Havoc] Modular Helmet (M98)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_old.paa)};
     };
-    class CLASS(H_HelmetIA_snow): H_HelmetIA {
+    class GVAR(H_HelmetIA_snow): H_HelmetIA {
         author = AUTHOR;
         displayName = "[Havoc] Modular Helmet (Snow)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_old_snow.paa)};
     };
 
     // regular helmet
-    class CLASS(H_HelmetB): H_HelmetB {
+    class GVAR(H_HelmetB): H_HelmetB {
         author = AUTHOR;
         displayName = "[Havoc] Combat Helmet (M98)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_m98.paa)};
     };
-    class CLASS(H_HelmetB_snow): H_HelmetB {
+    class GVAR(H_HelmetB_snow): H_HelmetB {
         author = AUTHOR;
         displayName = "[Havoc] Combat Helmet (Snow)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_snow.paa)};
     };
-    class CLASS(H_HelmetB_med): H_HelmetB {
+    class GVAR(H_HelmetB_med): H_HelmetB {
         author = AUTHOR;
         displayName = "[Havoc] Combat Helmet (CTRG MED)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_equip1_co.paa)};
     };
-    class CLASS(H_HelmetB_trop): H_HelmetB {
+    class GVAR(H_HelmetB_trop): H_HelmetB {
         author = AUTHOR;
         displayName = "[Havoc] Combat Helmet (CTRG Tropical)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\havoc_trop_equip1_co.paa)};
     };
 
     // camo
-    class CLASS(H_HelmetB_camo): H_HelmetB_camo {
+    class GVAR(H_HelmetB_camo): H_HelmetB_camo {
         author = AUTHOR;
         displayName = "[Havoc] Combat Helmet (M98 Camo)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_m98.paa),"\A3\characters_f\common\data\ghillie2_co.paa"};
     };
 
     // light
-    class CLASS(H_HelmetB_light): H_HelmetB_light {
+    class GVAR(H_HelmetB_light): H_HelmetB_light {
         author = AUTHOR;
         displayName = "[Havoc] Light Combat Helmet (M98)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_m98.paa)};
     };
-    class CLASS(H_HelmetB_light_brn): H_HelmetB_light {
+    class GVAR(H_HelmetB_light_brn): H_HelmetB_light {
         author = AUTHOR;
         displayName = "[Havoc] Light Combat Helmet (Brown)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_base.paa)};
     };
-    class CLASS(H_HelmetB_light_snow): H_HelmetB_light {
+    class GVAR(H_HelmetB_light_snow): H_HelmetB_light {
         author = AUTHOR;
         displayName = "[Havoc] Light Combat Helmet (Snow)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_snow.paa)};
     };
 
     // spec ops
-    class CLASS(H_HelmetSpecB): H_HelmetSpecB {
+    class GVAR(H_HelmetSpecB): H_HelmetSpecB {
         author = AUTHOR;
         displayName = "[Havoc] Enhanced Combat Helmet (M98)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_M98.paa)};
     };
-    class CLASS(H_HelmetSpecB_brn): H_HelmetSpecB {
+    class GVAR(H_HelmetSpecB_brn): H_HelmetSpecB {
         author = AUTHOR;
         displayName = "[Havoc] Enhanced Combat Helmet (Brown)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_base.paa)};
     };
-    class CLASS(H_HelmetSpecB_gry): H_HelmetSpecB {
+    class GVAR(H_HelmetSpecB_gry): H_HelmetSpecB {
         author = AUTHOR;
         displayName = "[Havoc] Enhanced Combat Helmet (Grey)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_grey.paa)};
     };
-    class CLASS(H_HelmetSpecB_snow): H_HelmetSpecB {
+    class GVAR(H_HelmetSpecB_snow): H_HelmetSpecB {
         author = AUTHOR;
         displayName = "[Havoc] Enhanced Combat Helmet (Snow)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_snow.paa)};
@@ -195,7 +195,7 @@ class cfgWeapons {
     class H_Cap_red: HelmetBase {
         class ItemInfo;
     };
-    class CLASS(Cap_Headphones_BlackLogo): H_Cap_headphones {
+    class GVAR(Cap_Headphones_BlackLogo): H_Cap_headphones {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
@@ -208,14 +208,14 @@ class cfgWeapons {
     };
 
 
-    class CLASS(Cap_BlackLogo): H_Cap_red {
+    class GVAR(Cap_BlackLogo): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
         displayName = CSTRING(Cap_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
-    class CLASS(Cap_TanLogo): H_Cap_red {
+    class GVAR(Cap_TanLogo): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
@@ -233,13 +233,13 @@ class cfgWeapons {
             uniformModel = QPATHTOF(data\cap_earpiece.p3d); \
         };
 
-    class CLASS(Cap_Earpiece_BlackLogo): H_Cap_red {
+    class GVAR(Cap_Earpiece_BlackLogo): H_Cap_red {
         MACRO_EARPIECE_COMMON
         author = AUTHOR;
         displayname = CSTRING(Cap_Earpiece_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
-    class CLASS(Cap_Earpiece_TanLogo): H_Cap_red {
+    class GVAR(Cap_Earpiece_TanLogo): H_Cap_red {
         MACRO_EARPIECE_COMMON
         author = AUTHOR;
         displayname = CSTRING(Cap_Earpiece_TanLogo);
@@ -255,13 +255,13 @@ class cfgWeapons {
             uniformModel = QPATHTOF(data\cap_backwards.p3d); \
         };
 
-    class CLASS(Cap_Backwards_BlackLogo): H_Cap_red {
+    class GVAR(Cap_Backwards_BlackLogo): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = AUTHOR;
         displayName = CSTRING(Cap_Backwards_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
-    class CLASS(Cap_Backwards_TanLogo): H_Cap_red {
+    class GVAR(Cap_Backwards_TanLogo): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = AUTHOR;
         displayName = CSTRING(Cap_Backwards_TanLogo);
@@ -269,7 +269,7 @@ class cfgWeapons {
     };
 //cap cow
 
-    class CLASS(Cap_Headphones_Blackcow): H_Cap_headphones {
+    class GVAR(Cap_Headphones_Blackcow): H_Cap_headphones {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
@@ -281,14 +281,14 @@ class cfgWeapons {
         };
     };
 
-    class CLASS(Cap_Blackcow): H_Cap_red {
+    class GVAR(Cap_Blackcow): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
         displayName = CSTRING(Cap_Blackcow);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
     };
-    class CLASS(Cap_Tancow): H_Cap_red {
+    class GVAR(Cap_Tancow): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = AUTHOR;
@@ -296,26 +296,26 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
     };
 
-    class CLASS(Cap_Earpiece_Blackcow): H_Cap_red {
+    class GVAR(Cap_Earpiece_Blackcow): H_Cap_red {
         MACRO_EARPIECE_COMMON
         author = AUTHOR;
         displayname = CSTRING(Cap_Earpiece_Blackcow);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
     };
-    class CLASS(Cap_Earpiece_Tancow): H_Cap_red {
+    class GVAR(Cap_Earpiece_Tancow): H_Cap_red {
         MACRO_EARPIECE_COMMON
         author = AUTHOR;
         displayname = CSTRING(Cap_Earpiece_Tancow);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
     };
 
-    class CLASS(Cap_Backwards_Blackcow): H_Cap_red {
+    class GVAR(Cap_Backwards_Blackcow): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = AUTHOR;
         displayName = CSTRING(Cap_Backwards_Blackcow);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
     };
-    class CLASS(Cap_Backwards_Tancow): H_Cap_red {
+    class GVAR(Cap_Backwards_Tancow): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = AUTHOR;
         displayName = CSTRING(Cap_Backwards_Tancow);

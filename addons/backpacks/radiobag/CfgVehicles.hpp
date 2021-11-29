@@ -1,13 +1,11 @@
+#include "..\script_component.hpp"
 class CBA_Extended_EventHandlers;
 class CfgVehicles {
     
     // MODIFIED ENOCH RADIOBAGS
-    
     class B_RadioBag_01_base_F;
-    
     // RADIOBAG 01 BASE
-    
-    class CLASS(RadioBag_01_Base): B_RadioBag_01_base_F {
+    class GVAR(RadioBag_01_Base): B_RadioBag_01_base_F {
         scope = 1;
         scopeArsenal = 0;
         scopeCurator = 0;
@@ -32,12 +30,11 @@ class CfgVehicles {
     };
     
     // RADIOBAG BLACK
-    
-    class CLASS(RadioBag_01_BLACK): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_BLACK): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_black_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_02_BLACK";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_black_F_ca.paa";
@@ -49,8 +46,7 @@ class CfgVehicles {
     };
     
     // RADIOBAG DIGI
-    
-    class CLASS(RadioBag_01_DIGI): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_DIGI): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -66,8 +62,7 @@ class CfgVehicles {
     };
     
     // RADIOBAG EAF
-    
-    class CLASS(RadioBag_01_EAF): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_EAF): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -83,12 +78,11 @@ class CfgVehicles {
     };
     
     // RADIOBAG GHEX
-    
-    class CLASS(RadioBag_01_GHEX): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_GHEX): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_ghex_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_02_HEX_GREEN";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_hex_F_ca.paa";
@@ -100,12 +94,11 @@ class CfgVehicles {
     };
     
     // RADIOBAG HEX
-    
-    class CLASS(RadioBag_01_HEX): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_HEX): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_hex_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_02_HEX_CAMO";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_hex_F_ca.paa";
@@ -117,12 +110,11 @@ class CfgVehicles {
     };
     
     // RADIOBAG MTP
-    
-    class CLASS(RadioBag_01_MTP): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_MTP): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_mtp_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_02_MTP";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_mtp_F_ca.paa";
@@ -134,12 +126,11 @@ class CfgVehicles {
     };
     
     // RADIOBAG TROPIC
-    
-    class CLASS(RadioBag_01_TROPIC): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_TROPIC): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_tropic_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_trop";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_tropic_F_ca.paa";
@@ -152,11 +143,11 @@ class CfgVehicles {
     
     // RADIOBAG OUCAMO
     
-    class CLASS(RadioBag_01_OUCAMO): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_OUCAMO): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_oucamo_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_ou";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_oucamo_F_ca.paa";
@@ -169,11 +160,11 @@ class CfgVehicles {
     
     // RADIOBAG WDL
     
-    class CLASS(RadioBag_01_WDL): CLASS(RadioBag_01_Base) {
+    class GVAR(RadioBag_01_WDL): GVAR(RadioBag_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        displayName = "$STR_A3_C_CfgVehicles_B_RadioBag_01_wdl_F0";
+        displayName = "$STR_HAVOC_Backpacks_RadioBag_02_WDL";
         descriptionShort = "";
         editorPreview = "";
         picture = "\a3\Supplies_F_Enoch\Bags\Data\UI\icon_B_RadioBag_01_wdl_F_ca.paa";

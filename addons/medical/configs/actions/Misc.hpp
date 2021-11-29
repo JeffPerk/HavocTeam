@@ -29,10 +29,10 @@ class TurnAround: larynxtubus {
 };
 
 class TensionpneumothoraxTreatment {
-    items[] = {"havoc_NDC"};
+    items[] = {QGVAR(NDC)};
 };
 class HemopneumothoraxTreatment {
-    items[] = {"havoc_NDC"};
+    items[] = {QGVAR(NDC)};
 };
 
 class Accuvac: larynxtubus {

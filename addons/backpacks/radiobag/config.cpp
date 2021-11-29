@@ -11,15 +11,15 @@ class CfgPatches {
             "HAVOC_backpacks"
         };
         units[] = {
-            QCLASS(RadioBag_01_BLACK),
-            QCLASS(RadioBag_01_DIGI),
-            QCLASS(RadioBag_01_EAF),
-            QCLASS(RadioBag_01_GHEX),
-            QCLASS(RadioBag_01_HEX),
-            QCLASS(RadioBag_01_MTP),
-            QCLASS(RadioBag_01_TROPIC),
-            QCLASS(RadioBag_01_OUCAMO),
-            QCLASS(RadioBag_01_WDL)
+            QGVAR(RadioBag_01_BLACK),
+            QGVAR(RadioBag_01_DIGI),
+            QGVAR(RadioBag_01_EAF),
+            QGVAR(RadioBag_01_GHEX),
+            QGVAR(RadioBag_01_HEX),
+            QGVAR(RadioBag_01_MTP),
+            QGVAR(RadioBag_01_TROPIC),
+            QGVAR(RadioBag_01_OUCAMO),
+            QGVAR(RadioBag_01_WDL)
         };
         weapons[] = {};
         author = AUTHOR;

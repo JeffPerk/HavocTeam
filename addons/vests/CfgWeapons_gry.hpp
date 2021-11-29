@@ -1,4 +1,4 @@
-    class CLASS(Item_Vest_PlateCarrier1_Blackgry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_Blackgry): V_PlateCarrier1_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Lite Black - Gray Squad";
@@ -7,7 +7,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -36,7 +36,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier1_Greengry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_Greengry): V_PlateCarrier1_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Lite Green - Gray Squad";
@@ -45,7 +45,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -74,7 +74,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier1_Coyotegry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_Coyotegry): V_PlateCarrier1_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Lite Coyote - Gray Squad";
@@ -83,7 +83,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -112,7 +112,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier1_Khakigry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_Khakigry): V_PlateCarrier1_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Lite Khaki - Gray Squad";
@@ -121,7 +121,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -150,7 +150,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier1_MARPATgry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_MARPATgry): V_PlateCarrier1_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Lite MARPAT - Gray Squad";
@@ -159,7 +159,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -189,7 +189,7 @@ class HitpointsProtectionInfo {
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_gry.paa)};
     };
     
-    class CLASS(Item_Vest_PlateCarrier2_Blackgry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_Blackgry): V_PlateCarrier2_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Black - Gray Squad";
@@ -198,7 +198,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -227,7 +227,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier2_Greengry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_Greengry): V_PlateCarrier2_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Green - Gray Squad";
@@ -236,7 +236,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -265,7 +265,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier2_Coyotegry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_Coyotegry): V_PlateCarrier2_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Coyote - Gray Squad";
@@ -274,7 +274,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -303,7 +303,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier2_Khakigry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_Khakigry): V_PlateCarrier2_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier Khaki - Gray Squad";
@@ -312,7 +312,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -341,7 +341,7 @@ class HitpointsProtectionInfo {
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_gry.paa)};
     };
-    class CLASS(Item_Vest_PlateCarrier2_MARPATgry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_MARPATgry): V_PlateCarrier2_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Plate Carrier MARPAT - Gray Squad";
@@ -350,7 +350,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -380,7 +380,7 @@ class HitpointsProtectionInfo {
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_gry.paa)};
     };
     
-    class CLASS(Item_Vest_PlateCarrierHeavy_Blackgry): V_PlateCarrierGL_rgr {
+    class GVAR(PlateCarrierHeavy_Blackgry): V_PlateCarrierGL_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Heavy Plate CarrierBlack - Gray Squad";
@@ -389,7 +389,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -417,7 +417,7 @@ class HitpointsProtectionInfo {
             }
         };
     };
-    class CLASS(Item_Vest_PlateCarrierHeavy_Coyotegry): V_PlateCarrierGL_rgr {
+    class GVAR(PlateCarrierHeavy_Coyotegry): V_PlateCarrierGL_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Heavy Plate Carrier Coyote - Gray Squad";
@@ -454,7 +454,7 @@ class HitpointsProtectionInfo {
             }
         };
     };
-    class CLASS(Item_Vest_PlateCarrierHeavy_Greengry): V_PlateCarrierGL_rgr {
+    class GVAR(PlateCarrierHeavy_Greengry): V_PlateCarrierGL_rgr {
         scope = 2;
         author = AUTHOR;
         displayName = "[Havoc] Heavy Plate Carrier Green - Gray Squad";
@@ -492,7 +492,7 @@ class HitpointsProtectionInfo {
         };
     };
     
-    class CLASS(Item_Vest_PlateCarrier1_brngry): V_PlateCarrier1_rgr {
+    class GVAR(PlateCarrier1_brngry): V_PlateCarrier1_rgr {
         author = AUTHOR;
         displayName = "[Havoc] Carrier Lite Brown - Gray Squad (Brown)";
         hiddenSelections[] = {"camo"};
@@ -501,7 +501,7 @@ class HitpointsProtectionInfo {
             hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-class HitpointsProtectionInfo {
+            class HitpointsProtectionInfo {
                 class Neck {
                     hitpointName = "HitNeck";
                     armor = 69;
@@ -529,7 +529,7 @@ class HitpointsProtectionInfo {
             }
         };
     };
-    class CLASS(Item_Vest_PlateCarrier2_brngry): V_PlateCarrier2_rgr {
+    class GVAR(PlateCarrier2_brngry): V_PlateCarrier2_rgr {
         author = AUTHOR;
         displayName = "[Havoc] Carrier Rig Brown - Gray Squad";
         hiddenSelections[] = {"camo"};

@@ -1,37 +1,37 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class HAVOC_Equipment {
+    class ADDON {
 
         author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         units[] = {
-            "HAVOC_Item_Vector_Designator",
-            "HAVOC_Item_optic_Nightstalker",
-            "HAVOC_Item_optic_AMS",
-            "HAVOC_Item_optic_AMS_khk",
-            "HAVOC_Item_optic_AMS_snd",
-            "HAVOC_Item_optic_AMSTI",
-            "HAVOC_Item_optic_AMSTI_khk",
-            "HAVOC_Item_optic_AMSTI_snd",
-            "HAVOC_vest_rebreather",
-            "HAVOC_Item_Wetsuit",
-            "HAVOC_diver_base_F"
+            QGVAR(Item_Vector_Designator),
+            QGVAR(Item_optic_Nightstalker),
+            QGVAR(Item_optic_AMS),
+            QGVAR(Item_optic_AMS_khk),
+            QGVAR(Item_optic_AMS_snd),
+            QGVAR(Item_optic_AMSTI),
+            QGVAR(Item_optic_AMSTI_khk),
+            QGVAR(Item_optic_AMSTI_snd),
+            QGVAR(vest_rebreather),
+            QGVAR(Item_Wetsuit),
+            QGVAR(diver_base_F)
         };
         weapons[] = {
-            "HAVOC_Vector_Designator",
-            "HAVOC_optic_Nightstalker",
-            "HAVOC_optic_AMS_base",
-            "HAVOC_optic_AMS",
-            "HAVOC_optic_AMS_khk",
-            "HAVOC_optic_AMS_snd",
-            "HAVOC_optic_AMSTI_base",
-            "HAVOC_optic_AMSTI",
-            "HAVOC_optic_AMSTI_khk",
-            "HAVOC_optic_AMSTI_snd",
-            "HAVOC_rebreather",
-            "HAVOC_Wetsuit"
+            QGVAR(Vector_Designator),
+            QGVAR(optic_Nightstalker),
+            QGVAR(optic_AMS_base),
+            QGVAR(optic_AMS),
+            QGVAR(optic_AMS_khk),
+            QGVAR(optic_AMS_snd),
+            QGVAR(optic_AMSTI_base),
+            QGVAR(optic_AMSTI),
+            QGVAR(optic_AMSTI_khk),
+            QGVAR(optic_AMSTI_snd),
+            QGVAR(rebreather),
+            QGVAR(Wetsuit)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
@@ -48,7 +48,6 @@ class CfgPatches {
 };
 
 class CfgFunctions {
-
     #include "CfgFunctions.hpp"
 };
 
@@ -58,7 +57,6 @@ class CfgFunctions {
 #include "jr_classes.hpp"
 #include "RscInGameUI.hpp"
 #include "CfgEventHandlers.hpp"
-
 
 class Extended_InitPost_EventHandlers {
     class ReammoBox_F {
@@ -118,5 +116,3 @@ class Extended_InitPost_EventHandlers {
         };
     };
 };
-
-

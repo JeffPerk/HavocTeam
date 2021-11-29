@@ -60,9 +60,7 @@ call {
   if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
    _ContainerItems = [
     ["HAVOC_FirstAid", 4],
-    ["HAVOC_DuctTape", 1],
     ["ACE_EarPlugs", 4],
-    ["HAVOC_FireExtinguisher", 1],
     ["ACE_Flashlight_MX991", 1],
     ["ToolKit", 1],
     ["Chemlight_blue", 1],
@@ -79,10 +77,7 @@ call {
  if (_Type isEqualTo "MERT") exitwith {
   if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
    _ContainerItems = [
-    ["HAVOC_FirstAid", 4],
-    ["HAVOC_DuctTape", 1],
     ["ACE_EarPlugs", 4],
-    ["HAVOC_FireExtinguisher", 1],
     ["ACE_Flashlight_MX991", 1],
     ["ToolKit", 1],
     ["Chemlight_blue", 1],
@@ -91,7 +86,7 @@ call {
     ["kat_accuvac", 2],
     ["kat_X_AED", 2],
     ["kat_AED", 2],
-                ["kat_aatKit", 8],
+    ["kat_aatKit", 8],
     ["ACE_bodyBag", 8],
     ["HAVOC_MedicArea", 1],
     ["HAVOC_MedicKit", 8],

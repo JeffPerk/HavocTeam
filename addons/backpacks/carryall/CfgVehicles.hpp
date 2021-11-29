@@ -5,7 +5,7 @@ class CfgVehicles {
 
     class B_Carryall_Base;
 
-    class CLASS(Carryall_01_Base): B_Carryall_Base {
+    class GVAR(Carryall_01_Base): B_Carryall_Base {
         scope = 1;
         scopeArsenal = 0;
         scopeCurator = 0;
@@ -25,7 +25,7 @@ class CfgVehicles {
 
     // CARRYALL BLACK
 
-    class CLASS(Carryall_01_BLACK): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BLACK): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -37,7 +37,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_black_co.paa)};
     };
 
-    class CLASS(Carryall_01_BLACK_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BLACK_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -51,7 +51,7 @@ class CfgVehicles {
 
     // CARRYALL BW D
 
-    class CLASS(Carryall_01_BW_D): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BW_D): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -63,7 +63,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_bw_d_co.paa)};
     };
 
-    class CLASS(Carryall_01_BW_D_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BW_D_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -77,7 +77,7 @@ class CfgVehicles {
 
     // CARRYALL BW W
 
-    class CLASS(Carryall_01_BW_W): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BW_W): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -89,7 +89,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_bw_w_co.paa)};
     };
 
-    class CLASS(Carryall_01_BW_W_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_BW_W_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -103,7 +103,7 @@ class CfgVehicles {
 
     // CARRYALL COYOTE
 
-    class CLASS(Carryall_01_COYOTE): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_COYOTE): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -115,7 +115,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_coyote_co.paa)};
     };
 
-    class CLASS(Carryall_01_COYOTE_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_COYOTE_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -129,7 +129,7 @@ class CfgVehicles {
 
     // CARRYALL GREEN DARK
 
-    class CLASS(Carryall_01_GREEN_DARK): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_DARK): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -141,7 +141,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_green_dark_co.paa)};
     };
 
-    class CLASS(Carryall_01_GREEN_DARK_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_DARK_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -155,7 +155,7 @@ class CfgVehicles {
 
     // CARRYALL GREEN DIGITAL
 
-    class CLASS(Carryall_01_GREEN_DGTL): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_DGTL): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -167,7 +167,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_green_dgtl_co.paa)};
     };
 
-    class CLASS(Carryall_01_GREEN_DGTL_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_DGTL_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -181,7 +181,7 @@ class CfgVehicles {
 
     // CARRYALL GREEN RANGER
 
-    class CLASS(Carryall_01_GREEN_RNGR): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_RNGR): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -193,7 +193,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_green_rngr_co.paa)};
     };
 
-    class CLASS(Carryall_01_GREEN_RNGR_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_GREEN_RNGR_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -207,7 +207,7 @@ class CfgVehicles {
 
     // CARRYALL HEX CAMO
 
-    class CLASS(Carryall_01_HEX_CAMO): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_HEX_CAMO): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -219,7 +219,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_hex_camo_co.paa)};
     };
 
-    class CLASS(Carryall_01_HEX_CAMO_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_HEX_CAMO_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -233,7 +233,7 @@ class CfgVehicles {
 
     // CARRYALL HEX GREEN
 
-    class CLASS(Carryall_01_HEX_GREEN): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_HEX_GREEN): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -245,7 +245,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_hex_green_co.paa)};
     };
 
-    class CLASS(Carryall_01_HEX_GREEN_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_HEX_GREEN_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -259,7 +259,7 @@ class CfgVehicles {
 
     // CARRYALL MARPAT D
 
-    class CLASS(Carryall_01_MARPAT_D): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MARPAT_D): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -271,7 +271,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_marpat_d_co.paa)};
     };
 
-    class CLASS(Carryall_01_MARPAT_D_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MARPAT_D_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -285,7 +285,7 @@ class CfgVehicles {
 
     // CARRYALL MARPAT W
 
-    class CLASS(Carryall_01_MARPAT_W): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MARPAT_W): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -297,7 +297,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_marpat_w_co.paa)};
     };
 
-    class CLASS(Carryall_01_MARPAT_W_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MARPAT_W_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -311,7 +311,7 @@ class CfgVehicles {
 
     // CARRYALL MTP
 
-    class CLASS(Carryall_01_MTP): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MTP): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -323,7 +323,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_mtp_co.paa)};
     };
 
-    class CLASS(Carryall_01_MTP_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_MTP_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -337,7 +337,7 @@ class CfgVehicles {
 
     // CARRYALL OCP
 
-    class CLASS(Carryall_01_OCP): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_OCP): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -349,7 +349,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_ocp_co.paa)};
     };
 
-    class CLASS(Carryall_01_OCP_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_OCP_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -363,7 +363,7 @@ class CfgVehicles {
 
     // CARRYALL UCP
 
-    class CLASS(Carryall_01_UCP): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_UCP): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -375,7 +375,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_ucp_co.paa)};
     };
 
-    class CLASS(Carryall_01_UCP_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_UCP_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -389,7 +389,7 @@ class CfgVehicles {
 
     // CARRYALL WOODLAND
 
-    class CLASS(Carryall_01_WDL): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_WDL): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -401,7 +401,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_wdl_co.paa)};
     };
 
-    class CLASS(Carryall_01_WDL_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_WDL_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -415,7 +415,7 @@ class CfgVehicles {
 
     // CARRYALL WOODLAND 2
 
-    class CLASS(Carryall_01_WDL2): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_WDL2): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
@@ -427,7 +427,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(carryall\data\textures\carryall_wdl2_co.paa)};
     };
 
-    class CLASS(Carryall_01_WDL2_MEDIC): CLASS(Carryall_01_Base) {
+    class GVAR(Carryall_01_WDL2_MEDIC): GVAR(Carryall_01_Base) {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;

@@ -36,7 +36,7 @@ class Car_F: Car {
     class CargoTurret;
 };
 
-class CLASS(Arcadian_Base): Car_F {
+class GVAR(Arcadian_Base): Car_F {
     model = QPATHTOF(data\Arcadian.p3d);
     icon = "iconCar";
     picture = QPATHTOF(ui\icon_arcadian.paa);
@@ -61,7 +61,7 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_turret_rear.hpp"
 };
 
-class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
+class GVAR(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
     #include "config_texturesources_unarmed.hpp"
     #include "config_useractions.hpp"
 
@@ -71,7 +71,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
     };
 };
 
-class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
+class GVAR(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     model = QPATHTOF(data\Arcadian_Armed.p3d);
     picture = QPATHTOF(ui\icon_arcadian_armed.paa);
     hiddenSelections[] = {"camo1", "camo2"};

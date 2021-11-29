@@ -2,7 +2,7 @@ class HAVOC_ModuleAISpawnsIndependent: Module_F {
     scope = 2;
     displayName = "AI Spawn - Independent";
     icon = "\z\havoc\addons\media\images\icons\AI INDEP.paa";
-    category = "HAVOC_Modules";
+    category = QUOTE(PREFIX);
     function = "havoc_fnc_moduleAISpawns";
     functionPriority = 2;
     isGlobal = 0;

@@ -26,14 +26,14 @@ class Damage { \
     scopeCurator = 2; \
     forceInGarage = 1; \
     side = 2; \
-    faction = QCLASS(IND); \
-    crew = QCLASS(Unit_I_Contractor); \
-    typicalCargo[] = {QCLASS(Unit_I_Contractor)};
+    faction = QGVAR(IND); \
+    crew = QGVAR(Unit_I_Contractor); \
+    typicalCargo[] = {QGVAR(Unit_I_Contractor)};
 
 #define MACRO_BLUFOR_VEHICLE \
     scope = 2; \
     forceInGarage = 0; \
     side = 1; \
-    faction = QCLASS(BLU); \
-    crew = QCLASS(Unit_B_Contractor); \
-    typicalCargo[] = {QCLASS(Unit_B_Contractor)};
+    faction = QGVAR(BLU); \
+    crew = QGVAR(Unit_B_Contractor); \
+    typicalCargo[] = {QGVAR(Unit_B_Contractor)};

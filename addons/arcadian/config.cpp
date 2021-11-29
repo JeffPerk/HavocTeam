@@ -4,9 +4,9 @@ class CfgPatches {
     class Arcadian {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(Arcadian_B_Black),
-            QCLASS(Arcadian_B_Tan),
-            QCLASS(Arcadian_B_Green)
+            QGVAR(Arcadian_B_Black),
+            QGVAR(Arcadian_B_Tan),
+            QGVAR(Arcadian_B_Green)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

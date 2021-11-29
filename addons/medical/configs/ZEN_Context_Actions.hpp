@@ -1,4 +1,4 @@
-    
+#include "..\script_component.hpp"    
 class zen_context_menu_actions {
     class HealUnits {
         class Timer {
