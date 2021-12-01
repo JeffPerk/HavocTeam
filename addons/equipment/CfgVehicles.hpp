@@ -1,6 +1,49 @@
 #include "script_component.hpp"
 class CfgVehicles {
 
+
+    class Land_Warehouse_03_F;
+    class Land_MilOffices_V1_F;
+    class Land_Medevac_HQ_V1_F;
+    class Land_Cargo_HQ_V1_F;
+    class Land_Cargo_HQ_V3_F;
+
+    class GVAR(Warehouse_03_F) : Land_Warehouse_03_F {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        init = "call {tint_house_blacklisted =true;}; ";
+        displayName = "[Havoc] Warehouse 03";
+    };
+    class GVAR(MilOffices_V1_F) : Land_MilOffices_V1_F {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        init = "call {tint_house_blacklisted =true;}; ";
+        displayName = "[Havoc] Mil Office";
+    };
+    class GVAR(Medevac_HQ_V1_F) : Land_Medevac_HQ_V1_F {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        init = "call {tint_house_blacklisted =true;}; ";
+        displayName = "[Havoc] Medical HQ";
+    };
+    class GVAR(Cargo_HQ_V1_F) : Land_Cargo_HQ_V1_F {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        init = "call {tint_house_blacklisted =true;}; ";
+        displayName = "[Havoc] Green HQ";
+    };
+    class GVAR(Cargo_HQ_V3_F) : Land_Cargo_HQ_V3_F {
+        scope = 2;
+        scopeCurator = 2;
+        author = AUTHOR;
+        init = "call {tint_house_blacklisted =true;}; ";
+        displayName = "[Havoc] Brown HQ";
+    };
+
     // Box
     class NATO_Box_Base {
         class EventHandlers;

@@ -21,6 +21,114 @@ class CfgPatches {
 };
 class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
+
+    class vtx_MH60M;
+    class vtx_MH60M_DAP;
+    class GVAR(uh60M):vtx_MH60M
+    {
+        scope=2;
+        hiddenSelectionsTextures[]=
+        {
+            "",  //DNU (Do not Use)
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "\z\havoc\addons\helicopters\data\Hull_Main_havoc.paa",
+            "\z\havoc\addons\helicopters\data\Misc_havoc.paa",
+            "\z\havoc\addons\helicopters\data\Hull_Tail_havoc.paa",
+            "", //Markings
+            "", //left_num_1
+            "", //left_num_2
+            "", //right_num_1
+            "", //right_num_2
+            "z\vtx\addons\UH60\data\FuelProbe\Fuel_probe_co.paa" //Fuel Probe
+        };
+        displayName="[Havoc] MH60M";
+    };
+    class GVAR(uh60M_dap):vtx_MH60M_DAP
+    {
+        scope=2;
+        hiddenSelectionsTextures[]=
+        {
+            "",  //DNU (Do not Use)
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "\z\havoc\addons\helicopters\data\Hull_Main_havoc.paa",
+            "\z\havoc\addons\helicopters\data\Misc_havoc.paa",
+            "\z\havoc\addons\helicopters\data\Hull_Tail_havoc.paa",
+            "", //Markings
+            "", //left_num_1
+            "", //left_num_2
+            "", //right_num_1
+            "", //right_num_2
+            "z\vtx\addons\UH60\data\FuelProbe\Fuel_probe_co.paa" //Fuel Probe
+        };
+        displayName="[Havoc] MH60M DAP";
+    };
+    class GVAR(uh60M_med):vtx_MH60M
+    {
+        scope=2;
+        hiddenSelectionsTextures[]=
+        {
+            "",  //DNU (Do not Use)
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "",  //DNU 
+            "\z\havoc\addons\helicopters\data\Hull_Main_havoc_med.paa",
+            "\z\havoc\addons\helicopters\data\Misc_havoc.paa",
+            "\z\havoc\addons\helicopters\data\Hull_Tail_havoc_med.paa",
+            "", //Markings
+            "", //left_num_1
+            "", //left_num_2
+            "", //right_num_1
+            "", //right_num_2
+            "z\vtx\addons\UH60\data\FuelProbe\Fuel_probe_co.paa" //Fuel Probe
+        };
+        displayName="[Havoc] MH60M Med";
+        init = "this setVariable ['ace_medical_medicClass',1];";
+        class EventHandlers {
+            init = "this setVariable ['ace_medical_medicClass',1];";
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+        };
+    };
+
     class B_Heli_Transport_03_unarmed_F;
     class GVAR(B_Heli_Medevac_031_F): B_Heli_Transport_03_unarmed_F {
 

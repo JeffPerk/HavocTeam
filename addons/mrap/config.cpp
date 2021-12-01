@@ -64,7 +64,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {
@@ -109,7 +109,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {
@@ -156,7 +156,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {
@@ -202,7 +202,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {
@@ -250,7 +250,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {
@@ -297,7 +297,7 @@ class CfgVehicles {
         class TransportItems {
             class _xx_FirstAidKit {
 
-                name="havoc_FirstAid";
+                name="havoc_medbags_FirstAid";
                 count=10;
             };
             class _xx_Medikit {

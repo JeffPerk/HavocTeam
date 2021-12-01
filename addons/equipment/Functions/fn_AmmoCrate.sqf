@@ -73,8 +73,8 @@ _handlerIndex = _box addEventHandler
 
   clearMagazineCargoGlobal _box;
   {_box addMagazineCargoGlobal [_x,10];} forEach _allMagazinesType;
-        _box addItemCargoGlobal ["HAVOC_FirstAid",1];
-        _box addItemCargoGlobal ["HAVOC_MedicKit",1];
+        _box addItemCargoGlobal ["havoc_medbags_FirstAid",1];
+        _box addItemCargoGlobal ["havoc_medbags_MedicKit",1];
         _box addItemCargoGlobal ["HAVOC_mopp",1];
   _box addItemCargoGlobal ["HandGrenade",8];
   _box addItemCargoGlobal ["SmokeShell",8];
