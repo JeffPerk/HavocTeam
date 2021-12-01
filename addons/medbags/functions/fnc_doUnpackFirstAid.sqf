@@ -59,7 +59,7 @@ if (isNull _unit) exitWith {};
     
     if (HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS) exitWith {
         
-        _unit removeItem "HAVOC_FirstAid";
+        _unit removeItem "havoc_medbags_FirstAid";
         
         private _order = [1,3,2];
         private _overflow = false;

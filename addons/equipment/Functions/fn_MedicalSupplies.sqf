@@ -42,7 +42,7 @@ call {
  if (_Type isEqualTo "Limited") exitwith {
   if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
    _ContainerItems = [
-    ["HAVOC_FirstAid", 4],
+    ["havoc_medbags_FirstAid", 4],
     ["ACE_EarPlugs", 4],
     ["ACE_Flashlight_MX991", 1],
     ["ToolKit", 1],
@@ -59,7 +59,7 @@ call {
  if (_Type isEqualTo "Standard") exitwith {
   if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
    _ContainerItems = [
-    ["HAVOC_FirstAid", 4],
+    ["havoc_medbags_FirstAid", 4],
     ["ACE_EarPlugs", 4],
     ["ACE_Flashlight_MX991", 1],
     ["ToolKit", 1],
@@ -89,7 +89,7 @@ call {
     ["kat_aatKit", 8],
     ["ACE_bodyBag", 8],
     ["HAVOC_MedicArea", 1],
-    ["HAVOC_MedicKit", 8],
+    ["havoc_medbags_MedicKit", 8],
     ["ACE_tourniquet", 20],
     ["ACE_surgicalKit", 2],
     ["HAVOC_Stethoscope", 2],

@@ -76,7 +76,7 @@ havoc_fnc_SetTargets = {
     } forEach _SwivelTargets;
 };
 
-[_center,_distance] call havoc_fnc_SetTargets;// Initial Reset.
+[_center,_distance] call havoc_fnc_SetTargets; // Initial Reset.
 
 [
     _object,
