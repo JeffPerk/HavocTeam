@@ -314,6 +314,7 @@ _ArsenalType = call {
             "sps_atlas_bipod_m_blk"
         ];
         _AvailableBackpacks = [
+            "B_Carryall_satellite",
             "B_UGV_02_Science_backpack_F",
             "B_UGV_02_Demining_backpack_F",
             "B_UAV_01_backpack_F",
@@ -1543,6 +1544,10 @@ _ArsenalType = call {
             "H_PilotHelmetFighter_I"
         ];
         _AvailableItems = [
+            "MRH_TacticalDisplay",
+            "MRH_FoldedSatcomAntenna",
+            "ACE_UAVBattery",
+            "MRH_MT_FoldedSatcomAntenna",
             "ACE_CableTie",
             "ACE_RangeTable_82mm",
             "kat_aatKit",
