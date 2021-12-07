@@ -475,7 +475,8 @@
         <Key ID="STR_havoc_weapons_30Rnd_65x39_caseless_Creedtrash_mag">
             <Original>[Havoc] 30Rnd 6.5mm Creedmor Magazine (Trash Camo)</Original>
         </Key>
-
-
+        <Key ID="STR_havoc_weapons_pdw">
+            <Original>[Havoc] PDW</Original>
+        </Key>
     </Package>
 </Project>

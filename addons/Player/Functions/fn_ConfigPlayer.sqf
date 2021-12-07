@@ -147,12 +147,12 @@ if (local _unit) then {
                 group _unit setVariable ["BFT_groupMarker_type", "recon"];
                 group _unit setVariable ["BFT_groupMarker_color", "ColorBlueS"];
             };
-            if (_Section == "White") exitwith {
+            if (_Section == "Silver") exitwith {
                 group _unit setVariable ["BFT_groupMarker_visible", true];
                 group _unit setVariable ["BFT_groupMarker_type", "recon"];
                 group _unit setVariable ["BFT_groupMarker_color", "ColorSilverS"];
             };
-            if (_Section == "Yellow") exitwith {
+            if (_Section == "Gold") exitwith {
                 group _unit setVariable ["BFT_groupMarker_visible", true];
                 group _unit setVariable ["BFT_groupMarker_type", "recon"];
                 group _unit setVariable ["BFT_groupMarker_color", "ColorGoldS"];

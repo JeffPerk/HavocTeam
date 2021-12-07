@@ -1036,6 +1036,8 @@ class CfgWeapons {
         baseWeapon = QGVAR(Walther_P99_Tan);
     };
 
+    
+
     class launch_MRAWS_green_F;
     class GVAR(MRAWS_Black_F): launch_MRAWS_green_F {
         dlc = QUOTE(PREFIX);
@@ -1398,4 +1400,9 @@ class CfgWeapons {
         };
         baseWeapon = QGVAR(MXM_walker);
     };
+
+
 };
+
+
+
