@@ -1000,7 +1000,7 @@ FORCE Fat_Lurch_ShowAz = true;
 FORCE Fat_Lurch_ShowEl = true;
 FORCE Fat_Lurch_ShowNorth = true;
 FORCE Fat_Lurch_ShowTarget = true;
-
+/* 
 // VCOM AI East Skill
 FORCE Vcm_AISkills_East_AimingAccuracy = 0.25;
 FORCE Vcm_AISkills_East_aimingShake = 0.15;
@@ -1085,3 +1085,4 @@ FORCE FORCE VCM_USECBASETTINGS = true;
 FORCE FORCE VCM_WARNDELAY = 30;
 FORCE FORCE VCM_WARNDIST = 1000;
 
+ */

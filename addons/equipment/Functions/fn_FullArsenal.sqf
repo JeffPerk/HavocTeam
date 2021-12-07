@@ -51,6 +51,9 @@ _ArsenalType = call {
 
     if (_Type isEqualTo "HAVOC") exitwith {
         _AvailableAttachments = [
+            "muzzle_spear_t",
+            "muzzle_spear_b",
+            "muzzle_spear_f",
             "optic_Nightstalker",
             "optic_tws",
             "optic_tws_mg",
@@ -311,6 +314,7 @@ _ArsenalType = call {
             "sps_atlas_bipod_m_blk"
         ];
         _AvailableBackpacks = [
+            "B_Carryall_satellite",
             "B_UGV_02_Science_backpack_F",
             "B_UGV_02_Demining_backpack_F",
             "B_UAV_01_backpack_F",
@@ -1540,6 +1544,10 @@ _ArsenalType = call {
             "H_PilotHelmetFighter_I"
         ];
         _AvailableItems = [
+            "MRH_TacticalDisplay",
+            "MRH_FoldedSatcomAntenna",
+            "ACE_UAVBattery",
+            "MRH_MT_FoldedSatcomAntenna",
             "ACE_CableTie",
             "ACE_RangeTable_82mm",
             "kat_aatKit",
@@ -1666,6 +1674,9 @@ _ArsenalType = call {
             "ACE_Humanitarian_Ration"
         ];
         _AvailableMagazines = [
+            "MCX_20Rnd_MCX_68_SIG_MIX",
+            "MCX_20Rnd_MCX_68_SIG_T",
+            "MCX_20Rnd_MCX_68_SIG",
             "30Rnd_65x39_caseless_mag",
             "30Rnd_65x39_caseless_khaki_mag",
             "30Rnd_65x39_caseless_black_mag",
@@ -2001,7 +2012,6 @@ _ArsenalType = call {
             "MRAWS_HEAT55_F",
             "Titan_AT",
             "Titan_AP",
-            "CBA_FakeLauncherMagazine",
             "9Rnd_45ACP_Mag",
             "7Rnd_45ACP_Mag",
             "17Rnd_9x21_Mag",
@@ -2018,17 +2028,6 @@ _ArsenalType = call {
             "16Rnd_9x21_red_Mag",
             "16Rnd_9x21_green_Mag",
             "16Rnd_9x21_yellow_Mag",
-            "ESD_01_DummyMagazine_1",
-            "ESD_01_DummyMagazine_2",
-            "ESD_01_DummyMagazine_3",
-            "ESD_01_DummyMagazine_4",
-            "ESD_01_DummyMagazine_5",
-            "ESD_01_DummyMagazine_6",
-            "ESD_01_DummyMagazine_7",
-            "ESD_01_DummyMagazine_8",
-            "ESD_01_DummyMagazine_9",
-            "ESD_01_DummyMagazine_10",
-            "FakeMagazine",
             "11Rnd_45ACP_Mag",
             "SPS_AI_AXMC_762x67_Mk248_Mod_0_Mag",
             "SPS_AI_AXMC_762x67_Mk248_Mod_1_Mag",
@@ -2909,6 +2908,9 @@ _ArsenalType = call {
             "havoc_vests_PlateCarrierHeavy_Coyotecmd"
         ];
         _AvailableWeapons = [
+            "MCX_Spear_T",
+            "MCX_Spear_F",
+            "MCX_Spear_B",
             "arifle_MX_F",
             "arifle_MX_Black_F",
             "arifle_MX_khk_F",
@@ -3597,6 +3599,7 @@ _ArsenalType = call {
             "havoc_weapons_MX_GL_trash",
             "havoc_weapons_MX_GL_walker",
             "havoc_weapons_MX_GL_yonv2",
+            "havoc_weapons_pdw",
             "havoc_weapons_MX_SW_blackcamo",
             "havoc_weapons_MX_SW_blackfine",
             "havoc_weapons_MX_SW_blackhex",

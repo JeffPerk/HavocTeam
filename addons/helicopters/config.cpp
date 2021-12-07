@@ -21,14 +21,11 @@ class CfgPatches {
 };
 class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
-
     class vtx_MH60M;
     class vtx_MH60M_DAP;
-    class GVAR(uh60M):vtx_MH60M
-    {
+    class GVAR(uh60M): vtx_MH60M {
         scope=2;
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             "",  //DNU (Do not Use)
             "",  //DNU 
             "",  //DNU 
@@ -57,11 +54,9 @@ class CfgVehicles {
         };
         displayName="[Havoc] MH60M";
     };
-    class GVAR(uh60M_dap):vtx_MH60M_DAP
-    {
+    class GVAR(uh60M_dap): vtx_MH60M_DAP {
         scope=2;
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             "",  //DNU (Do not Use)
             "",  //DNU 
             "",  //DNU 
@@ -90,11 +85,9 @@ class CfgVehicles {
         };
         displayName="[Havoc] MH60M DAP";
     };
-    class GVAR(uh60M_med):vtx_MH60M
-    {
+    class GVAR(uh60M_med): vtx_MH60M {
         scope=2;
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             "",  //DNU (Do not Use)
             "",  //DNU 
             "",  //DNU 
@@ -131,7 +124,6 @@ class CfgVehicles {
 
     class B_Heli_Transport_03_unarmed_F;
     class GVAR(B_Heli_Medevac_031_F): B_Heli_Transport_03_unarmed_F {
-
         author = AUTHOR;
         _generalMacro="Heli_Transport_03_base_F";
         displayName="Huron MedEvac (Unarmed)"; /// how is the heli displayed in editor
@@ -139,7 +131,6 @@ class CfgVehicles {
         faction = QUOTE(PREFIX);
         crew="B_Helipilot_F";
         typicalCargo[]= {
-
             "B_Soldier_F"
         };
         side=1;
@@ -165,7 +156,6 @@ class CfgVehicles {
             QPATHTOF(data\Heli_Transport_03_ext02_md.paa)
         };
         textureList[]= {
-
             "med1",
             1
         };
@@ -217,7 +207,6 @@ class CfgVehicles {
             faction = QUOTE(PREFIX);
             crew="B_Helipilot_F";
             typicalCargo[]= {
-
                 "B_Soldier_F"
             };
             side=1;
@@ -244,7 +233,6 @@ class CfgVehicles {
                 QPATHTOF(data\Heli_Transport_03_ext02_dazt_med.paa)
             };
             textureList[]= {
-
                 "med1",
                 1
             };
@@ -260,7 +248,6 @@ class CfgVehicles {
             faction = QUOTE(PREFIX);
             crew="B_Helipilot_F";
             typicalCargo[]= {
-
                 "B_Soldier_F"
             };
             side=1;
@@ -277,16 +264,13 @@ class CfgVehicles {
             irTarget = false;
             init = "this setVehicleTIPars [0, 0, 0];";
             class EventHandlers {
-
                 class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
             };
             hiddenSelectionsTextures[]= {
-
                 QPATHTOF(data\Heli_Transport_03_ext01_md_med.paa),
                 QPATHTOF(data\Heli_Transport_03_ext02_md_med.paa)
             };
             textureList[]= {
-
                 "med1",
                 1
             };
