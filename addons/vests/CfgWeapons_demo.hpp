@@ -154,3 +154,43 @@
             }
         };
     };
+
+    ///////////////////////////////////////////
+    class GVAR(PlateCarrier2_blkcizek): V_PlateCarrier2_rgr {
+        scope = 2;
+        author = AUTHOR;
+        displayName = "[Havoc] Plate Carrier Black - Cizek";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_cizek.paa)};
+        class ItemInfo: ItemInfo {
+            hiddenSelections[] = {"camo"};
+            containerClass = "Supply180";
+            mass = 60;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            }
+        };
+    };

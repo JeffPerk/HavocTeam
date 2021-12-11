@@ -30,7 +30,7 @@ call {
     if (_Section == "Silver") exitwith {_PatchClass = "silverp";};
     if (_Section == "Gold") exitwith {_PatchClass = "goldp";};
     if (_Section == "Green") exitwith {_PatchClass = "greenp";};
-    if (_Section == "Reaper") exitwith {_PatchClass = "grayp";};
+    if (_Section == "Grey") exitwith {_PatchClass = "grayp";};
     _PatchClass = "greenp";
 };
 

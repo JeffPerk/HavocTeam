@@ -28,10 +28,3 @@ class Extended_PreInit_EventHandlers {
         init = "call compile preProcessFileLineNumbers 'z\havoc\addons\AI\XEH_preInit.sqf'";
     };
 };
-
-
-class CfgSurfaces {
-    class Default {
-        AIAvoidStance = 1;
-    };
-};

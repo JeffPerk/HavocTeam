@@ -1544,6 +1544,7 @@ _ArsenalType = call {
             "H_PilotHelmetFighter_I"
         ];
         _AvailableItems = [
+            "itc_land_tablet_rover",
             "MRH_TacticalDisplay",
             "MRH_FoldedSatcomAntenna",
             "ACE_UAVBattery",
@@ -2435,6 +2436,8 @@ _ArsenalType = call {
             "milgp_u_pcu_g3_field_pants_mcalpine"
         ];
         _AvailableVests = [
+            "havoc_vests_PlateCarrier2_brncizek",
+            "havoc_vests_PlateCarrier2_blkcizek",
             "CTRG_Retexture_Mod_Carry_Vest1_Urban",
             "CTRG_Retexture_Mod_Carry_Vest3_Urban",
             "CTRG_Retexture_Mod_Carry_Vest2_Urban",
