@@ -40,7 +40,7 @@ call {
     if (_Section isEqualto 4) exitwith {_Section = "Gold"};
     if (_Section isEqualto 5) exitwith {_Section = "Black"};
     if (_Section isEqualto 5) exitwith {_Section = "Green"};
-    if (_Section isEqualto 6) exitwith {_Section = "Reaper"};
+    if (_Section isEqualto 6) exitwith {_Section = "Grey"};
 };
 
 if (local _unit) then {
@@ -86,7 +86,7 @@ if (local _unit) then {
                     _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
                     _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
                 };
-                if (_Section == "Reaper") exitwith {
+                if (_Section == "Grey") exitwith {
                     _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
                     _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
                 };
@@ -167,7 +167,7 @@ if (local _unit) then {
                 group _unit setVariable ["BFT_groupMarker_type", "recon"];
                 group _unit setVariable ["BFT_groupMarker_color", "ColorGreenS"];
             };
-            if (_Section == "Reaper") exitwith {
+            if (_Section == "Grey") exitwith {
                 group _unit setVariable ["BFT_groupMarker_visible", true];
                 group _unit setVariable ["BFT_groupMarker_type", "recon"];
                 group _unit setVariable ["BFT_groupMarker_color", "ColorGreyS"];
@@ -179,7 +179,7 @@ if (local _unit) then {
 //========== SideChat Config
 if (hasinterface) then {
     if ((isClass (configFile >> "CfgPatches" >> "task_force_radio")) && (EnableSideChat)) then {
-        if ((_Section == "Command") || (_Section == "Reaper")) then {
+        if ((_Section == "Command") || (_Section == "Grey")) then {
             1 enablechannel [true, false];
         };
     };
