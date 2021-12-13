@@ -679,10 +679,11 @@ FORCE HAVOC_spectator_TPPCamera = false;
 FORCE HAVOC_spectator_TPPCameraUnconscious = false;
 FORCE HAVOC_spectator_unconsciousDelay = 30;
 
+// HAVOC - medical
+force force havoc_medical_medLvl_drug = 1;
+force havoc_medical_persistantRevive = true;
+force havoc_medical_persistantReviveTimer = 720;
 
-// HAVOC Medical
-FORCE HAVOC_medical_persistantRevive = true;
-FORCE HAVOC_medical_persistantReviveTimer = 720;
 
 // HAVOC - tagging
 FORCE HAVOC_tagging_enabled = true;

@@ -185,4 +185,11 @@ if (hasinterface) then {
     };
 };
 
+if (hasinterface) then {
+    player call havoc_role_fnc_role;
+    player call havoc_role_fnc_drongo;
+    player call havoc_rank_fnc_rank;
+};
+
+
 
