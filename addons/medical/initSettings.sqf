@@ -22,7 +22,6 @@
     QGVAR(medLvl_drug),
     "LIST",
     ["Medical Level", "Training level required to use Medications"],
-    CBA_SETTINGS_CAT,
-    [[1, 2], ["Medics", "Doctors"], 2],
-    true
+    COMPONENT_NAME,
+    [[1, 0], ["Medics","Doctors"], 0]
 ] call CBA_settings_fnc_init;
