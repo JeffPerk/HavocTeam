@@ -42,7 +42,7 @@ class CfgPatches {
             "A3_Weapons_F",
             "cba_jr"
         };
-        version = VERSION;
+        VERSION_CONFIG;
         authors[] = {"MitchJC"};
     };
 };

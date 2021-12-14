@@ -7,7 +7,7 @@ class GVAR(MorphineItem): Item_Base_F {
     vehicleClass="Items";
     class TransportItems {
         class GVAR(morphine) {
-            name = GVAR(morphine);
+            name = QGVAR(morphine);
             count = 1;
         };
     };
@@ -20,7 +20,7 @@ class GVAR(epinephrineItem): Item_Base_F {
     vehicleClass="Items";
     class TransportItems {
         class GVAR(epinephrine) {
-            name = GVAR(epinephrine);
+            name = QGVAR(epinephrine);
             count = 1;
         };
     };
@@ -33,7 +33,7 @@ class GVAR(fentanylItem): Item_Base_F {
     vehicleClass="Items";
     class TransportItems {
         class GVAR(fentanyl) {
-            name = GVAR(fentanyl);
+            name = QGVAR(fentanyl);
             count = 1;
         };
     };
@@ -48,7 +48,7 @@ class GVAR(naloxonelItem): Item_Base_F {
     vehicleClass="Items";
     class TransportItems {
         class GVAR(naloxone) {
-            name = GVAR(naloxone);
+            name = QGVAR(naloxone);
             count = 1;
         };
     };
@@ -62,7 +62,7 @@ class GVAR(ketamineItem): Item_Base_F {
     vehicleClass="Items";
     class TransportItems {
         class GVAR(ketamine) {
-            name = GVAR(ketamine);
+            name = QGVAR(ketamine);
             count = 1;
         };
     };

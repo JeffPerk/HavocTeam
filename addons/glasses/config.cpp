@@ -4,7 +4,7 @@
 class CfgPatches {
     
     class ADDON {
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
@@ -16,7 +16,7 @@ class CfgPatches {
             "O. Jemineh"
         };
         url = URL;
-        version = VERSION;
+        VERSION_CONFIG;
     };
     
 };

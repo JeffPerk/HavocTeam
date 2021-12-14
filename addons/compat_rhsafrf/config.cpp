@@ -6,9 +6,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"havoc_heavylifter"};
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"Jonpas"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

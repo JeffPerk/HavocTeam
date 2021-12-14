@@ -60,7 +60,7 @@
 #endif
 
 #ifndef VERSION_CONFIG
-    #define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
+    #define VERSION_CONFIG VERSION_CONFIG; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
 #endif
 
 #define ADDON DOUBLES(PREFIX,COMPONENT)
@@ -1716,7 +1716,7 @@ Author:
         weapons[] = {}; \
         requiredVersion = REQUIRED_VERSION; \
         requiredAddons[] = {}; \
-        version = VERSION; \
+        VERSION_CONFIG; \
 }
 
 // XEH Specific

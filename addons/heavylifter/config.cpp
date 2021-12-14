@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"havoc_main"};
         author = QAUTHOR;
         authors[] = {"Jonpas", "DaC"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

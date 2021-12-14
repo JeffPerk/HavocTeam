@@ -89,7 +89,7 @@ class Extended_PreStart_EventHandlers {                 \
 
 // Main
 #define QUOTE(var1) #var1
-#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
+#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH); versionAr[] = {MAJOR,MINOR,PATCH}
 
 // Stringtable
 #define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))

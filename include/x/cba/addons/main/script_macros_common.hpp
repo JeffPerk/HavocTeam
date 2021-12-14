@@ -97,7 +97,7 @@ Author:
 #endif
 
 #ifndef VERSION_CONFIG
-    #define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION_STR); versionAr[] = {VERSION_AR}
+    #define VERSION_CONFIG VERSION_CONFIG; versionStr = QUOTE(VERSION_STR); versionAr[] = {VERSION_AR}
 #endif
 
 /* -------------------------------------------
@@ -1750,7 +1750,7 @@ Author:
         weapons[] = {}; \
         requiredVersion = REQUIRED_VERSION; \
         requiredAddons[] = {}; \
-        version = VERSION; \
+        VERSION_CONFIG; \
 }
 
 // XEH Specific

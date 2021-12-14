@@ -9,7 +9,7 @@ class CfgVehicles {
         scope = 1;
         scopeArsenal = 0;
         scopeCurator = 0;
-        author = AUTHOR;
+        author = QAUTHOR;
         // maximumLoad = 320;
         // mass = 60;
         maximumLoad = 360;

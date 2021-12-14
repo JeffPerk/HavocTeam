@@ -2,8 +2,8 @@
 
 class CfgPatches {
     class HAVOC_Zeus {
-        author = AUTHOR;
-        name = NAME;
+        author = QAUTHOR;
+        name = COMPONENT_NAME;
         url = URL;
         units[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -17,7 +17,7 @@ class CfgPatches {
             "cba_main",
             "cba_xeh"
         };
-        version = VERSION;
+        VERSION_CONFIG;
         authors[] = {"MitchJC"};
         weapons[] = {};
     };

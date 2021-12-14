@@ -22,7 +22,7 @@ class CfgPatches {
             QGVAR(RadioBag_01_WDL)
         };
         weapons[] = {};
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {
             "O. Jemineh"
         };

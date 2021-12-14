@@ -1001,6 +1001,55 @@ FORCE Fat_Lurch_ShowAz = true;
 FORCE Fat_Lurch_ShowEl = true;
 FORCE Fat_Lurch_ShowNorth = true;
 FORCE Fat_Lurch_ShowTarget = true;
+
+// GREEN EVO - Cut the grass
+force force GREN_grass_cutter_active = false;
+
+// GREN EVO - Bullet whistles
+GREN_whistle_bullet = true;
+
+// GREN EVO - Disable debug spawn modules
+force force GREN_deactivate_debug_module_spawn = true;
+
+// GREN EVO - Distractor-Stun-White weapon
+force force GREN_distractor_active = true;
+force force GREN_distractor_dist = 20;
+
+// GREN EVO - Diving ADV
+force force GREN_OXY_adv_active = true;
+force force GREN_oxy_adv_active_time = 30;
+force force GREN_oxy_adv_time_unconscious = 30;
+force force GREN_OXY_diver_depth = true;
+force force GREN_OXY_remaining_time = true;
+
+// GREN EVO - Explosive vest
+force force GREN_tnt_vest = true;
+
+// GREN EVO - Hide-discover body
+force force GREN_active_detect_body = true;
+force force GREN_behavior_detect_body = 0;
+force force GREN_detect_body_type = 0;
+force force GREN_pos_body_dead = true;
+force force GREN_pos_body_dead_ace = true;
+force force GREN_radius_detect_body = 20;
+
+// GREN EVO - Jump ADV
+force force GREN_jump_adv_active = true;
+force force GREN_jump_adv_active_time = 30;
+force force GREN_jump_adv_alt_option = 1;
+force force GREN_jump_adv_altitude = "4000";
+force force GREN_jump_adv_mask = "GREN_Mat_oxy,  GREN_Mask_oxy";
+force force GREN_jump_adv_mask_option = 1;
+
+// GREN EVO - Remove Map
+force force GREN_deletemap = false;
+force force GREN_deletemap_active = false;
+force force GREN_deletemap_pilot_map = false;
+
+// GREN EVO - Teleport
+force force GREN_F11 = false;
+
+
 /* 
 // VCOM AI East Skill
 FORCE Vcm_AISkills_East_AimingAccuracy = 0.25;

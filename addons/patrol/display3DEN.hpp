@@ -7,7 +7,7 @@ class display3DEN {
             class Patrol {
                 text = "Generate patrol";
                 action = "findDisplay 313 createDisplay 'havoc_patrol_editBox';";
-                conditionShow = selectedGroup;
+                conditionShow = "selectedGroup";
                 value = 0;
             };
         };

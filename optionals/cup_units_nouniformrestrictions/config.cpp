@@ -24,9 +24,9 @@ class CfgPatches {
             "CUP_Creatures_Military_USArmy",
             "CUP_Creatures_Military_USMC"
         };
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"Jonpas"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

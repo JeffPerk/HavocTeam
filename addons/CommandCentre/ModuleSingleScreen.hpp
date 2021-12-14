@@ -15,21 +15,21 @@ class HAVOC_ModuleSingleScreen: Module_F {
                 displayName = "Allow Helmet Cams";
                 tooltip = "Allow/Disallow viewing Helmet Cams through the screen.";
                 typeName = "BOOL";
-                defaultValue = true;
+                defaultValue = True;
         };
         class SingleScreenDrone: Checkbox {
                 property = "HAVOC_SingleScreenDrone";
                 displayName = "Allow Drone Cams";
                 tooltip = "Allow/Disallow viewing Drone Cams through the screen.";
                 typeName = "BOOL";
-                defaultValue = true;
+                defaultValue = True;
         };
         class SingleScreenSat: Checkbox {
                 property = "HAVOC_SingleScreenSat";
                 displayName = "Allow Satellite View";
                 tooltip = "Allow/Disallow viewing Satellite Imagery through the screen.";
                 typeName = "BOOL";
-                defaultValue = true;
+                defaultValue = True;
         };
         class SingleScreenSelection: Edit {
                 property = "HAVOC_SingleScreenSelection";

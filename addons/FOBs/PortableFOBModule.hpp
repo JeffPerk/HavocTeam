@@ -2,7 +2,7 @@ class HAVOC_ModulePortableFOB_Camp: Module_F {
 
     scope = 2;
     displayName = "Portable FOB - Camp";
-    icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
+    icon = "\z\havoc\addons\media\images\havocl1512x";
     category = QUOTE(PREFIX);
     function = "HAVOC_fnc_modulePortableFOB_Camp";
     functionPriority = 2;
@@ -47,7 +47,7 @@ class HAVOC_ModulePortableFOB_Small: Module_F {
 
     scope = 2;
     displayName = "Portable FOB - Small";
-    icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
+    icon = "\z\havoc\addons\media\images\havocl1512x";
     category = QUOTE(PREFIX);
     function = "HAVOC_fnc_modulePortableFOB_Small";
     functionPriority = 2;
@@ -104,7 +104,7 @@ class HAVOC_ModulePortableFOB_Medium: Module_F {
 
     scope = 2;
     displayName = "Portable FOB - Medium";
-    icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
+    icon = "\z\havoc\addons\media\images\havocl1512x";
     category = QUOTE(PREFIX);
     function = "HAVOC_fnc_modulePortableFOB_Medium";
     functionPriority = 2;
@@ -167,7 +167,7 @@ class HAVOC_ModulePortableFOB_Large: Module_F {
 
     scope = 2;
     displayName = "Portable FOB - Large";
-    icon = "\z\havoc\addons\media\images\logo_sm_ca.paa";
+    icon = "\z\havoc\addons\media\images\havocl1512x";
     category = QUOTE(PREFIX);
     function = "HAVOC_fnc_modulePortableFOB_Large";
     functionPriority = 2;

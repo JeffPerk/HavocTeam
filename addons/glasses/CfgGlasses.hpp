@@ -4,11 +4,11 @@ class CfgGlasses {
 
     class G_RegulatorMask_F;
     class GVAR(RegulatorMask): G_RegulatorMask_F {
-        _generalMacro = GVAR(RegulatorMask);
+        _generalMacro = QGVAR(RegulatorMask);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_RegulatorMask_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_RegulatorMask_Description";
         mass = 6;
@@ -24,11 +24,11 @@ class CfgGlasses {
 
     class G_AirPurifyingRespirator_01_F;
     class GVAR(Respirator): G_AirPurifyingRespirator_01_F {
-        _generalMacro = GVAR(Respirator);
+        _generalMacro = QGVAR(Respirator);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Respirator_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Respirator_Description";
         mass = 7;
@@ -44,11 +44,11 @@ class CfgGlasses {
 
     class G_AirPurifyingRespirator_02_black_F;
     class GVAR(Respirator_Black): G_AirPurifyingRespirator_02_black_F {
-        _generalMacro = GVAR(Respirator_Black);
+        _generalMacro = QGVAR(Respirator_Black);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Respirator_Black_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Respirator_Black_Description";
         mass = 7;
@@ -64,11 +64,11 @@ class CfgGlasses {
 
     class G_AirPurifyingRespirator_02_olive_F;
     class GVAR(Respirator_Olive): G_AirPurifyingRespirator_02_olive_F {
-        _generalMacro = GVAR(Respirator_Olive);
+        _generalMacro = QGVAR(Respirator_Olive);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Respirator_Olive_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Respirator_Olive_Description";
         mass = 7;
@@ -84,11 +84,11 @@ class CfgGlasses {
 
     class G_AirPurifyingRespirator_02_sand_F;
     class GVAR(Respirator_Sand): G_AirPurifyingRespirator_02_sand_F {
-        _generalMacro = GVAR(Respirator_Sand);
+        _generalMacro = QGVAR(Respirator_Sand);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Respirator_Sand_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Respirator_Sand_Description";
         mass = 7;
@@ -105,11 +105,11 @@ class CfgGlasses {
     class G_Blindfold_01_base_F;
     class G_Blindfold_01_black_F;
     class GVAR(Blindfold_Black): G_Blindfold_01_black_F {
-        _generalMacro = GVAR(Blindfold_Black);
+        _generalMacro = QGVAR(Blindfold_Black);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Blindfold_Black_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Blindfold_Black_Description";
         picture = "\a3\characters_f_enoch\facewear\data\ui\icon_g_blindfold_01_black_f_ca.paa";
@@ -129,11 +129,11 @@ class CfgGlasses {
 
     class G_Blindfold_01_white_F;
     class GVAR(Blindfold_White): G_Blindfold_01_white_F {
-        _generalMacro = GVAR(Blindfold_White);
+        _generalMacro = QGVAR(Blindfold_White);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Blindfold_White_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Blindfold_White_Description";
         picture = "\a3\characters_f_enoch\facewear\data\ui\icon_g_blindfold_01_white_f_ca.paa";
@@ -152,11 +152,11 @@ class CfgGlasses {
     };
 
     class GVAR(Blindfold_White_Blood): G_Blindfold_01_white_F {
-        _generalMacro = GVAR(Blindfold_White_Blood);
+        _generalMacro = QGVAR(Blindfold_White_Blood);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_havoc_Glasses_Blindfold_White_Blood_DisplayName";
         descriptionShort = "$STR_havoc_Glasses_Blindfold_White_Blood_Description";
         picture = QPATHTOF(data\ui\blindfold_white_blood_ca.paa);

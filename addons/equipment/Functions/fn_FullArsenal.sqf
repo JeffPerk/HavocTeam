@@ -51,7 +51,7 @@ _ArsenalType = call {
 
     if (_Type isEqualTo "HAVOC") exitwith {
         _AvailableAttachments = [
-            "rhssaf_acc_G36_Rotex"
+            "rhssaf_acc_G36_Rotex",
             "rhsusf_acc_premier_anpvs27",
             "rhsusf_acc_ACOG_anpvs27",
             "rhsusf_acc_T1_low_fwd",
@@ -915,6 +915,12 @@ _ArsenalType = call {
             "rhsusf_acc_harris_swivel"
         ];
         _AvailableBackpacks = [
+            "G_Backpack_oxy", 
+            "GREN_Parachute",
+            "G_Backpack_W_1",
+            "G_Backpack_W_2",
+            "G_Backpack_White",
+            "G_Backpack_W",
             "B_Carryall_satellite",
             "B_UGV_02_Science_backpack_F",
             "B_UGV_02_Demining_backpack_F",
@@ -1150,6 +1156,10 @@ _ArsenalType = call {
             "rhs_TOW_Tripod_Bag"
         ];
         _AvailableGoggles = [
+            "GREN_Mask_oxy",
+            "GREN_Mask_gas_80",
+            "itc_air_glasses_rover",
+            "itc_air_glasses_rover_shade",
             "G_AirPurifyingRespirator_01_F",
             "G_WirelessEarpiece_F",
             "G_Goggles_VR",
@@ -2171,6 +2181,27 @@ _ArsenalType = call {
             "rhsusf_hgu56p_visor_mask_green_mo"
         ];
         _AvailableItems = [
+            "Item_gren_scuba",
+            "ITC_EPLRS",
+            "ACE_DAGR",
+            "Gren_Loc_SAT",
+            "Gren_ric_SAT",
+            "gren_goldbarren",
+            "gren_goldbarren3",
+            "gren_money",
+            "Gren_specialcard",
+            "gren_visitorpass",
+            "ITC_ROVER_SIR",
+            "Gren_scuba",
+            "ACE_SpareBarrel_Item",
+            "vtx_stretcher_item",
+            "GREN_toxic_mag",
+            "GREN_stone_stun_mag",
+            "GREN_cr_gas_mag",
+            "GREN_knife_mag",
+            "GREN_stone_mag",
+            "GREN_Mat_oxy",
+            "GREN_Mask_oxy",
             "MRH_TacticalDisplay",
             "MRH_FoldedSatcomAntenna",
             "ACE_UAVBattery",

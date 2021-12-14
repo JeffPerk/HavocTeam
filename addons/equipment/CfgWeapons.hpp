@@ -42,7 +42,7 @@ class CfgWeapons {
 
     
     class GVAR(rebreather): V_RebreatherB {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Rebreather";
         class ItemInfo: VestItem {
             uniformModel = "\A3\Characters_F\Common\equip_rebreather";
@@ -82,7 +82,7 @@ class CfgWeapons {
 
     
     class GVAR(Wetsuit): U_B_Wetsuit {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";

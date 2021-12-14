@@ -68,7 +68,7 @@ class Cfg3DEN {
                 class Attributes {
                     class HAVOC_Arsenal_Select {
                         property = QUOTE(HAVOC_Arsenal_Select);
-                        control = ArsenalSelect;
+                        control = "ArsenalSelect";
                         displayName = "Full Arsenal Selection:";
                         tooltip = "Removes all items from this container and replaces them with a Full Arsenal of the selected gear.";
                         expression = "if (_value > -1) then {[_this, _value] call havoc_fnc_FullArsenal;}";
@@ -78,7 +78,7 @@ class Cfg3DEN {
                     };
                         class HAVOC_Ammo_Select {
                         property = QUOTE(HAVOC_Ammo_Select);
-                        control = ArsenalSelect;
+                        control = "ArsenalSelect";
                         displayName = "Limited Arsenal Selection:";
                         tooltip = "Removes all items from this container and replaces them with a Limited Arsenal of the selected gear, such as Weapons and Ammo.";
                         expression = "if (_value > -1) then {[_this, _value] call havoc_fnc_LimitedArsenal;}";
@@ -98,7 +98,7 @@ class Cfg3DEN {
                     // };
                         class HAVOC_Equipment_Select {
                         property = QUOTE(HAVOC_Equipment_Select);
-                        control = EquipmentSelect;
+                        control = "EquipmentSelect";
                         displayName = "Medical Supplies Selection:";
                         tooltip = "Suppliments the equipment is this object with a preset equipment loadout. This doesn't remove currently selected equipment.";
                         expression = "_this setVariable ['%s',_value, true];";

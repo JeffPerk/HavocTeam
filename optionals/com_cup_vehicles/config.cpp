@@ -63,9 +63,9 @@ class CfgPatches {
             "CUP_AirVehicles_Mi8",
             "CUP_AirVehicles_AmbientPlanes"
         };
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"Jonpas"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

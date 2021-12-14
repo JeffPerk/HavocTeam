@@ -9,7 +9,7 @@ class CfgWeapons {
     
     class GVAR(FirstAid): ACE_ItemCore {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Boo Boo Bag";
         descriptionShort = "Contains material for first aid";
         editorPreview = QPATHTOF(data\previews\firstaid.jpg);
@@ -24,7 +24,7 @@ class CfgWeapons {
     
     class GVAR(MedicKit): ACE_ItemCore {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Medic Bag";
         descriptionShort = "Contains materials to resupply medics";
         editorPreview = QPATHTOF(data\previews\medickit.jpg);
@@ -39,7 +39,7 @@ class CfgWeapons {
 
     class GVAR(DrugKit): ACE_ItemCore {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Drug Kit";
         descriptionShort = "Contains materials to resupply DR's";
         editorPreview = QPATHTOF(data\previews\booboo_ca.paa);

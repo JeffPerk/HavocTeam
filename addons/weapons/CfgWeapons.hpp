@@ -1071,7 +1071,7 @@ class CfgWeapons {
     class LMG_03_F;
     class GVAR(LMG_03_brn_F): LMG_03_F {
         author = "nopryl.no";
-        baseWeapon = QGVAR(LMG_03_brn_F),;
+        baseWeapon = QGVAR(LMG_03_brn_F);
         displayName = "[Havoc]FN Minimi SPW (Brown)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\lmg\minimi_01.paa),

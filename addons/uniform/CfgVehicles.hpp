@@ -11,7 +11,7 @@ class cfgVehicles {
     // Woodland M98
     class GVAR(Soldier_F): B_soldier_F {
         scope = 1;
-        author = AUTHOR;
+        author = QAUTHOR;
         side = 1;
         displayName = "[Havoc] Rifleman [M98]";
         uniformClass =QGVAR(U_CombatUniform);
@@ -171,7 +171,7 @@ class cfgVehicles {
     // Ghillie suit
     class GVAR(Sniper_F): I_Sniper_F {
         scope = 1;
-        author = AUTHOR;
+        author = QAUTHOR;
         side = 1;
         displayName = "[Havoc] Sniper [M98]";
         uniformClass = QGVAR(U_GhillieSuit);
@@ -187,7 +187,7 @@ class cfgVehicles {
     // Pilot
     class GVAR(B_Helipilot_F): B_Helipilot_F {
         scope = 1;
-        author = AUTHOR;
+        author = QAUTHOR;
         side = 1;
         displayName = "[Havoc] Helicopter Pilot [M98]";
         uniformClass = QGVAR(B_HeliPilotCoveralls);
@@ -288,7 +288,7 @@ class cfgVehicles {
         };
     };
     class GVAR(survival_diver_woodland): b_soldier_survival_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         nameSound="veh_infantry_diver_s";
         _generalMacro="b_soldier_survival_F";
         scope=1;

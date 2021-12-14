@@ -33,7 +33,7 @@ class CfgPatches {
             QGVAR(100Rnd_65x39_caseless_Creedwalker_mag),
             QGVAR(30Rnd_65x39_caseless_Creedbrush_mag),
             QGVAR(100Rnd_65x39_caseless_Creedbrush_mag),
-            QVAR(100Rnd_65x39_caseless_BlackCamo_mag)
+            QGVAR(100Rnd_65x39_caseless_BlackCamo_mag)
         };
         units[] = {
             QGVAR(Item_EBR_Black_F),
@@ -235,7 +235,7 @@ class CfgPatches {
             "a3_weapons_f",
             "havoc_main"
         };
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {"Jonpas", "Pomigit", "BadHabitz", "JoramD", "Tyrone", "YONV",};
         url = URL;
         VERSION_CONFIG;

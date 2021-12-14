@@ -16,7 +16,7 @@ Public: Yes
 */
 
 [
-    ["itc_land_tablet_rover","MRH_AAD_Item","MRH_FiberScope","MRH_HackingTool","MRH_SoldierTab","MRH_MT_FoldedSatcomAntenna","ACRE_PRC117F","ACRE_PRC152","ACRE_PRC148","TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR", "tfw_rf3080Item","tfw_blade","tfw_whip","tfw_dd"],
+    ["ITC_EPLRS","ACE_DAGR","Gren_Loc_SAT","Gren_ric_SAT","ITC_ROVER_SIR","ACRE_PRC117F","ACRE_PRC152","ACRE_PRC148","TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR", "tfw_rf3080Item","tfw_blade","tfw_whip","tfw_dd"],
     "Tech",
     "\a3\ui_f\data\GUI\Cfg\CommunicationMenu\call_ca.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;

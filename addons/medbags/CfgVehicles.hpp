@@ -51,7 +51,7 @@ class CfgVehicles {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Boo Boo Bag";
         editorPreview = QPATHTOF(data\previews\firstaid.jpg);
         vehicleClass = "Items";
@@ -64,7 +64,7 @@ class CfgVehicles {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Medic Bag";
         editorPreview = QPATHTOF(data\previews\medickit.jpg);
         vehicleClass = "Items";
@@ -77,7 +77,7 @@ class CfgVehicles {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "Drug Kit";
         editorPreview = QPATHTOF(data\previews\booboo_ca.paa);
         vehicleClass = "Items";
