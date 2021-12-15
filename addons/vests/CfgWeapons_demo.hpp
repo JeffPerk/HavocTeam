@@ -2,7 +2,7 @@
 
 
     class GVAR(PlateCarrier2_brnyonv ): V_PlateCarrier2_rgr {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Carrier Rig YonV(Brown)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_brown_yonv.paa)};
@@ -41,7 +41,7 @@
 
 
     class GVAR(PlateCarrier2_brncizek ): V_PlateCarrier2_rgr {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Carrier Rig cizek(Brown)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_brown_cizek.paa)};
@@ -79,7 +79,7 @@
     };
 
     class GVAR(PlateCarrier2_brnmidas ): V_PlateCarrier2_rgr {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Carrier Rig Midas (Brown)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_brown_midas.paa)};
@@ -118,7 +118,7 @@
 ///////////////////////////////////////////
     class GVAR(PlateCarrier2_blkyonv): V_PlateCarrier2_rgr {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Plate Carrier Black - Yonv";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_yonv.paa)};
@@ -158,7 +158,7 @@
     ///////////////////////////////////////////
     class GVAR(PlateCarrier2_blkcizek): V_PlateCarrier2_rgr {
         scope = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Plate Carrier Black - Cizek";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_cizek.paa)};

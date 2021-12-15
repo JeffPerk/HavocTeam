@@ -3,7 +3,7 @@
 class CfgPatches {
   class ADDON {
     name = COMPONENT_NAME;
-    author = AUTHOR;
+    author = QAUTHOR;
         units[] = {
           QGVAR(Item_PlateCarrier2_brncizek),
           QGVAR(Item_PlateCarrier2_brnyonv),
@@ -103,17 +103,17 @@ class CfgPatches {
           QGVAR(Item_PlateCarrier2_brnslv),
           QGVAR(Item_PlateCarrierHeavy_Blackslv),
           QGVAR(Item_PlateCarrierHeavy_Coyoteslv),
-          QGVAR(Item_PlateCarrierHeavy_Greenslv)
+          QGVAR(Item_PlateCarrierHeavy_Greenslv),
           QGVAR(Item_PlateCarrier1_brnblk),
           QGVAR(Item_PlateCarrier2_brnblk),
           QGVAR(Item_PlateCarrierHeavy_Blackblk),
           QGVAR(Item_PlateCarrierHeavy_Coyoteblk),
-          QGVAR(Item_PlateCarrierHeavy_Greenblk)
+          QGVAR(Item_PlateCarrierHeavy_Greenblk),
           QGVAR(Item_PlateCarrier1_brnblu),
           QGVAR(Item_PlateCarrier2_brnblu),
           QGVAR(Item_PlateCarrierHeavy_Blackblu),
           QGVAR(Item_PlateCarrierHeavy_Coyoteblu),
-          QGVAR(Item_PlateCarrierHeavy_Greenblu)
+          QGVAR(Item_PlateCarrierHeavy_Greenblu),
           QGVAR(Item_PlateCarrier1_brncmd),
           QGVAR(Item_PlateCarrier2_brncmd),
           QGVAR(Item_PlateCarrierHeavy_Blackcmd),
@@ -123,22 +123,22 @@ class CfgPatches {
           QGVAR(Item_PlateCarrier2_brngld),
           QGVAR(Item_PlateCarrierHeavy_Blackgld),
           QGVAR(Item_PlateCarrierHeavy_Coyotegld),
-          QGVAR(Item_PlateCarrierHeavy_Greengld)
+          QGVAR(Item_PlateCarrierHeavy_Greengld),
           QGVAR(Item_PlateCarrier1_brngrn),
           QGVAR(Item_PlateCarrier2_brngrn),
           QGVAR(Item_PlateCarrierHeavy_Blackgrn),
           QGVAR(Item_PlateCarrierHeavy_Coyotegrn),
-          QGVAR(Item_PlateCarrierHeavy_Greengrn)
+          QGVAR(Item_PlateCarrierHeavy_Greengrn),
           QGVAR(Item_PlateCarrier1_brngry),
           QGVAR(Item_PlateCarrier2_brngry),
           QGVAR(Item_PlateCarrierHeavy_Blackgry),
           QGVAR(Item_PlateCarrierHeavy_Coyotegry),
-          QGVAR(Item_PlateCarrierHeavy_Greengry)
+          QGVAR(Item_PlateCarrierHeavy_Greengry),
           QGVAR(Item_PlateCarrier1_brnred),
           QGVAR(Item_PlateCarrier2_brnred),
           QGVAR(Item_PlateCarrierHeavy_Blackred),
           QGVAR(Item_PlateCarrierHeavy_Coyotered),
-          QGVAR(Item_PlateCarrierHeavy_Greenred)
+          QGVAR(Item_PlateCarrierHeavy_Greenred),
           QGVAR(Item_PlateCarrier1_brnblk),
           QGVAR(Item_PlateCarrier2_brnblk),
           QGVAR(Item_PlateCarrierHeavy_Blackblk),
@@ -244,17 +244,17 @@ class CfgPatches {
           QGVAR(PlateCarrier2_brnslv),
           QGVAR(PlateCarrierHeavy_Blackslv),
           QGVAR(PlateCarrierHeavy_Coyoteslv),
-          QGVAR(PlateCarrierHeavy_Greenslv)
+          QGVAR(PlateCarrierHeavy_Greenslv),
           QGVAR(PlateCarrier1_brnblk),
           QGVAR(PlateCarrier2_brnblk),
           QGVAR(PlateCarrierHeavy_Blackblk),
           QGVAR(PlateCarrierHeavy_Coyoteblk),
-          QGVAR(PlateCarrierHeavy_Greenblk)
+          QGVAR(PlateCarrierHeavy_Greenblk),
           QGVAR(PlateCarrier1_brnblu),
           QGVAR(PlateCarrier2_brnblu),
           QGVAR(PlateCarrierHeavy_Blackblu),
           QGVAR(PlateCarrierHeavy_Coyoteblu),
-          QGVAR(PlateCarrierHeavy_Greenblu)
+          QGVAR(PlateCarrierHeavy_Greenblu),
           QGVAR(PlateCarrier1_brncmd),
           QGVAR(PlateCarrier2_brncmd),
           QGVAR(PlateCarrierHeavy_Blackcmd),
@@ -264,22 +264,22 @@ class CfgPatches {
           QGVAR(PlateCarrier2_brngld),
           QGVAR(PlateCarrierHeavy_Blackgld),
           QGVAR(PlateCarrierHeavy_Coyotegld),
-          QGVAR(PlateCarrierHeavy_Greengld)
+          QGVAR(PlateCarrierHeavy_Greengld),
           QGVAR(PlateCarrier1_brngrn),
           QGVAR(PlateCarrier2_brngrn),
           QGVAR(PlateCarrierHeavy_Blackgrn),
           QGVAR(PlateCarrierHeavy_Coyotegrn),
-          QGVAR(PlateCarrierHeavy_Greengrn)
+          QGVAR(PlateCarrierHeavy_Greengrn),
           QGVAR(PlateCarrier1_brngry),
           QGVAR(PlateCarrier2_brngry),
           QGVAR(PlateCarrierHeavy_Blackgry),
           QGVAR(PlateCarrierHeavy_Coyotegry),
-          QGVAR(PlateCarrierHeavy_Greengry)
+          QGVAR(PlateCarrierHeavy_Greengry),
           QGVAR(PlateCarrier1_brnred),
           QGVAR(PlateCarrier2_brnred),
           QGVAR(PlateCarrierHeavy_Blackred),
           QGVAR(PlateCarrierHeavy_Coyotered),
-          QGVAR(PlateCarrierHeavy_Greenred)
+          QGVAR(PlateCarrierHeavy_Greenred),
           QGVAR(PlateCarrier1_brnblk),
           QGVAR(PlateCarrier2_brnblk),
           QGVAR(PlateCarrierHeavy_Blackblk),

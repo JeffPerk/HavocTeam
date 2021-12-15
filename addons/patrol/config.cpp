@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         units[] = {};

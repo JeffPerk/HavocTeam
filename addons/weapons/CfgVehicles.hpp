@@ -13,7 +13,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_BlackCamo) {
-                name = GVAR(MX_BlackCamo);
+                name = QGVAR(MX_BlackCamo);
                 count = 1;
             };
         };
@@ -28,7 +28,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_BlackCamo) {
-                name = GVAR(MX_GL_BlackCamo);
+                name = QGVAR(MX_GL_BlackCamo);
                 count = 1;
             };
         };
@@ -44,7 +44,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_greenspray) {
-                name = GVAR(MX_greenspray);
+                name = QGVAR(MX_greenspray);
                 count = 1;
             };
         };
@@ -59,7 +59,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_greenspray) {
-                name = GVAR(MX_GL_greenspray);
+                name = QGVAR(MX_GL_greenspray);
                 count = 1;
             };
         };
@@ -75,7 +75,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_blackfine) {
-                name = GVAR(MX_blackfine);
+                name = QGVAR(MX_blackfine);
                 count = 1;
             };
         };
@@ -90,7 +90,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_blackfine) {
-                name = GVAR(MX_GL_blackfine);
+                name = QGVAR(MX_GL_blackfine);
                 count = 1;
             };
         };
@@ -106,7 +106,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_blackhex) {
-                name = GVAR(MX_blackhex);
+                name = QGVAR(MX_blackhex);
                 count = 1;
             };
         };
@@ -121,7 +121,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_blackhex) {
-                name = GVAR(MX_GL_blackhex);
+                name = QGVAR(MX_GL_blackhex);
                 count = 1;
             };
         };
@@ -137,7 +137,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_brownswirl) {
-                name = GVAR(MX_brownswirl);
+                name = QGVAR(MX_brownswirl);
                 count = 1;
             };
         };
@@ -152,7 +152,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_brownswirl) {
-                name = GVAR(MX_GL_brownswirl);
+                name = QGVAR(MX_GL_brownswirl);
                 count = 1;
             };
         };
@@ -168,7 +168,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_dgreenpat) {
-                name = GVAR(MX_dgreenpat);
+                name = QGVAR(MX_dgreenpat);
                 count = 1;
             };
         };
@@ -183,7 +183,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_dgreenpat) {
-                name = GVAR(MX_GL_dgreenpat);
+                name = QGVAR(MX_GL_dgreenpat);
                 count = 1;
             };
         };
@@ -199,7 +199,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_greendig) {
-                name = GVAR(MX_greendig);
+                name = QGVAR(MX_greendig);
                 count = 1;
             };
         };
@@ -214,7 +214,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_greendig) {
-                name = GVAR(MX_GL_greendig);
+                name = QGVAR(MX_GL_greendig);
                 count = 1;
             };
         };
@@ -231,7 +231,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_greenstrip) {
-                name = GVAR(MX_greenstrip);
+                name = QGVAR(MX_greenstrip);
                 count = 1;
             };
         };
@@ -246,7 +246,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_greenstrip) {
-                name = GVAR(MX_GL_greenstrip);
+                name = QGVAR(MX_GL_greenstrip);
                 count = 1;
             };
         };
@@ -262,7 +262,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_greenx) {
-                name = GVAR(MX_greenx);
+                name = QGVAR(MX_greenx);
                 count = 1;
             };
         };
@@ -277,7 +277,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_greenx) {
-                name = GVAR(MX_GL_greenx);
+                name = QGVAR(MX_GL_greenx);
                 count = 1;
             };
         };
@@ -293,7 +293,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_greyhex) {
-                name = GVAR(MX_greyhex);
+                name = QGVAR(MX_greyhex);
                 count = 1;
             };
         };
@@ -308,7 +308,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_greyhex) {
-                name = GVAR(MX_GL_greyhex);
+                name = QGVAR(MX_GL_greyhex);
                 count = 1;
             };
         };
@@ -324,7 +324,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_snadpat) {
-                name = GVAR(MX_snadpat);
+                name = QGVAR(MX_snadpat);
                 count = 1;
             };
         };
@@ -339,7 +339,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_snadpat) {
-                name = GVAR(MX_GL_snadpat);
+                name = QGVAR(MX_GL_snadpat);
                 count = 1;
             };
         };
@@ -356,7 +356,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_greenspray) {
-                name = GVAR(MXM_greenspray);
+                name = QGVAR(MXM_greenspray);
                 count = 1;
             };
         };
@@ -371,7 +371,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_blackfine) {
-                name = GVAR(MXM_blackfine);
+                name = QGVAR(MXM_blackfine);
                 count = 1;
             };
         };
@@ -387,7 +387,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_blackhex) {
-                name = GVAR(MXM_blackhex);
+                name = QGVAR(MXM_blackhex);
                 count = 1;
             };
         };
@@ -403,7 +403,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_brownswirl) {
-                name = GVAR(MXM_brownswirl);
+                name = QGVAR(MXM_brownswirl);
                 count = 1;
             };
         };
@@ -419,7 +419,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_dgreenpat) {
-                name = GVAR(MXM_dgreenpat);
+                name = QGVAR(MXM_dgreenpat);
                 count = 1;
             };
         };
@@ -435,7 +435,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_greendig) {
-                name = GVAR(MXM_greendig);
+                name = QGVAR(MXM_greendig);
                 count = 1;
             };
         };
@@ -451,7 +451,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_HAVOC) {
-                name = GVAR(MXM_HAVOC);
+                name = QGVAR(MXM_HAVOC);
                 count = 1;
             };
         };
@@ -467,7 +467,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_greenstrip) {
-                name = GVAR(MXM_greenstrip);
+                name = QGVAR(MXM_greenstrip);
                 count = 1;
             };
         };
@@ -483,7 +483,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_greenx) {
-                name = GVAR(MXM_greenx);
+                name = QGVAR(MXM_greenx);
                 count = 1;
             };
         };
@@ -499,7 +499,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_greyhex) {
-                name = GVAR(MXM_greyhex);
+                name = QGVAR(MXM_greyhex);
                 count = 1;
             };
         };
@@ -515,7 +515,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_snadpat) {
-                name = GVAR(MXM_snadpat);
+                name = QGVAR(MXM_snadpat);
                 count = 1;
             };
         };
@@ -532,7 +532,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_greenspray) {
-                name = GVAR(MXC_greenspray);
+                name = QGVAR(MXC_greenspray);
                 count = 1;
             };
         };
@@ -547,7 +547,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_blackfine) {
-                name = GVAR(MXC_blackfine);
+                name = QGVAR(MXC_blackfine);
                 count = 1;
             };
         };
@@ -563,7 +563,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_blackhex) {
-                name = GVAR(MXC_blackhex);
+                name = QGVAR(MXC_blackhex);
                 count = 1;
             };
         };
@@ -579,7 +579,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_brownswirl) {
-                name = GVAR(MXC_brownswirl);
+                name = QGVAR(MXC_brownswirl);
                 count = 1;
             };
         };
@@ -595,7 +595,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_dgreenpat) {
-                name = GVAR(MXC_dgreenpat);
+                name = QGVAR(MXC_dgreenpat);
                 count = 1;
             };
         };
@@ -611,7 +611,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_greendig) {
-                name = GVAR(MXC_greendig);
+                name = QGVAR(MXC_greendig);
                 count = 1;
             };
         };
@@ -627,7 +627,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_HAVOC) {
-                name = GVAR(MXC_HAVOC);
+                name = QGVAR(MXC_HAVOC);
                 count = 1;
             };
         };
@@ -643,7 +643,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_greenstrip) {
-                name = GVAR(MXC_greenstrip);
+                name = QGVAR(MXC_greenstrip);
                 count = 1;
             };
         };
@@ -659,7 +659,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_greenx) {
-                name = GVAR(MXC_greenx);
+                name = QGVAR(MXC_greenx);
                 count = 1;
             };
         };
@@ -675,7 +675,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_greyhex) {
-                name = GVAR(MXC_greyhex);
+                name = QGVAR(MXC_greyhex);
                 count = 1;
             };
         };
@@ -691,7 +691,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_snadpat) {
-                name = GVAR(MXC_snadpat);
+                name = QGVAR(MXC_snadpat);
                 count = 1;
             };
         };
@@ -707,7 +707,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_greenspray) {
-                name = GVAR(MX_SW_greenspray);
+                name = QGVAR(MX_SW_greenspray);
                 count = 1;
             };
         };
@@ -722,7 +722,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_blackfine) {
-                name = GVAR(MX_SW_blackfine);
+                name = QGVAR(MX_SW_blackfine);
                 count = 1;
             };
         };
@@ -738,7 +738,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_blackhex) {
-                name = GVAR(MX_SW_blackhex);
+                name = QGVAR(MX_SW_blackhex);
                 count = 1;
             };
         };
@@ -754,7 +754,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_brownswirl) {
-                name = GVAR(MX_SW_brownswirl);
+                name = QGVAR(MX_SW_brownswirl);
                 count = 1;
             };
         };
@@ -770,7 +770,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_dgreenpat) {
-                name = GVAR(MX_SW_dgreenpat);
+                name = QGVAR(MX_SW_dgreenpat);
                 count = 1;
             };
         };
@@ -786,7 +786,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_greendig) {
-                name = GVAR(MX_SW_greendig);
+                name = QGVAR(MX_SW_greendig);
                 count = 1;
             };
         };
@@ -802,7 +802,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_HAVOC) {
-                name = GVAR(MX_SW_HAVOC);
+                name = QGVAR(MX_SW_HAVOC);
                 count = 1;
             };
         };
@@ -818,7 +818,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_greenstrip) {
-                name = GVAR(MX_SW_greenstrip);
+                name = QGVAR(MX_SW_greenstrip);
                 count = 1;
             };
         };
@@ -834,7 +834,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_greenx) {
-                name = GVAR(MX_SW_greenx);
+                name = QGVAR(MX_SW_greenx);
                 count = 1;
             };
         };
@@ -850,7 +850,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_greyhex) {
-                name = GVAR(MX_SW_greyhex);
+                name = QGVAR(MX_SW_greyhex);
                 count = 1;
             };
         };
@@ -866,7 +866,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_snadpat) {
-                name = GVAR(MX_SW_snadpat);
+                name = QGVAR(MX_SW_snadpat);
                 count = 1;
             };
         };
@@ -882,7 +882,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_browndots) {
-                name = GVAR(MX_browndots);
+                name = QGVAR(MX_browndots);
                 count = 1;
             };
         };
@@ -897,7 +897,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_browndots) {
-                name = GVAR(MX_GL_browndots);
+                name = QGVAR(MX_GL_browndots);
                 count = 1;
             };
         };
@@ -913,7 +913,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_brownsplash) {
-                name = GVAR(MX_brownsplash);
+                name = QGVAR(MX_brownsplash);
                 count = 1;
             };
         };
@@ -928,7 +928,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_brownsplash) {
-                name = GVAR(MX_GL_brownsplash);
+                name = QGVAR(MX_GL_brownsplash);
                 count = 1;
             };
         };
@@ -944,7 +944,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_blacksploch) {
-                name = GVAR(MX_blacksploch);
+                name = QGVAR(MX_blacksploch);
                 count = 1;
             };
         };
@@ -959,7 +959,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_blacksploch) {
-                name = GVAR(MX_GL_blacksploch);
+                name = QGVAR(MX_GL_blacksploch);
                 count = 1;
             };
         };
@@ -975,7 +975,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_blackcamo) {
-                name = GVAR(MXM_blackcamo);
+                name = QGVAR(MXM_blackcamo);
                 count = 1;
             };
         };
@@ -991,7 +991,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_browndots) {
-                name = GVAR(MXM_browndots);
+                name = QGVAR(MXM_browndots);
                 count = 1;
             };
         };
@@ -1007,7 +1007,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_brownsplash) {
-                name = GVAR(MXM_brownsplash);
+                name = QGVAR(MXM_brownsplash);
                 count = 1;
             };
         };
@@ -1023,7 +1023,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_blacksploch) {
-                name = GVAR(MXM_blacksploch);
+                name = QGVAR(MXM_blacksploch);
                 count = 1;
             };
         };
@@ -1039,7 +1039,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_blackcamo) {
-                name = GVAR(MXC_blackcamo);
+                name = QGVAR(MXC_blackcamo);
                 count = 1;
             };
         };
@@ -1055,7 +1055,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_browndots) {
-                name = GVAR(MXC_browndots);
+                name = QGVAR(MXC_browndots);
                 count = 1;
             };
         };
@@ -1071,7 +1071,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_brownsplash) {
-                name = GVAR(MXC_brownsplash);
+                name = QGVAR(MXC_brownsplash);
                 count = 1;
             };
         };
@@ -1087,7 +1087,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_blacksploch) {
-                name = GVAR(MXC_blacksploch);
+                name = QGVAR(MXC_blacksploch);
                 count = 1;
             };
         };
@@ -1103,7 +1103,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_blackcamo) {
-                name = GVAR(MX_SW_blackcamo);
+                name = QGVAR(MX_SW_blackcamo);
                 count = 1;
             };
         };
@@ -1119,7 +1119,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_browndots) {
-                name = GVAR(MX_SW_browndots);
+                name = QGVAR(MX_SW_browndots);
                 count = 1;
             };
         };
@@ -1135,7 +1135,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_brownsplash) {
-                name = GVAR(MX_SW_brownsplash);
+                name = QGVAR(MX_SW_brownsplash);
                 count = 1;
             };
         };
@@ -1151,7 +1151,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_blacksploch) {
-                name = GVAR(MX_SW_blacksploch);
+                name = QGVAR(MX_SW_blacksploch);
                 count = 1;
             };
         };
@@ -1167,7 +1167,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(EBR_Black_F) {
-                name = GVAR(EBR_Black_F);
+                name = QGVAR(EBR_Black_F);
                 count = 1;
             };
         };
@@ -1182,7 +1182,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(Mk20_Black_F) {
-                name = GVAR(Mk20_Black_F);
+                name = QGVAR(Mk20_Black_F);
                 count = 1;
             };
         };
@@ -1198,7 +1198,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(Walther_P99) {
-                name = GVAR(Walther_P99);
+                name = QGVAR(Walther_P99);
                 count = 1;
             };
         };
@@ -1208,7 +1208,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(Walther_P99_Tan) {
-                name = GVAR(Walther_P99_Tan);
+                name = QGVAR(Walther_P99_Tan);
                 count = 1;
             };
         };
@@ -1225,7 +1225,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MRAWS_Black_F) {
-                name = GVAR(MRAWS_Black_F);
+                name = QGVAR(MRAWS_Black_F);
                 count = 1;
             };
         };
@@ -1240,7 +1240,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MRAWS_Black_Rail_F) {
-                name = GVAR(MRAWS_Black_Rail_F);
+                name = QGVAR(MRAWS_Black_Rail_F);
                 count = 1;
             };
         };
@@ -1257,7 +1257,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_brush) {
-                name = GVAR(MX_brush);
+                name = QGVAR(MX_brush);
                 count = 1;
             };
         };
@@ -1272,7 +1272,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_brush) {
-                name = GVAR(MX_GL_brush);
+                name = QGVAR(MX_GL_brush);
                 count = 1;
             };
         };
@@ -1287,7 +1287,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_brush) {
-                name = GVAR(MX_SW_brush);
+                name = QGVAR(MX_SW_brush);
                 count = 1;
             };
         };
@@ -1302,7 +1302,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_brush) {
-                name = GVAR(MXC_brush);
+                name = QGVAR(MXC_brush);
                 count = 1;
             };
         };
@@ -1317,7 +1317,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_brush) {
-                name = GVAR(MXM_brush);
+                name = QGVAR(MXM_brush);
                 count = 1;
             };
         };
@@ -1335,7 +1335,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_yonv2) {
-                name = GVAR(MX_yonv2);
+                name = QGVAR(MX_yonv2);
                 count = 1;
             };
         };
@@ -1350,7 +1350,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_yonv2) {
-                name = GVAR(MX_GL_yonv2);
+                name = QGVAR(MX_GL_yonv2);
                 count = 1;
             };
         };
@@ -1365,7 +1365,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_yonv2) {
-                name = GVAR(MX_SW_yonv2);
+                name = QGVAR(MX_SW_yonv2);
                 count = 1;
             };
         };
@@ -1380,7 +1380,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_yonv2) {
-                name = GVAR(MXC_yonv2);
+                name = QGVAR(MXC_yonv2);
                 count = 1;
             };
         };
@@ -1395,7 +1395,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_yonv2) {
-                name = GVAR(MXM_yonv2);
+                name = QGVAR(MXM_yonv2);
                 count = 1;
             };
         };
@@ -1414,7 +1414,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_trash) {
-                name = GVAR(MX_trash);
+                name = QGVAR(MX_trash);
                 count = 1;
             };
         };
@@ -1429,7 +1429,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_trash) {
-                name = GVAR(MX_GL_trash);
+                name = QGVAR(MX_GL_trash);
                 count = 1;
             };
         };
@@ -1444,7 +1444,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_trash) {
-                name = GVAR(MX_SW_trash);
+                name = QGVAR(MX_SW_trash);
                 count = 1;
             };
         };
@@ -1459,7 +1459,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_trash) {
-                name = GVAR(MXC_trash);
+                name = QGVAR(MXC_trash);
                 count = 1;
             };
         };
@@ -1474,7 +1474,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_trash) {
-                name = GVAR(MXM_trash);
+                name = QGVAR(MXM_trash);
                 count = 1;
             };
         };
@@ -1492,7 +1492,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_walker) {
-                name = GVAR(MX_walker);
+                name = QGVAR(MX_walker);
                 count = 1;
             };
         };
@@ -1507,7 +1507,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_GL_walker) {
-                name = GVAR(MX_GL_walker);
+                name = QGVAR(MX_GL_walker);
                 count = 1;
             };
         };
@@ -1522,7 +1522,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MX_SW_walker) {
-                name = GVAR(MX_SW_walker);
+                name = QGVAR(MX_SW_walker);
                 count = 1;
             };
         };
@@ -1537,7 +1537,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXC_walker) {
-                name = GVAR(MXC_walker);
+                name = QGVAR(MXC_walker);
                 count = 1;
             };
         };
@@ -1552,7 +1552,7 @@ class CfgVehicles {
 
         class TransportItems {
             class GVAR(MXM_walker) {
-                name = GVAR(MXM_walker);
+                name = QGVAR(MXM_walker);
                 count = 1;
             };
         };

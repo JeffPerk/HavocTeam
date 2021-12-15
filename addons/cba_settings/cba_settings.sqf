@@ -518,6 +518,34 @@ FORCE ctab_core_useAceMicroDagr = true;
 FORCE ctab_core_useArmaMarker = true;
 FORCE ctab_core_useMils = false; */
 
+// DUI - Squad Radar - Indicators
+
+force force diwako_dui_indicators_icon_buddy = true;
+force force diwako_dui_indicators_icon_leader = true;
+force force diwako_dui_indicators_icon_medic = true;
+
+// DUI - Squad Radar - Main
+force force diwako_dui_colors = "ace";
+force force diwako_dui_icon_style = "standard";
+
+// DUI - Squad Radar - Nametags
+force force diwako_dui_nametags_customRankStyle = "[[""SEAMAN"",""PETTY OFFICER"",""CHIEF PETTY OFFICER"",""LIEUTENANT JUNIOR GRADE"",""LIEUTENANT"",""LIEUTENANT COMMANDER"",""CAPTAIN""],[""SN."",""PO."",""CPO."",""LTJG."",""LT."",""LCDR."",""CAPT.""]]";
+
+// DUI - Squad Radar - Radar
+force force diwako_dui_enable_compass = true;
+force force diwako_dui_enable_compass_dir = 2;
+force force diwako_dui_radar_ace_finger = true;
+force force diwako_dui_radar_ace_medic = true;
+force force diwako_dui_radar_icon_priority_setting = 1;
+force force diwako_dui_radar_show_cardinal_points = true;
+force force diwako_dui_radar_showSpeaking = true;
+force force diwako_dui_radar_showSpeaking_radioOnly = false;
+force force diwako_dui_radar_showSpeaking_replaceIcon = true;
+force force diwako_dui_radar_sortType = "rank";
+force force diwako_dui_radar_sqlFirst = true;
+force force diwako_dui_radar_syncGroup = true;
+force force diwako_dui_radar_vehicleCompassEnabled = true;
+
 // GRAD Trenches
 FORCE grad_trenches_functions_allowBigEnvelope = true;
 FORCE grad_trenches_functions_allowCamouflage = true;
@@ -1001,6 +1029,56 @@ FORCE Fat_Lurch_ShowAz = true;
 FORCE Fat_Lurch_ShowEl = true;
 FORCE Fat_Lurch_ShowNorth = true;
 FORCE Fat_Lurch_ShowTarget = true;
+
+// GREEN EVO - Cut the grass
+force force GREN_grass_cutter_active = false;
+
+// GREN EVO - Bullet whistles
+GREN_whistle_bullet = true;
+
+// GREN EVO - Disable debug spawn modules
+force force GREN_deactivate_debug_module_spawn = true;
+
+// GREN EVO - Distractor-Stun-White weapon
+force force GREN_distractor_active = true;
+force force GREN_distractor_dist = 20;
+
+// GREN EVO - Diving ADV
+force force GREN_OXY_adv_active = true;
+force force GREN_oxy_adv_active_time = 30;
+force force GREN_oxy_adv_time_unconscious = 30;
+force force GREN_OXY_diver_depth = true;
+force force GREN_OXY_remaining_time = true;
+
+// GREN EVO - Explosive vest
+force force GREN_tnt_vest = true;
+
+// GREN EVO - Hide-discover body
+force force GREN_active_detect_body = true;
+force force GREN_behavior_detect_body = 0;
+force force GREN_detect_body_type = 0;
+force force GREN_pos_body_dead = true;
+force force GREN_pos_body_dead_ace = true;
+force force GREN_radius_detect_body = 20;
+
+// GREN EVO - Jump ADV
+force force GREN_jump_adv_active = true;
+force force GREN_jump_adv_active_time = 15;
+force force GREN_jump_adv_alt_option = 1;
+force force GREN_jump_adv_altitude = "4000";
+force force GREN_jump_adv_mask = "GREN_Mat_oxy";
+force force GREN_jump_adv_mask_option = 1;
+
+
+// GREN EVO - Remove Map
+force force GREN_deletemap = false;
+force force GREN_deletemap_active = false;
+force force GREN_deletemap_pilot_map = false;
+
+// GREN EVO - Teleport
+force force GREN_F11 = false;
+
+
 /* 
 // VCOM AI East Skill
 FORCE Vcm_AISkills_East_AimingAccuracy = 0.25;

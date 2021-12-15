@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgPatches {
     class havoc_quickActions {
 
@@ -7,7 +8,7 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_common"
         };
-        version = VERSION;
+        VERSION_CONFIG;
         versionStr = VERSION_STR;
         author = "diwako";
         url = URL;

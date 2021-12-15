@@ -34,7 +34,7 @@ class Cfg3DEN {
                 class Attributes {
                     class HAVOCGroup_Preset {
                         property = QUOTE(HAVOC_Group_Preset);
-                        control = GroupSelect;
+                        control = "GroupSelect";
                         displayName = "HAVOC Preset Group:";
                         tooltip = "Default Preset for Patches & TFAR Radio Frequencies.";
                         expression = "[_this, _value] call HAVOC_fnc_ConfigPlayer;";

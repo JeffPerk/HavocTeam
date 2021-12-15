@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {"HAVOC_Flag_White", "HAVOC_Flag_Black"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-        version = VERSION;
+        VERSION_CONFIG;
         authors[] = {"MitchJC"};
         weapons[] = {};
     };

@@ -43,7 +43,7 @@ class CfgPatches {
             QGVAR(Kitbag_01_WDL_MEDIC)
         };
         weapons[] = {};
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {
             "O. Jemineh"
         };

@@ -15,7 +15,7 @@
 
 #define LOGO_PATH "\z\havoc\addons\media\images\havocl1512x.paa"
 
-#define URL https://armadocs.purplesmoke.info/
+#define URL "https://armadocs.purplesmoke.info/"
 #define NAME HAVOC
 
 // MINIMAL REQUIRED VERSIONS

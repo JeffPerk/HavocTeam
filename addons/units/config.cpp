@@ -15,7 +15,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {};
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {"YonV"};
         url = URL;
         VERSION_CONFIG;

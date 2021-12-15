@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         requiredVersion = REQUIRED_VERSION;
@@ -11,18 +11,18 @@ class CfgPatches {
             "havoc_MAIN"
         };
         units[] = {
-            QGVAR(B_MRAP_sand_camo);
-            QGVAR(B_MRAP_hmg_sand_camo);
-            QGVAR(B_MRAP_gmg_sand_camo);
-            QGVAR(B_MRAP_tropic_camo);
-            QGVAR(B_MRAP_hmg_tropic_camo);
-            QGVAR(B_MRAP_gmg_tropic_camo);
+            QGVAR(B_MRAP_sand_camo),
+            QGVAR(B_MRAP_hmg_sand_camo),
+            QGVAR(B_MRAP_gmg_sand_camo),
+            QGVAR(B_MRAP_tropic_camo),
+            QGVAR(B_MRAP_hmg_tropic_camo),
+            QGVAR(B_MRAP_gmg_tropic_camo)
         };
         weapons[] = {};
         authors[] = {
             "YonV"
         };
-        version = VERSION;
+        VERSION_CONFIG;
     };
 };
 class CBA_Extended_EventHandlers_base;
@@ -37,7 +37,7 @@ class CfgVehicles {
     /// sand
     class GVAR(B_MRAP_sand_camo): B_MRAP_01_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
@@ -82,7 +82,7 @@ class CfgVehicles {
 //
     class GVAR(B_MRAP_hmg_sand_camo): B_MRAP_01_hmg_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
@@ -129,7 +129,7 @@ class CfgVehicles {
 
     class GVAR(B_MRAP_gmg_sand_camo): B_MRAP_01_gmg_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (sand)"; /// how is the heli displayed in editor
         vehicleClass="Support";
@@ -175,7 +175,7 @@ class CfgVehicles {
 /// trop
     class GVAR(B_MRAP_tropic_camo): B_T_MRAP_01_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
@@ -223,7 +223,7 @@ class CfgVehicles {
 //
     class GVAR(B_MRAP_hmg_tropic_camo): B_T_MRAP_01_hmg_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter hmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";
@@ -270,7 +270,7 @@ class CfgVehicles {
 
     class GVAR(B_MRAP_gmg_tropic_camo): B_T_MRAP_01_gmg_F {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_MRAP_01_F";
         displayName="Hunter gmg (tropic)"; /// how is the heli displayed in editor
         vehicleClass="Support";

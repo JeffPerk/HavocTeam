@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"A3_Ui_F"};
         author = QAUTHOR;
         authors[] = {"Drofseh"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

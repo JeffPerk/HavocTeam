@@ -4,7 +4,7 @@
 
 class CfgPatches {
     class ADDON {
-        author = AUTHOR;
+        author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
         requiredVersion = REQUIRED_VERSION;
@@ -16,7 +16,7 @@ class CfgPatches {
         authors[] = {
             "YonV"
         };
-        version = VERSION;
+        VERSION_CONFIG;
     };
 };
 class CBA_Extended_EventHandlers_base;
@@ -124,7 +124,7 @@ class CfgVehicles {
 
     class B_Heli_Transport_03_unarmed_F;
     class GVAR(B_Heli_Medevac_031_F): B_Heli_Transport_03_unarmed_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="Heli_Transport_03_base_F";
         displayName="Huron MedEvac (Unarmed)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
@@ -161,7 +161,7 @@ class CfgVehicles {
         };
     };
     class GVAR(B_Heli_Medevac_03daz_F): B_Heli_Transport_03_unarmed_F {
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="Heli_Transport_03_base_F";
             displayName="Huron MedEvac (Sand Unarmed)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -200,7 +200,7 @@ class CfgVehicles {
 
 
     class GVAR(B_Heli_Medevac_03dazt_F): B_Heli_Transport_03_unarmed_F {
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="Heli_Transport_03_base_F";
             displayName="Huron MedEvac (Tropic Unarmed)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -241,7 +241,7 @@ class CfgVehicles {
         ////////////////////////////////////////////////////////
     class B_Heli_Transport_03_F;
     class GVAR(B_Heli__03daz_F): B_Heli_Transport_03_F {
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="Heli_Transport_03_base_F";
             displayName="Huron (Sand)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -276,7 +276,7 @@ class CfgVehicles {
             };
     };
     class GVAR(B_Heli__03dazt_F): B_Heli_Transport_03_F {
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="Heli_Transport_03_base_F";
             displayName="Huron (Tropic)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -317,7 +317,7 @@ class CfgVehicles {
 
     class B_Heli_Transport_01_F;
     class GVAR(B_Heli_Transport_01_F_Sand): B_Heli_Transport_01_F {
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="B_Heli_Transport_01_F";
             displayName="GhostHawk(Sand)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -362,7 +362,7 @@ class CfgVehicles {
             };
     };
     class GVAR(B_Heli_Transport_01_F_Tropic): B_Heli_Transport_01_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
         displayName="GhostHawk(Tropic)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
@@ -411,7 +411,7 @@ class CfgVehicles {
     class FIR_UH80R;
     class GVAR(uh80_F_Sand): FIR_UH80R {
 
-            author = AUTHOR;
+            author = QAUTHOR;
             _generalMacro="FIR_UH80R";
             displayName="GhostHawk UH80R (Sand)"; /// how is the heli displayed in editor
             vehicleClass = "Air";
@@ -451,7 +451,7 @@ class CfgVehicles {
         };
     class GVAR(uh80_F_Tropic): FIR_UH80R {
 
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="FIR_UH80R";
         displayName="GhostHawk UH80R(Tropic)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
@@ -492,7 +492,7 @@ class CfgVehicles {
  */
     ////////////////////////////////
     class GVAR(B_Heli_Transport_01_F_medic): B_Heli_Transport_01_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
         displayName="GhostHawk(MedEvac)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
@@ -542,7 +542,7 @@ class CfgVehicles {
     ////////////////////////////////
     class B_Heli_Light_01_F;
     class GVAR(mh6): B_Heli_Light_01_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_Heli_Light_01_F";
         displayName="havoc MH-6"; /// how is the heli displayed in editor
         vehicleClass = "Air";
@@ -568,7 +568,7 @@ class CfgVehicles {
 
     class B_Heli_Light_01_armed_F;
     class GVAR(ah6): B_Heli_Light_01_armed_F {
-        author = AUTHOR;
+        author = QAUTHOR;
         _generalMacro="B_Heli_Light_01_armed_F";
         displayName="havoc AH-6"; /// how is the heli displayed in editor
         vehicleClass = "Air";

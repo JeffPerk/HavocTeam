@@ -13,7 +13,7 @@ class CfgPatches {
         };
         units[] = {};
         weapons[] = {};
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {
             "O. Jemineh"
         };

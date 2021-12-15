@@ -4,12 +4,12 @@ class CfgPatches {
     class HAVOC_Interaction {
 
         author = QAUTHOR;
-        name = NAME;
+        name = COMPONENT_NAME;
         url = URL;
         units[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-        version = VERSION;
+        VERSION_CONFIG;
         authors[] = {"MitchJC"};
         weapons[] = {};
     };

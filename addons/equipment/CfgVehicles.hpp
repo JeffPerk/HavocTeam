@@ -10,7 +10,7 @@ class CfgVehicles {
     class GVAR(Item_vest_rebreather): Vest_V_RebreatherB {
         scope = 2;
         scopeCurator = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Rebreather";
         class TransportItems {
             class GVAR(rebreather) {
@@ -22,7 +22,7 @@ class CfgVehicles {
 
     class Item_U_B_Wetsuit;
     class GVAR(Item_Wetsuit): Item_U_B_Wetsuit {
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "[Havoc] Wetsuit";
         class TransportItems {
             class GVAR(Wetsuit) {

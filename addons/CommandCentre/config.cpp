@@ -2,13 +2,13 @@
 
 class CfgPatches {
     class HAVOC_commandcentre {
-        author = AUTHOR;
-        name = NAME;
+        author = QAUTHOR;
+        name = COMPONENT_NAME;
         url = URL;
         units[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-        version = VERSION;
+        VERSION_CONFIG;
         authors[] = {"MitchJC", "Mokka"};
         weapons[] = {};
     };

@@ -134,7 +134,7 @@ if (_text isEqualTo "") exitWith {};
         case 1: { playSound ["HintExpand", true]; };
         case 2: { playSound ["Hint", true]; };
         case 3: { playSound ["taskCreated", true]; };
-        case 4: { playSound ["TacticalPing4", true]; };
+        case 4: { playSound ["havocticalPing4", true]; };
         default {};
     };
     

@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"HAVOC_MAIN"};
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {"Jonpas"};
         url = URL;
         VERSION_CONFIG;

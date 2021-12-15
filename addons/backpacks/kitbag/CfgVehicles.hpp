@@ -9,7 +9,7 @@ class CfgVehicles {
         scope = 1;
         scopeArsenal = 0;
         scopeCurator = 0;
-        author = AUTHOR;
+        author = QAUTHOR;
         // maximumLoad = 280;
         // mass = 50;
         maximumLoad = 320;
@@ -93,7 +93,7 @@ class CfgVehicles {
         scope = 2;
         scopeArsenal = 2;
         scopeCurator = 2;
-        author = AUTHOR;
+        author = QAUTHOR;
         displayName = "$STR_HAVOC_Backpacks_Kitbag_01_BW_W_MEDIC";
         descriptionShort = "";
         editorPreview = QPATHTOF(kitbag\data\previews\kitbag_bw_w.jpg);
