@@ -10,15 +10,11 @@ class CfgPatches {
             QGVAR(Cap_Headphones_BlackLogo),
             QGVAR(Cap_BlackLogo),
             QGVAR(Cap_TanLogo),
-            QGVAR(Cap_Earpiece_BlackLogo),
-            QGVAR(Cap_Earpiece_TanLogo),
             QGVAR(Cap_Backwards_BlackLogo),
             QGVAR(Cap_Backwards_TanLogo),
             QGVAR(Cap_Headphones_Blackcow),
             QGVAR(Cap_Blackcow),
             QGVAR(Cap_Tancow),
-            QGVAR(Cap_Earpiece_Blackcow),
-            QGVAR(Cap_Earpiece_Tancow),
             QGVAR(Cap_Backwards_Blackcow),
             QGVAR(Cap_Backwards_Tancow),
             QGVAR(H_MilCap_m98),
@@ -224,28 +220,6 @@ class cfgWeapons {
     };
 
 
-    #define MACRO_EARPIECE_COMMON \
-        dlc = QUOTE(PREFIX); \
-        scope = 2; \
-        model = QPATHTOF(data\cap_earpiece.p3d); \
-        class ItemInfo: ItemInfo { \
-            mass = 5; \
-            uniformModel = QPATHTOF(data\cap_earpiece.p3d); \
-        };
-
-    class GVAR(Cap_Earpiece_BlackLogo): H_Cap_red {
-        MACRO_EARPIECE_COMMON
-        author = QAUTHOR;
-        displayname = CSTRING(Cap_Earpiece_BlackLogo);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
-    };
-    class GVAR(Cap_Earpiece_TanLogo): H_Cap_red {
-        MACRO_EARPIECE_COMMON
-        author = QAUTHOR;
-        displayname = CSTRING(Cap_Earpiece_TanLogo);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
-    };
-
 
     #define MACRO_BACKWARDS_COMMON \
         dlc = QUOTE(PREFIX); \
@@ -296,18 +270,6 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
     };
 
-    class GVAR(Cap_Earpiece_Blackcow): H_Cap_red {
-        MACRO_EARPIECE_COMMON
-        author = QAUTHOR;
-        displayname = CSTRING(Cap_Earpiece_Blackcow);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
-    };
-    class GVAR(Cap_Earpiece_Tancow): H_Cap_red {
-        MACRO_EARPIECE_COMMON
-        author = QAUTHOR;
-        displayname = CSTRING(Cap_Earpiece_Tancow);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
-    };
 
     class GVAR(Cap_Backwards_Blackcow): H_Cap_red {
         MACRO_BACKWARDS_COMMON
