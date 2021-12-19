@@ -1,5 +1,3 @@
-    
-
 class GVAR(Morphine) {
     allowSelfTreatment = 1;
     medicRequired = QGVAR(medLvl_drug);
@@ -42,9 +40,7 @@ class GVAR(Epinephrine): GVAR(Morphine) {
     litter[] = {{}};
 };
 
-
 ////////////////////////////////////////////////////////////////////////////////
-
 class Naloxone: GVAR(Morphine) {
     displayName="Naloxone 1.6mg/4mL";
     displayNameProgress="Injecting Naloxone";

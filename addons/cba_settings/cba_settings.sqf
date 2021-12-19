@@ -83,7 +83,7 @@ ace_common_epilepsyFriendlyMode = false;
 ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
-FORCE ace_noradio_enabled = true;
+FORCE FORCE ace_noradio_enabled = true;
 
 // ACE Cook off
 FORCE ace_cookoff_ammoCookoffDuration = 0.5;
@@ -952,35 +952,35 @@ FORCE SSS_setting_slingLoadWhitelist = "";
 FORCE SSS_setting_useChatNotifications = false;
 
 // [TCA] BFT
-FORCE TCA_bft_groupMarkers_colorsBlacklist = "ColorBLUFOR, ColorOPFOR, ColorIndependent, ColorCivilian, ColorUNKNOWN, Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
-FORCE TCA_bft_groupMarkers_defaultSetting = 2;
-FORCE TCAbft_groupMarkers_enabled = true;
-FORCE TCAbft_groupMarkers_fuzzOtherFactions = true;
-FORCE TCA_bft_groupMarkers_iconsBlacklist = "unknown, uav";
-FORCE TCAbft_groupMarkers_mapSettings_enabled = true;
-FORCE TCAbft_groupMarkers_markerShape = "a";
-FORCE TCA_bft_groupMarkers_nameOptions = "Black Squad, Blue Squad, Gold Squad, Green Squad, Grey Squad, Red Squad, Silver Squad";
-FORCE TCA_bft_groupMarkers_preferredColors = "ColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverSBlack Squad, Blue Squad, Gold Squad, Green Squad, GrColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverS";
-FORCE TCAbft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
-FORCE TCAbft_groupMarkers_trackingMode = "weightedAverage";
-FORCE TCAbft_groupMarkers_trailingCount = 5;
-FORCE TCAbft_groupMarkers_trailingMode = "weightedAverage";
-FORCE TCAbft_groupMarkers_trailingWeight = 0.75;
-FORCE TCAbft_groupMarkers_updateDelay = 5;
+FORCE FORCE TCA_bft_groupMarkers_colorsBlacklist = "ColorBLUFOR, ColorOPFOR, ColorIndependent, ColorCivilian, ColorUNKNOWN, Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
+FORCE FORCE TCA_bft_groupMarkers_defaultSetting = 2;
+FORCE FORCE TCAbft_groupMarkers_enabled = true;
+FORCE FORCE TCAbft_groupMarkers_fuzzOtherFactions = true;
+FORCE FORCE TCA_bft_groupMarkers_iconsBlacklist = "unknown, uav";
+FORCE FORCE TCAbft_groupMarkers_mapSettings_enabled = true;
+FORCE FORCE TCAbft_groupMarkers_markerShape = "a";
+FORCE FORCE TCA_bft_groupMarkers_nameOptions = "Black Squad, Blue Squad, Gold Squad, Green Squad, Grey Squad, Red Squad, Silver Squad";
+FORCE FORCE TCA_bft_groupMarkers_preferredColors = "ColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverSBlack Squad, Blue Squad, Gold Squad, Green Squad, GrColorBlackS, ColorBlueS, ColorGoldS, ColorGreenS, ColorGreyS, ColorRedS, ColorSilverS";
+FORCE FORCE TCAbft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
+FORCE FORCE TCAbft_groupMarkers_trackingMode = "weightedAverage";
+FORCE FORCE TCAbft_groupMarkers_trailingCount = 5;
+FORCE FORCE TCAbft_groupMarkers_trailingMode = "weightedAverage";
+FORCE FORCE TCAbft_groupMarkers_trailingWeight = 0.75;
+FORCE FORCE TCAbft_groupMarkers_updateDelay = 5;
 
 // [TCA] Miscellaneous
-FORCE TCAmain_ClearBuildingMarkers_Channel = 0;
-FORCE TCAmain_ClearBuildingMarkers_Color = "ColorGreen";
-FORCE TCA_main_ClearBuildingMarkers_Enabled = true;
-FORCE TCAmain_LoadoutDiaryRecord_Enabled = false;
-FORCE TCAvehicles_showSpeedLimiterOptions = true;
-FORCE TCAvehicles_showSpeedLimiterWaitTime = 10;
+FORCE FORCE TCAmain_ClearBuildingMarkers_Channel = 0;
+FORCE FORCE TCAmain_ClearBuildingMarkers_Color = "ColorGreen";
+FORCE FORCE TCA_main_ClearBuildingMarkers_Enabled = true;
+FORCE FORCE TCAmain_LoadoutDiaryRecord_Enabled = false;
+FORCE FORCE TCAvehicles_showSpeedLimiterOptions = true;
+FORCE FORCE TCAvehicles_showSpeedLimiterWaitTime = 10;
 
 // [TCA] Unit markers
-FORCE TCAunitMarkers_unitMarkers_enabled = true;
-FORCE TCAunitMarkers_unitMarkers_markAI = true;
-FORCE TCAunitMarkers_unitMarkers_otherGroups = true;
-FORCE TCA_unitMarkers_unitMarkers_showToggle = false;
+FORCE FORCE TCAunitMarkers_unitMarkers_enabled = true;
+FORCE FORCE TCAunitMarkers_unitMarkers_markAI = true;
+FORCE FORCE TCAunitMarkers_unitMarkers_otherGroups = true;
+FORCE FORCE TCA_unitMarkers_unitMarkers_showToggle = false;
 
 
 // TFAR - Global settings
