@@ -9,7 +9,7 @@ class Cfg3DEN {
             };
         };
         class GroupSelect: Title {
-            attributeLoad = "(_this controlsGroupCtrl 100) lbSetCurSel (((_value + 1) min 7) max 0);";
+            attributeLoad = "(_this controlsGroupCtrl 100) lbSetCurSel (((_value + 1) min 8) max 0);";
             attributeSave = "(lbCurSel (_this controlsGroupCtrl 100)) - 1";
             class Controls: Controls {
                 class Title: Title {};
@@ -21,7 +21,7 @@ class Cfg3DEN {
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
                     columns = 9;
-                    strings[] = {"None","CMD", "RED", "BLU", "SLV", "GLD", "BLK","GRN", "Reaper"};
+                    strings[] = {"None","CMD", "RED", "BLU", "SLV", "GLD", "BLK","GRN", "GRY"};
                 };
             };
         };

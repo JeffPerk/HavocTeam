@@ -2130,6 +2130,7 @@ _ArsenalType = call {
             "rhsusf_hgu56p_visor_mask_green_mo"
         ];
         _AvailableItems = [
+            "tun_tablet",
             "ALIVE_Tablet",
             "Item_gren_scuba",
             "ITC_EPLRS",

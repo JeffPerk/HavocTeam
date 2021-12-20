@@ -36,10 +36,10 @@ if (isNull _unit) exitWith {};
     _unit playAction "Gear";
     
     if (vehicle _unit != _unit) then {
-        playSound QGVAR(Medical_DrugKit_Open_1);
+        playSound QGVAR(Medical_MedicKit_Open_1);
     } else {
         private _pitch = random [0.6, 1, 1.4];
-        [_unit, QGVAR(Medical_DrugKit_Open_1), [], 30, 1000, -1, _pitch] call HAVOC_fnc_play3dSound;
+        [_unit, QGVAR(Medical_MedicKit_Open_1), [], 30, 1000, -1, _pitch] call HAVOC_fnc_play3dSound;
     };
     
     HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS = false;
@@ -50,7 +50,8 @@ if (isNull _unit) exitWith {};
         [],
         { HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; },
         { HAVOC_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
-        localize "STR_HAVOC_Medical_Supplies_Progress_DrugKit",
+        localize "Unpack Drug Kit....",
+
         {true},
         ["isNotInside", "isNotSitting", "isNotSwimming"]
     ] call ACE_common_fnc_progressBar;
@@ -64,12 +65,12 @@ if (isNull _unit) exitWith {};
         private _order = [3,1,2];
         private _overflow = false;
         
-        [_unit, "havoc_VPN", 24, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "havoc_epinephrine", 4, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "havoc_fentanyl", 4, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "havoc_ketamine", 8, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "havoc_morphine", 4, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "havoc_naloxone", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_VPN", 24, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_epinephrine", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_fentanyl", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_ketamine", 8, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_morphine", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_naloxone", 4, _order, _overflow] call havoc_fnc_addItem;
     
         _unit playActionNow "Stand";
         
@@ -77,7 +78,7 @@ if (isNull _unit) exitWith {};
     
     if (HAVOC_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
         
-        [_unit, QGVAR(Medical_DrugKit_Open_1)] call HAVOC_fnc_stop3dSound;
+        [_unit, QGVAR(Medical_MedicKit_Open_1)] call HAVOC_fnc_stop3dSound;
         
         _unit playActionNow "Stand";
         

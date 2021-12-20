@@ -1,6 +1,7 @@
+#include "..\script_component.hpp"    
 /*
  * ARMA EXTENDED ENVIRONMENT
- * \havoc_medical\supplies\functions\fn_canUnpackMedicKit.sqf
+ * \havoc_medical\supplies\functions\fn_canUnpackFirstAid.sqf
  * by Ojemineh
  * 
  * check if medical supplies can be unpacked
@@ -12,7 +13,7 @@
  * <BOOLEAN>
  * 
  * Example:
- * [player] call HAVOC_medical_supplies_fnc_canUnpackMedicKit;
+ * [player] call HAVOC_medical_supplies_fnc_canUnpackFirstAid;
  * 
  */
 
@@ -31,7 +32,7 @@ if (isNull _unit) exitWith {false};
 private _return = false;
 
 _return = (
-    ("havoc_medbags_MedicKit" in items _unit) && 
+    ("havoc_medbags_FirstAid" in items _unit) && 
     (alive _unit) && 
     !(_unit getVariable ["ace_captives_isSurrendering", false]) && 
     !(_unit getVariable ["ace_captives_isHandcuffed", false]) && 

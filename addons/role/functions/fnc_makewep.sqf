@@ -9,8 +9,8 @@ if (hasinterface) then {
     player setVariable ["ace_isEngineer", 0, true];
     player setVariable ["ace_medical_medicclass", 0, true];
     
-    player setVariable["draWhitelisted", false, true];
-    daoWhitelisted=false;
+    // player setVariable["draWhitelisted", false, true];
+    // daoWhitelisted=false;
 };
 
 [ format [hint_havoc_default, "Weapons"] ] call havoc_fnc_hint;

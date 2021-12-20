@@ -39,8 +39,8 @@ call {
     if (_Section isEqualto 3) exitwith {_Section = "Silver"};
     if (_Section isEqualto 4) exitwith {_Section = "Gold"};
     if (_Section isEqualto 5) exitwith {_Section = "Black"};
-    if (_Section isEqualto 5) exitwith {_Section = "Green"};
-    if (_Section isEqualto 6) exitwith {_Section = "Grey"};
+    if (_Section isEqualto 6) exitwith {_Section = "Green"};
+    if (_Section isEqualto 7) exitwith {_Section = "Grey"};
 };
 
 if (local _unit) then {
@@ -122,7 +122,6 @@ if (local _unit) then {
             group _unit setVariable ["BFT_groupMarker_visible", true];
             group _unit setVariable ["BFT_groupMarker_type", _Marker_type];
             group _unit setVariable ["BFT_groupMarker_color", _Marker_color];
-        } else {
         };
     };
     //========== Trait Config
@@ -147,13 +146,11 @@ if (local _unit) then {
         if (_unit getunittrait "Adv Engineer") then { _unit setVariable ["ace_isEngineer", 2, true]};
     };
 
-
     //=========== Patches
     [_unit, _Section] call Havoc_fnc_Patches;
 
     //=========== Set Section
     _unit setVariable ["HAVOC_Section", _Section, true];
-
 };
 
 //========== SideChat Config

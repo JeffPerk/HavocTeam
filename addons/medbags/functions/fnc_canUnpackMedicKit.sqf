@@ -1,3 +1,4 @@
+#include "..\script_component.hpp"
 /*
  * ARMA EXTENDED ENVIRONMENT
  * \havoc_medical\supplies\functions\fn_canUnpackMedicKit.sqf
@@ -31,7 +32,7 @@ if (isNull _unit) exitWith {false};
 private _return = false;
 
 _return = (
-    ("havoc_medbags_DrugKit" in items _unit) && 
+    ("havoc_medbags_MedicKit" in items _unit) && 
     (alive _unit) && 
     !(_unit getVariable ["ace_captives_isSurrendering", false]) && 
     !(_unit getVariable ["ace_captives_isHandcuffed", false]) && 

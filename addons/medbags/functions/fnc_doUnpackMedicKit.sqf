@@ -50,7 +50,8 @@ if (isNull _unit) exitWith {};
         [],
         { HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; },
         { HAVOC_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
-        localize "STR_HAVOC_Medical_Supplies_Progress_MedicKit",
+        localize "Unpack Mead Kit....",
+
         {true},
         ["isNotInside", "isNotSitting", "isNotSwimming"]
     ] call ACE_common_fnc_progressBar;

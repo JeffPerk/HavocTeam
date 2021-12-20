@@ -14,8 +14,8 @@ class CfgVehicles {
                 
                 class GVAR(Medical_Supplies_Action_FirstAid) {
                     displayName = "Unpack Boo Boo Bag";
-                    condition = "[_player] call FUNC(canUnpackFirstAid)";
-                    statement = "[_player] call FUNC(doUnpackFirstAid)";
+                    condition = "[_player] call havoc_medbags_fnc_canUnpackFirstAid";
+                    statement = "[_player] call havoc_medbags_fnc_doUnpackFirstAid";
                     exceptions[] = {"isNotInside", "isNotSitting"};
                     icon = QPATHTOF(data\icons\medical_cross_ex_ca.paa);
                     showDisabled = 0;
@@ -23,8 +23,8 @@ class CfgVehicles {
                 
                 class GVAR(Medical_Supplies_Action_MedicKit) {
                     displayName = "Unpack Medic Bag";
-                    condition = "[_player] call FUNC(canUnpackMedicKit)";
-                    statement = "[_player] call FUNC(doUnpackMedicKit)";
+                    condition = "[_player] call havoc_medbags_fnc_canUnpackMedicKit";
+                    statement = "[_player] call havoc_medbags_fnc_doUnpackMedicKit";
                     exceptions[] = {"isNotInside", "isNotSitting"};
                     icon = QPATHTOF(data\icons\medical_cross_ex_ca.paa);
                     showDisabled = 0;
@@ -32,8 +32,8 @@ class CfgVehicles {
 
                 class GVAR(Medical_Supplies_Action_DrugKit) {
                     displayName = "Unpack Drug Kit";
-                    condition = "[_player] call FUNC(canUnpackDrugKit)";
-                    statement = "[_player] call FUNC(doUnpackDrugKit)";
+                    condition = "[_player] call havoc_medbags_fnc_canUnpackDrugKit";
+                    statement = "[_player] call havoc_medbags_fnc_doUnpackDrugKit";
                     exceptions[] = {"isNotInside", "isNotSitting"};
                     icon = QPATHTOF(data\icons\medical_cross_ex_ca.paa);
                     showDisabled = 0;

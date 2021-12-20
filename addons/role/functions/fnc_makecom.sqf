@@ -10,11 +10,11 @@ if (hasinterface) then {
     player setVariable ["ACE_isEOD", false, true];
     player setVariable ["ace_isEngineer", 0, true];
 
-    player setVariable["draAccessDrones",TRUE,TRUE];
-    player setVariable["draAccessCruise",TRUE,TRUE];
-    player setVariable["draAccessSensors",TRUE,TRUE];
-    player setVariable["draWhitelisted", true, true];
-    daoWhitelisted=true;
+    // player setVariable["draAccessDrones",TRUE,TRUE];
+    // player setVariable["draAccessCruise",TRUE,TRUE];
+    // player setVariable["draAccessSensors",TRUE,TRUE];
+    // player setVariable["draWhitelisted", true, true];
+    // daoWhitelisted=true;
 };
 
 [ format [hint_havoc_default, "Communications"] ] call havoc_fnc_hint;
