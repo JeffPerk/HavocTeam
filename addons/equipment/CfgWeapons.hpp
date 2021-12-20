@@ -434,6 +434,178 @@ class CfgWeapons {
 
 
 ///////////////////////////////tier1
+    class Tier1_Razor_Gen2_16: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_ADM: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_Geissele: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_Geissele_Docter: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_ADM: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_ADM_T2: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_Geissele: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_Geissele_Docter: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_ADM_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_ADM_T2_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_Geissele_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_Geissele_Docter_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_ADM_Black: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_Geissele_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_Geissele_Docter_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_ADM_Black: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_ADM_T1_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_Geissele_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_Geissele_Docter_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+
     class Tier1_Eotech551_3xMag_Black_Up: ItemCore  {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
@@ -978,177 +1150,6 @@ class CfgWeapons {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class Romeo4T {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen2_16: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen2_16_ADM: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen2_16_Geissele: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen2_16_Geissele_Docter: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen3_110_ADM: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen3_110_ADM_T2: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen3_110_Geissele: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Razor_Gen3_110_Geissele_Docter: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_LeupoldM3A_ADM_Desert: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Snip {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_LeupoldM3A_ADM_T2_Desert: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Snip {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_LeupoldM3A_Geissele_Desert: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Snip {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_LeupoldM3A_Geissele_Docter_Desert: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Snip {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Shortdot_ADM_Black: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Shortdot_Geissele_Black: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_Shortdot_Geissele_Docter_Black: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_ATACR18_ADM_Black: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_ATACR18_ADM_T1_Black: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_ATACR18_Geissele_Black: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
-                    visionMode[] = {};
-                };
-            };
-        };
-    };
-    class Tier1_ATACR18_Geissele_Docter_Black: optic_lrps {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Scope {
                     visionMode[] = {};
                 };
             };
