@@ -31,7 +31,7 @@ class CfgVehicles {
                 };
 
                 class GVAR(Medical_Supplies_Action_DrugKit) {
-                    displayName = "Unpack Medic Bag";
+                    displayName = "Unpack Drug Kit";
                     condition = "[_player] call havoc_medbags_fnc_canUnpackDrugKit";
                     statement = "[_player] call havoc_medbags_fnc_doUnpackDrugKit";
                     exceptions[] = {"isNotInside", "isNotSitting"};

@@ -31,17 +31,13 @@ Its based/inspired on/by the following projects;
 - https://github.com/ArmaForces/Mods  -  GNU GENERAL PUBLIC LICENSE
 - https://github.com/AXEmod/AXE - GNU General Public License (GPLv3)
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
-- https://github.com/last-resort-gaming/Havoc-Fundamentals - MIT License
+- https://github.com/last-resort-gaming/LRG-Fundamentals - MIT License
 - https://github.com/Theseus-Aegis/TheseusServices - Offical license: Arma Public License Share-Alike (APL-SA)
 - https://github.com/BourbonWarfare/POTATO - GNU General Public License (GPLv2).
-- https://github.com/quies-in-proelium/havocBFT - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-- https://github.com/quies-in-proelium/havocMissionTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+- https://github.com/quies-in-proelium/qipTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-and CTAB, (so many to thank and give credit)
-"jetelain","Gundy, Riouken, Raspu"
-based on https://github.com/jetelain/cTab - GNU General Public License v2.0
 
-you can find the Havoc Version at tbd
+you can find the Havoc Version at https://github.com/devgru-havoc/HavocTeam
 
 (I know I forgot a few, I will work on getting those mentions put in)
 
@@ -56,4 +52,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1623498241
 
 Fat_Lurch's MS_IFF_Strobe
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543390130
+
+Tuntematon's Tun Advanced Firesupport Interface
+https://steamcommunity.com/sharedfiles/filedetails/?id=2404759841
 

@@ -340,14 +340,10 @@ _ArsenalType = call {
             "Tier1_ATACR18_Geissele_Docter_Black",
             "Tier1_ATACR18_Geissele_Docter_Desert",
             "ACE_optic_Hamr_2D",
-            "ACE_optic_Hamr_PIP",
             "ACE_optic_Arco_2D",
-            "ACE_optic_Arco_PIP",
             "ACE_optic_MRCO_2D",
             "ACE_optic_SOS_2D",
-            "ACE_optic_SOS_PIP",
             "ACE_optic_LRPS_2D",
-            "ACE_optic_LRPS_PIP",
             "havoc_equipment_optic_Nightstalker",
             "havoc_equipment_optic_AMS",
             "havoc_equipment_optic_AMS_khk",
@@ -2134,6 +2130,7 @@ _ArsenalType = call {
             "rhsusf_hgu56p_visor_mask_green_mo"
         ];
         _AvailableItems = [
+            "tun_tablet",
             "ALIVE_Tablet",
             "Item_gren_scuba",
             "ITC_EPLRS",

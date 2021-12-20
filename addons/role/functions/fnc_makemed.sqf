@@ -10,8 +10,8 @@ if (hasinterface) then {
     
     player setVariable ["ace_medical_medicclass", 1, true];
     
-    player setVariable["draWhitelisted", false, true];
-    daoWhitelisted=false;
+    // player setVariable["draWhitelisted", false, true];
+    // daoWhitelisted=false;
 };
 
 [ format [hint_havoc_default, "Medic"] ] call havoc_fnc_hint;

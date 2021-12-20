@@ -39,8 +39,8 @@ call {
     if (_Section isEqualto 3) exitwith {_Section = "Silver"};
     if (_Section isEqualto 4) exitwith {_Section = "Gold"};
     if (_Section isEqualto 5) exitwith {_Section = "Black"};
-    if (_Section isEqualto 5) exitwith {_Section = "Green"};
-    if (_Section isEqualto 6) exitwith {_Section = "Grey"};
+    if (_Section isEqualto 6) exitwith {_Section = "Green"};
+    if (_Section isEqualto 7) exitwith {_Section = "Grey"};
 };
 
 if (local _unit) then {
@@ -55,40 +55,56 @@ if (local _unit) then {
         // or not
         _beta = isClass (configFile >> "CfgPatches" >> "tfar_core");
 
-        private ["_ShortRange", "_LongRange"];
+        private ["_ShortRange", "_LongRange", "_Marker_type", "_Marker_color"];
 
         call {
                 if (_Section == "Command") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorWEST";
                 };
                 if (_Section == "Red") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorRedS";
                 };
                 if (_Section == "Blue") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorBlueS";
                 };
                 if (_Section == "Silver") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorSilverS";
                 };
                 if (_Section == "Gold") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorGoldS";
                 };
                 if (_Section == "Black") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorBlackS";
                 };
                 if (_Section == "Green") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorGreenS";
                 };
-                if (_Section == "Grey") exitwith {
-                    _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
-                    _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                    if (_Section == "Grey") exitwith {
+                        _ShortRange = ["501", "502", "503", "504", "505", "506", "507", "58"];
+                        _LongRange = ["51", "52", "53", "54", "55", "56", "57", "58"];
+                        _Marker_type = "recon";
+                        _Marker_color = "ColorGreyS";
                 };
         };
 
@@ -97,9 +113,15 @@ if (local _unit) then {
         if (_beta) then {
             _unit setVariable ["TFAR_freq_sr", _ShortRange, true];
             _unit setVariable ["TFAR_freq_lr", _LongRange, true];
+            group _unit setVariable ["BFT_groupMarker_visible", true];
+            group _unit setVariable ["BFT_groupMarker_type", _Marker_type];
+            group _unit setVariable ["BFT_groupMarker_color", _Marker_color];
         } else {
             group _unit setVariable ["tf_sw_frequency", [0,9,_ShortRange,0,nil,-1,0,false], true];
             group _unit setVariable ["tf_lr_frequency", [0,9,_LongRange,0,nil,-1,0,false], true];
+            group _unit setVariable ["BFT_groupMarker_visible", true];
+            group _unit setVariable ["BFT_groupMarker_type", _Marker_type];
+            group _unit setVariable ["BFT_groupMarker_color", _Marker_color];
         };
     };
     //========== Trait Config
@@ -124,56 +146,11 @@ if (local _unit) then {
         if (_unit getunittrait "Adv Engineer") then { _unit setVariable ["ace_isEngineer", 2, true]};
     };
 
-
     //=========== Patches
     [_unit, _Section] call Havoc_fnc_Patches;
 
     //=========== Set Section
     _unit setVariable ["HAVOC_Section", _Section, true];
-
-
-    call {
-            if (_Section == "Command") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-            };
-            if (_Section == "Red") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorRedS"];
-            };
-            if (_Section == "Blue") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorBlueS"];
-            };
-            if (_Section == "Silver") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorSilverS"];
-            };
-            if (_Section == "Gold") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorGoldS"];
-            };
-            if (_Section == "Black") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorBlackS"];
-            };
-            if (_Section == "Green") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorGreenS"];
-            };
-            if (_Section == "Grey") exitwith {
-                group _unit setVariable ["BFT_groupMarker_visible", true];
-                group _unit setVariable ["BFT_groupMarker_type", "recon"];
-                group _unit setVariable ["BFT_groupMarker_color", "ColorGreyS"];
-            };
-    };
-
 };
 
 //========== SideChat Config
@@ -187,7 +164,6 @@ if (hasinterface) then {
 
 if (hasinterface) then {
     player call havoc_role_fnc_role;
-    player call havoc_role_fnc_drongo;
     player call havoc_rank_fnc_rank;
 };
 

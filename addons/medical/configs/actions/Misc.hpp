@@ -14,10 +14,10 @@ class BodyBag: BasicBandage {
 class SurgicalKit: FieldDressing {};
 class PersonalAidKit: BasicBandage {};
 class larynxtubus {
-    displayName = "Insert Advanced Airway";
+
 };
 class Guedeltubus: larynxtubus {
-    displayName = "Insert Basic Airway";
+
 };
 class Overstretch: larynxtubus {
     displayName = "Hyperextending Head";

@@ -18,7 +18,7 @@ class CfgWeapons {
         icon = "iconObject_1x1";
         mapSize = 0.015;
         class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 10;
+            mass = 8;
         };
     };
     
@@ -33,7 +33,7 @@ class CfgWeapons {
         icon = "iconObject_1x1";
         mapSize = 0.015;
         class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 50;
+            mass = 48;
         };
     };
 
@@ -41,14 +41,14 @@ class CfgWeapons {
         scope = 2;
         author = QAUTHOR;
         displayName = "Drug Kit";
-        descriptionShort = "Contains materials to resupply DR's";
+        descriptionShort = "Contains DURGS!";
         editorPreview = QPATHTOF(data\previews\booboo_ca.paa);
         picture = QPATHTOF(data\previews\booboo_ca.paa);
         model = "\a3\props_f_orange\humanitarian\camps\firstaidkit_01_closed_f.p3d";
         icon = "iconObject_1x1";
         mapSize = 0.015;
         class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 50;
+            mass = 28;
         };
     };
     
