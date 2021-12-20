@@ -35,6 +35,7 @@ Its based/inspired on/by the following projects;
 - https://github.com/Theseus-Aegis/TheseusServices - Offical license: Arma Public License Share-Alike (APL-SA)
 - https://github.com/BourbonWarfare/POTATO - GNU General Public License (GPLv2).
 - https://github.com/quies-in-proelium/qipTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+- https://github.com/Katalam/KNB - GNU General Public License (GPLv3)
 
 
 you can find the Havoc Version at https://github.com/devgru-havoc/HavocTeam

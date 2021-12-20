@@ -2130,6 +2130,10 @@ _ArsenalType = call {
             "rhsusf_hgu56p_visor_mask_green_mo"
         ];
         _AvailableItems = [
+            "KNB_PanelGreen",
+            "KNB_PanelRed",
+            "KNB_PanelYellow",
+            "KNB_Notebook",
             "tun_tablet",
             "ALIVE_Tablet",
             "Item_gren_scuba",
