@@ -3729,6 +3729,10 @@ _ArsenalType = call {
             "rhsusf_spc_squadleader"
         ];
         _AvailableWeapons = [
+            "rhs_mag_an_m8hc",
+            "rhs_mag_an_m14_th3",
+            "rhs_grenade_mkiiia1_mag",
+            "rhs_mag_mk3a2",
             "rhs_weap_g36kv_ag36",
             "rhs_weap_g36kv",
             "rhs_weap_g36c",
