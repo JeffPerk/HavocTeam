@@ -15,9 +15,9 @@ files = [
     "extras/addons",
     "extras/keys",
     "AUTHORS.txt",
-    "havocl1512x.paa",
-    "havocsl1512x.paa",
-    "havocl12048.paa"
+    "havoc_card_1024.paa",
+    "havoc_card_512.paa",
+    "havoc_card_1024.paa"
     ]
 
 exclude = ["*.psd", "*.png", "*.tga"]

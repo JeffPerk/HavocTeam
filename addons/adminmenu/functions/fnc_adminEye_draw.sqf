@@ -58,7 +58,7 @@ params["_fullmapWindow"];
         _color = [1,0,0,0.75];
     };
     _fullmapWindow drawIcon ["\a3\3den\data\cfg3den\logic\texturebackgroundmodule_ca.paa",_color,_pos,26,26,0];
-    _fullmapWindow drawIcon ["\z\havoc\addons\media\images\havocl1512x.paa",[0,0,0,0.5],_pos,20,20,0];
+    _fullmapWindow drawIcon ["\z\havoc\addons\media\images\havoc_card_1024.paa",[0,0,0,0.5],_pos,20,20,0];
 
     private _text = "";
     private _wavesRemaining = _x getVariable ["Waves",1];
@@ -108,7 +108,7 @@ params["_fullmapWindow"];
 
     //background
     _fullmapWindow drawIcon ["\a3\3den\data\cfg3den\logic\texturebackgroundmodule_ca.paa",[1,1,1,0.5],_pos,26,26,0];
-    _fullmapWindow drawIcon ["\z\havoc\addons\media\images\havocl1512x.paa",[0,0,0,0.5],_pos,20,20,0];
+    _fullmapWindow drawIcon ["\z\havoc\addons\media\images\havoc_card_1024.paa",[0,0,0,0.5],_pos,20,20,0];
 
     private _text = format["Garrison (Quantity: %1)",_x getVariable ["aiNumberToSpawn", 0]];
 

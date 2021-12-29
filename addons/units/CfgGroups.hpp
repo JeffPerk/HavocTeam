@@ -77,6 +77,18 @@ class CfgGroups {
                         side = 1;
                         vehicle = QGVAR(socom);
                     };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom);
+                    };
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
@@ -119,6 +131,18 @@ class CfgGroups {
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_slv);
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_slv);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = QGVAR(socom_slv);
@@ -169,6 +193,18 @@ class CfgGroups {
                         side = 1;
                         vehicle = QGVAR(socom_blk);
                     };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_blk);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_blk);
+                    };
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
@@ -215,6 +251,19 @@ class CfgGroups {
                         side = 1;
                         vehicle = QGVAR(socom_blu);
                     };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_blu);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_blu);
+                    };
+
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
@@ -257,6 +306,18 @@ class CfgGroups {
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_gld);
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_gld);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = QGVAR(socom_gld);
@@ -306,6 +367,18 @@ class CfgGroups {
                         side = 1;
                         vehicle = QGVAR(socom_grn);
                     };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_grn);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_grn);
+                    };
                 };
 
                 /////////////////////////////////////////////////////////////////////////////
@@ -348,6 +421,18 @@ class CfgGroups {
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_red);
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = QGVAR(socom_red);
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = QGVAR(socom_red);
@@ -408,37 +493,30 @@ class CfgGroups {
                         vehicle = QGVAR(helipilot);
                     };
                 };
-
             };
 
             class Motorized {
                 name = "Motorized Infantry";
-
             };
 
             class Motorized_MTP {
                 name = "Motorized Infantry (MTP)";
-
             };
 
             class Support {
                 name = "Support Infantry";
-
             };
 
             class Mechanized {
                 name = "Mechanized Infantry";
-
             };
 
             class Armored {
                 name = "Armor";
-
             };
 
             class Artillery {
                 name = "Artillery";
-
             };
 
             class Naval {
@@ -448,9 +526,7 @@ class CfgGroups {
 
             class Air {
                 name = "Air";
-
             };
         };
-
     };
 };
