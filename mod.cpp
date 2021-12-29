@@ -1,10 +1,10 @@
 name = "Havoc";
-picture = "havocl12048.paa";
+picture = "havoc_card_1024.paa";
 description = "Havoc Mod";
-logo = "havocl1512x.paa";
-logoOver = "havocl1512x.paa";
+logo = "havoc_card_1024.paa";
+logoOver = "havoc_card_1024.paa";
 tooltip = "Havoc Mod";
 tooltipOwned = "Project Template Weee";
 overview = "Havoc Custom Mod";
 author = "YonV";
-overviewPicture = "havocsl1512x.paa";
+overviewPicture = "havoc_card_512.paa";

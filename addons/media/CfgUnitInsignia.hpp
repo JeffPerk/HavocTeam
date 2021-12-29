@@ -3,13 +3,13 @@ class CfgUnitInsignia {
     class Logo {
         displayName = "HAVOC Logo";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
+        texture = "z\havoc\addons\Media\images\HAVOCNEWPATCH.paa";
         textureVehicle = "";
     };
     class bolo {
         displayName = "HAVOC BOLO";
         author = QAUTHOR;
-        texture = "z\havoc\addons\Media\images\HAVOCPATCH.paa";
+        texture = "z\havoc\addons\Media\images\HAVOCNEWPATCH.paa";
         textureVehicle = "";
     };
 

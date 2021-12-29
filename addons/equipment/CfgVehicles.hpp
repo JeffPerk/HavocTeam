@@ -60,7 +60,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\havoc\addons\Equipment\data\havoc_ammobox_signs_ca.paa",
-            "z\havoc\addons\Equipment\data\havoc_ammo_co.paa",
+            "z\havoc\addons\Equipment\data\ammohvt_co.paa",
         };
         class TransportMagazines {
         };
@@ -99,7 +99,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\havoc\addons\Equipment\data\havoc_ammobox_signs_caA.paa",
-            "z\havoc\addons\Equipment\data\havoc_ammohavocA_co.paa"
+            "z\havoc\addons\Equipment\data\ammohvtA_co.paa"
         };
         class TransportMagazines {
         };

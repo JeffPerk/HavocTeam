@@ -30,16 +30,16 @@ _picture ctrlSetPosition [
 
 switch (systemTime select 1) do {
     case 10: {
-        _picture ctrlSetText QPATHTOF(ui\havocb1.paa);
+        _picture ctrlSetText QPATHTOF(ui\havoc_card_ween.paa);
     };
     case 12: {
-        _picture ctrlSetText QPATHTOF(ui\havocxmas.paa);
+        _picture ctrlSetText QPATHTOF(ui\havoc_card_xmas.paa);
     };
     case ([] call EFUNC(common,easterDate) select 1): {
-        _picture ctrlSetText QPATHTOF(ui\havocb1.paa);
+        _picture ctrlSetText QPATHTOF(ui\havoc_card_eggs.paa);
     };
     default {
-        _picture ctrlSetText QPATHTOF(ui\havocb1.paa);
+        _picture ctrlSetText QPATHTOF(ui\havoc_card_1024.paa);
     };
 };
 _picture ctrlCommit 0;

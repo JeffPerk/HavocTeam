@@ -13,7 +13,7 @@
 #define AUTHOR HAVOC
 #define QAUTHOR QUOTE(AUTHOR)
 
-#define LOGO_PATH "\z\havoc\addons\media\images\havocl1512x.paa"
+#define LOGO_PATH "\z\havoc\addons\media\images\havoc_card_1024.paa"
 
 #define URL "https://armadocs.purplesmoke.info/"
 #define NAME HAVOC
