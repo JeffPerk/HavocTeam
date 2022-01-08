@@ -1,6 +1,6 @@
 // not documented, called by module
 
-player setVariable ["HAVOC_VehCamLockHandle", -1];
+player setVariable ["havoc_VehCamLockHandle", -1];
 
 _getInEHId = player addEventHandler ["GetInMan", {
   params ["_unit", "_role", "_vehicle", "_turret"];
@@ -14,18 +14,18 @@ _getInEHId = player addEventHandler ["GetInMan", {
    0, []
   ] call CBA_fnc_addPerFrameHandler;
 
-  player setVariable ["HAVOC_VehCamLockHandle", _handle];
+  player setVariable ["havoc_VehCamLockHandle", _handle];
  }
 ];
 
 _getOutEHId = player addEventHandler["GetOutMan", {
   params ["_unit", "_role", "_vehicle", "_turret"];
 
-  _handle = player getVariable ["HAVOC_VehCamLockHandle", -1];
+  _handle = player getVariable ["havoc_VehCamLockHandle", -1];
 
   if (_handle != -1) then {
    [_handle] call CBA_fnc_removePerFrameHandler;
-   player setVariable ["HAVOC_VehCamLock", -1];
+   player setVariable ["havoc_VehCamLock", -1];
   }
  }
 ];

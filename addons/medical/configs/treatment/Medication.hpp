@@ -24,6 +24,28 @@ class Morphine {
     viscosityChange=-3;
 };
 
+class GVAR(Epinephrine) {
+    painReduce=0;
+    hrIncreaseLow[]={20,25};
+    hrIncreaseNormal[]={20,25};
+    hrIncreaseHigh[]={30,30};
+    timeInSystem=300;
+    maxDose=6;
+    inCompatableMedication[]={};
+    viscosityChange=15;
+};
+
+class GVAR(Morphine) {
+    painReduce=2;
+    hrIncreaseLow[]={-15,-25};
+    hrIncreaseNormal[]={-15,-25};
+    hrIncreaseHigh[]={-15,-30};
+    timeInSystem=9800;
+    maxDose=4;
+    inCompatableMedication[]={};
+    viscosityChange=-3;
+};
+
 class Atropine {
     painReduce=0;
     hrIncreaseLow[]={7,10};
@@ -106,4 +128,29 @@ class Ketamine_200mg: Ketamine_6mg {
     viscosityChange=5;
     unconsciousTime=300;
     effectTime = 30;
+};
+
+class Tetra: PainKillers {
+    painReduce=0;
+    hrIncreaseLow[]={0,0};
+    hrIncreaseNormal[]={0,0};
+    hrIncreaseHigh[]={0,0};
+    timeInSystem=5000;
+    viscosityChange=0;
+};
+
+class GVAR(Apap): PainKillers {
+    painReduce=2;
+    timeInSystem=1200;
+    maxDose=15;
+    inCompatableMedication[]={};
+};
+class GVAR(Apap_half): GVAR(Apap) {
+    painReduce=1;
+};
+class GVAR(Apap_quarter): GVAR(Apap) {
+    painReduce=0.5;
+};
+class GVAR(Apap_nil): GVAR(Apap) {
+    painReduce=0;
 };

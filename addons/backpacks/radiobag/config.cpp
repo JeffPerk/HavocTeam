@@ -4,11 +4,11 @@ class CfgPatches {
 
     class HAVOC_Backpacks_RadioBag {
         name = COMPONENT_NAME;
-        addonRootClass = "HAVOC_backpacks";
+        addonRootClass = "havoc_backpacks";
         requiredVersion = REQUIRED_VERSION;
         requiredaddons[] = {
             "a3_supplies_f_enoch_bags",
-            "HAVOC_backpacks"
+            "havoc_backpacks"
         };
         units[] = {
             QGVAR(RadioBag_01_BLACK),

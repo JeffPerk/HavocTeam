@@ -6,7 +6,7 @@ private ["_vehicle", "_fnc_checkAccess"];
 
 switch (HAVOC_Main_MaydayAccess) do {
  case 0: { _fnc_checkAccess = {false}; };
- case 1: { _fnc_checkAccess = {(_this getVariable ["HAVOC_Section", -1]) isEqualTo "909 EAW"}; };
+ case 1: { _fnc_checkAccess = {(_this getVariable ["havoc_Section", -1]) isEqualTo "909 EAW"}; };
  case 2: { _fnc_checkAccess = {true}; };
  default { _fnc_checkAccess = {true}; };
 };
@@ -64,7 +64,7 @@ switch (HAVOC_Main_MaydayAccess) do {
      [_unit, _vehicle]
     ] call CBA_fnc_addPerFrameHandler;
 
-    _vehicle setVariable ["HAVOC_MaydayHandle", _handle, false];
+    _vehicle setVariable ["havoc_MaydayHandle", _handle, false];
    };
   };
 
@@ -97,7 +97,7 @@ player addEventHandler ["GetOutMan", {
  params ["_unit", "_role", "_vehicle", "_turret"];
 
  // remove the mayday check
- _handle = _vehicle getVariable ["HAVOC_MaydayHandle", -1];
+ _handle = _vehicle getVariable ["havoc_MaydayHandle", -1];
 
  if (_handle != -1) then {
   [_handle] call CBA_fnc_removePerFrameHandler;

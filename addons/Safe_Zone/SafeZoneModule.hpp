@@ -11,21 +11,21 @@ class HAVOC_ModuleSafeZone: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class SafeZoneEnable: Checkbox {
-                property = "HAVOC_SafeZoneEnable";
+                property = "havoc_SafeZoneEnable";
                 displayName = "Enabled";
                 tooltip = "Enable/Disable this Safe Zone Module.";
                 typeName = "BOOL";
                 defaultValue = true;
             };
             class SafeZoneSize: Edit {
-                property = "HAVOC_SafeZoneSize";
+                property = "havoc_SafeZoneSize";
                 displayName = "Size";
                 tooltip = "Area of Safe Zone around this module in meters";
                 typeName = "NUMBER";
                 defaultValue = 150;
             };
         class SafeZoneDuration: Edit {
-                property = "HAVOC_SafeZoneDuration";
+                property = "havoc_SafeZoneDuration";
                 displayName = "Duration";
                 tooltip = "How long should the safe zone be active. 0 means permanent.";
                 typeName = "NUMBER";

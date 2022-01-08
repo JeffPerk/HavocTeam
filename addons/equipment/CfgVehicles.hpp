@@ -34,6 +34,7 @@ class CfgVehicles {
 
     class GVAR(resupply): NATO_Box_Base {
         scope = 2;
+        scopeCurator = 2;
         author = QAUTHOR;
         mapSize=1.53;
         class SimpleObject {
@@ -73,6 +74,7 @@ class CfgVehicles {
     };
     class GVAR(arsenal): NATO_Box_Base {
         scope = 2;
+        scopeCurator = 2;
         author = QAUTHOR;
         mapSize=1.53;
         class SimpleObject {
@@ -111,6 +113,46 @@ class CfgVehicles {
         supplyRadius=10;
     };
 
+class GVAR(iarsenal): NATO_Box_Base {
+        scope = 2;
+        scopeCurator = 2;
+        author = QAUTHOR;
+        mapSize=1.53;
+        class SimpleObject {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.79000002;
+            verticalOffsetWorld=0;
+        };
+        displayName = "[Havoc] Incognito Arsenal";
+        model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
+        icon="iconCrateVeh";
+        ace_dragging_canDrag = 0; 
+        ace_dragging_canCarry = 0;
+        slingLoadCargoMemoryPoints[]= {
+            "SlingLoadCargo1",
+            "SlingLoadCargo2",
+            "SlingLoadCargo3",
+            "SlingLoadCargo4"
+        };
+        class EventHandlers: EventHandlers {
+        };
+        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
+        _generalMacro="Box_NATO_AmmoVeh_F";
+        hiddenSelectionsTextures[]= {
+            "z\havoc\addons\Equipment\data\havoc_ammobox_signs_caA.paa",
+            "z\havoc\addons\Equipment\data\ammoA_co_havoc_inc.paa"
+        };
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+        transportAmmo=30000;
+        supplyRadius=10;
+    };
     class ACE_Item_Vector;
 
     class GVAR(Item_Vector_Designator): ACE_Item_Vector {

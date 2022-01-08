@@ -1,4 +1,4 @@
-private _radio = uiNamespace getVariable "HAVOC_CC_currentRadioObject";
+private _radio = uiNamespace getVariable "havoc_CC_currentRadioObject";
 
 // read out values
 private _ch1freq = ctrlText 1400;

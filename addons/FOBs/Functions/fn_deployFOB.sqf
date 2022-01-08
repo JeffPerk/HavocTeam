@@ -19,25 +19,25 @@ Author:
 */
 
 if (!isServer) exitWith {
- _this remoteExec ["HAVOC_fnc_deployFOB", 2];
+ _this remoteExec ["havoc_fnc_deployFOB", 2];
 };
 
 params ["_object", "_caller"];
 
 // sanity checks
-if (_object getVariable ["HAVOC_PortableFOB_Deployed", false]) exitWith {
+if (_object getVariable ["havoc_PortableFOB_Deployed", false]) exitWith {
  systemChat "FOB was already deployed!";
 };
 
-_type = _object getVariable ["HAVOC_PortableFOB_Type", "NULL"];
+_type = _object getVariable ["havoc_PortableFOB_Type", "NULL"];
 
 if (_type isEqualTo "NULL") exitWith {
  systemChat "Invalid FOB type set!";
 };
 
-_name = _object getVariable ["HAVOC_PortableFOB_Name", ""];
+_name = _object getVariable ["havoc_PortableFOB_Name", ""];
 
-_size = _object getVariable ["HAVOC_PortableFOB_Size", -1];
+_size = _object getVariable ["havoc_PortableFOB_Size", -1];
 
 if (_size < 0) exitWith {
  systemChat "Invalid FOB size!";
@@ -68,11 +68,11 @@ if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
 _respawnPos = [side _caller, _pos, _name] call BIS_fnc_addRespawnPosition;
 
 // Set the runtime variables for the FOB object
-_object setVariable ["HAVOC_PortableFOB_Objects", _objects, true];
-_object setVariable ["HAVOC_PortableFOB_HiddenObjects", _hiddenObjects, true];
-_object setVariable ["HAVOC_PortableFOB_Deployed", true, true];
-_object setVariable ["HAVOC_PortableFOB_Pos", _pos, true];
-_object setVariable ["HAVOC_PortableFOB_RespawnPos", _respawnPos, true];
+_object setVariable ["havoc_PortableFOB_Objects", _objects, true];
+_object setVariable ["havoc_PortableFOB_HiddenObjects", _hiddenObjects, true];
+_object setVariable ["havoc_PortableFOB_Deployed", true, true];
+_object setVariable ["havoc_PortableFOB_Pos", _pos, true];
+_object setVariable ["havoc_PortableFOB_RespawnPos", _respawnPos, true];
 
 // re-enable damage and hope nothing breaks
 _object allowDamage true;

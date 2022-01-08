@@ -26,7 +26,7 @@ params [
  ["_Type", "None"]
 ];
 
-private _Type = _container getVariable ["HAVOC_LimitedAmmoSelect", -1];
+private _Type = _container getVariable ["havoc_LimitedAmmoSelect", -1];
 
 if ((_Type isEqualto -1) || (_Type isEqualTo "None")) exitwith {};
 

@@ -1,10 +1,10 @@
 params ["_object", "_selection"];
 
 // delete cameras
-private _cam = _object getVariable format ["HAVOC_CC_screen_%1_Cam", _selection];
+private _cam = _object getVariable format ["havoc_CC_screen_%1_Cam", _selection];
 
 // obtain render target
-private _screen_id = _object getVariable [format ["HAVOC_CC_screen_%1_ID", _selection], -1];
+private _screen_id = _object getVariable [format ["havoc_CC_screen_%1_ID", _selection], -1];
 private _renderTarget = format["screenrt%1", _screen_id];
 
 if !(isNil "_cam") then {
@@ -18,4 +18,4 @@ if !(isNil "_cam") then {
     };
 };
 
-_object setVariable [format ["HAVOC_CC_screen_%1_Cam", _selection], nil];
+_object setVariable [format ["havoc_CC_screen_%1_Cam", _selection], nil];

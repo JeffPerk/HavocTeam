@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"HAVOC_common"};
+        requiredAddons[] = {"havoc_common"};
         VERSION_CONFIG;
     };
 };

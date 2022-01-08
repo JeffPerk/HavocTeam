@@ -2,7 +2,7 @@
 <Project name="Arma_Extended_Environment">
 	
 	<!-- ####################################################################################### -->
-	<Package name="HAVOC_Backpacks">
+	<Package name="havoc_Backpacks">
 		
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="Backpacks_Carryall">

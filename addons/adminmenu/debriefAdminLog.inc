@@ -16,5 +16,5 @@
 class havoc_adminlog
 {
     title = "HAVOC Log";
-    variable = "HAVOC_adminmenu_debrief";
+    variable = "havoc_adminmenu_debrief";
 };

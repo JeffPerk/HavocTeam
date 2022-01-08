@@ -8,7 +8,7 @@ class CfgPatches {
         url = URL;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "havoc_MAIN"
+            "havoc_main"
         };
         units[] = {
             QGVAR(B_MRAP_sand_camo),

@@ -257,8 +257,8 @@ FORCE ace_medical_limping = 1;
 FORCE ace_medical_painCoefficient = 1;
 FORCE ace_medical_painUnconsciousChance = 0.1;
 FORCE ace_medical_playerDamageThreshold = 3.5;
-FORCE ace_medical_spontaneousWakeUpChance = 0.25;
-FORCE ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
+FORCE ace_medical_spontaneousWakeUpChance = 0.55;
+FORCE ace_medical_spontaneousWakeUpEpinephrineBoost = 20;
 FORCE ace_medical_statemachine_AIUnconsciousness = true;
 FORCE ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 FORCE ace_medical_statemachine_cardiacArrestTime = 360;
@@ -719,7 +719,7 @@ force havoc_medical_persistantReviveTimer = 720;
 FORCE HAVOC_tagging_enabled = true;
 
 // HAVOC - Towing
-FORCE HAVOC_towing_addToCars = false;
+FORCE HAVOC_towing_addToCars = true;
 FORCE HAVOC_towing_addToHeavyDutyVehicles = true;
 
 // HAVOC - Zeus

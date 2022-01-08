@@ -28,7 +28,7 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         cursorAimOn = "CursorAimOn";
         showSwitchAction = 1;
-        weaponInfoType = "HAVOC_RscOptics_vector";
+        weaponInfoType = "havoc_RscOptics_vector";
         class WeaponSlotsInfo {
             mass = 20;
         };
@@ -357,6 +357,7 @@ class CfgWeapons {
     };
 
 /////////////////rhs
+    class rhsusf_acc_sniper_base;
     class rhsusf_acc_LEUPOLDMK4_2: rhsusf_acc_sniper_base {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {

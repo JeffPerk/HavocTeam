@@ -36,7 +36,7 @@ class CfgVehicles {
         scope = 2;
         displayName = "$STR_HAVOC_BOC_moduleAdd-disp";
         icon = QPATHTOF(data\moduleAdd.paa);
-        category = "HAVOC_boc";
+        category = "havoc_boc";
         function = QFUNC(moduleAdd);
         functionPriority = 0;
         isGlobal = 0;
@@ -88,7 +88,7 @@ class CfgVehicles {
         scope = 2;
         displayName = "$STR_HAVOC_BOC_moduleOnChest-disp";
         icon = QPATHTOF(data\moduleOnChest.paa);
-        category = "HAVOC_boc";
+        category = "havoc_boc";
         function = QFUNC(moduleOnChest);
         functionPriority = 0;
         isGlobal = 0;

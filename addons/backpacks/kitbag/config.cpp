@@ -4,11 +4,11 @@ class CfgPatches {
 
     class GVAR(Backpacks_Kitbag) {
          name = COMPONENT_NAME;
-        addonRootClass = "HAVOC_backpacks";
+        addonRootClass = "havoc_backpacks";
         requiredVersion = REQUIRED_VERSION;
         requiredaddons[] = {
             "a3_weapons_f_ammoboxes",
-            "HAVOC_backpacks"
+            "havoc_backpacks"
         };
         units[] = {
             QGVAR(Kitbag_01_BLACK),

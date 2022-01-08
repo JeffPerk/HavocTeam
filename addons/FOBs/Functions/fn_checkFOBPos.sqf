@@ -20,7 +20,7 @@ Author:
 
 params ["_object"];
 
-_type = _object getVariable ["HAVOC_PortableFOB_Type", "NULL"];
+_type = _object getVariable ["havoc_PortableFOB_Type", "NULL"];
 
 if (_type isEqualTo "NULL") exitWith {
  systemChat "Invalid FOB type set!";

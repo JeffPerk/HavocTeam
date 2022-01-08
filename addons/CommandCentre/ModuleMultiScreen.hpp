@@ -2,8 +2,8 @@ class HAVOC_ModuleMultiScreen: Module_F {
     scope = 2;
     displayName = "Setup Multi Screen";
     icon = "\z\havoc\addons\media\images\icons\MultiScreen.paa";
-    category = "HAVOC_commandcentre";
-    function = "HAVOC_fnc_moduleMultiScreen";
+    category = "havoc_commandcentre";
+    function = "havoc_fnc_moduleMultiScreen";
     functionPriority = 4;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -11,28 +11,28 @@ class HAVOC_ModuleMultiScreen: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class MultiScreenCam: Checkbox {
-                property = "HAVOC_MultiScreenCam";
+                property = "havoc_MultiScreenCam";
                 displayName = "Allow Helmet Cams";
                 tooltip = "Allow/Disallow viewing Helmet Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
         class MultiScreenDrone: Checkbox {
-                property = "HAVOC_MultiScreenDrone";
+                property = "havoc_MultiScreenDrone";
                 displayName = "Allow Drone Cams";
                 tooltip = "Allow/Disallow viewing Drone Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
         class MultiScreenSat: Checkbox {
-                property = "HAVOC_MultiScreenSat";
+                property = "havoc_MultiScreenSat";
                 displayName = "Allow Satellite View";
                 tooltip = "Allow/Disallow viewing Satellite Imagery through the screen.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
         class MultiScreenSelections: Edit {
-                property = "HAVOC_MultiScreenSelections";
+                property = "havoc_MultiScreenSelections";
                 displayName = "Screen Texture Selections";
                 tooltip = "Texture Selections of the multiple screens. Enter as comma-separated list, eg: '1,2,3'";
                 defaultValue = """1,2,3""";

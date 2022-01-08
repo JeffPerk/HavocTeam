@@ -4,14 +4,14 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "HAVOC_boc_moduleAdd",
-            "HAVOC_boc_moduleOnChest",
-            "HAVOC_boc_weaponHolder"
+            "havoc_boc_moduleAdd",
+            "havoc_boc_moduleOnChest",
+            "havoc_boc_weaponHolder"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "HAVOC_main",
+            "havoc_main",
             "a3_ui_f",
             "A3_Modules_F",
             "ace_main",

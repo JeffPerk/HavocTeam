@@ -99,7 +99,7 @@ _diaryRecord append [""];
 if (typeName _sharedWith == "STRING") then {
  _recipients = [];
  {
-  if (side _x == west && {_x getVariable ["HAVOC_section", "Command"] == _sharedWith}) then {
+  if (side _x == west && {_x getVariable ["havoc_section", "Command"] == _sharedWith}) then {
    _recipients pushBackUnique _x;
   };
  } forEach allGroups;

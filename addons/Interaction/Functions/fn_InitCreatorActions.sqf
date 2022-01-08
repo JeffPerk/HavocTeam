@@ -14,7 +14,7 @@ _action = [
 [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 [["ACE_ZeusActions"], _action] call ACE_interact_menu_fnc_addActionToZeus;
 
-["HAVOC_RegisterCreatorAction", {
+["havoc_RegisterCreatorAction", {
  params ["_action", "_actionPath", "_actionName"];
 
  if (_actionName in HAVOC_ActionIDs) exitWith {};

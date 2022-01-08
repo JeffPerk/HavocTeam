@@ -11,13 +11,13 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class ObjName: Edit {
-                property = "HAVOC_AI_ObjName";
+                property = "havoc_AI_ObjName";
                 displayName = "Objective Name";
                 tooltip = "Name of Objective/Spawn Position.";
                 defaultValue = """Objective 1""";
             };
         class EnemyType: Combo {
-                property = "HAVOC_AI_EnemyType";
+                property = "havoc_AI_EnemyType";
                 displayName = "Enemy Faction";
                 tooltip = "Enemy Faction Type for this Module.";
                 defaultValue = """BLU_F""";
@@ -71,7 +71,7 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
                 };
             };
         class GarrRadius: Edit {
-                property = "HAVOC_AI_GarRadius";
+                property = "havoc_AI_GarRadius";
                 displayName = "Garrison Radius";
                 tooltip = "AI Garrison radius from this module.";
                 typeName = "NUMBER";
@@ -79,14 +79,14 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
             };
 
         class GarrisonedGroupsMin: Edit {
-            property = "HAVOC_AI_GarrisonedGroupsMin";
+            property = "havoc_AI_GarrisonedGroupsMin";
             displayName = "Min Garrisoned Groups";
             description = "Minimum Number of Garrisoned AI Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class GarrisonedGroupsMax: Edit {
-            property = "HAVOC_AI_GarrisonedGroupsMax";
+            property = "havoc_AI_GarrisonedGroupsMax";
             displayName = "Max Garrisoned Groups";
             description = "Maximum Number of Garrisoned AI Groups to Spawn";
             typeName = "Number";
@@ -94,7 +94,7 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
         };
         
         class PatrolMethod: Combo {
-                property = "HAVOC_AI_PatrolMethod";
+                property = "havoc_AI_PatrolMethod";
                 displayName = "Patrol Method";
                 tooltip = "Method to use for plotting patrol paths";
                 defaultValue = """RANDOM""";
@@ -104,7 +104,7 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
                 };
             };
         class Radius: Edit {
-                property = "HAVOC_AI_Radius";
+                property = "havoc_AI_Radius";
                 displayName = "Patrol Radius";
                 tooltip = "AI Patrol radius from this module.";
                 typeName = "NUMBER";
@@ -112,126 +112,126 @@ class HAVOC_ModuleAISpawnsWest: Module_F {
             };
 
         class EIPatrolsMin: Edit {
-            property = "HAVOC_AI_EIPatrolsMin";
+            property = "havoc_AI_EIPatrolsMin";
             displayName = "Min Infantry Patrols";
             description = "Minimum Number of Infantry Patrol Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EIPatrolsMax: Edit {
-            property = "HAVOC_AI_EIPatrolsMax";
+            property = "havoc_AI_EIPatrolsMax";
             displayName = "Max Infantry Patrols";
             description = "Maximum Number of Infantry Patrol Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EIAAMin: Edit {
-            property = "HAVOC_AI_EIAAMin";
+            property = "havoc_AI_EIAAMin";
             displayName = "Min AA Infantry";
             description = "Minimum Number of AA Infantry Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EIAAMax: Edit {
-            property = "HAVOC_AI_EIAAMax";
+            property = "havoc_AI_EIAAMax";
             displayName = "Max AA Infantry";
             description = "Maximum Number of AA Infantry Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EIATMin: Edit {
-            property = "HAVOC_AI_EIATMin";
+            property = "havoc_AI_EIATMin";
             displayName = "Min AT Infantry";
             description = "Minimum Number of AT Infantry Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EIATMax: Edit {
-            property = "HAVOC_AI_EIATMax";
+            property = "havoc_AI_EIATMax";
             displayName = "Max AT Infantry";
             description = "Maximum Number of AT Infantry Groups to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EISniperMin: Edit {
-            property = "HAVOC_AI_EISniperMin";
+            property = "havoc_AI_EISniperMin";
             displayName = "Min Sniper Teams";
             description = "Minimum Number of Sniper Teams to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class EISniperMax: Edit {
-            property = "HAVOC_AI_EISniperMax";
+            property = "havoc_AI_EISniperMax";
             displayName = "Max Sniper Teams";
             description = "Maximum Number of Sniper Teams to Spawn";
             typeName = "Number";
             defaultValue = 0;
         }; 
         class VehAAMin: Edit {
-            property = "HAVOC_AI_VehAAMin";
+            property = "havoc_AI_VehAAMin";
             displayName = "Min AA Vehicles";
             description = "Minimum Number of AA Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehAAMax: Edit {
-            property = "HAVOC_AI_VehAAMax";
+            property = "havoc_AI_VehAAMax";
             displayName = "Max AA Vehicles";
             description = "Maximum Number of AA Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehLightMin: Edit {
-            property = "HAVOC_AI_VehLightMin";
+            property = "havoc_AI_VehLightMin";
             displayName = "Min Light Vehicles";
             description = "Minimum Number of Light Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehLightMax: Edit {
-            property = "HAVOC_AI_VehLightMax";
+            property = "havoc_AI_VehLightMax";
             displayName = "Max Light Vehicles";
             description = "Maximum Number of Light Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehMRAPMin: Edit {
-            property = "HAVOC_AI_VehMRAPMin";
+            property = "havoc_AI_VehMRAPMin";
             displayName = "Min MRAPs";
             description = "Minimum Number of MRAPs to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehMRAPMax: Edit {
-            property = "HAVOC_AI_VehMRAPMax";
+            property = "havoc_AI_VehMRAPMax";
             displayName = "Max MRAPs";
             description = "Maximum Number of MRAPs to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };  
         class VehHeavyMin: Edit {
-            property = "HAVOC_AI_VehHeavyMin";
+            property = "havoc_AI_VehHeavyMin";
             displayName = "Min Heavy Vehicles";
             description = "Minimum Number of Heavy Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehHeavyMax: Edit {
-            property = "HAVOC_AI_VehHeavyMax";
+            property = "havoc_AI_VehHeavyMax";
             displayName = "Max Heavy Vehicles";
             description = "Maximum Number of Heavy Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehRandomMin: Edit {
-            property = "HAVOC_AI_VehRandomMin";
+            property = "havoc_AI_VehRandomMin";
             displayName = "Min Random Vehicles";
             description = "Minimum Number of Random Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class VehRandomMax: Edit {
-            property = "HAVOC_AI_VehRandomMax";
+            property = "havoc_AI_VehRandomMax";
             displayName = "Max Random Vehicles";
             description = "Maximum Number of Random Vehicles to Spawn";
             typeName = "Number";

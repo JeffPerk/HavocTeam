@@ -42,7 +42,7 @@ if (isNull _target) exitWith {};
     
     uiSleep 0.5;
     
-    private _soundClass = selectRandom ["HAVOC_Action_Backpack_Open_1", "HAVOC_Action_Backpack_Open_2"];
+    private _soundClass = selectRandom ["havoc_Action_Backpack_Open_1", "havoc_Action_Backpack_Open_2"];
     
     if (missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
         private _pitch = random [0.8, 1.0, 1.2];
@@ -54,7 +54,7 @@ if (isNull _target) exitWith {};
     _player action ["OpenBag", _target];
     
     if (isPlayer _target) then {
-        [_player, _target] remoteExecCall ["HAVOC_interactions_fnc_backpack_access", _target];
+        [_player, _target] remoteExecCall ["havoc_interactions_fnc_backpack_access", _target];
     };
     
 };

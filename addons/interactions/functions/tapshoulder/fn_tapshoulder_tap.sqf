@@ -62,7 +62,7 @@ if (missionNamespace getVariable ["havoc_interactions_tapshoulder_hint", true]) 
     [format [hint_havoc_default, _hintMessage]] call havoc_fnc_hint;
     
     if !(missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
-        playSound "HAVOC_Action_Shoulder_Tap_1";
+        playSound "havoc_Action_Shoulder_Tap_1";
     };
     
 };

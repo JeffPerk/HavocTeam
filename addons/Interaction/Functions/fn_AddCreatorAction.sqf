@@ -58,5 +58,5 @@ _action = [
 ] call ACE_interact_menu_fnc_createAction;
 
 [
- "HAVOC_RegisterCreatorAction", [_action, _actionPath, _actionName], format["HAVOC_CAJIP_%1", _actionName]
+ "havoc_RegisterCreatorAction", [_action, _actionPath, _actionName], format["havoc_CAJIP_%1", _actionName]
 ] call CBA_fnc_globalEventJIP;

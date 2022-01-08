@@ -83,7 +83,7 @@ if (_text isEqualTo "") exitWith {};
     disableSerialization;
     
     //_display = findDisplay 46;
-    _display = uiNamespace getVariable "HAVOC_ctrlHint";
+    _display = uiNamespace getVariable "havoc_ctrlHint";
     
     _bwidth = 0.003 * safezoneW;
     _spacer = 1.5 * (0.01 * safezoneH);

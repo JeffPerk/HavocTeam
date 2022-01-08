@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 // Vehicle Crew List
 [
-    "HAVOC_Main_VehicleCrewList",
+    "havoc_Main_VehicleCrewList",
     "CHECKBOX",
     ["Vehicle Crew List", "Shows a list of players in a vehicle."],
     COMPONENT_NAME,
@@ -14,7 +14,7 @@
 
 // Dynamic Groups
 [
-    "HAVOC_Main_DynamicGroups",
+    "havoc_Main_DynamicGroups",
     "CHECKBOX",
     ["BIS Dynamic Groups", "Enable Vanilla Dynamic Groups system (U Menu)"],
     COMPONENT_NAME,
@@ -28,7 +28,7 @@
 
 // PilotCheck
 [
-    "HAVOC_Main_PilotCheck",
+    "havoc_Main_PilotCheck",
     "CHECKBOX",
     ["Pilot Restrictions", "Restrict aircraft so only those with 'Pilot' Trait can fly."],
     COMPONENT_NAME,
@@ -41,7 +41,7 @@
 
 // PilotCheck
 [
-    "HAVOC_Main_MaydayAccess",
+    "havoc_Main_MaydayAccess",
     "LIST",
     ["Aircraft Emergency Access", "Restrict access to the emergency pilot takeover for helicopters (requires Pilot Check Enabled)"],
     COMPONENT_NAME,
@@ -54,7 +54,7 @@
 
 // Arsenal - Save/Load
 [
-    "HAVOC_Main_ArsenalSaveLoad",
+    "havoc_Main_ArsenalSaveLoad",
     "CHECKBOX",
     ["Arsenal - Save/Load", "Should a player be allowed to Save/Load Loadouts in the Arsenal?"],
     COMPONENT_NAME,
@@ -67,7 +67,7 @@
 
 // Flip Vehicle
 [
-    "HAVOC_Main_FlipVehicle",
+    "havoc_Main_FlipVehicle",
     "CHECKBOX",
     ["Flip Vehicle", "Add an action to players to allow them to flip land vehicles."],
     COMPONENT_NAME,
@@ -80,7 +80,7 @@
 
 // TFAR - Range Multiplyer
 [
-    "HAVOC_Main_TFARTransmitRange",
+    "havoc_Main_TFARTransmitRange",
     "SLIDER",
     ["TFAR - Range Multiplyer", "Increase or decrease max Transmit Range. 0.1 = poor range, 3.5 = All of Altis"],
     COMPONENT_NAME,
@@ -93,7 +93,7 @@
 
 // TFAR - Terrain Interference
 [
-    "HAVOC_Main_TFARTerrainInterference",
+    "havoc_Main_TFARTerrainInterference",
     "SLIDER",
     ["TFAR - Terrain Interference", "How much Terrain interferes with range. 0.1 = little impact, 2.0 = large impact."],
     COMPONENT_NAME,
@@ -106,7 +106,7 @@
 
 // Cue Cards
 /* [
-    "HAVOC_Main_CueCards",
+    "havoc_Main_CueCards",
     "CHECKBOX",
     ["Cue Cards", "Show/Hide Cue Cards in ACE Self Interaction Menu."],
     COMPONENT_NAME,
@@ -119,7 +119,7 @@
 
 // Diary Defaults
 [
-    "HAVOC_Main_Diary",
+    "havoc_Main_Diary",
     "CHECKBOX",
     ["Diary Defaults", "Show/Hide Default HAVOC Diary Entries."],
     COMPONENT_NAME,
@@ -132,7 +132,7 @@
 
 // MapIcons
 [
-    "HAVOC_Main_MapIcons",
+    "havoc_Main_MapIcons",
     "CHECKBOX",
     ["Enable Save/Load Markers", "Enable the MapIcons system to save/load markers"],
     COMPONENT_NAME,
@@ -149,7 +149,7 @@
 
 // Fatigue (Vanilla ONLY)
 [
-    "HAVOC_Main_FatigueVanilla",
+    "havoc_Main_FatigueVanilla",
     "CHECKBOX",
     ["Fatigue (Vanilla ONLY)", "Enable/Disable Vanilla Fatigue System. Does not apply with @ACE."],
     COMPONENT_NAME,
@@ -163,7 +163,7 @@
 
 // HAVOC_Main_DynamicSim
 [
-    "HAVOC_Main_DynamicSim",
+    "havoc_Main_DynamicSim",
     "CHECKBOX",
     ["HAVOC Dynamic Sim", "Simple check for Dynamic Sim enabled. If not enabled it will enable it to default HAVOC Values. "],
     COMPONENT_NAME,
@@ -176,7 +176,7 @@
 
 // HAVOC_Main_DynamicSim
 [
-    "HAVOC_Main_LockCamVehicle",
+    "havoc_Main_LockCamVehicle",
     "CHECKBOX",
     ["HAVOC Lock Camera in Vehicle", "Locks the camera to first-person inside vehicles. If not enabled it will enable it to default HAVOC Values. "],
     COMPONENT_NAME,

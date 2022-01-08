@@ -23,11 +23,11 @@ Author:
 */
 params ["_object"];
 
-_size = _object getVariable ["HAVOC_PortableFOB_Size", -1];
+_size = _object getVariable ["havoc_PortableFOB_Size", -1];
 _pos = getPos _object;
 
 _obstructed = ((count nearestTerrainObjects [_object, ["BUILDING","HOUSE","CHURCH","CHAPEL","FUELSTATION","HOSPITAL","RUIN","BUNKER","WALL"], 5 + _size * 5]) > 0);
-_deployed = (_object getVariable ["HAVOC_PortableFOB_Deployed", false]);
+_deployed = (_object getVariable ["havoc_PortableFOB_Deployed", false]);
 
 if ((!_deployed) && {_obstructed}) exitWith {
  hintSilent "Can't deploy FOB! There are buildings in the way...";

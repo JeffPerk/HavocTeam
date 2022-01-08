@@ -14,4 +14,4 @@ private _objects = synchronizedObjects _logic;
     HAVOC_CC_vehicleCamList pushBackUnique _x;
 } foreach _objects;
 
-publicVariable "HAVOC_CC_vehicleCamList";
+publicVariable "havoc_CC_vehicleCamList";

@@ -56,13 +56,13 @@ if ((_shoulder < 0) || (_shoulder > 1)) exitWith {};
     
     if (missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
         private _pitch = random [0.8, 1.0, 1.2];
-        ["HAVOC_Action_Shoulder_Tap_1", _target, AGLToASL (_target modelToWorld (_target selectionPosition _selectionName)), 20, 1, _pitch, false] call havoc_fnc_playSound3d;
+        ["havoc_Action_Shoulder_Tap_1", _target, AGLToASL (_target modelToWorld (_target selectionPosition _selectionName)), 20, 1, _pitch, false] call havoc_fnc_playSound3d;
     } else {
-        playSound "HAVOC_Action_Shoulder_Tap_1";
+        playSound "havoc_Action_Shoulder_Tap_1";
     };
     
     if (isPlayer _target) then {
-        [_player, _target, _shoulder] remoteExecCall ["HAVOC_interactions_fnc_tapshoulder_tap", _target];
+        [_player, _target, _shoulder] remoteExecCall ["havoc_interactions_fnc_tapshoulder_tap", _target];
     };
     
 };

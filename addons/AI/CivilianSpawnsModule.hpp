@@ -11,13 +11,13 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class ObjName: Edit {
-                property = "HAVOC_AI_ObjName";
+                property = "havoc_AI_ObjName";
                 displayName = "Objective Name";
                 tooltip = "Name of Objective/Spawn Position.";
                 defaultValue = """Objective 1""";
             };
         class Type: Combo {
-                property = "HAVOC_AI_Type";
+                property = "havoc_AI_Type";
                 displayName = "Civilian Faction";
                 tooltip = "Civilian Faction Type for this Module.";
                 defaultValue = """CIV_F""";
@@ -36,7 +36,7 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
                 };
             };
         class Side: Combo {
-                property = "HAVOC_AI_Side";
+                property = "havoc_AI_Side";
                 displayName = "Civilian Side";
                 tooltip = "Side to spawn the Civilians on.";
                 defaultValue = """CIVILIAN""";
@@ -49,7 +49,7 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
             };
 
         class GarrRadius: Edit {
-                property = "HAVOC_AI_GarRadius";
+                property = "havoc_AI_GarRadius";
                 displayName = "Garrison Radius";
                 tooltip = "AI Garrison radius from this module.";
                 typeName = "NUMBER";
@@ -57,14 +57,14 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
             };
 
         class GarrisonedUnitsMin: Edit {
-            property = "HAVOC_AI_GarrisonedUnitsMin";
+            property = "havoc_AI_GarrisonedUnitsMin";
             displayName = "Min Garrisoned Units";
             description = "Minimum Number of Garrisoned Civilians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class GarrisonedUnitsMax: Edit {
-            property = "HAVOC_AI_GarrisonedUnitsMax";
+            property = "havoc_AI_GarrisonedUnitsMax";
             displayName = "Max Garrisoned Units";
             description = "Maximum Number of Garrisoned Civilians to Spawn";
             typeName = "Number";
@@ -72,7 +72,7 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
         };
 
         class Radius: Edit {
-                property = "HAVOC_AI_Radius";
+                property = "havoc_AI_Radius";
                 displayName = "Patrol Radius";
                 tooltip = "Civilian Spawn radius from this module.";
                 typeName = "NUMBER";
@@ -80,42 +80,42 @@ class HAVOC_ModuleCivilianSpawns: Module_F {
             };
 
         class CivPedPatrolsMin: Edit {
-            property = "HAVOC_AI_CivPedPatrolsMin";
+            property = "havoc_AI_CivPedPatrolsMin";
             displayName = "Min Pedestrian Patrols";
             description = "Minimum Number of Pedestrians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class CivPedPatrolsMax: Edit {
-            property = "HAVOC_AI_CivPedPatrolsMax";
+            property = "havoc_AI_CivPedPatrolsMax";
             displayName = "Max Pedestrian Patrols";
             description = "Maximum Number of Pedestrians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class CivVehPatrolsMin: Edit {
-            property = "HAVOC_AI_CivVehPatrolsMin";
+            property = "havoc_AI_CivVehPatrolsMin";
             displayName = "Min Vehicle Patrols";
             description = "Minimum Number of Vehicle Patrols to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class CivVehPatrolsMax: Edit {
-            property = "HAVOC_AI_CivVehPatrolsMax";
+            property = "havoc_AI_CivVehPatrolsMax";
             displayName = "Max Vehicle Patrols";
             description = "Maximum Number of Vehicle Patrols to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class CivVehParkedMin: Edit {
-            property = "HAVOC_AI_CivVehParkedMin";
+            property = "havoc_AI_CivVehParkedMin";
             displayName = "Min Parked Vehicles";
             description = "Minimum Number of Parked Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
         class CivVehParkedMax: Edit {
-            property = "HAVOC_AI_CivVehPaarkedMax";
+            property = "havoc_AI_CivVehPaarkedMax";
             displayName = "Max Parked Vehicle";
             description = "Maximum Number of Parked Vehicles to Spawn";
             typeName = "Number";

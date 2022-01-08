@@ -6,7 +6,7 @@ params ["_object", "_player", "_radio"];
 if !(createDialog "RadioConfigDialog") exitWith {systemChat "Couldn't create dialog!"};
 
 // set up uiNamespace
-uiNamespace setVariable ["HAVOC_CC_currentRadioObject", _radio];
+uiNamespace setVariable ["havoc_CC_currentRadioObject", _radio];
 
 // get all the elements that we care about
 private _dialog = findDisplay 21821;
