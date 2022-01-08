@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 // Reporting AI
 [
-    "HAVOC_AI_Reporting",
+    "havoc_AI_Reporting",
     "CHECKBOX",
     ["Spawn Reporting", "Receive a systemchat message for any groups or vehicles that fail to spawn."],
     COMPONENT_NAME,
@@ -14,7 +14,7 @@
 
 // Initial AI
 [
-    "HAVOC_AI_InitialAI",
+    "havoc_AI_InitialAI",
     "CHECKBOX",
     ["Include Initial AI", "This will automatically apply to AI Spawns and Zeus placed AI. If enabled it will also apply to any Editor placed AI at mission start."],
     COMPONENT_NAME,
@@ -27,7 +27,7 @@
 
 // AI Aiming Accuracy
 [
-    "HAVOC_AI_AimingAccuracy",
+    "havoc_AI_AimingAccuracy",
     "SLIDER",
     ["Min Aiming Accuracy", "Higher value means the AI will be more likely to hit the target."],
     COMPONENT_NAME,
@@ -40,7 +40,7 @@
 
 // AI Aiming Shake
 [
-    "HAVOC_AI_AimingShake",
+    "havoc_AI_AimingShake",
     "SLIDER",
     ["Min Aiming Shake", "Higher value means the AI will be more precise."],
     COMPONENT_NAME,
@@ -53,7 +53,7 @@
 
 // AI Aiming Speed
 [
-    "HAVOC_AI_AimingSpeed",
+    "havoc_AI_AimingSpeed",
     "SLIDER",
     ["Min Aiming Speed", "Higher value means the AI can rotate and stabilize its aim faster."],
     COMPONENT_NAME,
@@ -66,7 +66,7 @@
 
 // AI Commanding
 [
-    "HAVOC_AI_Commanding",
+    "havoc_AI_Commanding",
     "SLIDER",
     ["Commanding", "Higher value means the AI can report targets faster."],
     COMPONENT_NAME,
@@ -79,7 +79,7 @@
 
 // AI Courage
 [
-    "HAVOC_AI_Courage",
+    "havoc_AI_Courage",
     "SLIDER",
     ["Courage", "Higher value means the AI can report targets faster."],
     COMPONENT_NAME,
@@ -92,7 +92,7 @@
 
 // AI General
 [
-    "HAVOC_AI_General",
+    "havoc_AI_General",
     "SLIDER",
     ["General", "Higher value improves the AI's decision making."],
     COMPONENT_NAME,
@@ -105,7 +105,7 @@
 
 // AI Min Reload Speed
 [
-    "HAVOC_AI_ReloadSpeed",
+    "havoc_AI_ReloadSpeed",
     "SLIDER",
     ["Min Reload Speed", "Higher value means the AI can switch or reload weapons faster."],
     COMPONENT_NAME,
@@ -118,7 +118,7 @@
 
 // AI Min Spot Distance
 [
-    "HAVOC_AI_SpotDistance",
+    "havoc_AI_SpotDistance",
     "SLIDER",
     ["Min Spot Distance", "Higher value means the AI is better at spotting targets."],
     COMPONENT_NAME,
@@ -131,7 +131,7 @@
 
 // AI Min Spot Time
 [
-    "HAVOC_AI_SpotTime",
+    "havoc_AI_SpotTime",
     "SLIDER",
     ["Min Spot Time", "Higher value means the AI will react faster to death, damage or enemies."],
     COMPONENT_NAME,

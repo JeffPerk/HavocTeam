@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 // Creator Actions
 [
-    "HAVOC_CreatorActions_Master",
+    "havoc_CreatorActions_Master",
     "CHECKBOX",
     ["Enable Creator Actions", "Show/Hide Creator Actions in ACE Self Interaction Menu"],
     COMPONENT_NAME,
@@ -14,7 +14,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    "HAVOC_CreatorActions_Channels",
+    "havoc_CreatorActions_Channels",
     "CHECKBOX",
     ["Enable Channel Actions", "Add Creator Actions to enable/disable channels"],
     COMPONENT_NAME,
@@ -28,7 +28,7 @@
 
 /*
 [
-    "HAVOC_CreatorActions_MarkerSaving",
+    "havoc_CreatorActions_MarkerSaving",
     "CHECKBOX",
     ["Enable SaveMarkers", "Add Creator Actions to save/load markers"],
     COMPONENT_NAME,
@@ -50,7 +50,7 @@
 */ // broken as fuck, crashes the game...
 
 [
-    "HAVOC_CreatorActions_EndMission",
+    "havoc_CreatorActions_EndMission",
     "CHECKBOX",
     ["Enable EndMission", "Add Creator Actions to end the mission and return players to the lobby"],
     COMPONENT_NAME,

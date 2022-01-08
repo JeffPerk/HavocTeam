@@ -11,22 +11,22 @@ private _name = lbText [2102, _idx];
 private _data = lbData [2102, _idx];
 
 // set the mode
-_object setVariable [format ["HAVOC_CC_screen_%1_mode", _selection], "SAT", true];
-_object setVariable [format ["HAVOC_CC_screen_%1_target", _selection], _name, true];
+_object setVariable [format ["havoc_CC_screen_%1_mode", _selection], "SAT", true];
+_object setVariable [format ["havoc_CC_screen_%1_target", _selection], _name, true];
 
 // obtain render target
-private _screen_id = _object getVariable [format ["HAVOC_CC_screen_%1_ID", _selection], -1];
+private _screen_id = _object getVariable [format ["havoc_CC_screen_%1_ID", _selection], -1];
 private _renderTarget = format["screenrt%1", _screen_id];
 
-private _screen_JIP_ID = format ["HAVOC_CC_screen%1_JIP", _object getVariable [format ["HAVOC_CC_screen_%1_ID", _selection], -1]];
+private _screen_JIP_ID = format ["havoc_CC_screen%1_JIP", _object getVariable [format ["havoc_CC_screen_%1_ID", _selection], -1]];
 
 //rExec the actual cam creation
-[_object, _selection, _renderTarget, _data] remoteExec ["HAVOC_fnc_viewSatGlobal", 0, _screen_JIP_id];
+[_object, _selection, _renderTarget, _data] remoteExec ["havoc_fnc_viewSatGlobal", 0, _screen_JIP_id];
 
 HAVOC_CC_currentScreenObject = nil;
 HAVOC_CC_currentScreenSelection = nil;
 
-_object setVariable [format ["HAVOC_CC_screen_%1_on", _selection], true, true];
-_object setVariable [format ["HAVOC_CC_screen_%1_visionMode", _selection], 0, true];
+_object setVariable [format ["havoc_CC_screen_%1_on", _selection], true, true];
+_object setVariable [format ["havoc_CC_screen_%1_visionMode", _selection], 0, true];
 
 closeDialog 1;

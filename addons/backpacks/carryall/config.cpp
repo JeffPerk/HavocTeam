@@ -4,11 +4,11 @@ class CfgPatches {
 
     class HAVOC_Backpacks_Carryall {
         name = COMPONENT_NAME;
-        addonRootClass = "HAVOC_backpacks";
+        addonRootClass = "havoc_backpacks";
         requiredVersion = REQUIRED_VERSION;
         requiredaddons[] = {
             "a3_weapons_f_ammoboxes",
-            "HAVOC_backpacks"
+            "havoc_backpacks"
         };
         units[] = {
             QGVAR(Carryall_01_BLACK),

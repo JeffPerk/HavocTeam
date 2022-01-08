@@ -53,7 +53,7 @@ if (Not hasInterface) exitWith {};
 
 // CLEANUP HINTS
 
-//("HAVOC_RscHint" call BIS_fnc_rscLayer) cutRsc ["HAVOC_RscHint", "PLAIN", 0, true];
-99 cutRsc ["HAVOC_RscHint", "PLAIN", 0, true];
+//("havoc_RscHint" call BIS_fnc_rscLayer) cutRsc ["havoc_RscHint", "PLAIN", 0, true];
+99 cutRsc ["havoc_RscHint", "PLAIN", 0, true];
 
 [] call HAVOC_hints_fnc_cleanup;

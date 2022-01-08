@@ -2,8 +2,8 @@ class HAVOC_ModuleCommsTower: Module_F {
     scope = 2;
     displayName = "Comms Tower";
     icon = "\z\havoc\addons\media\images\icons\RadioTower.paa";
-    category = "HAVOC_commandcentre";
-    function = "HAVOC_fnc_moduleCommsTower";
+    category = "havoc_commandcentre";
+    function = "havoc_fnc_moduleCommsTower";
     functionPriority = 4;
     isGlobal = 0;
     isTriggerActivated = 0;

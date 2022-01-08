@@ -4,8 +4,8 @@ params ["_medic", "_patient"];
 
 _output = "Unit is deceased";
 if(alive _patient) then {
-    _totalTimeLeft = _patient getVariable ["havoc_REVIVAL", havoc_medical_persistantReviveTimer];
-    _condition = _totalTimeLeft/havoc_medical_persistantReviveTimer;
+    _totalTimeLeft = _patient getVariable ["havoc_REVIVAL", HAVOC_medical_persistantReviveTimer];
+    _condition = _totalTimeLeft/HAVOC_medical_persistantReviveTimer;
     _output = "Unit is in critical condition";
     if(_condition > 0.1) then {
         _output = "Unit appears very injured";

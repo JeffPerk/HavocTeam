@@ -6,7 +6,7 @@ class CfgPatches {
         author = QAUTHOR;
          name = COMPONENT_NAME;
         url = URL;
-        units[] = {"HAVOC_Flag_White", "HAVOC_Flag_Black"};
+        units[] = {"havoc_Flag_White", "havoc_Flag_Black"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
         VERSION_CONFIG;

@@ -61,13 +61,13 @@ _do= _box addMagazineCargoGlobal [_x, _Ammount];
 ////if unlimited is set to true, the box will be refilled automatically
 
 if (_isUnlimited)then {
-_box setVariable ["HAVOC_AmmoMagazines", _allMagazinesType];
+_box setVariable ["havoc_AmmoMagazines", _allMagazinesType];
 
 _handlerIndex = _box addEventHandler
  ["ContainerOpened",
   {
   _box = _this select 0;
-  _allMagazinesType = _box getVariable "HAVOC_AmmoMagazines";
+  _allMagazinesType = _box getVariable "havoc_AmmoMagazines";
 
 
 
@@ -75,32 +75,32 @@ _handlerIndex = _box addEventHandler
   {_box addMagazineCargoGlobal [_x,10];} forEach _allMagazinesType;
         _box addItemCargoGlobal ["havoc_medbags_FirstAid",1];
         _box addItemCargoGlobal ["havoc_medbags_MedicKit",1];
-        _box addItemCargoGlobal ["HAVOC_mopp",1];
+        _box addItemCargoGlobal ["havoc_mopp",1];
   _box addItemCargoGlobal ["HandGrenade",8];
   _box addItemCargoGlobal ["SmokeShell",8];
   _box addItemCargoGlobal ["ACE_M84",8];
   }
  ];
-_box setVariable ["HAVOC_AmmoCrateEHIndex", _handlerIndex, true];
+_box setVariable ["havoc_AmmoCrateEHIndex", _handlerIndex, true];
 
 };
 
 ////Adds ace action to allow refresh of the box's contents midgame (useful if new weapons are given to players)
 
 _params = [_box,_Ammount,_isUnlimited,_canBeRefreshed];
-_box setVariable ["HAVOC_AmmoCrateParameters", _params, true];
+_box setVariable ["havoc_AmmoCrateParameters", _params, true];
 
 if (_canBeRefreshed) then {
 _statement =
  {
 
  _box = _this select 0;
- _params = _box getVariable "HAVOC_AmmoCrateParameters";
+ _params = _box getVariable "havoc_AmmoCrateParameters";
  [[_params],
   {
   params ["_params"];
   _box = _params select 0;
-  _handlerIndex = _box getVariable "HAVOC_AmmoCrateEHIndex";
+  _handlerIndex = _box getVariable "havoc_AmmoCrateEHIndex";
   _box removeEventHandler ["ContainerOpened", _handlerIndex];
   [_box ,0,["ACE_MainActions","RefreshBoxContents"]] call ace_interact_menu_fnc_removeActionFromObject;
   _params call havoc_fnc_AmmoCrate;

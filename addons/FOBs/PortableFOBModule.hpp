@@ -4,7 +4,7 @@ class HAVOC_ModulePortableFOB_Camp: Module_F {
     displayName = "Portable FOB - Camp";
     icon = "\z\havoc\addons\media\images\havoc_card_1024";
     category = QUOTE(PREFIX);
-    function = "HAVOC_fnc_modulePortableFOB_Camp";
+    function = "havoc_fnc_modulePortableFOB_Camp";
     functionPriority = 2;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -12,7 +12,7 @@ class HAVOC_ModulePortableFOB_Camp: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class Type: Combo {
-                property = "HAVOC_FOBs_Type";
+                property = "havoc_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_CAMP""";
@@ -49,7 +49,7 @@ class HAVOC_ModulePortableFOB_Small: Module_F {
     displayName = "Portable FOB - Small";
     icon = "\z\havoc\addons\media\images\havoc_card_1024";
     category = QUOTE(PREFIX);
-    function = "HAVOC_fnc_modulePortableFOB_Small";
+    function = "havoc_fnc_modulePortableFOB_Small";
     functionPriority = 2;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -57,7 +57,7 @@ class HAVOC_ModulePortableFOB_Small: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class Type: Combo {
-                property = "HAVOC_FOBs_Type";
+                property = "havoc_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_SMALL""";
@@ -106,7 +106,7 @@ class HAVOC_ModulePortableFOB_Medium: Module_F {
     displayName = "Portable FOB - Medium";
     icon = "\z\havoc\addons\media\images\havoc_card_1024";
     category = QUOTE(PREFIX);
-    function = "HAVOC_fnc_modulePortableFOB_Medium";
+    function = "havoc_fnc_modulePortableFOB_Medium";
     functionPriority = 2;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -114,7 +114,7 @@ class HAVOC_ModulePortableFOB_Medium: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class Type: Combo {
-                property = "HAVOC_FOBs_Type";
+                property = "havoc_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_MEDIUM""";
@@ -169,7 +169,7 @@ class HAVOC_ModulePortableFOB_Large: Module_F {
     displayName = "Portable FOB - Large";
     icon = "\z\havoc\addons\media\images\havoc_card_1024";
     category = QUOTE(PREFIX);
-    function = "HAVOC_fnc_modulePortableFOB_Large";
+    function = "havoc_fnc_modulePortableFOB_Large";
     functionPriority = 2;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -177,7 +177,7 @@ class HAVOC_ModulePortableFOB_Large: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class Type: Combo {
-                property = "HAVOC_FOBs_Type";
+                property = "havoc_FOBs_Type";
                 displayName = "FOB Type";
                 tooltip = "Type of Portable FOB to create.";
                 defaultValue = """ANY_LARGE""";

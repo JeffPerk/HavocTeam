@@ -18,7 +18,7 @@ switch _mode do {
 
   _ctrlNotepadIn ctrlEnable true;
 
-  _notepadContents = uiNamespace getVariable ["HAVOC_Notepad_Content", ""];
+  _notepadContents = uiNamespace getVariable ["havoc_Notepad_Content", ""];
 
   _ctrlNotepadIn ctrlSetText _notepadContents;
  };
@@ -29,6 +29,6 @@ switch _mode do {
   _notepadContents = ctrlText _ctrlNotepadIn;
 
   // Save the contents of the notepad to the missionNamespace
-  missionNamespace setVariable ["HAVOC_Notepad_Content", _notepadContents];
+  missionNamespace setVariable ["havoc_Notepad_Content", _notepadContents];
  };
 };

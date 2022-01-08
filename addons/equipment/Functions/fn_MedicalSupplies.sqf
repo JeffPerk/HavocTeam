@@ -26,7 +26,7 @@ params [
  ["_purge", false]
 ];
 
-private _VarType = _container getVariable ["HAVOC_Equipment_Select", -1];
+private _VarType = _container getVariable ["havoc_Equipment_Select", -1];
 
 call {
  if (_VarType isEqualto 0) exitwith {_Type = "Limited"};
@@ -88,11 +88,11 @@ call {
     ["kat_AED", 2],
     ["kat_aatKit", 8],
     ["ACE_bodyBag", 8],
-    ["HAVOC_MedicArea", 1],
+    ["havoc_MedicArea", 1],
     ["havoc_medbags_MedicKit", 8],
     ["ACE_tourniquet", 20],
     ["ACE_surgicalKit", 2],
-    ["HAVOC_Stethoscope", 2],
+    ["havoc_Stethoscope", 2],
     ["ACE_splint", 20],
     ["ACE_salineIV", 20],
     ["ACE_plasmaIV", 20],

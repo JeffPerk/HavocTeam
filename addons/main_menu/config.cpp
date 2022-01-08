@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "HAVOC_main"
+            "havoc_main"
         };
         author = QAUTHOR;
         authors[] = {"veteran29"};

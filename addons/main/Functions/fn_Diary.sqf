@@ -40,7 +40,7 @@ player createDiaryRecord ["Diary", ["Short Range Frequencies",
 "
 ]];
 
-_PlayerGroup =  group player getVariable ["HAVOC_section","null"];
+_PlayerGroup =  group player getVariable ["havoc_section","null"];
 if !(_PlayerGroup == "500)") exitwith {};
 
 player createDiarySubject ["HAVOC Commands","HAVOC Commands"];

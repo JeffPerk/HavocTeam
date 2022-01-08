@@ -52,7 +52,7 @@ private _settings = [0,(_radioVol - 1),[(str _radioCh1),(str _radioCh2)],0,_radi
 
 (_radio select 0) setVariable ["TFAR_LRSpeakersEnabled", _radioOn, true];
 
-_object setVariable ["HAVOC_CC_radioObject", _radio, true];
+_object setVariable ["havoc_CC_radioObject", _radio, true];
 
 // Done setting up, now add the actions for channel switching etc.
-[_object, _radio] remoteExec ["HAVOC_fnc_addRadioActions", 0, true];
+[_object, _radio] remoteExec ["havoc_fnc_addRadioActions", 0, true];

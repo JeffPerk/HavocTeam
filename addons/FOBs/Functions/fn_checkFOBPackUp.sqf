@@ -18,12 +18,12 @@ Author:
 */
 params ["_object"];
 
-_size = _object getVariable ["HAVOC_PortableFOB_Size", -1];
-_fobPos = _object getVariable ["HAVOC_PortableFOB_Pos", [0,0,0]];
+_size = _object getVariable ["havoc_PortableFOB_Size", -1];
+_fobPos = _object getVariable ["havoc_PortableFOB_Pos", [0,0,0]];
 _pos = getPos _object;
 
 _tooFar = ((_pos distance2D _fobPos) > (5 + _size * 5));
-_deployed = (_object getVariable ["HAVOC_PortableFOB_Deployed", false]);
+_deployed = (_object getVariable ["havoc_PortableFOB_Deployed", false]);
 
 if (_deployed && {_tooFar}) exitWith {
  hintSilent "FOB can't be packed up! Container is too far away...";

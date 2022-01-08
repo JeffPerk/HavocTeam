@@ -20,8 +20,8 @@ class Cfg3DEN {
                     w = "80 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 3;
-                    strings[] = {"None", "HAVOC", "HAVOC Winter"};
+                    columns = 4;
+                    strings[] = {"None", "HAVOC", "Winter", "Incognito"};
                 };
             };
         };
@@ -106,7 +106,6 @@ class Cfg3DEN {
                         condition = "objectHasInventoryCargo";
                         defaultValue = "-1";
                     };
-
                 };
             };
         };

@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredaddons[] = {
             "a3_weapons_f",
-            "HAVOC_MAIN",
+            "havoc_main",
             "A3_Supplies_F_Enoch_Bags"
         };
         units[] = {};

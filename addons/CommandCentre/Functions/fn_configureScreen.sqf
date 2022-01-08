@@ -32,8 +32,8 @@ ctrlEnable [2403, _allowSat];
 ctrlEnable [2102, _allowSat];
 
 // set title
-private _screenMode = _object getVariable [format ["HAVOC_CC_screen_%1_mode", _selection], ""];
-private _screenTarget = _object getVariable [format ["HAVOC_CC_screen_%1_target", _selection], ""];
+private _screenMode = _object getVariable [format ["havoc_CC_screen_%1_mode", _selection], ""];
+private _screenTarget = _object getVariable [format ["havoc_CC_screen_%1_target", _selection], ""];
 private "_modeName";
 
 if ((!(_screenMode isEqualTo "")) && (!(_screenTarget isEqualTo ""))) then {
@@ -57,7 +57,7 @@ lbClear _hCamList;
 _hCamList lbSetCurSel -1;
 {
     private _name = "";
-    private _section = _x getVariable "HAVOC_Section";
+    private _section = _x getVariable "havoc_Section";
 
     if (isNil "_section") then {
         _name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];
@@ -98,7 +98,7 @@ lbClear _satList;
 _satList lbSetCurSel -1;
 {
     private _name = "";
-    private _section = _x getVariable "HAVOC_Section";
+    private _section = _x getVariable "havoc_Section";
 
     if (isNil "_section") then {
         _name = format ["%1:%2 (%3)", groupId group _x,[_x] call CBA_fnc_getGroupIndex,name _x];

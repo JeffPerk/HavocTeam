@@ -1,8 +1,10 @@
-#include "..\script_component.hpp"    
+#include "script_component.hpp"  
 class CfgWeapons {
     class ItemCore;
     class ACE_ItemCore;
     class CBA_MiscItem_ItemInfo;
-    class ACE_atropine;
+    #include "weapons\Bandages.hpp"
+    #include "weapons\Extra.hpp"
     #include "weapons\Medication.hpp"
+    #include "weapons\Resuscitation.hpp"
 };

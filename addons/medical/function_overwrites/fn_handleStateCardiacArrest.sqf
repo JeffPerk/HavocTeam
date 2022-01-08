@@ -15,8 +15,8 @@ if (_timeDiff >= 1) then {
     _unit setVariable ["ace_medical_statemachine_cardiacArrestTimeLastUpdate", CBA_missionTime];
     private _recieveingCPR = alive (_unit getVariable ["ace_medical_CPR_provider", objNull]);
     private _timeLeft = _unit getVariable ["ace_medical_statemachine_cardiacArrestTimeLeft", -1];
-    private _totalTimeLeft = _unit getVariable ["havoc_REVIVAL", havoc_medical_persistantReviveTimer];
-    if(havoc_medical_persistantRevive) then {
+    private _totalTimeLeft = _unit getVariable ["havoc_REVIVAL", HAVOC_medical_persistantReviveTimer];
+    if(HAVOC_medical_persistantRevive) then {
         if ((_totalTimeLeft - 2) < _timeLeft) then {_timeLeft = _totalTimeLeft}; // check if 2 less than total timer is less than the remaining time, done like this to prevent constant setting
     };
     if (_recieveingCPR) then { _timeDiff = _timeDiff * 0.01; _totalTimeDiff = _totalTimeDiff * 0.5;}; // if being cpr'ed, then time decrease is reduced

@@ -2,8 +2,8 @@ class HAVOC_ModuleStationaryRadio: Module_F {
     scope = 2;
     displayName = "Setup Stationary Radio";
     icon = "\z\havoc\addons\media\images\icons\StationaryRadio.paa"; //todo: proper icon
-    category = "HAVOC_commandcentre";
-    function = "HAVOC_fnc_moduleStationaryRadio";
+    category = "havoc_commandcentre";
+    function = "havoc_fnc_moduleStationaryRadio";
     functionPriority = 4;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -11,41 +11,41 @@ class HAVOC_ModuleStationaryRadio: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class StationaryRadioOn: Checkbox {
-                property = "HAVOC_StationaryRadioOn";
+                property = "havoc_StationaryRadioOn";
                 displayName = "Turn Radio On";
                 tooltip = "If enabled, the radio will be turned on on Mission Start.";
                 typeName = "BOOL";
                 defaultValue = true;
         };
         class StationaryRadioCh1: Edit {
-                property = "HAVOC_StationaryRadioCh1";
+                property = "havoc_StationaryRadioCh1";
                 displayName = "Channel 1 Freq.";
                 tooltip = "Default frequency for Channel 1. Can be changed later.";
                 typeName = "NUMBER";
                 defaultValue = 30;
         };
         class StationaryRadioCh2: Edit {
-                property = "HAVOC_StationaryRadioCh2";
+                property = "havoc_StationaryRadioCh2";
                 displayName = "Channel 2 Freq.";
                 tooltip = "Default frequency for Channel 2. Can be changed later.";
                 typeName = "NUMBER";
                 defaultValue = 40;
         };
         class StationaryRadioVol: Edit {
-                property = "HAVOC_StationaryRadioVol";
+                property = "havoc_StationaryRadioVol";
                 displayName = "Speaker Volume";
                 tooltip = "Default volume of the Radio. Can be changed later. Value between 1 and 10.";
                 typeName = "NUMBER";
                 defaultValue = 7;
         };
         class StationaryRadioClass: Edit {
-                property = "HAVOC_StationaryRadioClass";
+                property = "havoc_StationaryRadioClass";
                 displayName = "Radio Class Name";
                 tooltip = "Classname of the radio to spawn in, only change this when you want the radio to work with non-BLUFOR nets.";
                 defaultValue = """TFAR_anarc210""";
         };
         class StationaryRadioCode: Edit {
-                property = "HAVOC_StationaryRadioCode";
+                property = "havoc_StationaryRadioCode";
                 displayName = "Radio Encryption Code";
                 tooltip = "Encryption code of the radio. Only change this if you know what you're doing.";
                 defaultValue = """_bluefor""";

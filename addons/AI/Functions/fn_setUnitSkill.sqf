@@ -45,7 +45,7 @@ private _skillv = [
     (0.20 + random 0.40)
 ];
 
-if !(isNil "HAVOC_AI_AimingAccuracy") then {
+if !(isNil "havoc_AI_AimingAccuracy") then {
     _skillv = [
         (HAVOC_AI_AimingAccuracy + random 0.20),
         (HAVOC_AI_AimingShake + random 0.20),

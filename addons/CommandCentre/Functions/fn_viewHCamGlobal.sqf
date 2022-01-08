@@ -64,4 +64,4 @@ _cam cameraEffect ["INTERNAL", "BACK", _renderTarget];
 
 _object setObjectTexture [_selection, format ["#(argb,512,512,1)r2t(%1,1.3096153846)", _renderTarget]];
 
-_object setVariable [format ["HAVOC_CC_screen_%1_Cam", _selection], [_cam, _target, _host]];
+_object setVariable [format ["havoc_CC_screen_%1_Cam", _selection], [_cam, _target, _host]];

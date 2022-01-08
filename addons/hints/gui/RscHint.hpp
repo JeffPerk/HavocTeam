@@ -5,7 +5,7 @@ class RscTitles {
     
     class HAVOC_RscHint {
         idd = -1;
-        name = "HAVOC_RscHint";
+        name = "havoc_RscHint";
         onLoad = "uiNamespace setVariable ['HAVOC_ctrlHint', (_this select 0)];";
         movingEnable = false;
         duration = 999999999;

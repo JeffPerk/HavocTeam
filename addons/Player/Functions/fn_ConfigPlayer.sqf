@@ -150,7 +150,9 @@ if (local _unit) then {
     [_unit, _Section] call Havoc_fnc_Patches;
 
     //=========== Set Section
-    _unit setVariable ["HAVOC_Section", _Section, true];
+    _unit setVariable ["havoc_Section", _Section, true];
+    _unit call havoc_role_fnc_role;
+    _unit call havoc_rank_fnc_rank;
 };
 
 //========== SideChat Config
@@ -160,11 +162,8 @@ if (hasinterface) then {
             1 enablechannel [true, false];
         };
     };
-};
-
-if (hasinterface) then {
-    player call havoc_role_fnc_role;
-    player call havoc_rank_fnc_rank;
+    _unit call havoc_role_fnc_role;
+    _unit call havoc_rank_fnc_rank;
 };
 
 

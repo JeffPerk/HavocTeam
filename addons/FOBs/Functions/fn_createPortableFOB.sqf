@@ -28,7 +28,7 @@ params [
  "_size"
 ];
 
-if !((_object getVariable ["HAVOC_PortableFOB_Type", "FOB_null"]) isEqualTo "FOB_null") exitWith {
+if !((_object getVariable ["havoc_PortableFOB_Type", "FOB_null"]) isEqualTo "FOB_null") exitWith {
  systemChat format "You can only add one portable FOB to an object!";
 };
 
@@ -75,11 +75,11 @@ switch (_type) do {
 };
 
 // addHoldAction stuff
-_object setVariable ["HAVOC_PortableFOB_Type", _type, true];
-_object setVariable ["HAVOC_PortableFOB_Name", _name, true];
-_object setVariable ["HAVOC_PortableFOB_Size", _size, true];
-_object setVariable ["HAVOC_PortableFOB_Deployed", false, true];
-_object setVariable ["HAVOC_PortableFOB_Pos", [0, 0, 0], true];
+_object setVariable ["havoc_PortableFOB_Type", _type, true];
+_object setVariable ["havoc_PortableFOB_Name", _name, true];
+_object setVariable ["havoc_PortableFOB_Size", _size, true];
+_object setVariable ["havoc_PortableFOB_Deployed", false, true];
+_object setVariable ["havoc_PortableFOB_Pos", [0, 0, 0], true];
 
 [
  _object,
@@ -105,7 +105,7 @@ _object setVariable ["HAVOC_PortableFOB_Pos", [0, 0, 0], true];
  format ["Check Position (%1)", _name],
  {[(_this select 0)] call HAVOC_fnc_checkFOBPos;},
  [],
- "!(_target getVariable [""HAVOC_PortableFOB_Deployed"", false])",
+ "!(_target getVariable [""havoc_PortableFOB_Deployed"", false])",
  false,
  5,
  true

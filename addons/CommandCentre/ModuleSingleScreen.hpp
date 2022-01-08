@@ -2,8 +2,8 @@ class HAVOC_ModuleSingleScreen: Module_F {
     scope = 2;
     displayName = "Setup Single Screen";
     icon = "\z\havoc\addons\media\images\icons\SingleScreen.paa";
-    category = "HAVOC_commandcentre";
-    function = "HAVOC_fnc_moduleSingleScreen";
+    category = "havoc_commandcentre";
+    function = "havoc_fnc_moduleSingleScreen";
     functionPriority = 4;
     isGlobal = 0;
     isTriggerActivated = 0;
@@ -11,28 +11,28 @@ class HAVOC_ModuleSingleScreen: Module_F {
     is3DEN = 0;
     class Attributes: AttributesBase {
         class SingleScreenCam: Checkbox {
-                property = "HAVOC_SingleScreenCam";
+                property = "havoc_SingleScreenCam";
                 displayName = "Allow Helmet Cams";
                 tooltip = "Allow/Disallow viewing Helmet Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = True;
         };
         class SingleScreenDrone: Checkbox {
-                property = "HAVOC_SingleScreenDrone";
+                property = "havoc_SingleScreenDrone";
                 displayName = "Allow Drone Cams";
                 tooltip = "Allow/Disallow viewing Drone Cams through the screen.";
                 typeName = "BOOL";
                 defaultValue = True;
         };
         class SingleScreenSat: Checkbox {
-                property = "HAVOC_SingleScreenSat";
+                property = "havoc_SingleScreenSat";
                 displayName = "Allow Satellite View";
                 tooltip = "Allow/Disallow viewing Satellite Imagery through the screen.";
                 typeName = "BOOL";
                 defaultValue = True;
         };
         class SingleScreenSelection: Edit {
-                property = "HAVOC_SingleScreenSelection";
+                property = "havoc_SingleScreenSelection";
                 displayName = "Screen Texture Selection";
                 tooltip = "Texture Selection of the screen, usually '0', at least for vanilla screens.";
                 typeName = "NUMBER";

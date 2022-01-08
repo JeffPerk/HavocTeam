@@ -49,7 +49,7 @@ if (missionNamespace getVariable ["havoc_interactions_backpack_access_hint", tru
     [format [hint_havoc_default, _hintMessage], -1, 0] call havoc_fnc_hint;
     
     if !(missionNamespace getVariable ["havoc_interactions_global_sounds", false]) then {
-        private _soundClass = selectRandom ["HAVOC_Action_Backpack_Open_1", "HAVOC_Action_Backpack_Open_2"];
+        private _soundClass = selectRandom ["havoc_Action_Backpack_Open_1", "havoc_Action_Backpack_Open_2"];
         playSound _soundClass;
     };
     

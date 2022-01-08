@@ -24,7 +24,7 @@ private _configAction = [
         params ["_target", "_player", "_params"];
         _params params ["_object", "_selection"];
 
-        _object getVariable [format ["HAVOC_CC_screen_%1_on", _selection], false];
+        _object getVariable [format ["havoc_CC_screen_%1_on", _selection], false];
     },
     nil,
     [_object, _selection, _args],
@@ -35,8 +35,8 @@ private _configAction = [
         params ["_target", "_player", "_params", "_actionData"];
         _params params ["_object", "_selection"];
 
-        private _screenMode = _object getVariable [format ["HAVOC_CC_screen_%1_mode", _selection], ""];
-        private _screenTarget = _object getVariable [format ["HAVOC_CC_screen_%1_target", _selection], ""];
+        private _screenMode = _object getVariable [format ["havoc_CC_screen_%1_mode", _selection], ""];
+        private _screenTarget = _object getVariable [format ["havoc_CC_screen_%1_target", _selection], ""];
         private "_modeName";
 
         if ((!(_screenMode isEqualTo "")) && (!(_screenTarget isEqualTo ""))) then {
@@ -68,7 +68,7 @@ private _turnOnAction = [
         params ["_target", "_player", "_params"];
         _params params ["_object", "_selection"];
 
-        !(_object getVariable [format ["HAVOC_CC_screen_%1_on", _selection], false]);
+        !(_object getVariable [format ["havoc_CC_screen_%1_on", _selection], false]);
     },
     nil,
     [_object, _selection, _args]
@@ -88,7 +88,7 @@ private _turnOffAction = [
         params ["_target", "_player", "_params"];
         _params params ["_object", "_selection"];
 
-        _object getVariable [format ["HAVOC_CC_screen_%1_on", _selection], false];
+        _object getVariable [format ["havoc_CC_screen_%1_on", _selection], false];
     },
     nil,
     [_object, _selection, _args]
@@ -108,7 +108,7 @@ private _toggleVisualAction = [
         params ["_target", "_player", "_params"];
         _params params ["_object", "_selection"];
 
-        _object getVariable [format ["HAVOC_CC_screen_%1_on", _selection], false];
+        _object getVariable [format ["havoc_CC_screen_%1_on", _selection], false];
     },
     nil,
     [_object, _selection]

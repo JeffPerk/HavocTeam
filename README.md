@@ -57,3 +57,5 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543390130
 Tuntematon's Tun Advanced Firesupport Interface
 https://steamcommunity.com/sharedfiles/filedetails/?id=2404759841
 
+trenchgun's DADPAT
+https://steamcommunity.com/sharedfiles/filedetails/?id=1744343347

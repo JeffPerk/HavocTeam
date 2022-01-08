@@ -37,19 +37,19 @@ if !(isServer) exitWith {};
 if !(isClass (configFile >> "CfgPatches" >> "cTab")) exitWith {};
 
 // register screen, important to properly assign the render targets later down the line
-if (isNil "HAVOC_CC_nextScreenID") then {
+if (isNil "havoc_CC_nextScreenID") then {
     HAVOC_CC_nextScreenID = 0;
 };
 
-_object setVariable [format ["HAVOC_CC_screen_%1_ID", _selection], HAVOC_CC_nextScreenID, true];
+_object setVariable [format ["havoc_CC_screen_%1_ID", _selection], HAVOC_CC_nextScreenID, true];
 
 HAVOC_CC_nextScreenID = HAVOC_CC_nextScreenID + 1;
 
-_object setVariable [format ["HAVOC_CC_screen_%1_on", _selection], false, true];
-_object setVariable [format ["HAVOC_CC_screen_%1_mode", _selection], "", true];
-_object setVariable [format ["HAVOC_CC_screen_%1_target", _selection], "", true];
+_object setVariable [format ["havoc_CC_screen_%1_on", _selection], false, true];
+_object setVariable [format ["havoc_CC_screen_%1_mode", _selection], "", true];
+_object setVariable [format ["havoc_CC_screen_%1_target", _selection], "", true];
 
 // set default screen texture
 _object setObjectTextureGlobal [_selection, "z\havoc\addons\media\images\cc_screen_standby.paa"];
 
-[_object, _selection, _name, [_allowCam, _allowDrone, _allowSat, _allowMap]] remoteExec ["HAVOC_fnc_addScreenActions", 0, true];
+[_object, _selection, _name, [_allowCam, _allowDrone, _allowSat, _allowMap]] remoteExec ["havoc_fnc_addScreenActions", 0, true];

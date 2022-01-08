@@ -59,5 +59,5 @@ if ((_camPosMemPt != "") && (_camDirMemPt != "")) then {
             sleep 0.1;
         };
     };
-    _object setVariable [format ["HAVOC_CC_screen_%1_Cam", _selection], [_cam, objNull, _uav]];
+    _object setVariable [format ["havoc_CC_screen_%1_Cam", _selection], [_cam, objNull, _uav]];
 };

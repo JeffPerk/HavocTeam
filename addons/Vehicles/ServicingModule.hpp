@@ -4,7 +4,7 @@ class HAVOC_ModuleServicing: Module_F {
     displayName = "Vehicle Servicing";
     icon = "\z\havoc\addons\media\images\icons\Vehicle Service.paa";
     category = QUOTE(PREFIX);
-    function = "HAVOC_fnc_moduleServicing";
+    function = "havoc_fnc_moduleServicing";
     functionPriority = 4;
     isGlobal = 1;
     isTriggerActivated = 0;

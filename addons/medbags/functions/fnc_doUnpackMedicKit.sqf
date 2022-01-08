@@ -82,10 +82,17 @@ if (isNull _unit) exitWith {};
         [_unit, "ACE_splint", 08, _order, _overflow] call havoc_fnc_addItem;
         [_unit, "kat_aatKit", 04, _order, _overflow] call havoc_fnc_addItem;
         [_unit, "KAT_Empty_bloodIV_500", 04, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "ACE_fieldDressing", 6, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "kat_Painkiller", 2, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "ACE_tourniquet", 4, _order, _overflow] call havoc_fnc_addItem;
-        [_unit, "ACE_EarPlugs", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_fieldDressing", 06, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_Painkiller", 02, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_tourniquet", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_EarPlugs", 01, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_shears", 01, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_cascard", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_nargloves", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_NDC", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_medical_notes", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_Apap", 04, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "havoc_tetra", 04, _order, _overflow] call havoc_fnc_addItem;
     
         _unit playActionNow "Stand";
         

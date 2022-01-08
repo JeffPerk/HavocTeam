@@ -52,7 +52,7 @@ private _dialogResult = [
   _results params ["_fob"];
   _args params ["_hoveredEntity", "_size"];
 
-  [_hoveredEntity, _fob, _size] remoteExec ["HAVOC_fnc_createPortableFOB", 2];
+  [_hoveredEntity, _fob, _size] remoteExec ["havoc_fnc_createPortableFOB", 2];
  },
  {},
  [_hoveredEntity, _size]
