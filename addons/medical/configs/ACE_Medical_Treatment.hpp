@@ -44,6 +44,6 @@ class ace_medical_treatment {
         ratio[] = {};
         type = "Blood";
 
-        #include "treatment\iv.hpp"
+        #include "treatment\IV.hpp"
     };
 };
