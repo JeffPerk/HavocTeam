@@ -171,8 +171,90 @@ class CfgMarkers {
         scope = 2;
         color[] = {1, 1, 1, 1};
     }; 
-
-
+    class GrenMarkerCiv {
+        scope=0;
+    };
+    class GrenMarkerCiv_boat {
+        scope=0;
+    };
+    class GrenMarkerMil {
+        scope=0;
+    };
+    class GrenMarkerMil_boat {
+        scope=0;
+    };
+    class GrenMarkerHunter {
+        scope=0;
+    };
+    class GrenMarkerHunter_dog {
+        scope=0;
+    };
+    class GrenMarkerRST {
+        scope=0;
+    };
+    class GrenMarkerNoice_off {
+        scope=0;
+    };
+    class GrenMarkerNoice_off_w {
+        scope=0;
+    };
+    class GrenMarkerNoice_on {
+        scope=0;
+    };
+    class GrenMarkerNoice_on_w {
+        scope=0;
+    };
+    class GrenMarkerSkull {
+        scope=0;
+    };
+    class GrenMarkerMedic {
+        scope=0;
+    };
+    class GrenMarkerDot {
+        scope=0;
+    };
+    class GrenMarkerSteal {
+        scope=0;
+    };
+    class GrenMarker1st_infantry {
+        scope=0;
+    };
+    class GrenMarker1st_101st_Airborne {
+        scope=0;
+    };
+    class GrenMarkerCiv15x {
+        scope=0;
+    };
+    class GrenMarkerCiv_boat15x {
+        scope=0;
+    };
+    class GrenMarkerMil15x {
+        scope=0;
+    };
+    class GrenMarkerMil_boat15x {
+        scope=0;
+    };
+    class GrenMarkerHunter15x {
+        scope=0;
+    };
+    class GrenMarkerRST15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_off15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_on15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_off_w15X {
+        scope=0;
+    };
+    class GrenMarkerNoice_on_w15x {
+        scope=0;
+    };
+    class GrenMarkerSkull_w15x {
+        scope=0;
+    };
     class hd_dot {
         scope=01;
     };
