@@ -7,14 +7,16 @@ Description:
 
 Arguments:
  _object - Object the Arsenal is applied to.  <OBJECT>
- _type - Type of Arsenal, can be "HAVOC", "WINTER, or "INCOGNITO" <STRING>
+ _type - Type of Arsenal, can be 0 = "HAVOC", 1 = "WINTER", 3 = "INCOGNITO" <STRING>
  _Duration - How long in minutes until the Arsenal is removed. 0 makes it permanent. <SCALAR>
+
+
 
 Examples:
  (begin example)
   [this] call havoc_fnc_FullArsenal;
-  [this, "WINTER", 50] call havoc_fnc_FullArsenal;
-  [this, "HAVOC"] call havoc_fnc_FullArsenal;
+  [this, "2", 50] call havoc_fnc_FullArsenal;
+  [this, "1"] call havoc_fnc_FullArsenal;
   [MyAmmoCrate, "INCOGNITO", 0] call havoc_fnc_FullArsenal;
  (end)
 
@@ -26,7 +28,7 @@ if (!isServer) exitwith {};
 
 params [
  "_object",
- ["_Type", "HAVOC"],
+ ["_Type", "1"],
  ["_Duration", 0]
 ];
 

@@ -14,7 +14,8 @@ class cfgPatches {
             "cba_main",
             "cba_xeh",
             "cba_ui",
-            "cba_jr"
+            "cba_jr",
+            "Markers"
         };
         VERSION_CONFIG;
     };

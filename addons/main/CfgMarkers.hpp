@@ -1,5 +1,4 @@
 class CfgMarkers {
-    /// Units
     class iconcasap {
         name = "CAS Action Point";
         icon = "z\havoc\addons\Media\images\map\aap.paa";
@@ -24,49 +23,7 @@ class CfgMarkers {
         scope = 2;
         color[] = {1, 1, 1, 1};
     };
-    class iconcasdz {
-        name = "Drop Zone";
-        icon = "z\havoc\addons\Media\images\map\DZ.paa";
-        size = 24;
-        shadow = True;
-        scope = 2;
-        color[] = {1, 1, 1, 1};
-    };
-    class iconcasilz {
-        name = "Landing Zone Insertion";
-        icon = "z\havoc\addons\Media\images\map\ILZ.paa";
-        size = 24;
-        shadow = True;
-        scope = 2;
-        color[] = {1, 1, 1, 1};
-    };
-
-    class iconcaselz {
-        name = "Landing Zone Extraction";
-        icon = "z\havoc\addons\Media\images\map\ELZ.paa";
-        size = 24;
-        shadow = True;
-        scope = 2;
-        color[] = {1, 1, 1, 1};
-    };
-
-    class iconcasflz {
-        name = "False Landing Zone";
-        icon = "z\havoc\addons\Media\images\map\FLZ.paa";
-        size = 24;
-        shadow = True;
-        scope = 2;
-        color[] = {1, 1, 1, 1};
-    };
-    class iconcasep {
-        name = "CAS Egress Point";
-        icon = "z\havoc\addons\Media\images\map\aep.paa";
-        size = 24;
-        shadow = True;
-        scope = 2;
-        color[] = {1, 1, 1, 1};
-    };
-    class iconcasep {
+    class iconcasop {
         name = "CAS Orbit Point";
         icon = "z\havoc\addons\Media\images\map\orbit.paa";
         size = 24;
@@ -85,6 +42,46 @@ class CfgMarkers {
     class iconcascck {
         name = "CAS Communications Point";
         icon = "z\havoc\addons\Media\images\map\ackp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasep {
+        name = "CAS Egress Point";
+        icon = "z\havoc\addons\Media\images\map\aep.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasdz {
+        name = "Drop Zone";
+        icon = "z\havoc\addons\Media\images\map\DZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasilz {
+        name = "Landing Zone Insertion";
+        icon = "z\havoc\addons\Media\images\map\ILZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcaselz {
+        name = "Landing Zone Extraction";
+        icon = "z\havoc\addons\Media\images\map\ELZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasflz {
+        name = "False Landing Zone";
+        icon = "z\havoc\addons\Media\images\map\FLZ.paa";
         size = 24;
         shadow = True;
         scope = 2;
@@ -114,7 +111,6 @@ class CfgMarkers {
         scope = 2;
         color[] = {1, 1, 1, 1};
     };
-
     class iconhavocnrp {
         name = "Dive Referance Point";
         icon = "z\havoc\addons\Media\images\map\nrp.paa";
@@ -171,13 +167,94 @@ class CfgMarkers {
         scope = 2;
         color[] = {1, 1, 1, 1};
     }; 
-
-
+    class GrenMarkerCiv {
+		scope=0;
+	};
+	class GrenMarkerCiv_boat {
+		scope=0;
+	};
+	class GrenMarkerMil {
+		scope=0;
+	};
+	class GrenMarkerMil_boat {
+		scope=0;
+	};
+	class GrenMarkerHunter {
+		scope=0;
+	};
+	class GrenMarkerHunter_dog {
+		scope=0;
+	};
+	class GrenMarkerRST {
+		scope=0;
+	};
+	class GrenMarkerNoice_off {
+		scope=0;
+	};
+	class GrenMarkerNoice_off_w {
+		scope=0;
+	};
+	class GrenMarkerNoice_on {
+		scope=0;
+	};
+	class GrenMarkerNoice_on_w {
+		scope=0;
+	};
+	class GrenMarkerSkull {
+		scope=0;
+	};
+	class GrenMarkerMedic {
+		scope=0;
+	};
+	class GrenMarkerDot {
+		scope=0;
+	};
+	class GrenMarkerSteal {
+		scope=0;
+	};
+	class GrenMarker1st_infantry {
+		scope=0;
+	};
+	class GrenMarker1st_101st_Airborne {
+		scope=0;
+	};
+	class GrenMarkerCiv15x {
+		scope=0;
+	};
+	class GrenMarkerCiv_boat15x {
+		scope=0;
+	};
+	class GrenMarkerMil15x {
+		scope=0;
+	};
+	class GrenMarkerMil_boat15x {
+		scope=0;
+	};
+	class GrenMarkerHunter15x {
+		scope=0;
+	};
+	class GrenMarkerRST15x {
+		scope=0;
+	};
+	class GrenMarkerNoice_off15x {
+		scope=0;
+	};
+	class GrenMarkerNoice_on15x {
+		scope=0;
+	};
+	class GrenMarkerNoice_off_w15X {
+		scope=0;
+	};
+	class GrenMarkerNoice_on_w15x {
+		scope=0;
+	};
+	class GrenMarkerSkull_w15x {
+		scope=0;
+	};
     class hd_dot {
         scope=01;
     };
     class mil_objective {
         scope=2;
     };
-
 };
