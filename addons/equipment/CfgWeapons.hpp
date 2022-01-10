@@ -17,12 +17,7 @@ class CfgWeapons {
         class GunParticles;
     };
     class optic_lrps;
-    class Binocular;
 
-
-    class Laserdesignator: Binocular {
-            visionMode[] = {"Normal","NVG","TI"};
-        };
     class GVAR(Vector_Designator): ACE_Vector {
         author = "NemesisRE";
         displayName = "[Havoc] ACE Vector Designator (NVG/TI))";

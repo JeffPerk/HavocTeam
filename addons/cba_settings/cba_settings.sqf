@@ -1,3 +1,4 @@
+
 // Rank & Role: Ranks
 //Captain 
 FORCE FORCE ranks_colonel = """76561198082803436""";
@@ -8,12 +9,12 @@ FORCE FORCE ranks_captain = """76561198049209102"",""76561198388589999"",""76561
 //Lieutenant, Junior Grade
 FORCE FORCE ranks_lieutenant = """76561198082984125""";
 //Chief Petty Officer
-FORCE FORCE ranks_sergeant = """76561198873598786"",""76561198076250326"",""76561198171328358"",""76561198449056684"",""76561199111509298"",""76561198361889796"",""76561198204192148"",""76561198090424711"",""76561198152743908"",""76561198284954974"",""76561198012588921""";
+FORCE FORCE ranks_sergeant = """76561198873598786""";
 //Petty Officer
-FORCE FORCE ranks_corporal = """76561198130622576"",""76561198075838996"",""76561198205029441"",""76561198288488914"",""76561198181711194""";
+FORCE FORCE ranks_corporal = """76561198130622576""";
 
 // Role & Role: Roles
-FORCE FORCE Roles_comm = """76561198152743908"",""76561198449056684"",""76561198036387686"",""76561198388589999"",""76561198049209102"",""76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
+FORCE FORCE Roles_comm = """76561198152743908"",""76561198036387686"",""76561198388589999"",""76561198049209102"",""76561198000002705"",""76561198082984125"",""76561198146526518"",""76561198082803436""";
 FORCE FORCE Roles_eng = """76561198012588921"",""76561198171328358"",""76561198049209102"",""76561198146526518"",""76561198082803436""";
 FORCE FORCE Roles_medic = """76561198171328358"",""76561198873598786"",""76561198049209102"",""76561198146526518"",""76561198036387686"",""76561198388589999"",""76561198292379268"",""76561198082803436""";
 FORCE FORCE Roles_srmedic = """76561198000002705"""
@@ -184,7 +185,7 @@ FORCE ace_rearm_distance = 20;
 FORCE ace_rearm_level = 0;
 FORCE ace_rearm_supply = 0;
 FORCE ace_refuel_hoseLength = 20;
-FORCE ace_refuel_rate = 0.9;
+FORCE ace_refuel_rate = 1;
 FORCE ace_repair_addSpareParts = true;
 FORCE ace_repair_autoShutOffEngineWhenStartingRepair = true;
 FORCE ace_repair_consumeItem_toolKit = 0;
@@ -520,6 +521,7 @@ FORCE ctab_core_useArmaMarker = true;
 FORCE ctab_core_useMils = false; */
 
 // DUI - Squad Radar - Indicators
+
 force force diwako_dui_indicators_icon_buddy = true;
 force force diwako_dui_indicators_icon_leader = true;
 force force diwako_dui_indicators_icon_medic = true;
@@ -603,6 +605,7 @@ FORCE FORCE HAVOC_AI_SpotTime = 0.2;
 // HAVOC - AI Disembark
 FORCE HAVOC_ai_disembark_enabled = true;
 FORCE HAVOC_ai_disembark_stayInImmobileChance = 0.2927;
+
 
 // HAVOC - back_to_game
 FORCE HAVOC_back_to_game_enableCOMPONENT_NAME = true;
@@ -710,6 +713,7 @@ FORCE HAVOC_spectator_unconsciousDelay = 30;
 force force havoc_medical_medLvl_drug = 1;
 force havoc_medical_persistantRevive = true;
 force havoc_medical_persistantReviveTimer = 720;
+
 
 // HAVOC - tagging
 FORCE HAVOC_tagging_enabled = true;
@@ -873,6 +877,7 @@ MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4600;
 MRH_MilsimTools_HaloGear_hypoxiaUse = true;
 FORCE MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "H_PilotHelmetFighter_I","H_PilotHelmetFighter_O","H_PilotHelmetFighter_I_E","H_PilotHelmetFighter_B","USP_SOLR_XP2_NT","USP_SOLR_XP2_NP","USP_SOLR_XP2_RGR","USP_SOLR_XP2_MC","USP_SOLR_XP2_CBR","USP_SOLR_XP2","USP_SOLR_XP_OAK_NT","USP_SOLR_XP_OAK_NP","USP_SOLR_XP_RGR_OAK","USP_SOLR_XP_MC_OAK","USP_SOLR_XP_CBR_OAK","USP_SOLR_XP_OAK","USP_SOLR_XP_NT","USP_SOLR_XP_NP","USP_SOLR_XP_RGR","USP_SOLR_XP_MC","USP_SOLR_XP","USP_SOLR_TW2_NT","USP_SOLR_TW2_NP","USP_SOLR_TW2_RGR","USP_SOLR_TW2_MC","USP_SOLR_TW2_CBR","USP_SOLR_TW2","USP_SOLR_TW_OAK_NT","USP_SOLR_TW_OAK_NP","USP_SOLR_TW_RGR_OAK","USP_SOLR_TW_MC_OAK","USP_SOLR_TW_CBR_OAK","USP_SOLR_TW_OAK","USP_SOLR_TW_NT","USP_SOLR_TW_NP","USP_SOLR_TW_RGR","USP_SOLR_TW_MC","USP_SOLR_TW_CBR","USP_SOLR_TW","USP_SOLR2_NT","USP_SOLR2_RGR","USP_SOLR2_MC","USP_SOLR2_CBR","USP_SOLR2","USP_SOLR_OAK","USP_SOLR_OAK_NT","USP_SOLR_NT","USP_SOLR_OAK_NP","USP_SOLR_NP","USP_SOLR_RGR_OAK","USP_SOLR_RGR","USP_SOLR_MC_OAK","USP_SOLR_MC","USP_SOLR_CBR_OAK","USP_SOLR_CBR","USP_SOLR","USP_SOLR_AF2_NT","USP_SOLR_AF2_NP","USP_SOLR_AF2_RGR","USP_SOLR_AF2_MC","USP_SOLR_AF2_CBR","USP_SOLR_AF2","USP_SOLR_AF_OAK_NT","USP_SOLR_AF_OAK_NP","USP_SOLR_AF_RGR_OAK","USP_SOLR_AF_MC_OAK","USP_SOLR_AF_CBR_OAK","USP_SOLR_AF_OAK","USP_SOLR_AF_NT","USP_SOLR_AF_NP","USP_SOLR_AF_RGR","USP_SOLR_AF_MC","USP_SOLR_AF_CBR","USP_SOLR_AF","USP_SOLR2_NP","USP_SOLR_XP_CBR";
 
+
 // MRH_MilsimTools - Insertion Handler
 MRH_MilsimTools_InsertionHandler_allowHALO = true;
 MRH_MilsimTools_InsertionHandler_allowStatic = true;
@@ -948,7 +953,7 @@ FORCE SSS_setting_slingLoadSearchRadius = 100;
 FORCE SSS_setting_slingLoadWhitelist = "";
 FORCE SSS_setting_useChatNotifications = false;
 
-// TCA BFT
+// [TCA] BFT
 FORCE FORCE TCA_bft_groupMarkers_colorsBlacklist = "ColorBLUFOR, ColorOPFOR, ColorIndependent, ColorCivilian, ColorUNKNOWN, Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
 FORCE FORCE TCA_bft_groupMarkers_defaultSetting = 2;
 FORCE FORCE TCAbft_groupMarkers_enabled = true;
@@ -965,7 +970,7 @@ FORCE FORCE TCAbft_groupMarkers_trailingMode = "weightedAverage";
 FORCE FORCE TCAbft_groupMarkers_trailingWeight = 0.75;
 FORCE FORCE TCAbft_groupMarkers_updateDelay = 5;
 
-// TCA Miscellaneous
+// [TCA] Miscellaneous
 FORCE FORCE TCAmain_ClearBuildingMarkers_Channel = 0;
 FORCE FORCE TCAmain_ClearBuildingMarkers_Color = "ColorGreen";
 FORCE FORCE TCA_main_ClearBuildingMarkers_Enabled = true;
@@ -973,11 +978,12 @@ FORCE FORCE TCAmain_LoadoutDiaryRecord_Enabled = false;
 FORCE FORCE TCAvehicles_showSpeedLimiterOptions = true;
 FORCE FORCE TCAvehicles_showSpeedLimiterWaitTime = 10;
 
-// TCA Unit markers
+// [TCA] Unit markers
 FORCE FORCE TCAunitMarkers_unitMarkers_enabled = true;
 FORCE FORCE TCAunitMarkers_unitMarkers_markAI = true;
 FORCE FORCE TCAunitMarkers_unitMarkers_otherGroups = true;
 FORCE FORCE TCA_unitMarkers_unitMarkers_showToggle = false;
+
 
 // TFAR - Global settings
 FORCE TFAR_AICanHearPlayer = true;
@@ -1065,6 +1071,7 @@ force force GREN_jump_adv_altitude = "4000";
 force force GREN_jump_adv_mask = "GREN_Mat_oxy";
 force force GREN_jump_adv_mask_option = 1;
 
+
 // GREN EVO - Remove Map
 force force GREN_deletemap = false;
 force force GREN_deletemap_active = false;
@@ -1072,6 +1079,7 @@ force force GREN_deletemap_pilot_map = false;
 
 // GREN EVO - Teleport
 force force GREN_F11 = false;
+
 
 /* 
 // VCOM AI East Skill
@@ -1157,4 +1165,5 @@ FORCE FORCE VCM_TURRETUNLOAD = true;
 FORCE FORCE VCM_USECBASETTINGS = true;
 FORCE FORCE VCM_WARNDELAY = 30;
 FORCE FORCE VCM_WARNDIST = 1000;
+
  */
