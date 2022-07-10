@@ -67,3 +67,26 @@ class GVAR(ketamineItem): Item_Base_F {
         };
     };
 };
+
+
+class Leaflet_05_F;
+class HAVOC_ApapLitter: Leaflet_05_F {
+    hiddenSelectionsTextures[]= {
+        "\z\havoc\addons\media\images\icon\apap_litter.paa"
+    };
+};
+
+class GVAR(ApapItem): Item_Base_F {
+    scope=2;
+    scopeCurator=2;
+    displayName="Paracetemol 1g";
+    icon="\z\havoc\addons\media\images\icon\apap.paa";
+    model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
+    vehicleClass="Items";
+    class TransportItems {
+        class GVAR(Apap) {
+            name = QGVAR(Apap);
+            count = 1;
+        };
+    };
+};

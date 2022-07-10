@@ -2,7 +2,7 @@
 class ACE_atropine;
 class ACE_morphine: ACE_ItemCore {
     scope=2;
-    displayName="Havoc Morphine autoinjector 10mg/1mL";
+    displayName="Morphine autoinjector 10mg/1mL";
     descriptionShort="Analgesic, used for moderate pain";
     descriptionUse="Analgesic, used for moderate pain";
     class ItemInfo: CBA_MiscItem_ItemInfo {
@@ -12,7 +12,7 @@ class ACE_morphine: ACE_ItemCore {
 
 class ACE_epinephrine: ACE_ItemCore {
     scope=2;
-    displayName="Havoc Adrenaline autoinjector 1mg/1mL";
+    displayName="Adrenaline autoinjector 1mg/1mL";
     descriptionShort="Sympathomimetic, increases HR, bronchodilation and vasoconstriction";
     descriptionUse="Sympathomimetic, increases HR, bronchodilation and vasoconstriction";
     class ItemInfo: CBA_MiscItem_ItemInfo {
@@ -24,7 +24,7 @@ class ACE_epinephrine: ACE_ItemCore {
 
 class GVAR(morphine): ACE_ItemCore {
     scope=2;
-    displayName="Havoc Morphine 10mg/1mL Ampoule";
+    displayName="Morphine 10mg/1mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\morphine.paa";
     descriptionShort="Analgesic, used for moderate pain";
     descriptionUse="Analgesic, used for moderate pain";
@@ -35,7 +35,7 @@ class GVAR(morphine): ACE_ItemCore {
 
 class GVAR(epinephrine): ACE_ItemCore {
     scope=2;
-    displayName="Havoc Adrenaline 1mg/1mL Ampoule";
+    displayName="Adrenaline 1mg/1mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\epi.paa";
     descriptionShort="Sympathomimetic, increases HR, bronchodilation and vasoconstriction";
     descriptionUse="Sympathomimetic, increases HR, bronchodilation and vasoconstriction";
@@ -45,7 +45,7 @@ class GVAR(epinephrine): ACE_ItemCore {
 };
 class GVAR(naloxone): ACE_atropine {
     scope=2;
-    displayName="Havoc Naloxone Hydrochloride Dihydrate 1.6mg/4mL Ampoule";
+    displayName="Naloxone Hydrochloride Dihydrate 1.6mg/4mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\naloxone.paa";
     descriptionShort="Opiod antagonist, reverses negative effects of narcotics";
     descriptionUse="Opiod antagonist, reverses negative effects of narcotics";
@@ -56,7 +56,7 @@ class GVAR(naloxone): ACE_atropine {
 
 class GVAR(fentanyl): ACE_morphine {
     scope=2;
-    displayName="Havoc Fentanyl 100mcg/2mL Ampoule";
+    displayName="Fentanyl 100mcg/2mL Ampoule";
     picture="\z\havoc\addons\media\images\icon\fentanyl.paa";
     descriptionShort="Analgesic, used for severe pain";
     descriptionUse="Analgesic, used for severe pain";
@@ -67,7 +67,7 @@ class GVAR(fentanyl): ACE_morphine {
 
 class GVAR(ketamine): ACE_morphine {
     scope=2;
-    displayName="Havoc Ketamine Hydrochloride 200mg/2mL Ampoule";
+    displayName="Ketamine Hydrochloride 200mg/2mL Ampoule";
     descriptionShort="Dissociative analgesic/anestehtic used for severe pain, available in a 25mg or 200mg doses. Causes mild hypertension and tachycardia.";
     descriptionUse="Dissociative analgesic/anestehtic used for severe pain, available in a 25mg or 200mg doses. Causes mild hypertension and tachycardia.";
     picture="\z\havoc\addons\media\images\icon\ket.paa";
@@ -76,9 +76,33 @@ class GVAR(ketamine): ACE_morphine {
     };
 };
 
+class GVAR(tetra): ACE_morphine {
+    scope=2;
+    displayName="Tetracycline 250mg capsule";
+    descriptionShort="Antibiotic capsule";
+    descriptionUse="Antibiotic capsule";
+    picture="\z\havoc\addons\media\images\icon\tetra.paa";
+    class ItemInfo: CBA_MiscItem_ItemInfo {
+        mass = 0.01;
+    };
+};
+
+class GVAR(Apap): ACE_morphine {
+    scope=2;
+    author="Monk";
+    displayName="Paracetemol 2x500mg Tablets";
+    picture="\z\havoc\addons\media\images\icon\apap.paa";
+    model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
+    descriptionShort="Analgesic/Antipyretic, used for light pain and fever";
+    descriptionUse="Analgesic/Antipyretic, used for light pain and fever";
+    class ItemInfo: CBA_MiscItem_ItemInfo {
+        mass=0.5;
+    };
+};
+
 class GVAR(VPN): ACE_ItemCore {
     scope=2;
-    displayName="Havoc 3mL Drug Syringe";
+    displayName="3mL Drug Syringe";
     descriptionShort="For administering drugs";
     descriptionUse="For administering drugs";
     picture="\z\havoc\addons\media\images\icon\VPN.paa";

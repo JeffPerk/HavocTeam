@@ -2,12 +2,15 @@
 class ElasticBandage: FieldDressing {
     class Abrasion {
         effectiveness=0.2;
-        reopeningChance=0.5;
-        reopeningMinDelay=300;
-        reopeningMaxDelay=600;
+        reopeningChance=0.4;
+        reopeningMinDelay=100;
+        reopeningMaxDelay=300;
     };
     class AbrasionMinor: Abrasion {
         effectiveness=4.4;
+        reopeningChance=0.1;
+        reopeningMinDelay=1000;
+        reopeningMaxDelay=1600;
     };
     class AbrasionMedium: Abrasion {
         effectiveness=2.4;

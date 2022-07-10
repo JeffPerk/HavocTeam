@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 params ["_unit", "_active"];
 
-_counter = _unit getVariable ["havoc_REVIVAL",havoc_medical_persistantReviveTimer];
+_counter = _unit getVariable ["havoc_REVIVAL",HAVOC_medical_persistantReviveTimer];
 _timer = _unit getVariable ["ace_medical_statemachine_cardiacArrestTimeLeft", ace_medical_statemachine_cardiacArrestTime];
 if(_counter < _timer && _active == true) then {
     _unit setVariable ["ace_medical_statemachine_cardiacArrestTimeLeft", _counter];        
