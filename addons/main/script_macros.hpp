@@ -49,7 +49,7 @@ class Extended_PreStart_EventHandlers {                 \
 
 // ACE3 reference macros
 #define ACE_PREFIX ace
-
+#define ACE_ADDON(module) DOUBLES(ACE_PREFIX,module)
 #define ACEGVAR(module,var)         TRIPLES(ACE_PREFIX,module,var)
 #define QACEGVAR(module,var)        QUOTE(ACEGVAR(module,var))
 
@@ -58,6 +58,17 @@ class Extended_PreStart_EventHandlers {                 \
 
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
+
+#define GVAR(var1) DOUBLES(ADDON,var1)
+#define EGVAR(var1,var2) TRIPLES(PREFIX,var1,var2)
+#define QGVAR(var1) QUOTE(GVAR(var1))
+#define QEGVAR(var1,var2) QUOTE(EGVAR(var1,var2))
+#define QQGVAR(var1) QUOTE(QGVAR(var1))
+#define QQEGVAR(var1,var2) QUOTE(QEGVAR(var1,var2))
+
+#define GVARMAIN(var1) GVARMAINS(PREFIX,var1)
+#define QGVARMAIN(var1) QUOTE(GVARMAIN(var1))
+#define QQGVARMAIN(var1) QUOTE(QGVARMAIN(var1))
 
 // havoc macros
 #define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
