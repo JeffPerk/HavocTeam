@@ -1,11 +1,10 @@
-#include "..\script_component.hpp"    
+#include "script_component.hpp"  
 class zen_context_menu_actions {
     class HealUnits {
         class Timer {
             displayName = "Reset Persistant Timer";
             condition = "[_objects,_args] call zen_context_actions_fnc_canHealUnits;";
-            statement = "[_objects,_args] call havoc_Medical_fnc_resetTimer;";
-            // icon = "\A3\ui_f\data\gui\keyframeanimation\iconcurve_ca.paa";
+            statement = "[_objects,_args] call HAVOC_Medical_fnc_resetTimer;";
             args = 1;
         };
     };

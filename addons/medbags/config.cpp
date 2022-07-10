@@ -4,7 +4,6 @@ class CfgPatches {
     class ADDON {
         author = QAUTHOR;
         name = COMPONENT_NAME;
-        url = URL;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "a3_props_f_orange"
@@ -12,12 +11,14 @@ class CfgPatches {
         units[] = {
             QGVAR(Item_FirstAid),
             QGVAR(Item_MedicKit),
-            QGVAR(Item_DrugKit)
+            QGVAR(Item_DrugKit),
+            QGVAR(Item_Trauma)
         };
         weapons[] = {
             QGVAR(FirstAid),
             QGVAR(MedicKit),
-            QGVAR(DrugKit)
+            QGVAR(DrugKit),
+            QGVAR(Trauma)
         };
         VERSION_CONFIG;
     };
