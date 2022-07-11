@@ -23,4 +23,4 @@ params ["_unit", "_target"];
 
 _target removeItem "havoc_medbags_FirstAid";
 
-[_unit, "havoc_medbags_FirstAid", 1, _order, _overflow] call havoc_common_fnc_addItem;
+[_unit, "havoc_medbags_FirstAid", 1, _order, _overflow] call havoc_fnc_addItem;
