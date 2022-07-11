@@ -62,17 +62,17 @@ if (isNull _unit) exitWith {};
         private _order = [3,2,1];
         private _overflow = true;
 
-        [_unit, "kat_TXA", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_amiodarone", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_atropine", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_lidocaine", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_naloxone", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_nitroglycerin", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_norepinephrine", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_phenylephrine", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_epinephrine", 10, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_morphine", 16, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_adenosine", 8, _order, _overflow] call havoc_common_fnc_addItem;
+        [_unit, "kat_TXA", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_amiodarone", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_atropine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_lidocaine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_naloxone", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_nitroglycerin", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_norepinephrine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_phenylephrine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_epinephrine", 10, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_morphine", 16, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_adenosine", 8, _order, _overflow] call havoc_fnc_addItem;
 
 
 

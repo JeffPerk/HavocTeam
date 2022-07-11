@@ -64,19 +64,19 @@ if (isNull _unit) exitWith {};
         private _order = [1,2,3];
         private _overflow = true;
 
-        [_unit, "ACE_fieldDressing", 8, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_quikClot", 8, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_Painkiller", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_tourniquet", 4, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_EarPlugs", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_chestSeal", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_aatKit", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_salineIV_500", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_larynx", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_guedel", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_TXA", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "kat_IV_16", 1, _order, _overflow] call havoc_common_fnc_addItem;
-        [_unit, "ACE_splint", 2, _order, _overflow] call havoc_common_fnc_addItem;
+        [_unit, "ACE_fieldDressing", 8, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_quikClot", 8, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_Painkiller", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_tourniquet", 4, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_EarPlugs", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_chestSeal", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_aatKit", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_salineIV_500", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_larynx", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_guedel", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_TXA", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "kat_IV_16", 1, _order, _overflow] call havoc_fnc_addItem;
+        [_unit, "ACE_splint", 2, _order, _overflow] call havoc_fnc_addItem;
     };
 
     if (havoc_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
