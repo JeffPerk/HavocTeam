@@ -238,14 +238,14 @@ ace_maptools_rotateModifierKey = 1;
 
 // ACE Medical
 FORCE ace_medical_ai_enabledFor = 2;
-FORCE ace_medical_AIDamageThreshold = .85;
+FORCE ace_medical_AIDamageThreshold = .2;
 FORCE ace_medical_bleedingCoefficient = 0.1;
 FORCE ace_medical_blood_bloodLifetime = 900;
 FORCE ace_medical_blood_enabledFor = 2;
 FORCE ace_medical_blood_maxBloodObjects = 500;
 FORCE ace_medical_deathChance = 0;
 FORCE ace_medical_enableVehicleCrashes = true;
-FORCE ace_medical_fatalDamageSource = 0;
+FORCE ace_medical_fatalDamageSource = 1;
 FORCE ace_medical_feedback_bloodVolumeEffectType = 2;
 FORCE ace_medical_feedback_enableHUDIndicators = true;
 FORCE ace_medical_feedback_painEffectType = 2;
