@@ -79,11 +79,7 @@ if (isNull _unit) exitWith {};
     };
 
     if (havoc_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
-
         [_unit, QGVAR(Medical_MedicKit_Open_1)] call havoc_common_fnc_stop3dSound;
-
-
-
     };
 
 };
