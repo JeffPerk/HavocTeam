@@ -1,0 +1,38 @@
+## 1.0.10
+
+## 30-aug-22
+- BetterIT & compacts
+- Traits assigned by Steam ID
+- Zeus Additions
+  - Add ACE Drag and Carry Options
+  - Add ACE Drag Body Option
+  - Change AI Crew Behaviour
+  - Change Captivity status
+  - Change Channel Visibility
+  - Change Grass Rendering
+  - Change RHS APS
+  - Change TFAR Radio Range
+  - Configure Doors (Extended)
+  - Create ACE Injuries
+  - Delete Object (forced)
+  - End Mission with Player Modifier
+  - Give Death Stare Ability
+  - Loadout: Apply to group
+  - Loadout: Apply to single unit
+  - Loadout: Set
+  - Loadout: Presets
+  - Open ACE Medical Menu
+  - Pause Time
+  - Place Map Markers
+  - Paradrop Unit Action
+  - Paradrop Units
+  - Prevent Vehicle from Exploding
+  - Remove Grenades from AI
+  - Show Mission Object Counter
+  - Spawn ACE Medical Resupply
+  - Spawn Ammo Resupply for Units
+  - Spawn Ammo Resupply for Units (Selection)
+  - Toggle Consciousness (forced)
+  - Toggle Storm Script
+  - Track Unit Death
+  - Unload ACE Cargo
