@@ -831,79 +831,79 @@ MRH_MT_RHSCBPS_globalComp = "MRH_defaultCBPS_medical_simple";
 MRH_MT_RHSCBPS_useGlobal = true;
 
 // MRH_MilsimTools - Core settings
-MRH_MilsimTools_AdminCasualtiesCap = 60;
-FORCE MRH_MilsimTools_AllowAdminForZeus = true;
-FORCE MRH_MilsimTools_AllowDeadReco = false;
-FORCE MRH_MilsimTools_Core_ApplyMedicPatch = false;
-FORCE MRH_MilsimTools_Delete_disconnected_body = false;
-MRH_MilsimTools_hideAceMyLoadOuts = false;
-MRH_MilsimTools_LD_loadoutDisplaySize = 100;
-FORCE MRH_MilsimTools_LD_ShowLoadOutInBrief = false;
-FORCE MRH_MilsimTools_PlayIntro_ToPlayer = false;
-FORCE MRH_MilsimTools_ResetHasDiedOnRespawn = true;
-MRH_MilsimTools_Rmv_map_nolead = false;
-MRH_MilsimTools_ShowAdminDeadHint = true;
+// MRH_MilsimTools_AdminCasualtiesCap = 60;
+// FORCE MRH_MilsimTools_AllowAdminForZeus = true;
+// FORCE MRH_MilsimTools_AllowDeadReco = false;
+// FORCE MRH_MilsimTools_Core_ApplyMedicPatch = false;
+// FORCE MRH_MilsimTools_Delete_disconnected_body = false;
+// MRH_MilsimTools_hideAceMyLoadOuts = false;
+// MRH_MilsimTools_LD_loadoutDisplaySize = 100;
+// FORCE MRH_MilsimTools_LD_ShowLoadOutInBrief = false;
+// FORCE MRH_MilsimTools_PlayIntro_ToPlayer = false;
+// FORCE MRH_MilsimTools_ResetHasDiedOnRespawn = true;
+// MRH_MilsimTools_Rmv_map_nolead = false;
+// MRH_MilsimTools_ShowAdminDeadHint = true;
 
-// MRH_MilsimTools - Debug Mode
-FORCE MRH_MilsimTools_DebugTools_DoLogDebugMode = false;
-MRH_MilsimTools_DebugTools_isDebugMode = false;
+// // MRH_MilsimTools - Debug Mode
+// FORCE MRH_MilsimTools_DebugTools_DoLogDebugMode = false;
+// MRH_MilsimTools_DebugTools_isDebugMode = false;
 
-// MRH_MilsimTools - Deployable Fobs
-MRH_MilsimTools_CAMP_composition = "MRH_SmallCamp_default";
-MRH_MilsimTools_FOB_BIG_composition = "MRH_FieldHQSmall_default";
-MRH_MilsimTools_MiscItems_CAMP_DeployTime = 10;
-MRH_MilsimTools_MiscItems_CAMP_GRepackRadius = 10;
-MRH_MilsimTools_MiscItems_CAMP_GRepackTime = 10;
-MRH_MilsimTools_MiscItems_FOB_BIGDeployTime = 20;
-MRH_MilsimTools_MiscItems_FOB_BIGRepackRadius = 50;
-MRH_MilsimTools_MiscItems_FOB_BIGRepackTime = 20;
+// // MRH_MilsimTools - Deployable Fobs
+// MRH_MilsimTools_CAMP_composition = "MRH_SmallCamp_default";
+// MRH_MilsimTools_FOB_BIG_composition = "MRH_FieldHQSmall_default";
+// MRH_MilsimTools_MiscItems_CAMP_DeployTime = 10;
+// MRH_MilsimTools_MiscItems_CAMP_GRepackRadius = 10;
+// MRH_MilsimTools_MiscItems_CAMP_GRepackTime = 10;
+// MRH_MilsimTools_MiscItems_FOB_BIGDeployTime = 20;
+// MRH_MilsimTools_MiscItems_FOB_BIGRepackRadius = 50;
+// MRH_MilsimTools_MiscItems_FOB_BIGRepackTime = 20;
 
-// MRH_MilsimTools - Hacking settings
-MRH_MilsimTools_RequireHackingTool = true;
+// // MRH_MilsimTools - Hacking settings
+// MRH_MilsimTools_RequireHackingTool = true;
 
-// MRH_MilsimTools - Halo Jumps
-FORCE MRH_MilsimTools_HaloGear_AADDefaultOpeningAltitude = "200";
-MRH_MilsimTools_HaloGear_allowManualAADSetting = true;
-MRH_MilsimTools_HaloGear_disableMaskHud = false;
-MRH_MilsimTools_HaloGear_disableMaskHudAltimeter = false;
-MRH_MilsimTools_HaloGear_disableMaskHudCompass = false;
-MRH_MilsimTools_HaloGear_disableMaskHudVelocity = false;
-MRH_MilsimTools_HaloGear_haloMaskBreakingChancePerc = 10;
-MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4600;
-MRH_MilsimTools_HaloGear_hypoxiaUse = true;
-FORCE MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "H_PilotHelmetFighter_I","H_PilotHelmetFighter_O","H_PilotHelmetFighter_I_E","H_PilotHelmetFighter_B","USP_SOLR_XP2_NT","USP_SOLR_XP2_NP","USP_SOLR_XP2_RGR","USP_SOLR_XP2_MC","USP_SOLR_XP2_CBR","USP_SOLR_XP2","USP_SOLR_XP_OAK_NT","USP_SOLR_XP_OAK_NP","USP_SOLR_XP_RGR_OAK","USP_SOLR_XP_MC_OAK","USP_SOLR_XP_CBR_OAK","USP_SOLR_XP_OAK","USP_SOLR_XP_NT","USP_SOLR_XP_NP","USP_SOLR_XP_RGR","USP_SOLR_XP_MC","USP_SOLR_XP","USP_SOLR_TW2_NT","USP_SOLR_TW2_NP","USP_SOLR_TW2_RGR","USP_SOLR_TW2_MC","USP_SOLR_TW2_CBR","USP_SOLR_TW2","USP_SOLR_TW_OAK_NT","USP_SOLR_TW_OAK_NP","USP_SOLR_TW_RGR_OAK","USP_SOLR_TW_MC_OAK","USP_SOLR_TW_CBR_OAK","USP_SOLR_TW_OAK","USP_SOLR_TW_NT","USP_SOLR_TW_NP","USP_SOLR_TW_RGR","USP_SOLR_TW_MC","USP_SOLR_TW_CBR","USP_SOLR_TW","USP_SOLR2_NT","USP_SOLR2_RGR","USP_SOLR2_MC","USP_SOLR2_CBR","USP_SOLR2","USP_SOLR_OAK","USP_SOLR_OAK_NT","USP_SOLR_NT","USP_SOLR_OAK_NP","USP_SOLR_NP","USP_SOLR_RGR_OAK","USP_SOLR_RGR","USP_SOLR_MC_OAK","USP_SOLR_MC","USP_SOLR_CBR_OAK","USP_SOLR_CBR","USP_SOLR","USP_SOLR_AF2_NT","USP_SOLR_AF2_NP","USP_SOLR_AF2_RGR","USP_SOLR_AF2_MC","USP_SOLR_AF2_CBR","USP_SOLR_AF2","USP_SOLR_AF_OAK_NT","USP_SOLR_AF_OAK_NP","USP_SOLR_AF_RGR_OAK","USP_SOLR_AF_MC_OAK","USP_SOLR_AF_CBR_OAK","USP_SOLR_AF_OAK","USP_SOLR_AF_NT","USP_SOLR_AF_NP","USP_SOLR_AF_RGR","USP_SOLR_AF_MC","USP_SOLR_AF_CBR","USP_SOLR_AF","USP_SOLR2_NP","USP_SOLR_XP_CBR";
+// // MRH_MilsimTools - Halo Jumps
+// FORCE MRH_MilsimTools_HaloGear_AADDefaultOpeningAltitude = "200";
+// MRH_MilsimTools_HaloGear_allowManualAADSetting = true;
+// MRH_MilsimTools_HaloGear_disableMaskHud = false;
+// MRH_MilsimTools_HaloGear_disableMaskHudAltimeter = false;
+// MRH_MilsimTools_HaloGear_disableMaskHudCompass = false;
+// MRH_MilsimTools_HaloGear_disableMaskHudVelocity = false;
+// MRH_MilsimTools_HaloGear_haloMaskBreakingChancePerc = 10;
+// MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4600;
+// MRH_MilsimTools_HaloGear_hypoxiaUse = true;
+// FORCE MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "H_PilotHelmetFighter_I","H_PilotHelmetFighter_O","H_PilotHelmetFighter_I_E","H_PilotHelmetFighter_B","USP_SOLR_XP2_NT","USP_SOLR_XP2_NP","USP_SOLR_XP2_RGR","USP_SOLR_XP2_MC","USP_SOLR_XP2_CBR","USP_SOLR_XP2","USP_SOLR_XP_OAK_NT","USP_SOLR_XP_OAK_NP","USP_SOLR_XP_RGR_OAK","USP_SOLR_XP_MC_OAK","USP_SOLR_XP_CBR_OAK","USP_SOLR_XP_OAK","USP_SOLR_XP_NT","USP_SOLR_XP_NP","USP_SOLR_XP_RGR","USP_SOLR_XP_MC","USP_SOLR_XP","USP_SOLR_TW2_NT","USP_SOLR_TW2_NP","USP_SOLR_TW2_RGR","USP_SOLR_TW2_MC","USP_SOLR_TW2_CBR","USP_SOLR_TW2","USP_SOLR_TW_OAK_NT","USP_SOLR_TW_OAK_NP","USP_SOLR_TW_RGR_OAK","USP_SOLR_TW_MC_OAK","USP_SOLR_TW_CBR_OAK","USP_SOLR_TW_OAK","USP_SOLR_TW_NT","USP_SOLR_TW_NP","USP_SOLR_TW_RGR","USP_SOLR_TW_MC","USP_SOLR_TW_CBR","USP_SOLR_TW","USP_SOLR2_NT","USP_SOLR2_RGR","USP_SOLR2_MC","USP_SOLR2_CBR","USP_SOLR2","USP_SOLR_OAK","USP_SOLR_OAK_NT","USP_SOLR_NT","USP_SOLR_OAK_NP","USP_SOLR_NP","USP_SOLR_RGR_OAK","USP_SOLR_RGR","USP_SOLR_MC_OAK","USP_SOLR_MC","USP_SOLR_CBR_OAK","USP_SOLR_CBR","USP_SOLR","USP_SOLR_AF2_NT","USP_SOLR_AF2_NP","USP_SOLR_AF2_RGR","USP_SOLR_AF2_MC","USP_SOLR_AF2_CBR","USP_SOLR_AF2","USP_SOLR_AF_OAK_NT","USP_SOLR_AF_OAK_NP","USP_SOLR_AF_RGR_OAK","USP_SOLR_AF_MC_OAK","USP_SOLR_AF_CBR_OAK","USP_SOLR_AF_OAK","USP_SOLR_AF_NT","USP_SOLR_AF_NP","USP_SOLR_AF_RGR","USP_SOLR_AF_MC","USP_SOLR_AF_CBR","USP_SOLR_AF","USP_SOLR2_NP","USP_SOLR_XP_CBR";
 
-// MRH_MilsimTools - Insertion Handler
-MRH_MilsimTools_InsertionHandler_allowHALO = true;
-MRH_MilsimTools_InsertionHandler_allowStatic = true;
-MRH_MilsimTools_InsertionHandler_allowSub = true;
-MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "RHS_C130J";
-MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "RHS_C130J";
+// // MRH_MilsimTools - Insertion Handler
+// MRH_MilsimTools_InsertionHandler_allowHALO = true;
+// MRH_MilsimTools_InsertionHandler_allowStatic = true;
+// MRH_MilsimTools_InsertionHandler_allowSub = true;
+// MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "RHS_C130J";
+// MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "RHS_C130J";
+// MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "RHS_C130J";
 
-// MRH_MilsimTools - Medical Tent
-FORCE MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 32;
-FORCE MRH_MilsimTools_MiscItems_FieldMedicalTentRepackTime = 16;
+// // MRH_MilsimTools - Medical Tent
+// FORCE MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 32;
+// FORCE MRH_MilsimTools_MiscItems_FieldMedicalTentRepackTime = 16;
 
-// MRH_MilsimTools - Roster settings
-MRH_MilsimTools_Roster_AllowAllSides = false;
-MRH_MilsimTools_Roster_ColorBF = [0.259,0.525,0.957,1];
-MRH_MilsimTools_Roster_ColorCiv = [0.686,0.141,0.588,1];
-MRH_MilsimTools_Roster_ColorInd = [0.212,0.847,0.286,1];
-MRH_MilsimTools_Roster_ColorOp = [0.929,0.063,0.063,1];
-MRH_MilsimTools_Roster_ColorUnknown = [0.929,0.82,0.118,1];
-MRH_MilsimTools_Roster_ShowAIgroups = false;
-FORCE MRH_MilsimTools_Roster_ShowAiWithinGrps = false;
+// // MRH_MilsimTools - Roster settings
+// MRH_MilsimTools_Roster_AllowAllSides = false;
+// MRH_MilsimTools_Roster_ColorBF = [0.259,0.525,0.957,1];
+// MRH_MilsimTools_Roster_ColorCiv = [0.686,0.141,0.588,1];
+// MRH_MilsimTools_Roster_ColorInd = [0.212,0.847,0.286,1];
+// MRH_MilsimTools_Roster_ColorOp = [0.929,0.063,0.063,1];
+// MRH_MilsimTools_Roster_ColorUnknown = [0.929,0.82,0.118,1];
+// MRH_MilsimTools_Roster_ShowAIgroups = false;
+// FORCE MRH_MilsimTools_Roster_ShowAiWithinGrps = false;
 
-// MRH_MilsimTools - Tablet settings
-FORCE MRH_MilsimTools_AllowMapTablet = false;
-FORCE MRH_MilsimTools_ST_BriefingRemote_overlay = "\MRHMilsimTools\Paa\cnn_news_ca.paa";
-FORCE MRH_MilsimTools_ST_BriefingRemote_videosToPlay = "\a3\missions_f_bootcamp\video\vr_generictransition_1.ogv,\a3\missions_f_epa\video\a_in_intro.ogv";
+// // MRH_MilsimTools - Tablet settings
+// FORCE MRH_MilsimTools_AllowMapTablet = false;
+// FORCE MRH_MilsimTools_ST_BriefingRemote_overlay = "\MRHMilsimTools\Paa\cnn_news_ca.paa";
+// FORCE MRH_MilsimTools_ST_BriefingRemote_videosToPlay = "\a3\missions_f_bootcamp\video\vr_generictransition_1.ogv,\a3\missions_f_epa\video\a_in_intro.ogv";
 
-// MRH_MilsimTools - Zeus
-FORCE MRH_MilsimTools_Zeus_hideWaterMark = true;
-FORCE MRH_MilsimTools_Zeus_waterMark = "UseVanilla";
-FORCE MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
+// // MRH_MilsimTools - Zeus
+// FORCE MRH_MilsimTools_Zeus_hideWaterMark = true;
+// FORCE MRH_MilsimTools_Zeus_waterMark = "UseVanilla";
+// FORCE MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
 
 // qipBFT - BFT
 /* 
@@ -1062,7 +1062,7 @@ force force GREN_jump_adv_active = true;
 force force GREN_jump_adv_active_time = 15;
 force force GREN_jump_adv_alt_option = 1;
 force force GREN_jump_adv_altitude = "4000";
-force force GREN_jump_adv_mask = "GREN_Mat_oxy";
+force force GREN_jump_adv_mask = "GREN_Mat_oxy"  "USP_SOLR_TW_OAK"  "USP_SOLR_TW_CBR_OAK"  "USP_SOLR_TW_MC_OAK"  "USP_SOLR_TW_RGR_OAK";
 force force GREN_jump_adv_mask_option = 1;
 
 // GREN EVO - Remove Map
