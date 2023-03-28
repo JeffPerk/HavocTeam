@@ -1,4 +1,4 @@
 
 #define MAJOR 2
 #define MINOR 2
-#define PATCH 9
+#define PATCH 10
