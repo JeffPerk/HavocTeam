@@ -39,7 +39,7 @@ if (isNull _unit) exitWith {};
         playSound QGVAR(Medical_FirstAid_Open_1);
     } else {
         private _pitch = random [0.6, 1, 1.4];
-        [_unit, QGVAR(Medical_FirstAid_Open_1), [], 30, 1000, -1, _pitch] call HAVOC_fnc_play3dSound;
+        playSound3D ["z\havoc\addons\medbags\data\sounds\firstaid_open_1.ogg", _unit];
     };
     
     HAVOC_MEDICAL_SUPPLIES_UNPACK_SUCCESS = false;
